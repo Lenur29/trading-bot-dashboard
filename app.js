@@ -57,6 +57,37 @@ function renderTop() {
 }
 
 // ---------- render: active ----------
+function avatarStyle(sym) {
+  let h = 0
+  for (const c of sym) h = (h * 31 + c.charCodeAt(0)) % 360
+  return `background:linear-gradient(135deg,hsl(${h} 70% 52%),hsl(${(h + 40) % 360} 65% 42%))`
+}
+
+function priceTrack(t) {
+  const pts = [t.sl, t.entry, t.tp1, t.tp2, t.tp3, t.current_price].filter(v => v != null)
+  if (pts.length < 2) return ''
+  let lo = Math.min(...pts), hi = Math.max(...pts)
+  const pad = (hi - lo) * 0.06 || 1
+  lo -= pad; hi += pad
+  const pos = x => Math.max(0, Math.min(100, ((x - lo) / (hi - lo)) * 100))
+  const pe = pos(t.entry), pn = t.current_price != null ? pos(t.current_price) : pe
+  const fillL = Math.min(pe, pn), fillW = Math.abs(pn - pe)
+  const fillColor = (t.pnl_percent || 0) >= 0 ? 'var(--green)' : 'var(--red)'
+  const ticks = [
+    ['sl', t.sl], ['entry', t.entry], ['tp', t.tp1], ['tp', t.tp2], ['tp', t.tp3],
+  ].filter(([, v]) => v != null)
+    .map(([k, v]) => `<span class="tick ${k}" style="left:${pos(v)}%"></span>`).join('')
+  return `
+    <div class="track-wrap">
+      <div class="track">
+        <span class="fill" style="left:${fillL}%;width:${fillW}%;background:${fillColor}"></span>
+        ${ticks}
+        ${t.current_price != null ? `<span class="now" style="left:${pn}%"></span>` : ''}
+      </div>
+      <div class="track-legend"><span>SL ${fmtPrice(t.sl)}</span><span>вход ${fmtPrice(t.entry)}</span><span>TP3 ${fmtPrice(t.tp3)}</span></div>
+    </div>`
+}
+
 function ladder(t) {
   const lv = [['TP1', t.tp1, 1], ['TP2', t.tp2, 2], ['TP3', t.tp3, 3]]
   return `<div class="steps">${lv.map(([l, px, n]) => {
@@ -68,30 +99,33 @@ function ladder(t) {
 function activeCard(t) {
   const open = state.expanded.has(t.symbol)
   const beTaken = t.max_tp_hit >= 1
+  const c = cls(t.pnl_percent)
   const protect = beTaken
     ? `<span class="protect be">🛡 Безубыток · TP${t.max_tp_hit}</span>`
     : `<span class="protect risk">⚠ Под исходным стопом</span>`
   const reasons = (t.reasons || []).length
-    ? `<div class="reasons"><div class="reasons-title">Почему вошли</div><ul>${t.reasons.map(r => `<li>${escapeHtml(r)}</li>`).join('')}</ul></div>`
+    ? `<div class="reasons"><div class="section-label">Почему вошли</div><ul>${t.reasons.map(r => `<li>${escapeHtml(r)}</li>`).join('')}</ul></div>`
     : ''
   return `
   <div class="card ${open ? 'open' : ''}" data-sym="${t.symbol}">
     <div class="card-head" data-toggle="${t.symbol}">
-      <div class="coin">
-        <div class="coin-ic">${t.symbol.slice(0, 4)}</div>
-        <div>
-          <div class="coin-name">${t.symbol}</div>
-          <div class="coin-meta">
-            <span class="badge ${t.side.toLowerCase()}">${t.side === 'LONG' ? 'Лонг' : 'Шорт'}</span>
-            <span class="badge tf">${t.tf}</span>
-            <span>${timeAgo(t.open_time)}</span>
-          </div>
+      <div class="avatar" style="${avatarStyle(t.symbol)}">${t.symbol.slice(0, 4)}</div>
+      <div>
+        <div class="coin-name">${t.symbol}</div>
+        <div class="coin-meta">
+          <span class="badge ${t.side.toLowerCase()}">${t.side === 'LONG' ? 'Лонг' : 'Шорт'}</span>
+          <span class="badge tf">${t.tf}</span>
+          <span>${timeAgo(t.open_time)}</span>
         </div>
       </div>
       <div class="spacer"></div>
-      <div class="pnl ${cls(t.pnl_percent)}">${fmtPct(t.pnl_percent)}<small>${fmtPrice(t.current_price)}</small></div>
+      <div class="pnl-pill ${c}">
+        <div class="p">${fmtPct(t.pnl_percent)}</div>
+        <div class="px">${fmtPrice(t.current_price)}</div>
+      </div>
       <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </div>
+    ${priceTrack(t)}
     <div class="card-body">
       <div class="prices">
         <div class="prow entry"><div class="k">Вход</div><div class="v">${fmtPrice(t.entry)}</div></div>
@@ -99,7 +133,7 @@ function activeCard(t) {
         <div class="prow stop"><div class="k">Исходный SL</div><div class="v">${fmtPrice(t.sl)}</div></div>
         <div class="prow stop"><div class="k">Рабочий стоп</div><div class="v">${fmtPrice(t.effective_stop)}</div></div>
       </div>
-      <div class="ladder"><div class="ladder-title" style="display:flex;justify-content:space-between">Цели · R:R ${t.rr ?? '—'} · скор ${t.probability ?? '—'}%${protect}</div>${ladder(t)}</div>
+      <div class="ladder"><div class="section-label">Цели · R:R ${t.rr ?? '—'} · скор ${t.probability ?? '—'}%${protect}</div>${ladder(t)}</div>
       ${reasons}
     </div>
   </div>`
@@ -139,13 +173,18 @@ function renderHistory() {
 
 // ---------- render: stats ----------
 function donut(winrate) {
-  const r = 52, c = 2 * Math.PI * r, on = c * (winrate / 100)
-  return `<svg width="132" height="132" viewBox="0 0 132 132">
-    <circle cx="66" cy="66" r="${r}" fill="none" stroke="var(--border)" stroke-width="12"/>
-    <circle cx="66" cy="66" r="${r}" fill="none" stroke="var(--green)" stroke-width="12" stroke-linecap="round"
-      stroke-dasharray="${on} ${c}" transform="rotate(-90 66 66)"/>
-    <text x="66" y="62" text-anchor="middle" fill="var(--text)" font-size="26" font-weight="800" font-family="var(--mono)">${winrate}%</text>
-    <text x="66" y="82" text-anchor="middle" fill="var(--muted)" font-size="11" font-weight="600">винрейт</text>
+  const r = 54, c = 2 * Math.PI * r, on = c * (winrate / 100)
+  return `<svg width="140" height="140" viewBox="0 0 140 140">
+    <defs>
+      <linearGradient id="wg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#34d39a"/><stop offset="1" stop-color="#38d6e6"/>
+      </linearGradient>
+    </defs>
+    <circle cx="70" cy="70" r="${r}" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="13"/>
+    <circle cx="70" cy="70" r="${r}" fill="none" stroke="url(#wg)" stroke-width="13" stroke-linecap="round"
+      stroke-dasharray="${on} ${c}" transform="rotate(-90 70 70)" style="transition:stroke-dasharray .6s cubic-bezier(.2,.7,.3,1)"/>
+    <text x="70" y="66" text-anchor="middle" fill="var(--text)" font-size="28" font-weight="800" font-family="var(--mono)">${winrate}%</text>
+    <text x="70" y="86" text-anchor="middle" fill="var(--muted)" font-size="11" font-weight="600">винрейт</text>
   </svg>`
 }
 
