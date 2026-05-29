@@ -322,5 +322,14 @@ body::before {
   .pnl-pill { min-width: 0; padding: 6px 9px; }
   .pnl-pill .p { font-size: 14.5px; }
   .pnl-pill .px { font-size: 10px; }
-  .prices { grid-template-columns: 1fr 1fr; }
+  /* let grid cards shrink below their big-number content (avoids overflow) */
+  .stat-grid { gap: 12px; }
+  .stat-grid > * { min-width: 0; }
+  .scard { padding: 16px; }
+  .scard .v { font-size: 22px; }
+  .scard .sub { font-size: 11px; }
+  .hero-val { font-size: 36px; }
+  .risk-res { font-size: 26px; }
+  .bd { padding: 10px 2px; }
+  .bd .n { font-size: 18px; }
 }
