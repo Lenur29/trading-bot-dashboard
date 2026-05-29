@@ -41,30 +41,27 @@ python3 -m http.server 8000
    - **Build output directory:** `/`
 4. **Deploy.** Сайт будет на `https://<project>.pages.dev`.
 
-Дальше бот пушит `data.json` → Cloudflare пересобирает → сайт обновляется.
+### Свежие данные без лишних пересборок (текущая схема)
 
-### ⚠️ Лимит бесплатного тарифа Cloudflare
+Данные тянутся **напрямую с GitHub-raw** (см. `config.js` → `RAW_URL`), а не из
+собранной копии. Поэтому бот может пушить `data.json` хоть каждые 10 минут —
+браузер берёт свежий файл с GitHub (кэш ~5 мин) и сам перезапрашивает раз в
+минуту. Чтобы Cloudflare при этом **не пересобирался** на пушах данных (лимит
+бесплатного тарифа — 500 сборок/мес), исключи `data.json` из сборок:
 
-Бесплатный Pages — **500 сборок/месяц**. Если бот пушит часто (каждые 15 мин ≈
-2900/мес), лимит закончится. Два решения:
+> Cloudflare → проект → **Settings → Builds & deployments → Build watch paths →
+> Configure** → в **Exclude paths** добавь `data.json`.
 
-- **Реже пушить** — выстави в боте `DASHBOARD_PUSH_MINUTES` так, чтобы за месяц
-  было < 500 пушей (например раз в ~1.5–2 часа).
-- **Отвязать данные от пересборок (рекомендуется для частых обновлений):** в
-  `config.js` укажи прямой GitHub-raw URL:
-  ```js
-  DATA_URL: 'https://raw.githubusercontent.com/USER/trading-bot-dashboard/main/data.json'
-  ```
-  Тогда браузер берёт свежий `data.json` напрямую с GitHub (кэш ~5 мин), а
-  Cloudflare не пересобирается на пушах данных вообще. Сам сайт пересоберётся
-  только когда меняешь код фронта.
+После этого сборка запускается только когда меняешь код сайта (html/css/js), а
+обновления данных идут мимо Cloudflare. Если логин/имя репо отличаются — поправь
+`RAW_URL` в `config.js`.
 
 ## Подключение бота
 
 В `.env` бота:
 ```dotenv
 DASHBOARD_AUTO_PUSH=true
-DASHBOARD_PUSH_MINUTES=15
+DASHBOARD_PUSH_MINUTES=10
 DASHBOARD_DIR=/Users/<you>/Desktop/trading-bot-dashboard
 ```
 Бот будет каждые N минут регенерировать `data.json` и пушить (см.

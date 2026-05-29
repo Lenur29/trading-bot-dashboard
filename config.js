@@ -1,14 +1,14 @@
 // Источник данных дашборда.
 //
-// Вариант A (простой старт): data.json лежит в этой же репе → оставь './data.json'.
-//   Cloudflare пересобирает сайт на каждый пуш данных (учитывай лимит 500 сборок/мес
-//   на бесплатном тарифе).
+// На проде (Cloudflare) данные тянутся напрямую с GitHub-raw — браузер получает
+// свежий data.json без пересборки Cloudflare. Локально (localhost / file://)
+// используется ./data.json, чтобы можно было смотреть без интернета.
 //
-// Вариант B (частые обновления без пересборок CF): укажи прямой GitHub-raw URL
-//   с data.json — браузер тянет свежие данные напрямую с GitHub (кэш ~5 мин),
-//   а Cloudflare не пересобирается. Пример:
-//   DATA_URL: 'https://raw.githubusercontent.com/USER/REPO/main/data.json'
+// Если поменяешь логин/имя репозитория — поправь RAW_URL ниже.
+const RAW_URL = 'https://raw.githubusercontent.com/Lenur29/trading-bot-dashboard/main/data.json'
+const IS_LOCAL = ['localhost', '127.0.0.1', ''].includes(location.hostname)
+
 window.DASH_CONFIG = {
-  DATA_URL: './data.json',
-  REFRESH_MS: 60000,
+  DATA_URL: IS_LOCAL ? './data.json' : RAW_URL,
+  REFRESH_MS: 60000, // браузер перезапрашивает данные раз в минуту
 }
