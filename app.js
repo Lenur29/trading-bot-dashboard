@@ -64,27 +64,38 @@ function avatarStyle(sym) {
 }
 
 function priceTrack(t) {
-  const pts = [t.sl, t.entry, t.tp1, t.tp2, t.tp3, t.current_price].filter(v => v != null)
-  if (pts.length < 2) return ''
-  let lo = Math.min(...pts), hi = Math.max(...pts)
-  const pad = (hi - lo) * 0.06 || 1
-  lo -= pad; hi += pad
-  const pos = x => Math.max(0, Math.min(100, ((x - lo) / (hi - lo)) * 100))
-  const pe = pos(t.entry), pn = t.current_price != null ? pos(t.current_price) : pe
+  if (t.sl == null || t.tp3 == null || t.entry == null) return ''
+  const span = t.tp3 - t.sl
+  if (!span) return ''
+  // Directional mapping: SL → left edge, TP3 → right edge (works for long & short).
+  // Kept inside [4%, 96%] so edge ticks stay visible.
+  const P = x => 4 + Math.max(0, Math.min(1, (x - t.sl) / span)) * 92
+  const pe = P(t.entry)
+  const hasNow = t.current_price != null
+  const pn = hasNow ? P(t.current_price) : pe
+  const inProfit = (t.pnl_percent || 0) >= 0
   const fillL = Math.min(pe, pn), fillW = Math.abs(pn - pe)
-  const fillColor = (t.pnl_percent || 0) >= 0 ? 'var(--green)' : 'var(--red)'
-  const ticks = [
-    ['sl', t.sl], ['entry', t.entry], ['tp', t.tp1], ['tp', t.tp2], ['tp', t.tp3],
-  ].filter(([, v]) => v != null)
-    .map(([k, v]) => `<span class="tick ${k}" style="left:${pos(v)}%"></span>`).join('')
+  const tpTicks = [t.tp1, t.tp2, t.tp3].filter(v => v != null)
+    .map(v => `<span class="tick tp" style="left:${P(v)}%"></span>`).join('')
   return `
     <div class="track-wrap">
+      <div class="track-cap"><span class="l">◀ стоп</span><span class="r">цель ▶</span></div>
       <div class="track">
-        <span class="fill" style="left:${fillL}%;width:${fillW}%;background:${fillColor}"></span>
-        ${ticks}
-        ${t.current_price != null ? `<span class="now" style="left:${pn}%"></span>` : ''}
+        <div class="track-bar">
+          <span class="zone loss" style="left:0;width:${pe}%"></span>
+          <span class="zone profit" style="left:${pe}%;right:0"></span>
+          ${hasNow ? `<span class="fill ${inProfit ? 'pos' : 'neg'}" style="left:${fillL}%;width:${fillW}%"></span>` : ''}
+        </div>
+        <span class="tick sl" style="left:${P(t.sl)}%"></span>
+        ${tpTicks}
+        <span class="tick entry" style="left:${pe}%"></span>
+        ${hasNow ? `<span class="now" style="left:${pn}%"></span>` : ''}
       </div>
-      <div class="track-legend"><span>SL ${fmtPrice(t.sl)}</span><span>вход ${fmtPrice(t.entry)}</span><span>TP3 ${fmtPrice(t.tp3)}</span></div>
+      <div class="track-legend">
+        <span class="lg" style="left:0;color:var(--red)">SL ${fmtPrice(t.sl)}</span>
+        <span class="lg entry" style="left:${pe}%">вход ${fmtPrice(t.entry)}</span>
+        <span class="lg" style="right:0;color:var(--green)">TP3 ${fmtPrice(t.tp3)}</span>
+      </div>
     </div>`
 }
 

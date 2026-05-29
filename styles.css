@@ -176,24 +176,29 @@ body::before {
 .chev { color: var(--faint); transition: transform .25s ease; flex-shrink: 0; margin-left: 2px; }
 .card.open .chev { transform: rotate(180deg); }
 
-/* price position track */
-.track-wrap { padding: 2px 18px 16px; }
-.track {
-  position: relative; height: 7px; border-radius: 6px;
-  background: linear-gradient(90deg, var(--r-soft), rgba(255,255,255,0.05) 45%, var(--g-soft));
-  border: 1px solid var(--hair-soft);
-}
-.track .fill { position: absolute; top: 0; bottom: 0; border-radius: 6px; opacity: .9; }
-.track .tick { position: absolute; top: -4px; bottom: -4px; width: 2px; border-radius: 2px; transform: translateX(-50%); }
-.track .tick.entry { background: #fff; box-shadow: 0 0 0 2px rgba(0,0,0,.35); }
-.track .tick.sl { background: var(--red); }
-.track .tick.tp { background: var(--green-d); opacity: .85; }
-.track .now {
+/* price position track — always reads LEFT=стоп/убыток, RIGHT=цель/профит */
+.track-wrap { padding: 4px 18px 18px; }
+.track-cap { display: flex; justify-content: space-between; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 8px; }
+.track-cap .l { color: var(--red); } .track-cap .r { color: var(--green); }
+.track { position: relative; height: 8px; }
+.track-bar { position: absolute; inset: 0; border-radius: 6px; overflow: hidden; border: 1px solid var(--hair-soft); background: rgba(255,255,255,0.05); }
+.zone { position: absolute; top: 0; bottom: 0; }
+.zone.loss { background: linear-gradient(90deg, color-mix(in srgb, var(--red) 32%, transparent), transparent); }
+.zone.profit { background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--green) 32%, transparent)); }
+.fill { position: absolute; top: 0; bottom: 0; opacity: .9; }
+.fill.pos { background: var(--green); } .fill.neg { background: var(--red); }
+.tick { position: absolute; top: -3px; bottom: -3px; width: 2px; border-radius: 2px; transform: translateX(-50%); z-index: 2; }
+.tick.entry { background: #fff; box-shadow: 0 0 0 2px rgba(0,0,0,.45); }
+.tick.sl { background: var(--red); }
+.tick.tp { background: var(--green); opacity: .7; }
+.now {
   position: absolute; top: 50%; width: 13px; height: 13px; border-radius: 50%;
-  transform: translate(-50%, -50%); border: 2.5px solid var(--bg);
+  transform: translate(-50%, -50%); border: 2.5px solid var(--bg); z-index: 3;
   background: var(--cyan); box-shadow: 0 0 0 3px color-mix(in srgb, var(--cyan) 30%, transparent), 0 0 12px var(--cyan);
 }
-.track-legend { display: flex; justify-content: space-between; margin-top: 9px; font-size: 11px; color: var(--faint); font-family: var(--mono); }
+.track-legend { position: relative; height: 15px; margin-top: 11px; font-size: 11px; color: var(--faint); font-family: var(--mono); }
+.track-legend .lg { position: absolute; white-space: nowrap; }
+.track-legend .lg.entry { transform: translateX(-50%); color: var(--muted); }
 
 /* expanded body */
 .card-body { display: none; padding: 4px 18px 18px; }
