@@ -235,8 +235,9 @@ body::before {
 .reasons li::before { content: ""; position: absolute; left: 5px; top: 8px; width: 5px; height: 5px; border-radius: 50%; background: var(--violet); }
 
 /* ---------- History ---------- */
-.table-wrap { background: var(--card-bg); border: 1px solid var(--hair-soft); border-radius: var(--radius); overflow: hidden; box-shadow: var(--inset); }
-.htable { width: 100%; border-collapse: collapse; }
+.table-wrap { background: var(--card-bg); border: 1px solid var(--hair-soft); border-radius: var(--radius); overflow-x: auto; -webkit-overflow-scrolling: touch; box-shadow: var(--inset); }
+.htable { width: 100%; min-width: 560px; border-collapse: collapse; }
+.htable th, .htable td { white-space: nowrap; }
 .htable th {
   text-align: left; font-size: 10.5px; font-weight: 700; color: var(--muted);
   text-transform: uppercase; letter-spacing: .06em; padding: 14px 16px; border-bottom: 1px solid var(--hair);
@@ -263,6 +264,7 @@ body::before {
   align-items: center; box-shadow: var(--inset); position: relative; overflow: hidden;
 }
 .stat-hero::before { content:""; position:absolute; right:-60px; top:-60px; width:240px; height:240px; border-radius:50%; background: radial-gradient(circle, var(--g-soft), transparent 70%); pointer-events:none; }
+.hero-main { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; }
 .hero-label { font-size: 11.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; font-weight: 700; }
 .hero-val { font-size: 48px; font-weight: 800; font-family: var(--mono); letter-spacing: -.03em; line-height: 1.05; margin-top: 4px; }
 .hero-sub { font-size: 13px; color: var(--muted); margin-top: 8px; }
@@ -282,6 +284,8 @@ body::before {
 
 .risk-card { grid-column: 1 / -1; background: var(--card-bg); border: 1px solid var(--hair-soft); border-radius: var(--radius); padding: 22px; box-shadow: var(--inset); }
 .risk-top { display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+.risk-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; font-weight: 700; }
+.risk-cap { font-size: 12px; color: var(--muted); white-space: nowrap; }
 .risk-res { font-size: 32px; font-weight: 800; font-family: var(--mono); letter-spacing: -.03em; margin-top: 4px; }
 .risk-ctl { display: flex; align-items: center; gap: 13px; flex: 1; min-width: 230px; }
 .risk-ctl input[type=range] {
@@ -315,5 +319,8 @@ body::before {
   .card-head { gap: 10px; padding: 14px 14px 12px; }
   .coin-info { min-width: 0; }
   .coin-meta { gap: 6px; flex-wrap: wrap; }
-  .pnl-pill { min-width: 0; padding: 6px 10px; }
+  .pnl-pill { min-width: 0; padding: 6px 9px; }
+  .pnl-pill .p { font-size: 14.5px; }
+  .pnl-pill .px { font-size: 10px; }
+  .prices { grid-template-columns: 1fr 1fr; }
 }

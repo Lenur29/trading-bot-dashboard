@@ -174,10 +174,9 @@ function renderHistory() {
       <td><span class="side-tag ${t.side.toLowerCase()}">${t.side === 'LONG' ? 'Лонг' : 'Шорт'}</span></td>
       <td><span class="res ${r}">${ic} ${t.result}</span></td>
       <td class="num ${cls(t.pnl_percent)}">${fmtPct(t.pnl_percent)}</td>
-      <td class="num ${cls(t.r_multiple)}">${t.r_multiple > 0 ? '+' : ''}${t.r_multiple}R</td>
-      <td class="hide-sm" style="color:var(--muted);font-size:13px">${escapeHtml(t.setup_type || '')}</td>
-      <td class="hide-sm num" style="color:var(--muted)">${duration(t.open_time, t.close_time)}</td>
-      <td class="hide-sm num" style="color:var(--muted)">${shortTime(t.close_time)}</td>
+      <td style="color:var(--muted);font-size:13px">${escapeHtml(t.setup_type || '')}</td>
+      <td class="num" style="color:var(--muted)">${duration(t.open_time, t.close_time)}</td>
+      <td class="num" style="color:var(--muted)">${shortTime(t.close_time)}</td>
     </tr>`
   }).join('')
 }
@@ -199,55 +198,66 @@ function donut(winrate) {
   </svg>`
 }
 
+const PERIOD_NAME = { today: 'сегодня', week: 'за неделю', all: 'за всё время' }
+
 function renderStats() {
   const s = state.data.stats[state.period]
   $$('#period .chip').forEach(c => c.classList.toggle('is-active', c.dataset.period === state.period))
-  const deposit = +(s.r_result * state.risk).toFixed(2)
+  const deposit = () => +(s.r_result * state.risk).toFixed(2)
+  const wins = s.tp + s.be
   $('#statsView').innerHTML = `
     <div class="stat-grid">
       <div class="stat-hero">
         <div class="hero-main">
-          <span class="hero-label">Эффективный винрейт</span>
-          <span class="hero-val ${cls(s.effective_winrate - 50)}">${s.effective_winrate}%</span>
-          <span class="hero-sub">${s.total} закрытых сделок · чистый винрейт (TP3) ${s.winrate}%</span>
-          <span class="hero-sub" style="color:${s.sum_pnl >= 0 ? 'var(--green)' : 'var(--red)'}">Сумма PnL: ${fmtPct(s.sum_pnl)}</span>
+          <span class="hero-label">Винрейт · ${PERIOD_NAME[state.period]}</span>
+          <span class="hero-val">${s.effective_winrate}%</span>
+          <span class="hero-sub">в плюс/безубыток закрыто <b>${wins}</b> из <b>${s.total}</b> сделок</span>
+          <span class="hero-sub">чистых тейков (TP3): <b>${s.winrate}%</b></span>
         </div>
-        <div class="donut-wrap">${donut(s.winrate)}</div>
+        <div class="donut-wrap">${donut(s.effective_winrate)}</div>
       </div>
 
       <div class="scard">
         <div class="k">Исходы сделок</div>
         <div class="breakdown">
-          <div class="bd tp"><div class="n">${s.tp}</div><div class="l">TP3</div></div>
+          <div class="bd tp"><div class="n">${s.tp}</div><div class="l">ТЕЙК</div></div>
           <div class="bd be"><div class="n">${s.be}</div><div class="l">БУ</div></div>
-          <div class="bd sl"><div class="n">${s.sl}</div><div class="l">SL</div></div>
+          <div class="bd sl"><div class="n">${s.sl}</div><div class="l">СТОП</div></div>
         </div>
       </div>
 
       <div class="scard">
-        <div class="k">Результат в R</div>
-        <div class="v ${cls(s.r_result)}">${s.r_result > 0 ? '+' : ''}${s.r_result}R</div>
-        <div class="sub">сумма R-мультипликаторов по закрытым</div>
+        <div class="k">Сумма PnL</div>
+        <div class="v ${cls(s.sum_pnl)}">${fmtPct(s.sum_pnl)}</div>
+        <div class="sub">суммарный результат по закрытым сделкам</div>
       </div>
 
       <div class="risk-card">
         <div class="risk-top">
           <div>
-            <div class="k" style="font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;font-weight:600">Результат по депозиту</div>
-            <div class="risk-res ${cls(deposit)}">${deposit > 0 ? '+' : ''}${deposit}%</div>
+            <div class="risk-label">Результат по депозиту</div>
+            <div class="risk-res ${cls(deposit())}" id="riskRes">${deposit() > 0 ? '+' : ''}${deposit()}%</div>
           </div>
           <div class="risk-ctl">
-            <span style="font-size:12px;color:var(--muted)">Риск/сделку</span>
+            <span class="risk-cap">Риск на сделку</span>
             <input type="range" id="riskRange" min="0.1" max="2" step="0.1" value="${state.risk}">
-            <span class="risk-val">${state.risk}%</span>
+            <span class="risk-val" id="riskVal">${state.risk}%</span>
           </div>
         </div>
-        <div class="risk-hint">При риске ${state.risk}% от депозита на сделку. Двигай ползунок — пересчёт мгновенный.</div>
+        <div class="risk-hint">Сколько % депозита потерял бы при стопе. Двигай ползунок «риск на сделку» — результат пересчитается.</div>
       </div>
     </div>`
 
+  // Live update WITHOUT re-rendering (so dragging the slider stays continuous).
   const range = $('#riskRange')
-  if (range) range.addEventListener('input', e => { state.risk = +e.target.value; renderStats() })
+  if (range) range.addEventListener('input', e => {
+    state.risk = +e.target.value
+    const dep = +(s.r_result * state.risk).toFixed(2)
+    $('#riskVal').textContent = state.risk + '%'
+    const rr = $('#riskRes')
+    rr.textContent = (dep > 0 ? '+' : '') + dep + '%'
+    rr.className = 'risk-res ' + cls(dep)
+  })
 }
 
 // ---------- helpers ----------
@@ -258,11 +268,17 @@ function escapeHtml(s) {
 function renderAll() { renderTop(); renderActive(); renderHistory(); renderStats() }
 
 // ---------- events ----------
+function openTab(name) {
+  if (!['active', 'history', 'stats'].includes(name)) return
+  $$('#tabs .tab').forEach(t => t.classList.toggle('is-active', t.dataset.tab === name))
+  $$('.panel').forEach(p => p.classList.toggle('is-active', p.dataset.panel === name))
+}
 $('#tabs').addEventListener('click', e => {
   const b = e.target.closest('.tab'); if (!b) return
-  $$('#tabs .tab').forEach(t => t.classList.toggle('is-active', t === b))
-  $$('.panel').forEach(p => p.classList.toggle('is-active', p.dataset.panel === b.dataset.tab))
+  openTab(b.dataset.tab)
+  history.replaceState(null, '', '#' + b.dataset.tab)
 })
+if (location.hash) openTab(location.hash.slice(1))
 $('#sideFilter').addEventListener('click', e => {
   const b = e.target.closest('.chip'); if (!b) return
   state.side = b.dataset.side; renderActive()
