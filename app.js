@@ -77,9 +77,10 @@ function priceTrack(t) {
   const fillL = Math.min(pe, pn), fillW = Math.abs(pn - pe)
   const tpTicks = [t.tp1, t.tp2, t.tp3].filter(v => v != null)
     .map(v => `<span class="tick tp" style="left:${P(v)}%"></span>`).join('')
+  const peLabel = Math.max(17, Math.min(83, pe)) // keep entry label on-screen
   return `
     <div class="track-wrap">
-      <div class="track-cap"><span class="l">◀ стоп</span><span class="r">цель ▶</span></div>
+      <div class="track-top"><span class="lg entry" style="left:${peLabel}%">вход ${fmtPrice(t.entry)}</span></div>
       <div class="track">
         <div class="track-bar">
           <span class="zone loss" style="left:0;width:${pe}%"></span>
@@ -92,9 +93,8 @@ function priceTrack(t) {
         ${hasNow ? `<span class="now" style="left:${pn}%"></span>` : ''}
       </div>
       <div class="track-legend">
-        <span class="lg" style="left:0;color:var(--red)">SL ${fmtPrice(t.sl)}</span>
-        <span class="lg entry" style="left:${pe}%">вход ${fmtPrice(t.entry)}</span>
-        <span class="lg" style="right:0;color:var(--green)">TP3 ${fmtPrice(t.tp3)}</span>
+        <span class="lg" style="left:0;color:var(--red)">◀ SL ${fmtPrice(t.sl)}</span>
+        <span class="lg" style="right:0;color:var(--green)">TP3 ${fmtPrice(t.tp3)} ▶</span>
       </div>
     </div>`
 }
@@ -121,7 +121,7 @@ function activeCard(t) {
   <div class="card ${open ? 'open' : ''}" data-sym="${t.symbol}">
     <div class="card-head" data-toggle="${t.symbol}">
       <div class="avatar" style="${avatarStyle(t.symbol)}">${t.symbol.slice(0, 4)}</div>
-      <div>
+      <div class="coin-info">
         <div class="coin-name">${t.symbol}</div>
         <div class="coin-meta">
           <span class="badge ${t.side.toLowerCase()}">${t.side === 'LONG' ? 'Лонг' : 'Шорт'}</span>
