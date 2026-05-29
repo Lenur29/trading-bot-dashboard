@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Trading Signals — Dashboard</title>
+  <meta name="description" content="Открытые сделки, история и статистика торговых сигналов" />
+  <meta name="theme-color" content="#0b0e14" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="config.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <div>
+          <h1>Trading Signals</h1>
+          <p class="brand-sub" id="updated">загрузка…</p>
+        </div>
+      </div>
+      <div class="topbar-stats" id="topStats"></div>
+    </header>
+
+    <nav class="tabs" id="tabs">
+      <button class="tab is-active" data-tab="active">Активные <span class="tab-count" id="cntActive">0</span></button>
+      <button class="tab" data-tab="history">История</button>
+      <button class="tab" data-tab="stats">Статистика</button>
+    </nav>
+
+    <main class="content">
+      <!-- ACTIVE -->
+      <section class="panel is-active" data-panel="active">
+        <div class="filters" id="sideFilter">
+          <button class="chip is-active" data-side="ALL">Все</button>
+          <button class="chip" data-side="LONG">Лонг</button>
+          <button class="chip" data-side="SHORT">Шорт</button>
+        </div>
+        <div class="cards" id="activeList"></div>
+      </section>
+
+      <!-- HISTORY -->
+      <section class="panel" data-panel="history">
+        <div class="table-wrap">
+          <table class="htable">
+            <thead>
+              <tr>
+                <th>Монета</th><th>Сторона</th><th>Итог</th>
+                <th class="num">PnL</th><th class="num">R</th>
+                <th class="hide-sm">Сетап</th><th class="hide-sm num">Длит.</th><th class="hide-sm num">Закрыт</th>
+              </tr>
+            </thead>
+            <tbody id="historyBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- STATS -->
+      <section class="panel" data-panel="stats">
+        <div class="period" id="period">
+          <button class="chip" data-period="today">Сегодня</button>
+          <button class="chip" data-period="week">Неделя</button>
+          <button class="chip is-active" data-period="all">Всё время</button>
+        </div>
+        <div id="statsView"></div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <span id="footNote">Данные обновляются автоматически с торгового бота</span>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
