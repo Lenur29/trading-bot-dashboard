@@ -317,9 +317,11 @@ body::before {
   .tstat { flex: 1; min-width: 0; }
   .track-top .lg.entry, .track-legend { font-size: 9.5px; }
   .track-wrap { padding-left: 16px; padding-right: 16px; }
-  .card-head { gap: 10px; padding: 14px 14px 12px; }
+  .card-head { gap: 9px; padding: 14px 12px 12px; }
   .coin-info { min-width: 0; }
-  .coin-meta { gap: 6px; flex-wrap: wrap; }
+  .coin-meta { gap: 5px; flex-wrap: wrap; }
+  .coin-meta .badge { font-size: 10px; padding: 2px 7px; }
+  .pnl-pill .p { white-space: nowrap; }
   .pnl-pill { min-width: 0; padding: 6px 9px; }
   .pnl-pill .p { font-size: 14.5px; }
   .pnl-pill .px { font-size: 10px; }
