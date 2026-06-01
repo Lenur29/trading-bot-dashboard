@@ -324,6 +324,7 @@ body::before {
   .coin-info { min-width: 0; }
   .coin-meta { gap: 5px; flex-wrap: wrap; }
   .meta-break { display: block; flex-basis: 100%; height: 0; }  /* TP badge → its own row */
+  .meta-time { display: none; }  /* hide "X ago" on phones to save width */
   .coin-meta .badge { font-size: 10px; padding: 2px 7px; }
   .pnl-pill .p { white-space: nowrap; }
   .pnl-pill { min-width: 0; padding: 6px 9px; }

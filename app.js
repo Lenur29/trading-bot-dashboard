@@ -127,7 +127,7 @@ function activeCard(t) {
           <span class="badge ${t.side.toLowerCase()}">${t.side === 'LONG' ? 'Лонг' : 'Шорт'}</span>
           <span class="badge tf">${t.tf}</span>
           ${t.max_tp_hit >= 1 ? `<span class="meta-break"></span><span class="badge tpflag">🛡 TP${t.max_tp_hit} взят</span>` : ''}
-          <span>${timeAgo(t.open_time)}</span>
+          <span class="meta-time">${timeAgo(t.open_time)}</span>
         </div>
       </div>
       <div class="pnl-pill ${c}">
