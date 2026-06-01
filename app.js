@@ -130,7 +130,6 @@ function activeCard(t) {
           <span>${timeAgo(t.open_time)}</span>
         </div>
       </div>
-      <div class="spacer"></div>
       <div class="pnl-pill ${c}">
         <div class="p">${fmtPct(t.pnl_percent)}</div>
         <div class="px">${fmtPrice(t.current_price)}</div>

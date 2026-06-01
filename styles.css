@@ -144,7 +144,9 @@ body::before {
   transition: border-color .2s, transform .2s, box-shadow .2s;
 }
 .card:hover { border-color: var(--hair); transform: translateY(-1px); box-shadow: var(--shadow), var(--inset); }
-.card-head { display: flex; align-items: center; gap: 13px; padding: 16px 18px 14px; cursor: pointer; }
+/* grid (not flex) so the name column can't push the PnL pill off-screen:
+   minmax(0,1fr) lets it shrink to zero and wrap instead of overflowing. */
+.card-head { display: grid; grid-template-columns: auto minmax(0, 1fr) auto auto; align-items: center; gap: 13px; padding: 16px 18px 14px; cursor: pointer; }
 
 .avatar {
   width: 42px; height: 42px; border-radius: 13px; flex-shrink: 0;
