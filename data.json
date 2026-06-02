@@ -1,36 +1,8 @@
 {
-  "generated_at": "2026-06-02T17:53:52Z",
+  "generated_at": "2026-06-02T18:03:51Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "ENA",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 0.09737,
-      "sl": 0.10271411691419864,
-      "effective_stop": 0.09737,
-      "tp1": 0.09202588308580135,
-      "tp2": 0.08668176617160271,
-      "tp3": 0.07866559080030475,
-      "max_tp_hit": 2,
-      "rr": 2.0,
-      "probability": 79,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-05-26T17:31:04Z",
-      "current_price": 0.09608,
-      "pnl_percent": 1.32,
-      "reasons": [
-        "Цена пробила поддержку 0.09953",
-        "Объём выше среднего (1.4×)",
-        "Сильное тело свечи (97%)",
-        "EMA20 < EMA50 — краткосрочный даунтренд",
-        "RSI 30.3 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
-      ]
-    },
     {
       "symbol": "NEAR",
       "tf": "15m",
@@ -46,8 +18,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-01T15:16:12Z",
-      "current_price": 2.6442,
-      "pnl_percent": 9.28,
+      "current_price": 2.6363,
+      "pnl_percent": 8.96,
       "reasons": [
         "Цена пробила сопротивление 2.4021",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -74,8 +46,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-02T07:01:02Z",
-      "current_price": 67451.6,
-      "pnl_percent": 3.75,
+      "current_price": 67482.9,
+      "pnl_percent": 3.71,
       "reasons": [
         "Цена пробила поддержку 70200.20",
         "Уровень 70200.20 тестировался 4 раз",
@@ -102,8 +74,8 @@
       "probability": 90,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-02T14:31:06Z",
-      "current_price": 1.1183,
-      "pnl_percent": -0.66,
+      "current_price": 1.1159,
+      "pnl_percent": -0.44,
       "reasons": [
         "Цена пробила поддержку 1.1320",
         "Уровень 1.1320 тестировался 6 раз",
@@ -117,6 +89,20 @@
     }
   ],
   "history": [
+    {
+      "symbol": "ENA",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "BE",
+      "status": "be",
+      "pnl_percent": 6.04,
+      "r_multiple": 1.1,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 2,
+      "open_time": "2026-05-26T17:31:04Z",
+      "close_time": "2026-06-02T18:00:49Z",
+      "rr": 2.0
+    },
     {
       "symbol": "HBAR",
       "tf": "15m",
@@ -2584,37 +2570,37 @@
   ],
   "stats": {
     "all": {
-      "total": 176,
+      "total": 177,
       "tp": 31,
       "sl": 95,
-      "be": 50,
-      "winrate": 17.6,
-      "effective_winrate": 46.0,
-      "sum_pnl": -12.51,
-      "r_result": -4.42,
-      "deposit_result": -0.44
+      "be": 51,
+      "winrate": 17.5,
+      "effective_winrate": 46.3,
+      "sum_pnl": -6.47,
+      "r_result": -3.32,
+      "deposit_result": -0.33
     },
     "today": {
-      "total": 17,
+      "total": 18,
       "tp": 11,
       "sl": 2,
-      "be": 4,
-      "winrate": 64.7,
-      "effective_winrate": 88.2,
-      "sum_pnl": 35.33,
-      "r_result": 20.88,
-      "deposit_result": 2.09
+      "be": 5,
+      "winrate": 61.1,
+      "effective_winrate": 88.9,
+      "sum_pnl": 41.37,
+      "r_result": 21.98,
+      "deposit_result": 2.2
     },
     "week": {
-      "total": 63,
+      "total": 64,
       "tp": 18,
       "sl": 28,
-      "be": 17,
-      "winrate": 28.6,
-      "effective_winrate": 55.6,
-      "sum_pnl": 34.57,
-      "r_result": 17.4,
-      "deposit_result": 1.74
+      "be": 18,
+      "winrate": 28.1,
+      "effective_winrate": 56.2,
+      "sum_pnl": 40.61,
+      "r_result": 18.5,
+      "deposit_result": 1.85
     }
   }
 }
