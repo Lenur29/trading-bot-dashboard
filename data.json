@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T10:13:54Z",
+  "generated_at": "2026-06-02T10:23:55Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-05-26T17:31:03Z",
-      "current_price": 79.31,
-      "pnl_percent": 4.92,
+      "current_price": 79.27,
+      "pnl_percent": 4.96,
       "reasons": [
         "Цена пробила поддержку 83.9300",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-05-26T17:31:03Z",
-      "current_price": 0.09797,
-      "pnl_percent": 9.03,
+      "current_price": 0.0975,
+      "pnl_percent": 9.46,
       "reasons": [
         "Цена пробила поддержку 0.10872",
         "Уровень 0.10872 тестировался 6 раз",
@@ -74,8 +74,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-05-26T17:31:03Z",
-      "current_price": 8.72,
-      "pnl_percent": 4.74,
+      "current_price": 8.698,
+      "pnl_percent": 4.98,
       "reasons": [
         "Цена пробила поддержку 9.2190",
         "Объём подтверждает пробой (1.5× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-05-26T17:31:04Z",
-      "current_price": 0.08648,
-      "pnl_percent": 11.18,
+      "current_price": 0.08632,
+      "pnl_percent": 11.35,
       "reasons": [
         "Цена пробила поддержку 0.09953",
         "Объём выше среднего (1.4×)",
@@ -158,8 +158,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-05-31T14:15:28Z",
-      "current_price": 8.853,
-      "pnl_percent": 3.02,
+      "current_price": 8.827,
+      "pnl_percent": 3.31,
       "reasons": [
         "Цена пробила поддержку 9.2020",
         "Объём подтверждает пробой (7.2× от среднего)",
@@ -214,8 +214,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-01T15:16:12Z",
-      "current_price": 2.6735,
-      "pnl_percent": 10.49,
+      "current_price": 2.6467,
+      "pnl_percent": 9.39,
       "reasons": [
         "Цена пробила сопротивление 2.4021",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -242,8 +242,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-01T21:15:35Z",
-      "current_price": 0.224,
-      "pnl_percent": 2.57,
+      "current_price": 0.2235,
+      "pnl_percent": 2.78,
       "reasons": [
         "Цена пробила поддержку 0.23020",
         "Уровень 0.23020 тестировался 3 раз",
@@ -270,8 +270,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-02T07:01:02Z",
-      "current_price": 69669.9,
-      "pnl_percent": 0.59,
+      "current_price": 69528.0,
+      "pnl_percent": 0.79,
       "reasons": [
         "Цена пробила поддержку 70200.20",
         "Уровень 70200.20 тестировался 4 раз",
@@ -298,8 +298,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-02T09:16:11Z",
-      "current_price": 1977.6,
-      "pnl_percent": -0.3,
+      "current_price": 1976.22,
+      "pnl_percent": -0.23,
       "reasons": [
         "Цена пробила поддержку 1977.90",
         "Уровень 1977.90 тестировался 7 раз",
@@ -326,8 +326,8 @@
       "probability": 80,
       "setup_type": "Trend continuation",
       "open_time": "2026-06-02T09:31:06Z",
-      "current_price": 0.8465,
-      "pnl_percent": -0.99,
+      "current_price": 0.8439,
+      "pnl_percent": -0.68,
       "reasons": [
         "Цена пробила поддержку 0.84500",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -354,8 +354,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-02T09:45:59Z",
-      "current_price": 7.295,
-      "pnl_percent": 0.61,
+      "current_price": 7.216,
+      "pnl_percent": -0.48,
       "reasons": [
         "Цена пробила сопротивление 7.1540",
         "Объём подтверждает пробой (1.7× от среднего)",
