@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T11:43:51Z",
+  "generated_at": "2026-06-03T11:53:52Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-02T19:31:13Z",
-      "current_price": 76.57,
-      "pnl_percent": -2.39,
+      "current_price": 76.22,
+      "pnl_percent": -1.93,
       "reasons": [
         "Цена пробила поддержку 75.7300",
         "Уровень 75.7300 тестировался 3 раз",
@@ -46,8 +46,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-03T08:45:58Z",
-      "current_price": 2.8675,
-      "pnl_percent": -1.21,
+      "current_price": 2.8727,
+      "pnl_percent": -1.03,
       "reasons": [
         "Цена пробила сопротивление 2.8768",
         "Уровень 2.8768 тестировался 3 раз",
@@ -74,8 +74,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-03T11:01:00Z",
-      "current_price": 2.0164,
-      "pnl_percent": -0.5,
+      "current_price": 2.0016,
+      "pnl_percent": -1.23,
       "reasons": [
         "Цена пробила сопротивление 2.0239",
         "Объём подтверждает пробой (2.0× от среднего)",
@@ -85,6 +85,34 @@
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "⚠️ Встречный FVG в зоне риска"
+      ]
+    },
+    {
+      "symbol": "BNB",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 640.6,
+      "sl": 647.2494366629847,
+      "effective_stop": 647.2494366629847,
+      "tp1": 634.6155070033137,
+      "tp2": 627.3011266740306,
+      "tp3": 620.6516900110458,
+      "max_tp_hit": 0,
+      "rr": 2.0,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-03T11:46:03Z",
+      "current_price": 637.4,
+      "pnl_percent": 0.5,
+      "reasons": [
+        "Цена пробила поддержку 640.400",
+        "Объём подтверждает пробой (1.7× от среднего)",
+        "Сильное тело свечи (71%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 44.3 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление"
       ]
     }
   ],
