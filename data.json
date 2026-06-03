@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T10:03:51Z",
+  "generated_at": "2026-06-03T10:13:51Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-02T19:31:13Z",
-      "current_price": 75.94,
-      "pnl_percent": -1.55,
+      "current_price": 76.41,
+      "pnl_percent": -2.18,
       "reasons": [
         "Цена пробила поддержку 75.7300",
         "Уровень 75.7300 тестировался 3 раз",
@@ -29,34 +29,6 @@
         "RSI 37.4 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением"
-      ]
-    },
-    {
-      "symbol": "ETH",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 1888.15,
-      "sl": 1923.7597281549904,
-      "effective_stop": 1888.15,
-      "tp1": 1856.1012446605089,
-      "tp2": 1816.9305436900195,
-      "tp3": 1781.3208155350292,
-      "max_tp_hit": 2,
-      "rr": 2.0,
-      "probability": 78,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-06-02T22:15:57Z",
-      "current_price": 1874.76,
-      "pnl_percent": 0.71,
-      "reasons": [
-        "Цена пробила поддержку 1894.50",
-        "Уровень 1894.50 тестировался 5 раз",
-        "Сильное тело свечи (93%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 33.3 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
       ]
     },
     {
@@ -74,8 +46,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-03T08:45:58Z",
-      "current_price": 2.8262,
-      "pnl_percent": -2.63,
+      "current_price": 2.8318,
+      "pnl_percent": -2.44,
       "reasons": [
         "Цена пробила сопротивление 2.8768",
         "Уровень 2.8768 тестировался 3 раз",
@@ -89,6 +61,20 @@
     }
   ],
   "history": [
+    {
+      "symbol": "ETH",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "BE",
+      "status": "be",
+      "pnl_percent": 2.0,
+      "r_multiple": 1.06,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 2,
+      "open_time": "2026-06-02T22:15:57Z",
+      "close_time": "2026-06-03T10:08:49Z",
+      "rr": 2.0
+    },
     {
       "symbol": "TON",
       "tf": "15m",
@@ -2766,37 +2752,37 @@
   ],
   "stats": {
     "all": {
-      "total": 191,
+      "total": 192,
       "tp": 33,
       "sl": 99,
-      "be": 59,
-      "winrate": 17.3,
-      "effective_winrate": 48.2,
-      "sum_pnl": -1.31,
-      "r_result": 0.04,
-      "deposit_result": 0.0
+      "be": 60,
+      "winrate": 17.2,
+      "effective_winrate": 48.4,
+      "sum_pnl": 0.68,
+      "r_result": 1.1,
+      "deposit_result": 0.11
     },
     "today": {
-      "total": 13,
+      "total": 14,
       "tp": 1,
       "sl": 4,
-      "be": 8,
-      "winrate": 7.7,
-      "effective_winrate": 69.2,
-      "sum_pnl": 2.35,
-      "r_result": 1.55,
-      "deposit_result": 0.16
+      "be": 9,
+      "winrate": 7.1,
+      "effective_winrate": 71.4,
+      "sum_pnl": 4.35,
+      "r_result": 2.61,
+      "deposit_result": 0.26
     },
     "week": {
-      "total": 69,
+      "total": 70,
       "tp": 20,
       "sl": 24,
-      "be": 25,
-      "winrate": 29.0,
-      "effective_winrate": 65.2,
-      "sum_pnl": 61.49,
-      "r_result": 29.46,
-      "deposit_result": 2.95
+      "be": 26,
+      "winrate": 28.6,
+      "effective_winrate": 65.7,
+      "sum_pnl": 63.49,
+      "r_result": 30.52,
+      "deposit_result": 3.05
     }
   }
 }
