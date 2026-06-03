@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T09:23:52Z",
+  "generated_at": "2026-06-03T09:33:52Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-02T19:31:13Z",
-      "current_price": 76.1,
-      "pnl_percent": -1.77,
+      "current_price": 75.92,
+      "pnl_percent": -1.52,
       "reasons": [
         "Цена пробила поддержку 75.7300",
         "Уровень 75.7300 тестировался 3 раз",
@@ -46,8 +46,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-02T22:15:57Z",
-      "current_price": 1879.43,
-      "pnl_percent": 0.46,
+      "current_price": 1875.95,
+      "pnl_percent": 0.65,
       "reasons": [
         "Цена пробила поддержку 1894.50",
         "Уровень 1894.50 тестировался 5 раз",
@@ -55,34 +55,6 @@
         "EMA20 < EMA50 < EMA200 — нисходящая структура",
         "RSI 33.3 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
-      ]
-    },
-    {
-      "symbol": "TON",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 2.0605,
-      "sl": 2.0019161150685965,
-      "effective_stop": 2.0019161150685965,
-      "tp1": 2.1132254964382637,
-      "tp2": 2.1776677698628077,
-      "tp3": 2.2362516547942115,
-      "max_tp_hit": 0,
-      "rr": 2.0,
-      "probability": 78,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-06-03T08:45:58Z",
-      "current_price": 2.0112,
-      "pnl_percent": -2.39,
-      "reasons": [
-        "Цена пробила сопротивление 2.0485",
-        "Объём подтверждает пробой (1.5× от среднего)",
-        "Сильное тело свечи (71%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 63.4 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
       ]
@@ -102,8 +74,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-03T08:45:58Z",
-      "current_price": 2.854,
-      "pnl_percent": -1.67,
+      "current_price": 2.8397,
+      "pnl_percent": -2.16,
       "reasons": [
         "Цена пробила сопротивление 2.8768",
         "Уровень 2.8768 тестировался 3 раз",
@@ -117,6 +89,20 @@
     }
   ],
   "history": [
+    {
+      "symbol": "TON",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "SL",
+      "status": "sl",
+      "pnl_percent": -2.84,
+      "r_multiple": -1.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-06-03T08:45:58Z",
+      "close_time": "2026-06-03T09:30:49Z",
+      "rr": 2.0
+    },
     {
       "symbol": "DOT",
       "tf": "15m",
@@ -2780,37 +2766,37 @@
   ],
   "stats": {
     "all": {
-      "total": 190,
+      "total": 191,
       "tp": 33,
-      "sl": 98,
+      "sl": 99,
       "be": 59,
-      "winrate": 17.4,
-      "effective_winrate": 48.4,
-      "sum_pnl": 1.53,
-      "r_result": 1.04,
-      "deposit_result": 0.1
+      "winrate": 17.3,
+      "effective_winrate": 48.2,
+      "sum_pnl": -1.31,
+      "r_result": 0.04,
+      "deposit_result": 0.0
     },
     "today": {
-      "total": 12,
+      "total": 13,
       "tp": 1,
-      "sl": 3,
+      "sl": 4,
       "be": 8,
-      "winrate": 8.3,
-      "effective_winrate": 75.0,
-      "sum_pnl": 5.19,
-      "r_result": 2.55,
-      "deposit_result": 0.26
+      "winrate": 7.7,
+      "effective_winrate": 69.2,
+      "sum_pnl": 2.35,
+      "r_result": 1.55,
+      "deposit_result": 0.16
     },
     "week": {
-      "total": 68,
+      "total": 69,
       "tp": 20,
-      "sl": 23,
+      "sl": 24,
       "be": 25,
-      "winrate": 29.4,
-      "effective_winrate": 66.2,
-      "sum_pnl": 64.33,
-      "r_result": 30.46,
-      "deposit_result": 3.05
+      "winrate": 29.0,
+      "effective_winrate": 65.2,
+      "sum_pnl": 61.49,
+      "r_result": 29.46,
+      "deposit_result": 2.95
     }
   }
 }
