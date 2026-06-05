@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T20:53:55Z",
+  "generated_at": "2026-06-05T21:03:55Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:16:04Z",
-      "current_price": 1.1139,
-      "pnl_percent": 0.95,
+      "current_price": 1.1182,
+      "pnl_percent": 0.57,
       "reasons": [
         "Цена пробила поддержку 1.1302",
         "Уровень 1.1302 тестировался 5 раз",
@@ -46,8 +46,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:46:02Z",
-      "current_price": 0.0991,
-      "pnl_percent": 3.27,
+      "current_price": 0.09961,
+      "pnl_percent": 2.77,
       "reasons": [
         "Цена пробила поддержку 0.10368",
         "Сильное тело свечи (81%)",
@@ -74,8 +74,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T12:15:59Z",
-      "current_price": 62.33,
-      "pnl_percent": 5.27,
+      "current_price": 62.57,
+      "pnl_percent": 4.91,
       "reasons": [
         "Цена пробила поддержку 67.1500",
         "Уровень 67.1500 тестировался 5 раз",
@@ -102,8 +102,8 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T14:01:21Z",
-      "current_price": 43.61,
-      "pnl_percent": -0.93,
+      "current_price": 43.8,
+      "pnl_percent": -1.37,
       "reasons": [
         "Цена пробила поддержку 43.5400",
         "Уровень 43.5400 тестировался 4 раз",
@@ -130,8 +130,8 @@
       "probability": 90,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T14:01:21Z",
-      "current_price": 0.9508,
-      "pnl_percent": 1.2,
+      "current_price": 0.9565,
+      "pnl_percent": 0.6,
       "reasons": [
         "Цена пробила поддержку 0.97820",
         "Уровень 0.97820 тестировался 3 раз",
@@ -158,8 +158,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T15:16:02Z",
-      "current_price": 2.0195,
-      "pnl_percent": -3.93,
+      "current_price": 2.0133,
+      "pnl_percent": -3.61,
       "reasons": [
         "Цена пробила поддержку 1.9909",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -186,8 +186,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T19:01:26Z",
-      "current_price": 61479.1,
-      "pnl_percent": -3.55,
+      "current_price": 61805.9,
+      "pnl_percent": -4.1,
       "reasons": [
         "Цена пробила поддержку 60612.00",
         "Уровень 60612.00 тестировался 5 раз",
@@ -214,8 +214,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T19:01:26Z",
-      "current_price": 1599.63,
-      "pnl_percent": -3.07,
+      "current_price": 1609.64,
+      "pnl_percent": -3.72,
       "reasons": [
         "Цена пробила поддержку 1586.72",
         "Уровень 1586.72 тестировался 4 раз",
@@ -242,8 +242,8 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T19:01:26Z",
-      "current_price": 64.44,
-      "pnl_percent": -2.5,
+      "current_price": 64.86,
+      "pnl_percent": -3.17,
       "reasons": [
         "Цена пробила поддержку 63.1300",
         "Уровень 63.1300 тестировался 4 раз",
@@ -270,8 +270,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T19:01:26Z",
-      "current_price": 0.1622,
-      "pnl_percent": -2.98,
+      "current_price": 0.1625,
+      "pnl_percent": -3.17,
       "reasons": [
         "Цена пробила поддержку 0.15960",
         "Сильное тело свечи (78%)",
@@ -298,8 +298,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T19:01:26Z",
-      "current_price": 0.7101,
-      "pnl_percent": -4.14,
+      "current_price": 0.7144,
+      "pnl_percent": -4.77,
       "reasons": [
         "Цена пробила поддержку 0.70560",
         "Объём выше среднего (1.5×)",
@@ -326,8 +326,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T19:01:27Z",
-      "current_price": 6.859,
-      "pnl_percent": -0.54,
+      "current_price": 6.933,
+      "pnl_percent": -1.63,
       "reasons": [
         "Цена пробила поддержку 6.9760",
         "Уровень 6.9760 тестировался 6 раз",
@@ -354,8 +354,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T19:01:27Z",
-      "current_price": 576.2,
-      "pnl_percent": -2.71,
+      "current_price": 577.9,
+      "pnl_percent": -3.01,
       "reasons": [
         "Цена пробила поддержку 572.500",
         "Уровень 572.500 тестировался 3 раз",
@@ -382,8 +382,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T19:16:10Z",
-      "current_price": 0.08047,
-      "pnl_percent": -3.47,
+      "current_price": 0.08139,
+      "pnl_percent": -4.65,
       "reasons": [
         "Цена пробила поддержку 0.07977",
         "Уровень 0.07977 тестировался 7 раз",
@@ -3211,26 +3211,26 @@
       "deposit_result": 4.13
     },
     "today": {
-      "total": 22,
-      "tp": 16,
+      "total": 0,
+      "tp": 0,
       "sl": 0,
-      "be": 6,
-      "winrate": 72.7,
-      "effective_winrate": 100.0,
-      "sum_pnl": 98.34,
-      "r_result": 31.82,
-      "deposit_result": 3.18
+      "be": 0,
+      "winrate": 0.0,
+      "effective_winrate": 0.0,
+      "sum_pnl": 0,
+      "r_result": 0,
+      "deposit_result": 0.0
     },
     "week": {
-      "total": 109,
+      "total": 100,
       "tp": 37,
-      "sl": 29,
-      "be": 43,
-      "winrate": 33.9,
-      "effective_winrate": 73.4,
-      "sum_pnl": 161.74,
-      "r_result": 63.9,
-      "deposit_result": 6.39
+      "sl": 22,
+      "be": 41,
+      "winrate": 37.0,
+      "effective_winrate": 78.0,
+      "sum_pnl": 166.15,
+      "r_result": 68.7,
+      "deposit_result": 6.87
     }
   }
 }
