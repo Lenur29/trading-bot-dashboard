@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T11:43:53Z",
+  "generated_at": "2026-06-05T11:53:54Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-04T08:01:07Z",
-      "current_price": 590.6,
-      "pnl_percent": 1.52,
+      "current_price": 590.9,
+      "pnl_percent": 1.47,
       "reasons": [
         "Цена пробила поддержку 604.500",
         "Сильное тело свечи (71%)",
@@ -46,8 +46,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-04T08:16:20Z",
-      "current_price": 62152.9,
-      "pnl_percent": 1.85,
+      "current_price": 62089.9,
+      "pnl_percent": 1.94,
       "reasons": [
         "Цена пробила поддержку 63376.40",
         "Уровень 63376.40 тестировался 5 раз",
@@ -74,8 +74,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-04T08:16:21Z",
-      "current_price": 7.562,
-      "pnl_percent": 5.45,
+      "current_price": 7.578,
+      "pnl_percent": 5.25,
       "reasons": [
         "Цена пробила поддержку 8.0540",
         "Уровень 8.0540 тестировался 3 раз",
@@ -102,8 +102,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-04T09:31:26Z",
-      "current_price": 1668.78,
-      "pnl_percent": 4.55,
+      "current_price": 1668.66,
+      "pnl_percent": 4.56,
       "reasons": [
         "Цена пробила поддержку 1762.82",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-04T17:46:08Z",
-      "current_price": 66.11,
-      "pnl_percent": 3.67,
+      "current_price": 66.28,
+      "pnl_percent": 3.42,
       "reasons": [
         "Цена пробила поддержку 68.9300",
         "Сильное тело свечи (71%)",
@@ -158,8 +158,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:16:04Z",
-      "current_price": 0.1628,
-      "pnl_percent": -0.8,
+      "current_price": 0.1631,
+      "pnl_percent": -0.99,
       "reasons": [
         "Цена пробила поддержку 0.16230",
         "Сильное тело свечи (92%)",
@@ -214,8 +214,8 @@
       "probability": 85,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:16:04Z",
-      "current_price": 7.108,
-      "pnl_percent": -0.1,
+      "current_price": 7.102,
+      "pnl_percent": -0.01,
       "reasons": [
         "Цена пробила поддержку 7.1400",
         "Уровень 7.1400 тестировался 5 раз",
@@ -242,8 +242,8 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:16:05Z",
-      "current_price": 0.08032,
-      "pnl_percent": 0.83,
+      "current_price": 0.0809,
+      "pnl_percent": 0.11,
       "reasons": [
         "Цена пробила поддержку 0.08148",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -253,6 +253,34 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "OP",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.10245,
+      "sl": 0.10781346580878107,
+      "effective_stop": 0.10781346580878107,
+      "tp1": 0.09762288077209703,
+      "tp2": 0.09172306838243786,
+      "tp3": 0.0863596025736568,
+      "max_tp_hit": 0,
+      "rr": 2.0,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-05T11:46:02Z",
+      "current_price": 0.10335,
+      "pnl_percent": -0.88,
+      "reasons": [
+        "Цена пробила поддержку 0.10368",
+        "Сильное тело свечи (81%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 36.4 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (-0.69%)"
       ]
     }
   ],
