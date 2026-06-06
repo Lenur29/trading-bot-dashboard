@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T09:53:52Z",
+  "generated_at": "2026-06-06T10:03:53Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:16:04Z",
-      "current_price": 1.0893,
-      "pnl_percent": 3.14,
+      "current_price": 1.0815,
+      "pnl_percent": 3.83,
       "reasons": [
         "Цена пробила поддержку 1.1302",
         "Уровень 1.1302 тестировался 5 раз",
@@ -46,8 +46,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:46:02Z",
-      "current_price": 0.09606,
-      "pnl_percent": 6.24,
+      "current_price": 0.09474,
+      "pnl_percent": 7.53,
       "reasons": [
         "Цена пробила поддержку 0.10368",
         "Сильное тело свечи (81%)",
@@ -74,8 +74,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T12:15:59Z",
-      "current_price": 61.37,
-      "pnl_percent": 6.73,
+      "current_price": 60.76,
+      "pnl_percent": 7.66,
       "reasons": [
         "Цена пробила поддержку 67.1500",
         "Уровень 67.1500 тестировался 5 раз",
@@ -102,8 +102,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T15:16:02Z",
-      "current_price": 1.8978,
-      "pnl_percent": 2.34,
+      "current_price": 1.8926,
+      "pnl_percent": 2.6,
       "reasons": [
         "Цена пробила поддержку 1.9909",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T19:01:26Z",
-      "current_price": 1567.22,
-      "pnl_percent": -0.98,
+      "current_price": 1557.37,
+      "pnl_percent": -0.35,
       "reasons": [
         "Цена пробила поддержку 1586.72",
         "Уровень 1586.72 тестировался 4 раз",
@@ -158,8 +158,8 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T19:01:26Z",
-      "current_price": 62.53,
-      "pnl_percent": 0.54,
+      "current_price": 62.01,
+      "pnl_percent": 1.37,
       "reasons": [
         "Цена пробила поддержку 63.1300",
         "Уровень 63.1300 тестировался 4 раз",
@@ -169,6 +169,34 @@
         "RSI 32.6 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "AVAX",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 6.712,
+      "sl": 6.868891745504681,
+      "effective_stop": 6.868891745504681,
+      "tp1": 6.570797429045787,
+      "tp2": 6.398216508990638,
+      "tp3": 6.241324763485957,
+      "max_tp_hit": 0,
+      "rr": 2.0,
+      "probability": 76,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-06T10:01:16Z",
+      "current_price": 6.643,
+      "pnl_percent": 1.03,
+      "reasons": [
+        "Цена пробила поддержку 6.7020",
+        "Объём подтверждает пробой (2.1× от среднего)",
+        "Сильное тело свечи (81%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 53.9 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает, но есть встречный FVG в зоне риска"
       ]
     }
   ],
