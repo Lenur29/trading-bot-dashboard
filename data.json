@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T08:33:52Z",
+  "generated_at": "2026-06-07T08:43:52Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:46:02Z",
-      "current_price": 0.09491,
-      "pnl_percent": 7.36,
+      "current_price": 0.09615,
+      "pnl_percent": 6.15,
       "reasons": [
         "Цена пробила поддержку 0.10368",
         "Сильное тело свечи (81%)",
@@ -46,8 +46,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T12:15:59Z",
-      "current_price": 63.29,
-      "pnl_percent": 3.81,
+      "current_price": 63.67,
+      "pnl_percent": 3.24,
       "reasons": [
         "Цена пробила поддержку 67.1500",
         "Уровень 67.1500 тестировался 5 раз",
@@ -74,8 +74,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T15:16:02Z",
-      "current_price": 1.9164,
-      "pnl_percent": 1.38,
+      "current_price": 1.9312,
+      "pnl_percent": 0.62,
       "reasons": [
         "Цена пробила поддержку 1.9909",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T19:01:26Z",
-      "current_price": 64.75,
-      "pnl_percent": -2.99,
+      "current_price": 65.17,
+      "pnl_percent": -3.66,
       "reasons": [
         "Цена пробила поддержку 63.1300",
         "Уровень 63.1300 тестировался 4 раз",
@@ -130,8 +130,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-06T10:16:29Z",
-      "current_price": 41.89,
-      "pnl_percent": 1.25,
+      "current_price": 42.06,
+      "pnl_percent": 0.85,
       "reasons": [
         "Цена пробила поддержку 43.1100",
         "Объём подтверждает пробой (2.2× от среднего)",
