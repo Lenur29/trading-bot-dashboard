@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T12:13:52Z",
+  "generated_at": "2026-06-08T12:23:52Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:46:02Z",
-      "current_price": 0.09825,
-      "pnl_percent": 4.1,
+      "current_price": 0.09837,
+      "pnl_percent": 3.98,
       "reasons": [
         "Цена пробила поддержку 0.10368",
         "Сильное тело свечи (81%)",
@@ -74,8 +74,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-08T07:46:00Z",
-      "current_price": 0.08711,
-      "pnl_percent": 0.7,
+      "current_price": 0.08719,
+      "pnl_percent": 0.6,
       "reasons": [
         "Цена пробила поддержку 0.08699",
         "Объём подтверждает пробой (3.0× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-08T09:45:57Z",
-      "current_price": 5.637,
-      "pnl_percent": 0.43,
+      "current_price": 5.658,
+      "pnl_percent": 0.8,
       "reasons": [
         "Цена пробила сопротивление 5.5660",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -113,6 +113,34 @@
         "Бычья свеча подтверждает пробой",
         "Order Block поддерживает направление",
         "BTC согласуется с направлением (+0.36%)"
+      ]
+    },
+    {
+      "symbol": "BTC",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 62692.6,
+      "sl": 64051.18001114618,
+      "effective_stop": 64051.18001114618,
+      "tp1": 61469.87798996844,
+      "tp2": 59975.43997770764,
+      "tp3": 58616.85996656146,
+      "max_tp_hit": 0,
+      "rr": 2.0,
+      "probability": 74,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-08T12:16:09Z",
+      "current_price": 62927.6,
+      "pnl_percent": -0.37,
+      "reasons": [
+        "Цена пробила поддержку 63010.30",
+        "Объём подтверждает пробой (5.3× от среднего)",
+        "Сильное тело свечи (80%)",
+        "RSI 38.8 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "Order Block поддерживает направление",
+        "OI +2.1% за 1ч — открываются новые позиции, у движения есть топливо"
       ]
     }
   ],
