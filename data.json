@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T19:03:52Z",
+  "generated_at": "2026-06-08T19:13:52Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:46:02Z",
-      "current_price": 0.09792,
-      "pnl_percent": 4.42,
+      "current_price": 0.0979,
+      "pnl_percent": 4.44,
       "reasons": [
         "Цена пробила поддержку 0.10368",
         "Сильное тело свечи (81%)",
@@ -46,8 +46,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T12:15:59Z",
-      "current_price": 64.33,
-      "pnl_percent": 2.23,
+      "current_price": 64.28,
+      "pnl_percent": 2.31,
       "reasons": [
         "Цена пробила поддержку 67.1500",
         "Уровень 67.1500 тестировался 5 раз",
@@ -74,8 +74,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-08T09:45:57Z",
-      "current_price": 5.919,
-      "pnl_percent": 5.45,
+      "current_price": 5.84,
+      "pnl_percent": 4.04,
       "reasons": [
         "Цена пробила сопротивление 5.5660",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-08T12:30:59Z",
-      "current_price": 2.2158,
-      "pnl_percent": 2.4,
+      "current_price": 2.1839,
+      "pnl_percent": 0.92,
       "reasons": [
         "Цена пробила сопротивление 2.1603",
         "Уровень 2.1603 тестировался 3 раз",
@@ -130,8 +130,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-08T15:16:03Z",
-      "current_price": 1.7842,
-      "pnl_percent": 0.92,
+      "current_price": 1.7828,
+      "pnl_percent": 0.84,
       "reasons": [
         "Цена пробила сопротивление 1.7433",
         "Объём подтверждает пробой (3.4× от среднего)",
