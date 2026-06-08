@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T16:13:52Z",
+  "generated_at": "2026-06-08T16:23:52Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:46:02Z",
-      "current_price": 0.09846,
-      "pnl_percent": 3.89,
+      "current_price": 0.09857,
+      "pnl_percent": 3.79,
       "reasons": [
         "Цена пробила поддержку 0.10368",
         "Сильное тело свечи (81%)",
@@ -46,8 +46,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T12:15:59Z",
-      "current_price": 64.44,
-      "pnl_percent": 2.07,
+      "current_price": 64.45,
+      "pnl_percent": 2.05,
       "reasons": [
         "Цена пробила поддержку 67.1500",
         "Уровень 67.1500 тестировался 5 раз",
@@ -74,8 +74,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-08T09:45:57Z",
-      "current_price": 5.704,
-      "pnl_percent": 1.62,
+      "current_price": 5.707,
+      "pnl_percent": 1.67,
       "reasons": [
         "Цена пробила сопротивление 5.5660",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-08T12:30:59Z",
-      "current_price": 2.2345,
-      "pnl_percent": 3.26,
+      "current_price": 2.2521,
+      "pnl_percent": 4.08,
       "reasons": [
         "Цена пробила сопротивление 2.1603",
         "Уровень 2.1603 тестировался 3 раз",
@@ -130,8 +130,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-08T15:16:03Z",
-      "current_price": 1.7591,
-      "pnl_percent": -0.5,
+      "current_price": 1.778,
+      "pnl_percent": 0.57,
       "reasons": [
         "Цена пробила сопротивление 1.7433",
         "Объём подтверждает пробой (3.4× от среднего)",
