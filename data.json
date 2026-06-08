@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T22:33:52Z",
+  "generated_at": "2026-06-08T22:43:52Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:46:02Z",
-      "current_price": 0.09641,
-      "pnl_percent": 5.9,
+      "current_price": 0.09667,
+      "pnl_percent": 5.64,
       "reasons": [
         "Цена пробила поддержку 0.10368",
         "Сильное тело свечи (81%)",
@@ -46,8 +46,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T12:15:59Z",
-      "current_price": 63.71,
-      "pnl_percent": 3.18,
+      "current_price": 63.81,
+      "pnl_percent": 3.02,
       "reasons": [
         "Цена пробила поддержку 67.1500",
         "Уровень 67.1500 тестировался 5 раз",
@@ -74,8 +74,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-08T09:45:57Z",
-      "current_price": 5.744,
-      "pnl_percent": 2.33,
+      "current_price": 5.745,
+      "pnl_percent": 2.35,
       "reasons": [
         "Цена пробила сопротивление 5.5660",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-08T15:16:03Z",
-      "current_price": 1.7268,
-      "pnl_percent": -2.32,
+      "current_price": 1.7318,
+      "pnl_percent": -2.04,
       "reasons": [
         "Цена пробила сопротивление 1.7433",
         "Объём подтверждает пробой (3.4× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-08T20:16:11Z",
-      "current_price": 0.08154,
-      "pnl_percent": -0.25,
+      "current_price": 0.08172,
+      "pnl_percent": -0.47,
       "reasons": [
         "Цена пробила поддержку 0.08157",
         "Объём подтверждает пробой (2.7× от среднего)",
