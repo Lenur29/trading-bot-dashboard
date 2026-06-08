@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T20:53:52Z",
+  "generated_at": "2026-06-08T21:03:52Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:46:02Z",
-      "current_price": 0.09726,
-      "pnl_percent": 5.07,
+      "current_price": 0.0975,
+      "pnl_percent": 4.83,
       "reasons": [
         "Цена пробила поддержку 0.10368",
         "Сильное тело свечи (81%)",
@@ -46,8 +46,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T12:15:59Z",
-      "current_price": 64.14,
-      "pnl_percent": 2.52,
+      "current_price": 64.35,
+      "pnl_percent": 2.2,
       "reasons": [
         "Цена пробила поддержку 67.1500",
         "Уровень 67.1500 тестировался 5 раз",
@@ -74,8 +74,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-08T09:45:57Z",
-      "current_price": 5.757,
-      "pnl_percent": 2.57,
+      "current_price": 5.771,
+      "pnl_percent": 2.81,
       "reasons": [
         "Цена пробила сопротивление 5.5660",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-08T15:16:03Z",
-      "current_price": 1.7738,
-      "pnl_percent": 0.33,
+      "current_price": 1.7795,
+      "pnl_percent": 0.66,
       "reasons": [
         "Цена пробила сопротивление 1.7433",
         "Объём подтверждает пробой (3.4× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-08T20:16:11Z",
-      "current_price": 0.08159,
-      "pnl_percent": -0.31,
+      "current_price": 0.08185,
+      "pnl_percent": -0.63,
       "reasons": [
         "Цена пробила поддержку 0.08157",
         "Объём подтверждает пробой (2.7× от среднего)",
@@ -2959,26 +2959,26 @@
       "deposit_result": 2.29
     },
     "today": {
-      "total": 12,
+      "total": 0,
       "tp": 0,
-      "sl": 11,
-      "be": 1,
+      "sl": 0,
+      "be": 0,
       "winrate": 0.0,
-      "effective_winrate": 8.3,
-      "sum_pnl": -32.19,
-      "r_result": -10.64,
-      "deposit_result": -1.06
+      "effective_winrate": 0.0,
+      "sum_pnl": 0,
+      "r_result": 0,
+      "deposit_result": 0.0
     },
     "week": {
-      "total": 120,
-      "tp": 34,
-      "sl": 37,
-      "be": 49,
-      "winrate": 28.3,
-      "effective_winrate": 69.2,
-      "sum_pnl": 109.68,
-      "r_result": 51.35,
-      "deposit_result": 5.14
+      "total": 109,
+      "tp": 33,
+      "sl": 34,
+      "be": 42,
+      "winrate": 30.3,
+      "effective_winrate": 68.8,
+      "sum_pnl": 95.29,
+      "r_result": 48.18,
+      "deposit_result": 4.82
     }
   }
 }
