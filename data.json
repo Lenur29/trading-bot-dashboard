@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T15:13:52Z",
+  "generated_at": "2026-06-10T15:23:52Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:46:02Z",
-      "current_price": 0.09528,
-      "pnl_percent": 7.0,
+      "current_price": 0.09581,
+      "pnl_percent": 6.48,
       "reasons": [
         "Цена пробила поддержку 0.10368",
         "Сильное тело свечи (81%)",
@@ -46,8 +46,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T12:15:59Z",
-      "current_price": 62.6,
-      "pnl_percent": 4.86,
+      "current_price": 63.01,
+      "pnl_percent": 4.24,
       "reasons": [
         "Цена пробила поддержку 67.1500",
         "Уровень 67.1500 тестировался 5 раз",
@@ -74,8 +74,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-09T14:31:18Z",
-      "current_price": 1.1217,
-      "pnl_percent": 1.6,
+      "current_price": 1.1272,
+      "pnl_percent": 1.11,
       "reasons": [
         "Цена пробила поддержку 1.1534",
         "Уровень 1.1534 тестировался 3 раз",
@@ -102,8 +102,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-09T14:31:18Z",
-      "current_price": 0.7508,
-      "pnl_percent": -1.71,
+      "current_price": 0.7563,
+      "pnl_percent": -2.45,
       "reasons": [
         "Цена пробила поддержку 0.74890",
         "Уровень 0.74890 тестировался 4 раз",
@@ -111,6 +111,34 @@
         "Сильное тело свечи (76%)",
         "EMA20 < EMA50 — краткосрочный даунтренд",
         "RSI 35.3 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "TON",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 1.6694,
+      "sl": 1.7087739094616445,
+      "effective_stop": 1.7087739094616445,
+      "tp1": 1.6339634814845199,
+      "tp2": 1.590652181076711,
+      "tp3": 1.5512782716150664,
+      "max_tp_hit": 0,
+      "rr": 2.0,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-10T15:16:09Z",
+      "current_price": 1.6885,
+      "pnl_percent": -1.14,
+      "reasons": [
+        "Цена пробила поддержку 1.6752",
+        "Уровень 1.6752 тестировался 4 раз",
+        "Объём подтверждает пробой (1.9× от среднего)",
+        "Сильное тело свечи (74%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 49.5 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением"
       ]
