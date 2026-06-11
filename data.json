@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T14:23:52Z",
+  "generated_at": "2026-06-11T14:33:52Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -46,8 +46,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T12:15:59Z",
-      "current_price": 63.06,
-      "pnl_percent": 4.16,
+      "current_price": 63.16,
+      "pnl_percent": 4.01,
       "reasons": [
         "Цена пробила поддержку 67.1500",
         "Уровень 67.1500 тестировался 5 раз",
@@ -74,8 +74,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-09T14:31:18Z",
-      "current_price": 1.1139,
-      "pnl_percent": 2.28,
+      "current_price": 1.1129,
+      "pnl_percent": 2.37,
       "reasons": [
         "Цена пробила поддержку 1.1534",
         "Уровень 1.1534 тестировался 3 раз",
@@ -102,8 +102,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-11T14:16:06Z",
-      "current_price": 0.07816,
-      "pnl_percent": -0.05,
+      "current_price": 0.07808,
+      "pnl_percent": 0.05,
       "reasons": [
         "Цена пробила поддержку 0.07813",
         "Объём подтверждает пробой (1.7× от среднего)",
