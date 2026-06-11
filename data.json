@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T20:53:51Z",
+  "generated_at": "2026-06-11T21:03:51Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:46:02Z",
-      "current_price": 0.09507,
-      "pnl_percent": 7.2,
+      "current_price": 0.0953,
+      "pnl_percent": 6.98,
       "reasons": [
         "Цена пробила поддержку 0.10368",
         "Сильное тело свечи (81%)",
@@ -46,8 +46,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T12:15:59Z",
-      "current_price": 64.19,
-      "pnl_percent": 2.45,
+      "current_price": 64.29,
+      "pnl_percent": 2.29,
       "reasons": [
         "Цена пробила поддержку 67.1500",
         "Уровень 67.1500 тестировался 5 раз",
@@ -2875,26 +2875,26 @@
       "deposit_result": 1.0
     },
     "today": {
-      "total": 15,
-      "tp": 1,
-      "sl": 11,
-      "be": 3,
-      "winrate": 6.7,
-      "effective_winrate": 26.7,
-      "sum_pnl": -18.27,
-      "r_result": -8.11,
-      "deposit_result": -0.81
+      "total": 0,
+      "tp": 0,
+      "sl": 0,
+      "be": 0,
+      "winrate": 0.0,
+      "effective_winrate": 0.0,
+      "sum_pnl": 0,
+      "r_result": 0,
+      "deposit_result": 0.0
     },
     "week": {
-      "total": 116,
-      "tp": 20,
-      "sl": 52,
-      "be": 44,
-      "winrate": 17.2,
-      "effective_winrate": 55.2,
-      "sum_pnl": 8.28,
-      "r_result": 4.24,
-      "deposit_result": 0.42
+      "total": 97,
+      "tp": 18,
+      "sl": 46,
+      "be": 33,
+      "winrate": 18.6,
+      "effective_winrate": 52.6,
+      "sum_pnl": 6.65,
+      "r_result": 0.56,
+      "deposit_result": 0.06
     }
   }
 }
