@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T14:43:52Z",
+  "generated_at": "2026-06-12T14:53:52Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:46:02Z",
-      "current_price": 0.09866,
-      "pnl_percent": 3.7,
+      "current_price": 0.1003,
+      "pnl_percent": 2.1,
       "reasons": [
         "Цена пробила поддержку 0.10368",
         "Сильное тело свечи (81%)",
@@ -46,8 +46,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T12:15:59Z",
-      "current_price": 64.49,
-      "pnl_percent": 1.99,
+      "current_price": 65.08,
+      "pnl_percent": 1.09,
       "reasons": [
         "Цена пробила поддержку 67.1500",
         "Уровень 67.1500 тестировался 5 раз",
@@ -74,8 +74,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-12T12:16:03Z",
-      "current_price": 1.725,
-      "pnl_percent": -0.68,
+      "current_price": 1.7352,
+      "pnl_percent": -0.09,
       "reasons": [
         "Цена пробила сопротивление 1.7345",
         "Уровень 1.7345 тестировался 3 раз",
@@ -86,37 +86,23 @@
         "Бычья свеча подтверждает пробой",
         "FVG поддерживает направление"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "XRP",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 1.1284,
-      "sl": 1.1468933213337216,
-      "effective_stop": 1.1468933213337216,
-      "tp1": 1.1117560107996507,
-      "tp2": 1.091413357332557,
-      "tp3": 1.0729200359988356,
-      "max_tp_hit": 0,
-      "rr": 2.0,
-      "probability": 77,
+      "result": "SL",
+      "status": "sl",
+      "pnl_percent": -1.64,
+      "r_multiple": -1.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-06-12T13:46:28Z",
-      "current_price": 1.1372,
-      "pnl_percent": -0.78,
-      "reasons": [
-        "Цена пробила поддержку 1.1338",
-        "Уровень 1.1338 тестировался 3 раз",
-        "Объём подтверждает пробой (5.0× от среднего)",
-        "Хорошее тело свечи (51%)",
-        "EMA20 < EMA50 — краткосрочный даунтренд",
-        "RSI 30.9 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-06-12T14:52:51Z",
+      "rr": 2.0
+    },
     {
       "symbol": "HBAR",
       "tf": "15m",
@@ -2902,55 +2888,41 @@
       "open_time": "2026-05-25T14:15:40Z",
       "close_time": "2026-05-25T22:31:34Z",
       "rr": 2.0
-    },
-    {
-      "symbol": "OP",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "SL",
-      "status": "sl",
-      "pnl_percent": -1.8,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-05-25T17:00:41Z",
-      "close_time": "2026-05-25T22:30:32Z",
-      "rr": 2.0
     }
   ],
   "stats": {
     "all": {
-      "total": 313,
+      "total": 314,
       "tp": 55,
-      "sl": 151,
+      "sl": 152,
       "be": 107,
-      "winrate": 17.6,
-      "effective_winrate": 51.8,
-      "sum_pnl": 17.34,
-      "r_result": 10.04,
-      "deposit_result": 1.0
+      "winrate": 17.5,
+      "effective_winrate": 51.6,
+      "sum_pnl": 15.7,
+      "r_result": 9.04,
+      "deposit_result": 0.9
     },
     "today": {
-      "total": 0,
+      "total": 1,
       "tp": 0,
-      "sl": 0,
+      "sl": 1,
       "be": 0,
       "winrate": 0.0,
       "effective_winrate": 0.0,
-      "sum_pnl": 0,
-      "r_result": 0,
-      "deposit_result": 0.0
+      "sum_pnl": -1.64,
+      "r_result": -1.0,
+      "deposit_result": -0.1
     },
     "week": {
-      "total": 97,
+      "total": 98,
       "tp": 18,
-      "sl": 46,
+      "sl": 47,
       "be": 33,
-      "winrate": 18.6,
-      "effective_winrate": 52.6,
-      "sum_pnl": 6.65,
-      "r_result": 0.56,
-      "deposit_result": 0.06
+      "winrate": 18.4,
+      "effective_winrate": 52.0,
+      "sum_pnl": 5.01,
+      "r_result": -0.44,
+      "deposit_result": -0.04
     }
   }
 }
