@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T13:43:51Z",
+  "generated_at": "2026-06-12T13:53:52Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T11:46:02Z",
-      "current_price": 0.09731,
-      "pnl_percent": 5.02,
+      "current_price": 0.0977,
+      "pnl_percent": 4.64,
       "reasons": [
         "Цена пробила поддержку 0.10368",
         "Сильное тело свечи (81%)",
@@ -46,8 +46,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-05T12:15:59Z",
-      "current_price": 63.9,
-      "pnl_percent": 2.89,
+      "current_price": 63.81,
+      "pnl_percent": 3.02,
       "reasons": [
         "Цена пробила поддержку 67.1500",
         "Уровень 67.1500 тестировался 5 раз",
@@ -74,8 +74,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-12T12:16:03Z",
-      "current_price": 1.7247,
-      "pnl_percent": -0.7,
+      "current_price": 1.7214,
+      "pnl_percent": -0.89,
       "reasons": [
         "Цена пробила сопротивление 1.7345",
         "Уровень 1.7345 тестировался 3 раз",
@@ -85,6 +85,34 @@
         "RSI 64.3 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "XRP",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 1.1284,
+      "sl": 1.1468933213337216,
+      "effective_stop": 1.1468933213337216,
+      "tp1": 1.1117560107996507,
+      "tp2": 1.091413357332557,
+      "tp3": 1.0729200359988356,
+      "max_tp_hit": 0,
+      "rr": 2.0,
+      "probability": 77,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-12T13:46:28Z",
+      "current_price": 1.1288,
+      "pnl_percent": -0.04,
+      "reasons": [
+        "Цена пробила поддержку 1.1338",
+        "Уровень 1.1338 тестировался 3 раз",
+        "Объём подтверждает пробой (5.0× от среднего)",
+        "Хорошее тело свечи (51%)",
+        "EMA20 < EMA50 — краткосрочный даунтренд",
+        "RSI 30.9 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением"
       ]
     }
   ],
