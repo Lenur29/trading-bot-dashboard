@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T10:14:51Z",
+  "generated_at": "2026-06-14T10:24:51Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-12T15:01:08Z",
-      "current_price": 64502.9,
-      "pnl_percent": 0.82,
+      "current_price": 64606.6,
+      "pnl_percent": 0.98,
       "reasons": [
         "Цена пробила сопротивление 63509.90",
         "Объём подтверждает пробой (2.8× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-12T15:01:08Z",
-      "current_price": 0.0834,
-      "pnl_percent": -2.18,
+      "current_price": 0.08353,
+      "pnl_percent": -2.03,
       "reasons": [
         "Цена пробила сопротивление 0.08485",
         "Объём подтверждает пробой (1.9× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-12T16:01:16Z",
-      "current_price": 0.0791,
-      "pnl_percent": -1.42,
+      "current_price": 0.07917,
+      "pnl_percent": -1.51,
       "reasons": [
         "Цена пробила поддержку 0.07808",
         "Объём выше среднего (1.4×)",
@@ -102,8 +102,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-13T19:45:59Z",
-      "current_price": 44.2,
-      "pnl_percent": 0.87,
+      "current_price": 44.25,
+      "pnl_percent": 0.98,
       "reasons": [
         "Цена пробила сопротивление 43.7500",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-13T21:46:12Z",
-      "current_price": 2.1166,
-      "pnl_percent": -0.78,
+      "current_price": 2.1231,
+      "pnl_percent": -0.48,
       "reasons": [
         "Цена пробила сопротивление 2.1048",
         "Уровень 2.1048 тестировался 6 раз",
