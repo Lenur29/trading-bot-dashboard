@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T20:29:27Z",
+  "generated_at": "2026-06-15T20:39:27Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -74,8 +74,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-15T12:00:35Z",
-      "current_price": 0.1843,
-      "pnl_percent": -0.49,
+      "current_price": 0.1837,
+      "pnl_percent": -0.81,
       "reasons": [
         "Цена пробила сопротивление 0.18170",
         "Уровень 0.18170 тестировался 9 раз",
@@ -102,8 +102,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-15T13:00:33Z",
-      "current_price": 620.0,
-      "pnl_percent": -0.66,
+      "current_price": 620.2,
+      "pnl_percent": -0.62,
       "reasons": [
         "Цена пробила сопротивление 622.700",
         "Уровень 622.700 тестировался 4 раз",
@@ -130,8 +130,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-15T13:15:34Z",
-      "current_price": 0.8039,
-      "pnl_percent": -1.7,
+      "current_price": 0.8044,
+      "pnl_percent": -1.64,
       "reasons": [
         "Цена пробила сопротивление 0.81550",
         "Уровень 0.81550 тестировался 5 раз",
@@ -158,8 +158,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-15T14:15:32Z",
-      "current_price": 5.661,
-      "pnl_percent": 2.59,
+      "current_price": 5.689,
+      "pnl_percent": 3.1,
       "reasons": [
         "Цена пробила сопротивление 5.5020",
         "Уровень 5.5020 тестировался 7 раз",
@@ -186,8 +186,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-15T14:45:30Z",
-      "current_price": 2.4801,
-      "pnl_percent": -1.34,
+      "current_price": 2.4825,
+      "pnl_percent": -1.25,
       "reasons": [
         "Цена пробила сопротивление 2.4944",
         "Уровень 2.4944 тестировался 4 раз",
