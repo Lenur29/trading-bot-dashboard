@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T12:09:26Z",
+  "generated_at": "2026-06-15T12:19:26Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-12T15:01:08Z",
-      "current_price": 66164.2,
-      "pnl_percent": 3.41,
+      "current_price": 66302.8,
+      "pnl_percent": 3.63,
       "reasons": [
         "Цена пробила сопротивление 63509.90",
         "Объём подтверждает пробой (2.8× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-15T10:30:30Z",
-      "current_price": 45.73,
-      "pnl_percent": 0.07,
+      "current_price": 45.72,
+      "pnl_percent": 0.04,
       "reasons": [
         "Цена пробила сопротивление 45.2200",
         "Объём подтверждает пробой (7.7× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-15T10:45:40Z",
-      "current_price": 1761.21,
-      "pnl_percent": 1.95,
+      "current_price": 1763.25,
+      "pnl_percent": 2.07,
       "reasons": [
         "Цена пробила сопротивление 1726.27",
         "Объём подтверждает пробой (1.5× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-15T10:45:40Z",
-      "current_price": 1.0187,
-      "pnl_percent": 0.61,
+      "current_price": 1.0191,
+      "pnl_percent": 0.65,
       "reasons": [
         "Цена пробила сопротивление 1.0057",
         "Уровень 1.0057 тестировался 4 раз",
@@ -130,8 +130,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-15T12:00:35Z",
-      "current_price": 0.1852,
-      "pnl_percent": 0.0,
+      "current_price": 0.1853,
+      "pnl_percent": 0.05,
       "reasons": [
         "Цена пробила сопротивление 0.18170",
         "Уровень 0.18170 тестировался 9 раз",
