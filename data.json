@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T14:39:25Z",
+  "generated_at": "2026-06-16T14:49:26Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-16T13:15:46Z",
-      "current_price": 604.8,
-      "pnl_percent": 0.87,
+      "current_price": 605.6,
+      "pnl_percent": 0.74,
       "reasons": [
         "Цена пробила поддержку 612.800",
         "Объём подтверждает пробой (4.2× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-16T14:30:42Z",
-      "current_price": 0.7786,
-      "pnl_percent": -0.09,
+      "current_price": 0.7812,
+      "pnl_percent": -0.42,
       "reasons": [
         "Цена пробила поддержку 0.78590",
         "Объём подтверждает пробой (3.6× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-16T14:30:42Z",
-      "current_price": 0.10631,
-      "pnl_percent": -0.53,
+      "current_price": 0.10669,
+      "pnl_percent": -0.89,
       "reasons": [
         "Цена пробила поддержку 0.10701",
         "Объём подтверждает пробой (2.8× от среднего)",
@@ -85,6 +85,34 @@
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "BTC согласуется с направлением (-0.88%)"
+      ]
+    },
+    {
+      "symbol": "INJ",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 5.762,
+      "sl": 5.652992142589823,
+      "effective_stop": 5.652992142589823,
+      "tp1": 5.860107071669159,
+      "tp2": 5.980015714820353,
+      "tp3": 6.08902357223053,
+      "max_tp_hit": 0,
+      "rr": 2.0,
+      "probability": 77,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-16T14:45:33Z",
+      "current_price": 5.741,
+      "pnl_percent": -0.36,
+      "reasons": [
+        "Цена пробила сопротивление 5.8680",
+        "Объём подтверждает пробой (1.7× от среднего)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 41.4 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "⚠️ Встречный FVG в зоне риска",
+        "Order Block поддерживает направление"
       ]
     }
   ],
