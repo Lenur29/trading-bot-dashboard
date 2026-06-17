@@ -52,7 +52,7 @@ function renderTop() {
   $('#cntActive').textContent = d.active.length
   $('#topStats').innerHTML = `
     <div class="tstat"><div class="k">Открыто</div><div class="v">${d.active.length}</div></div>
-    <div class="tstat"><div class="k">Винрейт</div><div class="v">${all.winrate}%</div></div>
+    <div class="tstat"><div class="k">Винрейт</div><div class="v">${all.effective_winrate}%</div></div>
     <div class="tstat"><div class="k">Сделок</div><div class="v">${all.total}</div></div>`
 }
 
