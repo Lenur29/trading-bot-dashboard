@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T17:39:26Z",
+  "generated_at": "2026-06-17T17:49:26Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T08:15:51Z",
-      "current_price": 0.171,
-      "pnl_percent": -0.53,
+      "current_price": 0.1706,
+      "pnl_percent": -0.29,
       "reasons": [
         "Цена пробила поддержку 0.17060",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T13:15:38Z",
-      "current_price": 0.09395,
-      "pnl_percent": 3.02,
+      "current_price": 0.09425,
+      "pnl_percent": 3.34,
       "reasons": [
         "Цена пробила сопротивление 0.09011",
         "Уровень 0.09011 тестировался 3 раз",
@@ -74,8 +74,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T15:30:38Z",
-      "current_price": 0.08112,
-      "pnl_percent": -0.53,
+      "current_price": 0.08101,
+      "pnl_percent": -0.66,
       "reasons": [
         "Цена пробила сопротивление 0.08118",
         "Уровень 0.08118 тестировался 3 раз",
@@ -102,8 +102,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T15:45:46Z",
-      "current_price": 2.3356,
-      "pnl_percent": -1.37,
+      "current_price": 2.3212,
+      "pnl_percent": -1.98,
       "reasons": [
         "Цена пробила сопротивление 2.3222",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T16:01:55Z",
-      "current_price": 1.0279,
-      "pnl_percent": -0.84,
+      "current_price": 1.0252,
+      "pnl_percent": -1.1,
       "reasons": [
         "Цена пробила сопротивление 1.0169",
         "Объём выше среднего (1.2×)",
