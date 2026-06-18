@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T07:29:04Z",
+  "generated_at": "2026-06-18T07:39:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T08:15:51Z",
-      "current_price": 0.1667,
-      "pnl_percent": 2.0,
+      "current_price": 0.1669,
+      "pnl_percent": 1.88,
       "reasons": [
         "Цена пробила поддержку 0.17060",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 1745.18,
-      "pnl_percent": -0.31,
+      "current_price": 1747.9,
+      "pnl_percent": -0.47,
       "reasons": [
         "Цена пробила поддержку 1760.02",
         "Объём подтверждает пробой (2.4× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 8.024,
-      "pnl_percent": 0.59,
+      "current_price": 8.029,
+      "pnl_percent": 0.53,
       "reasons": [
         "Цена пробила поддержку 8.1680",
         "Уровень 8.1680 тестировался 3 раз",
@@ -102,8 +102,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 1.1784,
-      "pnl_percent": 0.62,
+      "current_price": 1.1791,
+      "pnl_percent": 0.57,
       "reasons": [
         "Цена пробила поддержку 1.1976",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -113,6 +113,34 @@
         "Медвежья свеча подтверждает пробой",
         "BTC согласуется с направлением (-2.40%)",
         "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "ENA",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.09506,
+      "sl": 0.09029275707754707,
+      "effective_stop": 0.09029275707754707,
+      "tp1": 0.09792034575347176,
+      "tp2": 0.10697810730613236,
+      "tp3": 0.10936172876735882,
+      "max_tp_hit": 0,
+      "rr": 2.5000000000000013,
+      "probability": 73,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-18T07:30:22Z",
+      "current_price": 0.09461,
+      "pnl_percent": -0.47,
+      "reasons": [
+        "Цена пробила сопротивление 0.09470",
+        "Объём подтверждает пробой (2.1× от среднего)",
+        "Сильное тело свечи (75%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 57.6 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает, но есть встречный FVG в зоне риска",
+        "BTC согласуется с направлением (+0.31%)"
       ]
     }
   ],
