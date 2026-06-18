@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T15:39:04Z",
+  "generated_at": "2026-06-18T15:49:05Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T08:15:51Z",
-      "current_price": 0.1614,
-      "pnl_percent": 5.11,
+      "current_price": 0.1609,
+      "pnl_percent": 5.41,
       "reasons": [
         "Цена пробила поддержку 0.17060",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 1708.58,
-      "pnl_percent": 1.79,
+      "current_price": 1695.58,
+      "pnl_percent": 2.54,
       "reasons": [
         "Цена пробила поддержку 1760.02",
         "Объём подтверждает пробой (2.4× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 7.869,
-      "pnl_percent": 2.51,
+      "current_price": 7.835,
+      "pnl_percent": 2.94,
       "reasons": [
         "Цена пробила поддержку 8.1680",
         "Уровень 8.1680 тестировался 3 раз",
@@ -102,8 +102,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 1.1435,
-      "pnl_percent": 3.57,
+      "current_price": 1.1364,
+      "pnl_percent": 4.17,
       "reasons": [
         "Цена пробила поддержку 1.1976",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T07:30:22Z",
-      "current_price": 0.09211,
-      "pnl_percent": -3.1,
+      "current_price": 0.09113,
+      "pnl_percent": -4.13,
       "reasons": [
         "Цена пробила сопротивление 0.09470",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -158,8 +158,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T13:45:32Z",
-      "current_price": 71.82,
-      "pnl_percent": 1.37,
+      "current_price": 71.41,
+      "pnl_percent": 1.94,
       "reasons": [
         "Цена пробила поддержку 73.2300",
         "Объём подтверждает пробой (4.6× от среднего)",
@@ -181,13 +181,13 @@
       "tp1": 585.1887473046153,
       "tp2": 575.9697804358967,
       "tp3": 573.5437365230761,
-      "max_tp_hit": 1,
+      "max_tp_hit": 2,
       "rr": 2.5,
       "probability": 85,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T14:15:14Z",
-      "current_price": 577.4,
-      "pnl_percent": 1.82,
+      "current_price": 576.1,
+      "pnl_percent": 2.04,
       "reasons": [
         "Цена пробила поддержку 590.300",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -197,6 +197,34 @@
         "4h согласен с направлением",
         "FVG поддерживает направление",
         "Order Block поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "HBAR",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.07902,
+      "sl": 0.08183194281342777,
+      "effective_stop": 0.08183194281342777,
+      "tp1": 0.07733283431194335,
+      "tp2": 0.07199014296643058,
+      "tp3": 0.0705841715597167,
+      "max_tp_hit": 0,
+      "rr": 2.5000000000000027,
+      "probability": 81,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-18T15:45:17Z",
+      "current_price": 0.07903,
+      "pnl_percent": -0.01,
+      "reasons": [
+        "Цена пробила поддержку 0.07988",
+        "Уровень 0.07988 тестировался 3 раз",
+        "Объём подтверждает пробой (2.2× от среднего)",
+        "Хорошее тело свечи (58%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 32.9 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление"
       ]
     }
   ],
