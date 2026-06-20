@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T20:19:04Z",
+  "generated_at": "2026-06-20T20:29:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 7.894,
-      "pnl_percent": 2.21,
+      "current_price": 7.898,
+      "pnl_percent": 2.16,
       "reasons": [
         "Цена пробила поддержку 8.1680",
         "Уровень 8.1680 тестировался 3 раз",
@@ -46,8 +46,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 1.1439,
-      "pnl_percent": 3.53,
+      "current_price": 1.1444,
+      "pnl_percent": 3.49,
       "reasons": [
         "Цена пробила поддержку 1.1976",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T15:45:17Z",
-      "current_price": 0.08005,
-      "pnl_percent": -1.3,
+      "current_price": 0.08006,
+      "pnl_percent": -1.32,
       "reasons": [
         "Цена пробила поддержку 0.07988",
         "Уровень 0.07988 тестировался 3 раз",
@@ -102,8 +102,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 2.1537,
-      "pnl_percent": 0.11,
+      "current_price": 2.1516,
+      "pnl_percent": 0.2,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-20T15:00:20Z",
-      "current_price": 1728.5,
-      "pnl_percent": -0.24,
+      "current_price": 1727.89,
+      "pnl_percent": -0.28,
       "reasons": [
         "Цена пробила сопротивление 1718.85",
         "Уровень 1718.85 тестировался 5 раз",
