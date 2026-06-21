@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T15:09:05Z",
+  "generated_at": "2026-06-21T15:19:05Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 7.966,
-      "pnl_percent": 1.31,
+      "current_price": 7.967,
+      "pnl_percent": 1.3,
       "reasons": [
         "Цена пробила поддержку 8.1680",
         "Уровень 8.1680 тестировался 3 раз",
@@ -46,8 +46,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 1.1479,
-      "pnl_percent": 3.2,
+      "current_price": 1.1493,
+      "pnl_percent": 3.08,
       "reasons": [
         "Цена пробила поддержку 1.1976",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T15:45:17Z",
-      "current_price": 0.08001,
-      "pnl_percent": -1.25,
+      "current_price": 0.08006,
+      "pnl_percent": -1.32,
       "reasons": [
         "Цена пробила поддержку 0.07988",
         "Уровень 0.07988 тестировался 3 раз",
@@ -102,8 +102,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 2.189,
-      "pnl_percent": -1.53,
+      "current_price": 2.1972,
+      "pnl_percent": -1.91,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-20T15:00:20Z",
-      "current_price": 1728.25,
-      "pnl_percent": -0.26,
+      "current_price": 1729.73,
+      "pnl_percent": -0.17,
       "reasons": [
         "Цена пробила сопротивление 1718.85",
         "Уровень 1718.85 тестировался 5 раз",
@@ -158,8 +158,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-20T15:00:20Z",
-      "current_price": 73.99,
-      "pnl_percent": 2.89,
+      "current_price": 74.04,
+      "pnl_percent": 2.96,
       "reasons": [
         "Цена пробила сопротивление 71.2900",
         "Уровень 71.2900 тестировался 3 раз",
@@ -186,8 +186,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-21T12:15:11Z",
-      "current_price": 4.987,
-      "pnl_percent": -0.5,
+      "current_price": 4.996,
+      "pnl_percent": -0.69,
       "reasons": [
         "Цена пробила поддержку 4.9640",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -214,8 +214,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-21T12:16:15Z",
-      "current_price": 589.7,
-      "pnl_percent": -0.7,
+      "current_price": 589.6,
+      "pnl_percent": -0.68,
       "reasons": [
         "Цена пробила поддержку 587.700",
         "Уровень 587.700 тестировался 3 раз",
@@ -225,6 +225,34 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "ENA",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.09204,
+      "sl": 0.08952339693815994,
+      "effective_stop": 0.08952339693815994,
+      "tp1": 0.09354996183710403,
+      "tp2": 0.09833150765460014,
+      "tp3": 0.09958980918552016,
+      "max_tp_hit": 0,
+      "rr": 2.5000000000000027,
+      "probability": 79,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-21T15:15:10Z",
+      "current_price": 0.09226,
+      "pnl_percent": 0.24,
+      "reasons": [
+        "Цена пробила сопротивление 0.09145",
+        "Объём подтверждает пробой (2.7× от среднего)",
+        "Сильное тело свечи (72%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 58.6 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "⚠️ Встречный FVG в зоне риска",
+        "OI +9.6% за 1ч — открываются новые позиции, у движения есть топливо"
       ]
     }
   ],
