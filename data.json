@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T17:29:04Z",
+  "generated_at": "2026-06-22T17:39:03Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -102,8 +102,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-20T15:00:20Z",
-      "current_price": 72.82,
-      "pnl_percent": 1.27,
+      "current_price": 72.85,
+      "pnl_percent": 1.31,
       "reasons": [
         "Цена пробила сопротивление 71.2900",
         "Уровень 71.2900 тестировался 3 раз",
