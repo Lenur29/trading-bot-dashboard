@@ -1,36 +1,8 @@
 {
-  "generated_at": "2026-06-22T11:29:04Z",
+  "generated_at": "2026-06-22T11:39:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "LINK",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 8.072,
-      "sl": 8.36310913856714,
-      "effective_stop": 8.072,
-      "tp1": 7.810001775289573,
-      "tp2": 7.489781722865718,
-      "tp3": 7.198672584298578,
-      "max_tp_hit": 1,
-      "rr": 2.0,
-      "probability": 78,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 8.039,
-      "pnl_percent": 0.41,
-      "reasons": [
-        "Цена пробила поддержку 8.1680",
-        "Уровень 8.1680 тестировался 3 раз",
-        "Объём подтверждает пробой (2.6× от среднего)",
-        "Сильное тело свечи (86%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 37.5 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "BTC согласуется с направлением (-2.40%)"
-      ]
-    },
     {
       "symbol": "XRP",
       "tf": "15m",
@@ -46,8 +18,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 1.1429,
-      "pnl_percent": 3.62,
+      "current_price": 1.1467,
+      "pnl_percent": 3.3,
       "reasons": [
         "Цена пробила поддержку 1.1976",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -74,8 +46,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T15:45:17Z",
-      "current_price": 0.07947,
-      "pnl_percent": -0.57,
+      "current_price": 0.07965,
+      "pnl_percent": -0.8,
       "reasons": [
         "Цена пробила поддержку 0.07988",
         "Уровень 0.07988 тестировался 3 раз",
@@ -102,8 +74,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 2.1508,
-      "pnl_percent": 0.24,
+      "current_price": 2.1631,
+      "pnl_percent": -0.33,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -130,8 +102,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-20T15:00:20Z",
-      "current_price": 73.94,
-      "pnl_percent": 2.82,
+      "current_price": 74.26,
+      "pnl_percent": 3.27,
       "reasons": [
         "Цена пробила сопротивление 71.2900",
         "Уровень 71.2900 тестировался 3 раз",
@@ -158,8 +130,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-22T07:15:16Z",
-      "current_price": 1752.74,
-      "pnl_percent": 0.53,
+      "current_price": 1762.07,
+      "pnl_percent": 1.06,
       "reasons": [
         "Цена пробила сопротивление 1739.44",
         "Объём подтверждает пробой (2.8× от среднего)",
@@ -186,8 +158,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-22T11:15:20Z",
-      "current_price": 0.08597,
-      "pnl_percent": 0.12,
+      "current_price": 0.08619,
+      "pnl_percent": 0.37,
       "reasons": [
         "Цена пробила сопротивление 0.08567",
         "Уровень 0.08567 тестировался 3 раз",
@@ -201,6 +173,20 @@
     }
   ],
   "history": [
+    {
+      "symbol": "LINK",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "BE",
+      "status": "be",
+      "pnl_percent": 0.97,
+      "r_multiple": 0.27,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
+      "open_time": "2026-06-17T19:30:58Z",
+      "close_time": "2026-06-22T11:34:00Z",
+      "rr": 2.0
+    },
     {
       "symbol": "ENA",
       "tf": "15m",
@@ -2986,55 +2972,41 @@
       "open_time": "2026-06-02T23:51:21Z",
       "close_time": "2026-06-03T06:42:54Z",
       "rr": 2.0
-    },
-    {
-      "symbol": "OP",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "SL",
-      "status": "sl",
-      "pnl_percent": -5.39,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-06-02T23:51:21Z",
-      "close_time": "2026-06-03T06:42:54Z",
-      "rr": 2.0
     }
   ],
   "stats": {
     "all": {
-      "total": 387,
+      "total": 388,
       "tp": 61,
       "sl": 197,
-      "be": 129,
-      "winrate": 15.8,
-      "effective_winrate": 49.1,
-      "sum_pnl": -51.2,
-      "r_result": -14.12,
-      "deposit_result": -1.41
+      "be": 130,
+      "winrate": 15.7,
+      "effective_winrate": 49.2,
+      "sum_pnl": -50.22,
+      "r_result": -13.85,
+      "deposit_result": -1.38
     },
     "today": {
-      "total": 7,
+      "total": 8,
       "tp": 0,
       "sl": 4,
-      "be": 3,
+      "be": 4,
       "winrate": 0.0,
-      "effective_winrate": 42.9,
-      "sum_pnl": -5.55,
-      "r_result": -2.71,
-      "deposit_result": -0.27
+      "effective_winrate": 50.0,
+      "sum_pnl": -4.58,
+      "r_result": -2.44,
+      "deposit_result": -0.24
     },
     "week": {
-      "total": 56,
+      "total": 57,
       "tp": 6,
       "sl": 33,
-      "be": 17,
-      "winrate": 10.7,
-      "effective_winrate": 41.1,
-      "sum_pnl": -44.19,
-      "r_result": -15.06,
-      "deposit_result": -1.51
+      "be": 18,
+      "winrate": 10.5,
+      "effective_winrate": 42.1,
+      "sum_pnl": -43.21,
+      "r_result": -14.79,
+      "deposit_result": -1.48
     }
   }
 }
