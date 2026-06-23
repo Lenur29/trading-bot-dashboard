@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T16:19:04Z",
+  "generated_at": "2026-06-23T16:29:05Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 1.1009,
-      "pnl_percent": 7.16,
+      "current_price": 1.0979,
+      "pnl_percent": 7.41,
       "reasons": [
         "Цена пробила поддержку 1.1976",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T15:45:17Z",
-      "current_price": 0.07795,
-      "pnl_percent": 1.35,
+      "current_price": 0.07773,
+      "pnl_percent": 1.63,
       "reasons": [
         "Цена пробила поддержку 0.07988",
         "Уровень 0.07988 тестировался 3 раз",
@@ -74,8 +74,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 1.9963,
-      "pnl_percent": 7.41,
+      "current_price": 1.9913,
+      "pnl_percent": 7.64,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-23T12:45:10Z",
-      "current_price": 4.536,
-      "pnl_percent": -0.07,
+      "current_price": 4.537,
+      "pnl_percent": -0.09,
       "reasons": [
         "Цена пробила поддержку 4.5450",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-23T15:15:15Z",
-      "current_price": 71.94,
-      "pnl_percent": 1.09,
+      "current_price": 71.87,
+      "pnl_percent": 1.18,
       "reasons": [
         "Цена пробила поддержку 72.2100",
         "Уровень 72.2100 тестировался 9 раз",
