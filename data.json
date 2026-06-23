@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T18:39:04Z",
+  "generated_at": "2026-06-23T18:49:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 1.0975,
-      "pnl_percent": 7.45,
+      "current_price": 1.0965,
+      "pnl_percent": 7.53,
       "reasons": [
         "Цена пробила поддержку 1.1976",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T15:45:17Z",
-      "current_price": 0.07723,
-      "pnl_percent": 2.27,
+      "current_price": 0.07716,
+      "pnl_percent": 2.35,
       "reasons": [
         "Цена пробила поддержку 0.07988",
         "Уровень 0.07988 тестировался 3 раз",
@@ -74,8 +74,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 1.9691,
-      "pnl_percent": 8.67,
+      "current_price": 1.9641,
+      "pnl_percent": 8.9,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-23T12:45:10Z",
-      "current_price": 4.532,
-      "pnl_percent": 0.02,
+      "current_price": 4.523,
+      "pnl_percent": 0.22,
       "reasons": [
         "Цена пробила поддержку 4.5450",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-23T15:15:15Z",
-      "current_price": 71.82,
-      "pnl_percent": 1.25,
+      "current_price": 71.7,
+      "pnl_percent": 1.42,
       "reasons": [
         "Цена пробила поддержку 72.2100",
         "Уровень 72.2100 тестировался 9 раз",
@@ -141,6 +141,62 @@
         "RSI 51.4 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает, но есть встречный FVG в зоне риска"
+      ]
+    },
+    {
+      "symbol": "ADA",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.1494,
+      "sl": 0.15225230595971107,
+      "effective_stop": 0.15225230595971107,
+      "tp1": 0.14768861642417336,
+      "tp2": 0.14226923510072237,
+      "tp3": 0.14084308212086682,
+      "max_tp_hit": 0,
+      "rr": 2.499999999999995,
+      "probability": 85,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-23T18:45:11Z",
+      "current_price": 0.1496,
+      "pnl_percent": -0.13,
+      "reasons": [
+        "Цена пробила поддержку 0.14970",
+        "Уровень 0.14970 тестировался 3 раз",
+        "Объём выше среднего (1.5×)",
+        "Сильное тело свечи (85%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 35.7 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "OP",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.0979,
+      "sl": 0.10047807523836648,
+      "effective_stop": 0.10047807523836648,
+      "tp1": 0.09635315485698011,
+      "tp2": 0.0914548119040838,
+      "tp3": 0.09016577428490057,
+      "max_tp_hit": 0,
+      "rr": 2.5,
+      "probability": 74,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-23T18:45:11Z",
+      "current_price": 0.098,
+      "pnl_percent": -0.1,
+      "reasons": [
+        "Цена пробила поддержку 0.09835",
+        "Объём выше среднего (1.4×)",
+        "Сильное тело свечи (92%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 38.7 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает, но есть встречный FVG в зоне риска",
+        "Активная торговая сессия"
       ]
     }
   ],
