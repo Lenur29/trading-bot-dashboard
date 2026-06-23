@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T13:29:03Z",
+  "generated_at": "2026-06-23T13:39:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 1.0997,
-      "pnl_percent": 7.26,
+      "current_price": 1.1017,
+      "pnl_percent": 7.09,
       "reasons": [
         "Цена пробила поддержку 1.1976",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T15:45:17Z",
-      "current_price": 0.07731,
-      "pnl_percent": 2.16,
+      "current_price": 0.07766,
+      "pnl_percent": 1.72,
       "reasons": [
         "Цена пробила поддержку 0.07988",
         "Уровень 0.07988 тестировался 3 раз",
@@ -74,8 +74,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 1.9878,
-      "pnl_percent": 7.8,
+      "current_price": 1.9898,
+      "pnl_percent": 7.71,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-23T12:45:10Z",
-      "current_price": 4.53,
-      "pnl_percent": 0.07,
+      "current_price": 4.57,
+      "pnl_percent": -0.82,
       "reasons": [
         "Цена пробила поддержку 4.5450",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -113,6 +113,62 @@
         "FVG поддерживает направление",
         "Активная торговая сессия",
         "Уровень 4.5450 был ретест-подтверждён до текущего пробоя"
+      ]
+    },
+    {
+      "symbol": "ETH",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 1648.15,
+      "sl": 1666.2012101334692,
+      "effective_stop": 1666.2012101334692,
+      "tp1": 1637.3192739199187,
+      "tp2": 1603.0219746663274,
+      "tp3": 1593.9963695995928,
+      "max_tp_hit": 0,
+      "rr": 2.499999999999994,
+      "probability": 81,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-23T13:30:14Z",
+      "current_price": 1656.62,
+      "pnl_percent": -0.51,
+      "reasons": [
+        "Цена пробила поддержку 1648.21",
+        "Объём подтверждает пробой (1.6× от среднего)",
+        "Хорошее тело свечи (62%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 30.3 — здоровая зона для шорта",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (-0.45%)"
+      ]
+    },
+    {
+      "symbol": "SOL",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 68.75,
+      "sl": 69.483275473542,
+      "effective_stop": 69.483275473542,
+      "tp1": 68.3100347158748,
+      "tp2": 66.91681131614502,
+      "tp3": 66.55017357937402,
+      "max_tp_hit": 0,
+      "rr": 2.5,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-23T13:30:14Z",
+      "current_price": 69.05,
+      "pnl_percent": -0.44,
+      "reasons": [
+        "Цена пробила поддержку 69.0300",
+        "Объём подтверждает пробой (1.9× от среднего)",
+        "Хорошее тело свечи (58%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 34.0 — здоровая зона для шорта",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (-0.45%)",
+        "London/NY overlap — пиковая ликвидность"
       ]
     }
   ],
