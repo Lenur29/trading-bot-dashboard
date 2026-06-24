@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T09:29:03Z",
+  "generated_at": "2026-06-24T09:39:03Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 1.0984,
-      "pnl_percent": 7.37,
+      "current_price": 1.0973,
+      "pnl_percent": 7.46,
       "reasons": [
         "Цена пробила поддержку 1.1976",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T15:45:17Z",
-      "current_price": 0.07692,
-      "pnl_percent": 2.66,
+      "current_price": 0.07686,
+      "pnl_percent": 2.73,
       "reasons": [
         "Цена пробила поддержку 0.07988",
         "Уровень 0.07988 тестировался 3 раз",
@@ -74,8 +74,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 1.9529,
-      "pnl_percent": 9.42,
+      "current_price": 1.9524,
+      "pnl_percent": 9.44,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -85,6 +85,34 @@
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "ENA",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.08375,
+      "sl": 0.08519992529382779,
+      "effective_stop": 0.08519992529382779,
+      "tp1": 0.08288004482370333,
+      "tp2": 0.08012518676543054,
+      "tp3": 0.07940022411851665,
+      "max_tp_hit": 0,
+      "rr": 2.5,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-24T09:30:11Z",
+      "current_price": 0.08376,
+      "pnl_percent": -0.01,
+      "reasons": [
+        "Цена пробила поддержку 0.08402",
+        "Объём подтверждает пробой (2.2× от среднего)",
+        "Хорошее тело свечи (50%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 31.0 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
