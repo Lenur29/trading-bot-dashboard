@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T21:09:04Z",
+  "generated_at": "2026-06-24T21:19:05Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T15:45:17Z",
-      "current_price": 0.07527,
-      "pnl_percent": 4.75,
+      "current_price": 0.07535,
+      "pnl_percent": 4.64,
       "reasons": [
         "Цена пробила поддержку 0.07988",
         "Уровень 0.07988 тестировался 3 раз",
@@ -46,8 +46,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 1.9362,
-      "pnl_percent": 10.19,
+      "current_price": 1.9451,
+      "pnl_percent": 9.78,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-24T13:30:16Z",
-      "current_price": 560.7,
-      "pnl_percent": 1.74,
+      "current_price": 560.4,
+      "pnl_percent": 1.79,
       "reasons": [
         "Цена пробила поддержку 577.500",
         "Объём подтверждает пробой (4.8× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-24T13:45:14Z",
-      "current_price": 7.371,
-      "pnl_percent": 1.56,
+      "current_price": 7.383,
+      "pnl_percent": 1.4,
       "reasons": [
         "Цена пробила поддержку 7.5330",
         "Объём подтверждает пробой (4.2× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-24T15:15:13Z",
-      "current_price": 67.28,
-      "pnl_percent": 1.54,
+      "current_price": 67.4,
+      "pnl_percent": 1.36,
       "reasons": [
         "Цена пробила поддержку 68.5500",
         "Объём подтверждает пробой (1.6× от среднего)",
