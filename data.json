@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T09:39:03Z",
+  "generated_at": "2026-06-24T09:49:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-17T19:30:58Z",
-      "current_price": 1.0973,
-      "pnl_percent": 7.46,
+      "current_price": 1.0978,
+      "pnl_percent": 7.42,
       "reasons": [
         "Цена пробила поддержку 1.1976",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T15:45:17Z",
-      "current_price": 0.07686,
-      "pnl_percent": 2.73,
+      "current_price": 0.07687,
+      "pnl_percent": 2.72,
       "reasons": [
         "Цена пробила поддержку 0.07988",
         "Уровень 0.07988 тестировался 3 раз",
@@ -74,8 +74,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 1.9524,
-      "pnl_percent": 9.44,
+      "current_price": 1.9522,
+      "pnl_percent": 9.45,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-24T09:30:11Z",
-      "current_price": 0.08376,
-      "pnl_percent": -0.01,
+      "current_price": 0.08382,
+      "pnl_percent": -0.08,
       "reasons": [
         "Цена пробила поддержку 0.08402",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -113,6 +113,34 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "INJ",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 4.489,
+      "sl": 4.552891068069265,
+      "effective_stop": 4.552891068069265,
+      "tp1": 4.450665359158441,
+      "tp2": 4.329272329826837,
+      "tp3": 4.2973267957922054,
+      "max_tp_hit": 0,
+      "rr": 2.500000000000007,
+      "probability": 77,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-24T09:45:14Z",
+      "current_price": 4.492,
+      "pnl_percent": -0.07,
+      "reasons": [
+        "Цена пробила поддержку 4.5010",
+        "Объём выше среднего (1.5×)",
+        "Сильное тело свечи (77%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 37.1 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "Активная торговая сессия"
       ]
     }
   ],
