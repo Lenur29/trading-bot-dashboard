@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T13:59:04Z",
+  "generated_at": "2026-06-25T14:09:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T15:45:17Z",
-      "current_price": 0.07099,
-      "pnl_percent": 10.16,
+      "current_price": 0.0722,
+      "pnl_percent": 8.63,
       "reasons": [
         "Цена пробила поддержку 0.07988",
         "Уровень 0.07988 тестировался 3 раз",
@@ -46,8 +46,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 1.8247,
-      "pnl_percent": 15.37,
+      "current_price": 1.8622,
+      "pnl_percent": 13.63,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-25T13:45:28Z",
-      "current_price": 0.6567,
-      "pnl_percent": 3.64,
+      "current_price": 0.6711,
+      "pnl_percent": 1.53,
       "reasons": [
         "Цена пробила поддержку 0.68540",
         "Уровень 0.68540 тестировался 3 раз",
@@ -102,8 +102,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-25T13:45:28Z",
-      "current_price": 0.07923,
-      "pnl_percent": 3.99,
+      "current_price": 0.08131,
+      "pnl_percent": 1.47,
       "reasons": [
         "Цена пробила поддержку 0.08338",
         "Объём подтверждает пробой (3.0× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-25T13:45:29Z",
-      "current_price": 4.062,
-      "pnl_percent": 3.72,
+      "current_price": 4.151,
+      "pnl_percent": 1.61,
       "reasons": [
         "Цена пробила поддержку 4.1560",
         "Объём подтверждает пробой (2.5× от среднего)",
