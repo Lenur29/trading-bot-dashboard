@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T10:59:04Z",
+  "generated_at": "2026-06-26T11:09:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T15:45:17Z",
-      "current_price": 0.07276,
-      "pnl_percent": 7.92,
+      "current_price": 0.07287,
+      "pnl_percent": 7.78,
       "reasons": [
         "Цена пробила поддержку 0.07988",
         "Уровень 0.07988 тестировался 3 раз",
@@ -46,8 +46,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 1.7954,
-      "pnl_percent": 16.73,
+      "current_price": 1.8026,
+      "pnl_percent": 16.39,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-26T10:00:37Z",
-      "current_price": 1545.58,
-      "pnl_percent": 0.42,
+      "current_price": 1551.83,
+      "pnl_percent": 0.02,
       "reasons": [
         "Цена пробила поддержку 1558.93",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-26T10:00:37Z",
-      "current_price": 0.0718,
-      "pnl_percent": 0.35,
+      "current_price": 0.07204,
+      "pnl_percent": 0.01,
       "reasons": [
         "Цена пробила поддержку 0.07259",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-26T10:00:37Z",
-      "current_price": 0.07832,
-      "pnl_percent": -0.05,
+      "current_price": 0.07873,
+      "pnl_percent": -0.57,
       "reasons": [
         "Цена пробила поддержку 0.07867",
         "Объём подтверждает пробой (1.9× от среднего)",
@@ -141,6 +141,34 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "LINK",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 7.156,
+      "sl": 7.287771945552791,
+      "effective_stop": 7.287771945552791,
+      "tp1": 7.076936832668325,
+      "tp2": 6.826570136118022,
+      "tp3": 6.760684163341626,
+      "max_tp_hit": 0,
+      "rr": 2.4999999999999964,
+      "probability": 74,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-26T11:00:11Z",
+      "current_price": 7.176,
+      "pnl_percent": -0.28,
+      "reasons": [
+        "Цена пробила поддержку 7.1650",
+        "Объём выше среднего (1.2×)",
+        "Хорошее тело свечи (55%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 36.7 — здоровая зона для шорта",
+        "4h согласен с направлением",
+        "FVG поддерживает, но есть встречный FVG в зоне риска",
+        "Order Block поддерживает направление"
       ]
     }
   ],
