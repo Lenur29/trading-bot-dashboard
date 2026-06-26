@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T16:09:04Z",
+  "generated_at": "2026-06-26T16:19:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T15:45:17Z",
-      "current_price": 0.07324,
-      "pnl_percent": 7.31,
+      "current_price": 0.07307,
+      "pnl_percent": 7.53,
       "reasons": [
         "Цена пробила поддержку 0.07988",
         "Уровень 0.07988 тестировался 3 раз",
@@ -46,8 +46,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 1.8073,
-      "pnl_percent": 16.17,
+      "current_price": 1.7995,
+      "pnl_percent": 16.54,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-26T10:00:37Z",
-      "current_price": 0.07368,
-      "pnl_percent": -2.26,
+      "current_price": 0.07348,
+      "pnl_percent": -1.98,
       "reasons": [
         "Цена пробила поддержку 0.07259",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-26T10:00:37Z",
-      "current_price": 0.07831,
-      "pnl_percent": -0.04,
+      "current_price": 0.07849,
+      "pnl_percent": -0.27,
       "reasons": [
         "Цена пробила поддержку 0.07867",
         "Объём подтверждает пробой (1.9× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-26T14:30:13Z",
-      "current_price": 93.7,
-      "pnl_percent": 4.95,
+      "current_price": 93.43,
+      "pnl_percent": 4.65,
       "reasons": [
         "Цена пробила сопротивление 88.4300",
         "Объём подтверждает пробой (1.5× от среднего)",
