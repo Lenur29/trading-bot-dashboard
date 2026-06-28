@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T11:49:04Z",
+  "generated_at": "2026-06-28T12:29:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T15:45:17Z",
-      "current_price": 0.07139,
-      "pnl_percent": 9.66,
+      "current_price": 0.0716,
+      "pnl_percent": 9.39,
       "reasons": [
         "Цена пробила поддержку 0.07988",
         "Уровень 0.07988 тестировался 3 раз",
@@ -46,8 +46,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 1.8624,
-      "pnl_percent": 13.62,
+      "current_price": 1.8653,
+      "pnl_percent": 13.48,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-26T10:00:37Z",
-      "current_price": 0.07597,
-      "pnl_percent": 2.95,
+      "current_price": 0.07594,
+      "pnl_percent": 2.99,
       "reasons": [
         "Цена пробила поддержку 0.07867",
         "Объём подтверждает пробой (1.9× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-27T17:15:35Z",
-      "current_price": 0.8079,
-      "pnl_percent": 3.42,
+      "current_price": 0.8119,
+      "pnl_percent": 2.94,
       "reasons": [
         "Цена пробила поддержку 0.84230",
         "Объём подтверждает пробой (4.9× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-28T10:48:12Z",
-      "current_price": 7.271,
-      "pnl_percent": -0.57,
+      "current_price": 7.286,
+      "pnl_percent": -0.77,
       "reasons": [
         "Цена пробила поддержку 7.3130",
         "Объём подтверждает пробой (2.5× от среднего)",
