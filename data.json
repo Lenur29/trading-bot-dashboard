@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T13:39:03Z",
+  "generated_at": "2026-06-29T13:49:03Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 1.8396,
-      "pnl_percent": 14.68,
+      "current_price": 1.8353,
+      "pnl_percent": 14.87,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-27T17:15:35Z",
-      "current_price": 0.8185,
-      "pnl_percent": 2.15,
+      "current_price": 0.816,
+      "pnl_percent": 2.45,
       "reasons": [
         "Цена пробила поддержку 0.84230",
         "Объём подтверждает пробой (4.9× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-29T12:15:20Z",
-      "current_price": 91.76,
-      "pnl_percent": -1.65,
+      "current_price": 91.22,
+      "pnl_percent": -2.23,
       "reasons": [
         "Цена пробила сопротивление 92.9500",
         "Объём подтверждает пробой (2.8× от среднего)",
@@ -85,6 +85,34 @@
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "⚠️ Встречный Order Block рядом"
+      ]
+    },
+    {
+      "symbol": "BNB",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 549.9,
+      "sl": 559.4081875872479,
+      "effective_stop": 559.4081875872479,
+      "tp1": 544.1950874476512,
+      "tp2": 526.1295310318802,
+      "tp3": 521.3754372382563,
+      "max_tp_hit": 0,
+      "rr": 2.5,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-29T13:45:20Z",
+      "current_price": 549.8,
+      "pnl_percent": 0.02,
+      "reasons": [
+        "Цена пробила поддержку 551.800",
+        "Объём подтверждает пробой (2.5× от среднего)",
+        "Хорошее тело свечи (53%)",
+        "RSI 41.2 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление"
       ]
     }
   ],
