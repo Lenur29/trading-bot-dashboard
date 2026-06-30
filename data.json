@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T07:39:03Z",
+  "generated_at": "2026-06-30T07:49:03Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 1.8562,
-      "pnl_percent": 13.91,
+      "current_price": 1.8593,
+      "pnl_percent": 13.76,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-29T14:16:33Z",
-      "current_price": 59477.8,
-      "pnl_percent": -0.71,
+      "current_price": 59488.5,
+      "pnl_percent": -0.73,
       "reasons": [
         "Цена пробила поддержку 59738.00",
         "Объём выше среднего (1.5×)",
@@ -74,8 +74,8 @@
       "probability": 78,
       "setup_type": "Trend continuation",
       "open_time": "2026-06-30T06:52:15Z",
-      "current_price": 0.07535,
-      "pnl_percent": 0.07,
+      "current_price": 0.0754,
+      "pnl_percent": -0.0,
       "reasons": [
         "Цена пробила поддержку 0.07581",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -85,6 +85,34 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 42.46,
+      "sl": 42.87305304537418,
+      "effective_stop": 42.87305304537418,
+      "tp1": 42.21216817277549,
+      "tp2": 41.427367386564555,
+      "tp3": 41.22084086387747,
+      "max_tp_hit": 0,
+      "rr": 2.5000000000000084,
+      "probability": 74,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-06-30T07:45:16Z",
+      "current_price": 42.5,
+      "pnl_percent": -0.09,
+      "reasons": [
+        "Цена пробила поддержку 42.5900",
+        "Уровень 42.5900 тестировался 7 раз",
+        "Объём подтверждает пробой (1.5× от среднего)",
+        "Сильное тело свечи (86%)",
+        "EMA20 < EMA50 — краткосрочный даунтренд",
+        "RSI 38.4 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением"
       ]
     }
   ],
