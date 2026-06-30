@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T20:19:04Z",
+  "generated_at": "2026-06-30T20:29:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 1.7969,
-      "pnl_percent": 16.66,
+      "current_price": 1.7951,
+      "pnl_percent": 16.74,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-29T14:16:33Z",
-      "current_price": 58770.0,
-      "pnl_percent": 0.48,
+      "current_price": 58720.6,
+      "pnl_percent": 0.57,
       "reasons": [
         "Цена пробила поддержку 59738.00",
         "Объём выше среднего (1.5×)",
@@ -74,8 +74,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-30T15:00:22Z",
-      "current_price": 41.72,
-      "pnl_percent": -0.02,
+      "current_price": 41.75,
+      "pnl_percent": -0.1,
       "reasons": [
         "Цена пробила поддержку 41.9800",
         "Уровень 41.9800 тестировался 9 раз",
@@ -102,8 +102,8 @@
       "probability": 74,
       "setup_type": "Trend continuation",
       "open_time": "2026-06-30T15:00:22Z",
-      "current_price": 0.07061,
-      "pnl_percent": 0.37,
+      "current_price": 0.07056,
+      "pnl_percent": 0.44,
       "reasons": [
         "Цена пробила поддержку 0.07135",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-30T18:02:09Z",
-      "current_price": 0.06949,
-      "pnl_percent": -0.56,
+      "current_price": 0.06919,
+      "pnl_percent": -0.13,
       "reasons": [
         "Цена пробила поддержку 0.06935",
         "Уровень 0.06935 тестировался 5 раз",
