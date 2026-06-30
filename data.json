@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T16:09:04Z",
+  "generated_at": "2026-06-30T16:19:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 1.7893,
-      "pnl_percent": 17.01,
+      "current_price": 1.7876,
+      "pnl_percent": 17.09,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-29T14:16:33Z",
-      "current_price": 58534.0,
-      "pnl_percent": 0.88,
+      "current_price": 58407.1,
+      "pnl_percent": 1.1,
       "reasons": [
         "Цена пробила поддержку 59738.00",
         "Объём выше среднего (1.5×)",
@@ -74,8 +74,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-30T11:30:23Z",
-      "current_price": 1569.07,
-      "pnl_percent": 0.57,
+      "current_price": 1565.86,
+      "pnl_percent": 0.77,
       "reasons": [
         "Цена пробила поддержку 1581.26",
         "Объём подтверждает пробой (1.9× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-30T15:00:22Z",
-      "current_price": 41.77,
-      "pnl_percent": -0.14,
+      "current_price": 41.66,
+      "pnl_percent": 0.12,
       "reasons": [
         "Цена пробила поддержку 41.9800",
         "Уровень 41.9800 тестировался 9 раз",
@@ -130,8 +130,8 @@
       "probability": 74,
       "setup_type": "Trend continuation",
       "open_time": "2026-06-30T15:00:22Z",
-      "current_price": 0.07081,
-      "pnl_percent": 0.08,
+      "current_price": 0.07096,
+      "pnl_percent": -0.13,
       "reasons": [
         "Цена пробила поддержку 0.07135",
         "Объём подтверждает пробой (1.6× от среднего)",
