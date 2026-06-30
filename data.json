@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T19:49:04Z",
+  "generated_at": "2026-06-30T19:59:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-18T17:30:10Z",
-      "current_price": 1.7962,
-      "pnl_percent": 16.69,
+      "current_price": 1.7975,
+      "pnl_percent": 16.63,
       "reasons": [
         "Цена пробила поддержку 2.1654",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-29T14:16:33Z",
-      "current_price": 58752.5,
-      "pnl_percent": 0.51,
+      "current_price": 58771.4,
+      "pnl_percent": 0.48,
       "reasons": [
         "Цена пробила поддержку 59738.00",
         "Объём выше среднего (1.5×)",
@@ -74,8 +74,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-30T15:00:22Z",
-      "current_price": 41.83,
-      "pnl_percent": -0.29,
+      "current_price": 41.84,
+      "pnl_percent": -0.31,
       "reasons": [
         "Цена пробила поддержку 41.9800",
         "Уровень 41.9800 тестировался 9 раз",
@@ -102,8 +102,8 @@
       "probability": 74,
       "setup_type": "Trend continuation",
       "open_time": "2026-06-30T15:00:22Z",
-      "current_price": 0.07074,
-      "pnl_percent": 0.18,
+      "current_price": 0.07075,
+      "pnl_percent": 0.17,
       "reasons": [
         "Цена пробила поддержку 0.07135",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-06-30T18:02:09Z",
-      "current_price": 0.06952,
-      "pnl_percent": -0.61,
+      "current_price": 0.06964,
+      "pnl_percent": -0.78,
       "reasons": [
         "Цена пробила поддержку 0.06935",
         "Уровень 0.06935 тестировался 5 раз",
