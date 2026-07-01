@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T22:52:37Z",
+  "generated_at": "2026-07-01T23:12:38Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-01T14:15:44Z",
-      "current_price": 6.726,
-      "pnl_percent": 0.63,
+      "current_price": 6.696,
+      "pnl_percent": 0.18,
       "reasons": [
         "Цена пробила сопротивление 6.6500",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-01T15:31:45Z",
-      "current_price": 0.07796,
-      "pnl_percent": -0.5,
+      "current_price": 0.07759,
+      "pnl_percent": -0.97,
       "reasons": [
         "Цена пробила сопротивление 0.07813",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-01T21:15:47Z",
-      "current_price": 0.1556,
-      "pnl_percent": 0.45,
+      "current_price": 0.1549,
+      "pnl_percent": 0.0,
       "reasons": [
         "Цена пробила сопротивление 0.15370",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-01T21:15:47Z",
-      "current_price": 0.7224,
-      "pnl_percent": 0.22,
+      "current_price": 0.7188,
+      "pnl_percent": -0.28,
       "reasons": [
         "Цена пробила сопротивление 0.71780",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-01T22:45:44Z",
-      "current_price": 84.45,
-      "pnl_percent": 0.07,
+      "current_price": 83.78,
+      "pnl_percent": 0.86,
       "reasons": [
         "Цена пробила поддержку 85.1300",
         "Уровень 85.1300 тестировался 5 раз",
