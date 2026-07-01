@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T15:23:34Z",
+  "generated_at": "2026-07-01T15:33:34Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-01T13:30:47Z",
-      "current_price": 77.67,
-      "pnl_percent": 3.15,
+      "current_price": 77.37,
+      "pnl_percent": 2.75,
       "reasons": [
         "Цена пробила сопротивление 74.6900",
         "Объём подтверждает пробой (1.9× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-01T13:30:48Z",
-      "current_price": 0.1576,
-      "pnl_percent": 3.14,
+      "current_price": 0.1563,
+      "pnl_percent": 2.29,
       "reasons": [
         "Цена пробила сопротивление 0.15240",
         "Объём подтверждает пробой (1.5× от среднего)",
@@ -65,17 +65,17 @@
       "side": "LONG",
       "entry": 0.709,
       "sl": 0.6913146627563237,
-      "effective_stop": 0.6913146627563237,
+      "effective_stop": 0.709,
       "tp1": 0.7213797360705734,
       "tp2": 0.7355280058655144,
       "tp3": 0.7443706744873525,
-      "max_tp_hit": 0,
+      "max_tp_hit": 1,
       "rr": 1.5,
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-01T14:00:50Z",
-      "current_price": 0.721,
-      "pnl_percent": 1.69,
+      "current_price": 0.7181,
+      "pnl_percent": 1.28,
       "reasons": [
         "Цена пробила сопротивление 0.69950",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-01T14:15:44Z",
-      "current_price": 6.736,
-      "pnl_percent": 0.78,
+      "current_price": 6.727,
+      "pnl_percent": 0.64,
       "reasons": [
         "Цена пробила сопротивление 6.6500",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -113,6 +113,34 @@
         "Бычья свеча подтверждает пробой",
         "BTC согласуется с направлением (+1.97%)",
         "London/NY overlap — пиковая ликвидность"
+      ]
+    },
+    {
+      "symbol": "ARB",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.07835,
+      "sl": 0.07558381718216862,
+      "effective_stop": 0.07558381718216862,
+      "tp1": 0.08028632797248196,
+      "tp2": 0.08249927422674708,
+      "tp3": 0.08388236563566276,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000024,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-01T15:31:45Z",
+      "current_price": 0.07819,
+      "pnl_percent": -0.2,
+      "reasons": [
+        "Цена пробила сопротивление 0.07813",
+        "Объём подтверждает пробой (2.2× от среднего)",
+        "Хорошее тело свечи (61%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 63.2 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (+1.17%)"
       ]
     }
   ],
