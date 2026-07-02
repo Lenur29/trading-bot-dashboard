@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T14:22:37Z",
+  "generated_at": "2026-07-02T14:32:36Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-01T15:31:45Z",
-      "current_price": 0.07795,
-      "pnl_percent": -0.51,
+      "current_price": 0.07766,
+      "pnl_percent": -0.88,
       "reasons": [
         "Цена пробила сопротивление 0.07813",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-02T08:30:44Z",
-      "current_price": 1.9202,
-      "pnl_percent": -0.73,
+      "current_price": 1.9123,
+      "pnl_percent": -1.14,
       "reasons": [
         "Цена пробила сопротивление 1.9229",
         "Объём выше среднего (1.4×)",
@@ -58,37 +58,23 @@
         "FVG поддерживает направление",
         "BTC согласуется с направлением (+0.37%)"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "AVAX",
       "tf": "15m",
       "side": "LONG",
-      "entry": 6.753,
-      "sl": 6.645896178460598,
-      "effective_stop": 6.753,
-      "tp1": 6.827972675077581,
-      "tp2": 6.9136557323091035,
-      "tp3": 6.967207643078805,
-      "max_tp_hit": 1,
-      "rr": 1.5,
-      "probability": 74,
+      "result": "BE",
+      "status": "be",
+      "pnl_percent": 0.33,
+      "r_multiple": 0.21,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
       "open_time": "2026-07-02T09:45:54Z",
-      "current_price": 6.764,
-      "pnl_percent": 0.16,
-      "reasons": [
-        "Цена пробила сопротивление 6.7110",
-        "Уровень 6.7110 тестировался 3 раз",
-        "Объём подтверждает пробой (3.6× от среднего)",
-        "Хорошее тело свечи (66%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 66.6 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "FVG поддерживает направление"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-07-02T14:25:34Z",
+      "rr": 1.5
+    },
     {
       "symbol": "SUI",
       "tf": "15m",
@@ -2874,55 +2860,41 @@
       "open_time": "2026-06-09T07:31:23Z",
       "close_time": "2026-06-09T20:12:49Z",
       "rr": 2.0
-    },
-    {
-      "symbol": "HBAR",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "pnl_percent": 0.5,
-      "r_multiple": 0.36,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-06-09T09:46:28Z",
-      "close_time": "2026-06-09T19:32:50Z",
-      "rr": 2.0
     }
   ],
   "stats": {
     "all": {
-      "total": 481,
+      "total": 482,
       "tp": 70,
       "sl": 230,
-      "be": 181,
-      "winrate": 14.6,
-      "effective_winrate": 52.2,
-      "sum_pnl": -42.78,
-      "r_result": -16.99,
-      "deposit_result": -1.7
+      "be": 182,
+      "winrate": 14.5,
+      "effective_winrate": 52.3,
+      "sum_pnl": -42.44,
+      "r_result": -16.78,
+      "deposit_result": -1.68
     },
     "today": {
-      "total": 4,
+      "total": 5,
       "tp": 1,
       "sl": 0,
-      "be": 3,
-      "winrate": 25.0,
+      "be": 4,
+      "winrate": 20.0,
       "effective_winrate": 100.0,
-      "sum_pnl": 4.1,
-      "r_result": 2.09,
-      "deposit_result": 0.21
+      "sum_pnl": 4.43,
+      "r_result": 2.3,
+      "deposit_result": 0.23
     },
     "week": {
-      "total": 67,
+      "total": 68,
       "tp": 5,
       "sl": 23,
-      "be": 39,
-      "winrate": 7.5,
-      "effective_winrate": 65.7,
-      "sum_pnl": 2.32,
-      "r_result": -3.76,
-      "deposit_result": -0.38
+      "be": 40,
+      "winrate": 7.4,
+      "effective_winrate": 66.2,
+      "sum_pnl": 2.66,
+      "r_result": -3.55,
+      "deposit_result": -0.35
     }
   }
 }
