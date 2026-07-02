@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T20:52:37Z",
+  "generated_at": "2026-07-02T21:02:37Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-01T15:31:45Z",
-      "current_price": 0.07779,
-      "pnl_percent": -0.71,
+      "current_price": 0.0777,
+      "pnl_percent": -0.83,
       "reasons": [
         "Цена пробила сопротивление 0.07813",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-02T08:30:44Z",
-      "current_price": 1.9348,
-      "pnl_percent": 0.03,
+      "current_price": 1.929,
+      "pnl_percent": -0.27,
       "reasons": [
         "Цена пробила сопротивление 1.9229",
         "Объём выше среднего (1.4×)",
@@ -74,8 +74,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-02T20:45:40Z",
-      "current_price": 0.1617,
-      "pnl_percent": 0.19,
+      "current_price": 0.1612,
+      "pnl_percent": -0.12,
       "reasons": [
         "Цена пробила сопротивление 0.16030",
         "Объём подтверждает пробой (1.9× от среднего)",
@@ -85,6 +85,34 @@
         "Бычья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "ETH",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 1704.83,
+      "sl": 1689.7180213686192,
+      "effective_stop": 1689.7180213686192,
+      "tp1": 1715.4083850419663,
+      "tp2": 1727.497967947071,
+      "tp3": 1735.0539572627613,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-02T21:00:45Z",
+      "current_price": 1703.44,
+      "pnl_percent": -0.08,
+      "reasons": [
+        "Цена пробила сопротивление 1701.84",
+        "Объём подтверждает пробой (1.7× от среднего)",
+        "Сильное тело свечи (85%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 60.8 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "⚠️ Встречный Order Block рядом"
       ]
     }
   ],
@@ -2903,26 +2931,26 @@
       "deposit_result": -1.68
     },
     "today": {
-      "total": 5,
-      "tp": 1,
+      "total": 0,
+      "tp": 0,
       "sl": 0,
-      "be": 4,
-      "winrate": 20.0,
-      "effective_winrate": 100.0,
-      "sum_pnl": 4.43,
-      "r_result": 2.3,
-      "deposit_result": 0.23
+      "be": 0,
+      "winrate": 0.0,
+      "effective_winrate": 0.0,
+      "sum_pnl": 0,
+      "r_result": 0,
+      "deposit_result": 0.0
     },
     "week": {
-      "total": 68,
+      "total": 59,
       "tp": 5,
-      "sl": 23,
-      "be": 40,
-      "winrate": 7.4,
-      "effective_winrate": 66.2,
-      "sum_pnl": 2.66,
-      "r_result": -3.55,
-      "deposit_result": -0.35
+      "sl": 21,
+      "be": 33,
+      "winrate": 8.5,
+      "effective_winrate": 64.4,
+      "sum_pnl": 3.36,
+      "r_result": -2.81,
+      "deposit_result": -0.28
     }
   }
 }
