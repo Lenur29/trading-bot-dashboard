@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T18:22:37Z",
+  "generated_at": "2026-07-03T18:32:37Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-01T15:31:45Z",
-      "current_price": 0.08015,
-      "pnl_percent": 2.3,
+      "current_price": 0.08001,
+      "pnl_percent": 2.12,
       "reasons": [
         "Цена пробила сопротивление 0.07813",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-03T07:30:43Z",
-      "current_price": 4.894,
-      "pnl_percent": 2.45,
+      "current_price": 4.908,
+      "pnl_percent": 2.74,
       "reasons": [
         "Цена пробила сопротивление 4.7490",
         "Объём подтверждает пробой (2.6× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-03T13:30:45Z",
-      "current_price": 1.1215,
-      "pnl_percent": 0.63,
+      "current_price": 1.121,
+      "pnl_percent": 0.58,
       "reasons": [
         "Цена пробила сопротивление 1.1135",
         "Уровень 1.1135 тестировался 4 раз",
@@ -102,8 +102,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-03T15:15:49Z",
-      "current_price": 44.11,
-      "pnl_percent": 0.73,
+      "current_price": 44.1,
+      "pnl_percent": 0.71,
       "reasons": [
         "Цена пробила сопротивление 43.7600",
         "Объём подтверждает пробой (3.3× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-03T15:15:50Z",
-      "current_price": 0.8806,
-      "pnl_percent": 0.57,
+      "current_price": 0.8809,
+      "pnl_percent": 0.61,
       "reasons": [
         "Цена пробила сопротивление 0.87250",
         "Уровень 0.87250 тестировался 7 раз",
@@ -141,6 +141,34 @@
         "RSI 64.8 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "SUI",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.7591,
+      "sl": 0.7475767032571213,
+      "effective_stop": 0.7475767032571213,
+      "tp1": 0.767166307720015,
+      "tp2": 0.776384945114318,
+      "tp3": 0.7821465934857573,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-03T18:30:40Z",
+      "current_price": 0.7605,
+      "pnl_percent": 0.18,
+      "reasons": [
+        "Цена пробила сопротивление 0.75880",
+        "Уровень 0.75880 тестировался 4 раз",
+        "Объём подтверждает пробой (1.6× от среднего)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 63.2 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "Активная торговая сессия"
       ]
     }
   ],
