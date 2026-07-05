@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T20:51:32Z",
+  "generated_at": "2026-07-05T21:01:32Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-05T15:00:43Z",
-      "current_price": 88.65,
-      "pnl_percent": -0.68,
+      "current_price": 88.48,
+      "pnl_percent": -0.87,
       "reasons": [
         "Цена пробила сопротивление 89.0400",
         "Уровень 89.0400 тестировался 5 раз",
@@ -2847,26 +2847,26 @@
       "deposit_result": -1.1
     },
     "today": {
-      "total": 6,
+      "total": 0,
       "tp": 0,
-      "sl": 3,
-      "be": 3,
+      "sl": 0,
+      "be": 0,
       "winrate": 0.0,
-      "effective_winrate": 50.0,
-      "sum_pnl": -2.09,
-      "r_result": -1.92,
-      "deposit_result": -0.19
+      "effective_winrate": 0.0,
+      "sum_pnl": 0,
+      "r_result": 0,
+      "deposit_result": 0.0
     },
     "week": {
-      "total": 75,
-      "tp": 10,
+      "total": 71,
+      "tp": 9,
       "sl": 23,
-      "be": 42,
-      "winrate": 13.3,
-      "effective_winrate": 69.3,
-      "sum_pnl": 23.34,
-      "r_result": 5.55,
-      "deposit_result": 0.55
+      "be": 39,
+      "winrate": 12.7,
+      "effective_winrate": 67.6,
+      "sum_pnl": 14.35,
+      "r_result": 2.88,
+      "deposit_result": 0.29
     }
   }
 }
