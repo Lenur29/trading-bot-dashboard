@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T22:11:32Z",
+  "generated_at": "2026-07-05T22:21:32Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-05T15:00:43Z",
-      "current_price": 89.01,
-      "pnl_percent": -0.28,
+      "current_price": 89.53,
+      "pnl_percent": 0.3,
       "reasons": [
         "Цена пробила сопротивление 89.0400",
         "Уровень 89.0400 тестировался 5 раз",
