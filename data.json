@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T18:41:32Z",
+  "generated_at": "2026-07-08T18:51:33Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-08T10:15:40Z",
-      "current_price": 4.613,
-      "pnl_percent": -0.85,
+      "current_price": 4.639,
+      "pnl_percent": -1.42,
       "reasons": [
         "Цена пробила поддержку 4.5940",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-08T15:15:59Z",
-      "current_price": 43.42,
-      "pnl_percent": -0.32,
+      "current_price": 43.54,
+      "pnl_percent": -0.6,
       "reasons": [
         "Цена пробила поддержку 43.3700",
         "Уровень 43.3700 тестировался 10 раз",
@@ -74,8 +74,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-08T15:30:42Z",
-      "current_price": 76.85,
-      "pnl_percent": -0.64,
+      "current_price": 77.21,
+      "pnl_percent": -1.11,
       "reasons": [
         "Цена пробила поддержку 76.6100",
         "Уровень 76.6100 тестировался 3 раз",
@@ -85,6 +85,34 @@
         "RSI 29.4 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "ENA",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.07359,
+      "sl": 0.07495354565864885,
+      "effective_stop": 0.07495354565864885,
+      "tp1": 0.0726355180389458,
+      "tp2": 0.07154468151202673,
+      "tp3": 0.0708629086827023,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-08T18:45:38Z",
+      "current_price": 0.07404,
+      "pnl_percent": -0.61,
+      "reasons": [
+        "Цена пробила поддержку 0.07377",
+        "Хорошее тело свечи (60%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 46.9 — здоровая зона для шорта",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление",
+        "Активная торговая сессия"
       ]
     }
   ],
