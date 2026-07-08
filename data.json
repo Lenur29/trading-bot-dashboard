@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T15:11:32Z",
+  "generated_at": "2026-07-08T15:21:32Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-08T10:15:40Z",
-      "current_price": 4.628,
-      "pnl_percent": -1.18,
+      "current_price": 4.65,
+      "pnl_percent": -1.66,
       "reasons": [
         "Цена пробила поддержку 4.5940",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-08T13:00:51Z",
-      "current_price": 0.8165,
-      "pnl_percent": 1.41,
+      "current_price": 0.8188,
+      "pnl_percent": 1.13,
       "reasons": [
         "Цена пробила поддержку 0.83120",
         "Уровень 0.83120 тестировался 4 раз",
@@ -57,6 +57,34 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 43.28,
+      "sl": 43.99994195650446,
+      "effective_stop": 43.99994195650446,
+      "tp1": 42.77604063044688,
+      "tp2": 42.200087065243316,
+      "tp3": 41.84011608699109,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 76,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-08T15:15:59Z",
+      "current_price": 43.32,
+      "pnl_percent": -0.09,
+      "reasons": [
+        "Цена пробила поддержку 43.3700",
+        "Уровень 43.3700 тестировался 10 раз",
+        "Объём выше среднего (1.4×)",
+        "Сильное тело свечи (86%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 41.6 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "BTC согласуется с направлением (-0.61%)"
       ]
     }
   ],
