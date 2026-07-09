@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T18:51:33Z",
+  "generated_at": "2026-07-09T19:01:33Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-09T10:30:41Z",
-      "current_price": 4.907,
-      "pnl_percent": 0.78,
+      "current_price": 4.895,
+      "pnl_percent": 0.53,
       "reasons": [
         "Цена пробила сопротивление 4.8370",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-09T13:45:37Z",
-      "current_price": 63256.5,
-      "pnl_percent": 0.49,
+      "current_price": 63181.8,
+      "pnl_percent": 0.37,
       "reasons": [
         "Цена пробила сопротивление 62899.40",
         "Уровень 62899.40 тестировался 3 раз",
@@ -74,8 +74,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-09T16:30:44Z",
-      "current_price": 0.1667,
-      "pnl_percent": -0.66,
+      "current_price": 0.1661,
+      "pnl_percent": -0.3,
       "reasons": [
         "Цена пробила поддержку 0.16600",
         "Уровень 0.16600 тестировался 9 раз",
@@ -102,8 +102,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-09T17:45:43Z",
-      "current_price": 7.79,
-      "pnl_percent": 0.45,
+      "current_price": 7.769,
+      "pnl_percent": 0.18,
       "reasons": [
         "Цена пробила сопротивление 7.7080",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -130,8 +130,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-09T18:15:50Z",
-      "current_price": 44.16,
-      "pnl_percent": 0.07,
+      "current_price": 44.05,
+      "pnl_percent": -0.18,
       "reasons": [
         "Цена пробила сопротивление 44.0400",
         "Уровень 44.0400 тестировался 5 раз",
