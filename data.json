@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T20:51:33Z",
+  "generated_at": "2026-07-09T21:01:33Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-09T13:45:37Z",
-      "current_price": 63256.4,
-      "pnl_percent": 0.49,
+      "current_price": 63351.0,
+      "pnl_percent": 0.64,
       "reasons": [
         "Цена пробила сопротивление 62899.40",
         "Уровень 62899.40 тестировался 3 раз",
@@ -46,8 +46,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-09T16:30:44Z",
-      "current_price": 0.1668,
-      "pnl_percent": -0.72,
+      "current_price": 0.1671,
+      "pnl_percent": -0.91,
       "reasons": [
         "Цена пробила поддержку 0.16600",
         "Уровень 0.16600 тестировался 9 раз",
@@ -74,8 +74,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-09T17:45:43Z",
-      "current_price": 7.767,
-      "pnl_percent": 0.15,
+      "current_price": 7.771,
+      "pnl_percent": 0.21,
       "reasons": [
         "Цена пробила сопротивление 7.7080",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -102,8 +102,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-09T18:15:50Z",
-      "current_price": 43.91,
-      "pnl_percent": -0.5,
+      "current_price": 43.93,
+      "pnl_percent": -0.45,
       "reasons": [
         "Цена пробила сопротивление 44.0400",
         "Уровень 44.0400 тестировался 5 раз",
@@ -2931,26 +2931,26 @@
       "deposit_result": -2.02
     },
     "today": {
-      "total": 5,
+      "total": 0,
       "tp": 0,
-      "sl": 4,
-      "be": 1,
+      "sl": 0,
+      "be": 0,
       "winrate": 0.0,
-      "effective_winrate": 20.0,
-      "sum_pnl": -9.39,
-      "r_result": -3.79,
-      "deposit_result": -0.38
+      "effective_winrate": 0.0,
+      "sum_pnl": 0,
+      "r_result": 0,
+      "deposit_result": 0.0
     },
     "week": {
-      "total": 48,
-      "tp": 7,
+      "total": 43,
+      "tp": 6,
       "sl": 18,
-      "be": 23,
-      "winrate": 14.6,
-      "effective_winrate": 62.5,
-      "sum_pnl": -12.6,
-      "r_result": -1.15,
-      "deposit_result": -0.12
+      "be": 19,
+      "winrate": 14.0,
+      "effective_winrate": 58.1,
+      "sum_pnl": -17.03,
+      "r_result": -3.45,
+      "deposit_result": -0.35
     }
   }
 }
