@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T19:11:34Z",
+  "generated_at": "2026-07-10T19:21:33Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -46,8 +46,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T09:30:39Z",
-      "current_price": 63870.6,
-      "pnl_percent": -0.83,
+      "current_price": 63791.2,
+      "pnl_percent": -0.95,
       "reasons": [
         "Цена пробила сопротивление 64380.00",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T15:30:44Z",
-      "current_price": 95.84,
-      "pnl_percent": 0.37,
+      "current_price": 95.78,
+      "pnl_percent": 0.3,
       "reasons": [
         "Цена пробила сопротивление 95.3100",
         "Уровень 95.3100 тестировался 6 раз",
@@ -102,8 +102,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T17:00:41Z",
-      "current_price": 1786.69,
-      "pnl_percent": -0.56,
+      "current_price": 1785.32,
+      "pnl_percent": -0.63,
       "reasons": [
         "Цена пробила сопротивление 1795.41",
         "Уровень 1795.41 тестировался 3 раз",
@@ -130,8 +130,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T17:00:41Z",
-      "current_price": 0.07995,
-      "pnl_percent": -0.24,
+      "current_price": 0.07955,
+      "pnl_percent": -0.74,
       "reasons": [
         "Цена пробила сопротивление 0.07968",
         "Уровень 0.07968 тестировался 3 раз",
@@ -158,8 +158,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T18:45:38Z",
-      "current_price": 1.8661,
-      "pnl_percent": 0.7,
+      "current_price": 1.8667,
+      "pnl_percent": 0.67,
       "reasons": [
         "Цена пробила поддержку 1.8925",
         "Объём подтверждает пробой (3.5× от среднего)",
