@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T14:41:32Z",
+  "generated_at": "2026-07-10T14:51:32Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -46,8 +46,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T09:30:39Z",
-      "current_price": 64077.3,
-      "pnl_percent": -0.51,
+      "current_price": 64019.6,
+      "pnl_percent": -0.59,
       "reasons": [
         "Цена пробила сопротивление 64380.00",
         "Объём подтверждает пробой (1.7× от среднего)",
