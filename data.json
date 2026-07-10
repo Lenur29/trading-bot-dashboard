@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T18:41:33Z",
+  "generated_at": "2026-07-10T18:51:34Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-09T16:30:44Z",
-      "current_price": 0.1665,
-      "pnl_percent": -0.54,
+      "current_price": 0.1658,
+      "pnl_percent": -0.12,
       "reasons": [
         "Цена пробила поддержку 0.16600",
         "Уровень 0.16600 тестировался 9 раз",
@@ -46,8 +46,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T09:30:39Z",
-      "current_price": 63865.8,
-      "pnl_percent": -0.83,
+      "current_price": 63806.7,
+      "pnl_percent": -0.93,
       "reasons": [
         "Цена пробила сопротивление 64380.00",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T15:30:44Z",
-      "current_price": 95.44,
-      "pnl_percent": -0.05,
+      "current_price": 95.48,
+      "pnl_percent": -0.01,
       "reasons": [
         "Цена пробила сопротивление 95.3100",
         "Уровень 95.3100 тестировался 6 раз",
@@ -102,8 +102,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T17:00:41Z",
-      "current_price": 1787.88,
-      "pnl_percent": -0.49,
+      "current_price": 1786.2,
+      "pnl_percent": -0.58,
       "reasons": [
         "Цена пробила сопротивление 1795.41",
         "Уровень 1795.41 тестировался 3 раз",
@@ -130,8 +130,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T17:00:41Z",
-      "current_price": 0.07945,
-      "pnl_percent": -0.86,
+      "current_price": 0.07932,
+      "pnl_percent": -1.02,
       "reasons": [
         "Цена пробила сопротивление 0.07968",
         "Уровень 0.07968 тестировался 3 раз",
@@ -140,6 +140,34 @@
         "EMA20 > EMA50 > EMA200 — восходящая структура",
         "RSI 65.8 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "NEAR",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 1.8793,
+      "sl": 1.9126411951282205,
+      "effective_stop": 1.9126411951282205,
+      "tp1": 1.8559611634102455,
+      "tp2": 1.8292882073076693,
+      "tp3": 1.812617609743559,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999967,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-10T18:45:38Z",
+      "current_price": 1.8742,
+      "pnl_percent": 0.27,
+      "reasons": [
+        "Цена пробила поддержку 1.8925",
+        "Объём подтверждает пробой (3.5× от среднего)",
+        "Сильное тело свечи (79%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 30.3 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
         "FVG поддерживает направление"
       ]
     }
