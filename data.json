@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T17:41:33Z",
+  "generated_at": "2026-07-10T17:51:33Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-09T16:30:44Z",
-      "current_price": 0.1666,
-      "pnl_percent": -0.6,
+      "current_price": 0.1667,
+      "pnl_percent": -0.66,
       "reasons": [
         "Цена пробила поддержку 0.16600",
         "Уровень 0.16600 тестировался 9 раз",
@@ -46,8 +46,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T09:30:39Z",
-      "current_price": 63838.7,
-      "pnl_percent": -0.88,
+      "current_price": 63878.1,
+      "pnl_percent": -0.81,
       "reasons": [
         "Цена пробила сопротивление 64380.00",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T15:30:44Z",
-      "current_price": 95.23,
-      "pnl_percent": -0.27,
+      "current_price": 95.16,
+      "pnl_percent": -0.35,
       "reasons": [
         "Цена пробила сопротивление 95.3100",
         "Уровень 95.3100 тестировался 6 раз",
@@ -102,8 +102,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T17:00:41Z",
-      "current_price": 1789.32,
-      "pnl_percent": -0.41,
+      "current_price": 1789.73,
+      "pnl_percent": -0.39,
       "reasons": [
         "Цена пробила сопротивление 1795.41",
         "Уровень 1795.41 тестировался 3 раз",
@@ -130,8 +130,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T17:00:41Z",
-      "current_price": 0.07935,
-      "pnl_percent": -0.99,
+      "current_price": 0.07972,
+      "pnl_percent": -0.52,
       "reasons": [
         "Цена пробила сопротивление 0.07968",
         "Уровень 0.07968 тестировался 3 раз",
