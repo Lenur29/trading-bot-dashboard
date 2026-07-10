@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T09:21:32Z",
+  "generated_at": "2026-07-10T09:31:33Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-09T16:30:44Z",
-      "current_price": 0.1676,
-      "pnl_percent": -1.21,
+      "current_price": 0.1684,
+      "pnl_percent": -1.69,
       "reasons": [
         "Цена пробила поддержку 0.16600",
         "Уровень 0.16600 тестировался 9 раз",
@@ -46,8 +46,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T07:15:43Z",
-      "current_price": 94.88,
-      "pnl_percent": 0.95,
+      "current_price": 95.17,
+      "pnl_percent": 1.26,
       "reasons": [
         "Цена пробила сопротивление 93.9700",
         "Уровень 93.9700 тестировался 3 раз",
@@ -74,8 +74,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-10T08:30:43Z",
-      "current_price": 44.47,
-      "pnl_percent": -0.09,
+      "current_price": 44.52,
+      "pnl_percent": 0.02,
       "reasons": [
         "Цена пробила сопротивление 44.4000",
         "Уровень 44.4000 тестировался 3 раз",
@@ -85,6 +85,34 @@
         "RSI 61.2 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "BTC",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 64402.6,
+      "sl": 63700.113477538696,
+      "effective_stop": 63700.113477538696,
+      "tp1": 64894.34056572291,
+      "tp2": 65456.32978369195,
+      "tp3": 65807.57304492261,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-10T09:30:39Z",
+      "current_price": 64436.1,
+      "pnl_percent": 0.05,
+      "reasons": [
+        "Цена пробила сопротивление 64380.00",
+        "Объём подтверждает пробой (1.7× от среднего)",
+        "Сильное тело свечи (95%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 68.8 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "Активная торговая сессия"
       ]
     }
   ],
