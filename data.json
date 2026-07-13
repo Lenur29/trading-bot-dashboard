@@ -1,36 +1,8 @@
 {
-  "generated_at": "2026-07-13T14:51:32Z",
+  "generated_at": "2026-07-13T15:01:32Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "SOL",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 76.21,
-      "sl": 76.9827967725706,
-      "effective_stop": 76.21,
-      "tp1": 75.66904225920058,
-      "tp2": 75.0508048411441,
-      "tp3": 74.66440645485879,
-      "max_tp_hit": 2,
-      "rr": 1.499999999999991,
-      "probability": 73,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-07-13T10:15:46Z",
-      "current_price": 76.01,
-      "pnl_percent": 0.26,
-      "reasons": [
-        "Цена пробила поддержку 76.5600",
-        "Объём подтверждает пробой (2.1× от среднего)",
-        "Сильное тело свечи (92%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 42.1 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "FVG поддерживает направление",
-        "⚠️ Встречный Order Block рядом"
-      ]
-    },
     {
       "symbol": "HBAR",
       "tf": "15m",
@@ -46,8 +18,8 @@
       "probability": 76,
       "setup_type": "Trend continuation",
       "open_time": "2026-07-13T12:15:44Z",
-      "current_price": 0.06719,
-      "pnl_percent": -0.72,
+      "current_price": 0.06724,
+      "pnl_percent": -0.79,
       "reasons": [
         "Цена пробила поддержку 0.06692",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -74,8 +46,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-13T12:30:50Z",
-      "current_price": 7.955,
-      "pnl_percent": -0.56,
+      "current_price": 7.975,
+      "pnl_percent": -0.81,
       "reasons": [
         "Цена пробила поддержку 7.9260",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -89,6 +61,20 @@
     }
   ],
   "history": [
+    {
+      "symbol": "SOL",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "BE",
+      "status": "be",
+      "pnl_percent": 0.67,
+      "r_multiple": 0.66,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 2,
+      "open_time": "2026-07-13T10:15:46Z",
+      "close_time": "2026-07-13T15:01:30Z",
+      "rr": 1.499999999999991
+    },
     {
       "symbol": "XRP",
       "tf": "15m",
@@ -2874,55 +2860,41 @@
       "open_time": "2026-06-15T13:00:33Z",
       "close_time": "2026-06-16T06:34:23Z",
       "rr": 2.0
-    },
-    {
-      "symbol": "INJ",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "pnl_percent": 0.99,
-      "r_multiple": 0.36,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-06-15T14:15:32Z",
-      "close_time": "2026-06-15T22:42:23Z",
-      "rr": 2.0
     }
   ],
   "stats": {
     "all": {
-      "total": 546,
+      "total": 547,
       "tp": 79,
       "sl": 254,
-      "be": 213,
-      "winrate": 14.5,
-      "effective_winrate": 53.5,
-      "sum_pnl": -56.32,
-      "r_result": -17.98,
-      "deposit_result": -1.8
+      "be": 214,
+      "winrate": 14.4,
+      "effective_winrate": 53.6,
+      "sum_pnl": -55.65,
+      "r_result": -17.32,
+      "deposit_result": -1.73
     },
     "today": {
-      "total": 8,
+      "total": 9,
       "tp": 0,
       "sl": 1,
-      "be": 7,
+      "be": 8,
       "winrate": 0.0,
-      "effective_winrate": 87.5,
-      "sum_pnl": 0.89,
-      "r_result": 1.82,
-      "deposit_result": 0.18
+      "effective_winrate": 88.9,
+      "sum_pnl": 1.56,
+      "r_result": 2.48,
+      "deposit_result": 0.25
     },
     "week": {
-      "total": 40,
+      "total": 41,
       "tp": 4,
       "sl": 18,
-      "be": 18,
-      "winrate": 10.0,
-      "effective_winrate": 55.0,
-      "sum_pnl": -26.27,
-      "r_result": -7.03,
-      "deposit_result": -0.7
+      "be": 19,
+      "winrate": 9.8,
+      "effective_winrate": 56.1,
+      "sum_pnl": -25.6,
+      "r_result": -6.37,
+      "deposit_result": -0.64
     }
   }
 }
