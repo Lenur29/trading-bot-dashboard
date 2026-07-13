@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T21:11:33Z",
+  "generated_at": "2026-07-13T21:21:33Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-13T12:30:50Z",
-      "current_price": 7.849,
-      "pnl_percent": 0.78,
+      "current_price": 7.842,
+      "pnl_percent": 0.87,
       "reasons": [
         "Цена пробила поддержку 7.9260",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -46,8 +46,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-13T16:30:53Z",
-      "current_price": 0.7163,
-      "pnl_percent": 0.94,
+      "current_price": 0.7166,
+      "pnl_percent": 0.9,
       "reasons": [
         "Цена пробила поддержку 0.72980",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -74,8 +74,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-13T16:30:53Z",
-      "current_price": 564.7,
-      "pnl_percent": 0.37,
+      "current_price": 565.1,
+      "pnl_percent": 0.3,
       "reasons": [
         "Цена пробила поддержку 568.000",
         "Уровень 568.000 тестировался 3 раз",
@@ -85,6 +85,34 @@
         "RSI 37.2 — здоровая зона для шорта",
         "FVG поддерживает направление",
         "Order Block поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "AVAX",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 6.415,
+      "sl": 6.501339543888593,
+      "effective_stop": 6.501339543888593,
+      "tp1": 6.354562319277985,
+      "tp2": 6.285490684167112,
+      "tp3": 6.242320912222815,
+      "max_tp_hit": 0,
+      "rr": 1.499999999999995,
+      "probability": 73,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-13T21:15:47Z",
+      "current_price": 6.411,
+      "pnl_percent": 0.06,
+      "reasons": [
+        "Цена пробила поддержку 6.4370",
+        "Объём подтверждает пробой (1.5× от среднего)",
+        "Хорошее тело свечи (53%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 34.1 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
