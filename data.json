@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T10:41:32Z",
+  "generated_at": "2026-07-15T10:51:32Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -9,17 +9,17 @@
       "side": "LONG",
       "entry": 2.0265,
       "sl": 1.9917428119161926,
-      "effective_stop": 1.9917428119161926,
+      "effective_stop": 2.0265,
       "tp1": 2.050830031658665,
       "tp2": 2.078635782125711,
       "tp3": 2.0960143761676147,
-      "max_tp_hit": 0,
+      "max_tp_hit": 1,
       "rr": 1.500000000000003,
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-15T08:45:38Z",
-      "current_price": 2.0381,
-      "pnl_percent": 0.57,
+      "current_price": 2.0443,
+      "pnl_percent": 0.88,
       "reasons": [
         "Цена пробила сопротивление 2.0117",
         "Уровень 2.0117 тестировался 5 раз",
