@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T15:01:32Z",
+  "generated_at": "2026-07-16T15:11:32Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -18,8 +18,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-16T07:45:50Z",
-      "current_price": 76.32,
-      "pnl_percent": -0.05,
+      "current_price": 76.23,
+      "pnl_percent": 0.07,
       "reasons": [
         "Цена пробила поддержку 77.0600",
         "Уровень 77.0600 тестировался 3 раз",
