@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T09:23:18Z",
+  "generated_at": "2026-07-18T09:33:19Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -46,8 +46,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-17T20:15:25Z",
-      "current_price": 1.477,
-      "pnl_percent": 0.67,
+      "current_price": 1.4778,
+      "pnl_percent": 0.62,
       "reasons": [
         "Цена пробила поддержку 1.4921",
         "Уровень 1.4921 тестировался 7 раз",
@@ -74,8 +74,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-18T09:15:29Z",
-      "current_price": 0.8373,
-      "pnl_percent": 0.17,
+      "current_price": 0.8368,
+      "pnl_percent": 0.23,
       "reasons": [
         "Цена пробила поддержку 0.84010",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -85,6 +85,34 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "AAVE",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 87.94,
+      "sl": 88.61964979206493,
+      "effective_stop": 88.61964979206493,
+      "tp1": 87.46424514555454,
+      "tp2": 86.9205253119026,
+      "tp3": 86.58070041587013,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-18T09:30:38Z",
+      "current_price": 87.85,
+      "pnl_percent": 0.1,
+      "reasons": [
+        "Цена пробила поддержку 87.8500",
+        "Объём подтверждает пробой (1.6× от среднего)",
+        "Сильное тело свечи (84%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 38.8 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "Активная торговая сессия"
       ]
     }
   ],
