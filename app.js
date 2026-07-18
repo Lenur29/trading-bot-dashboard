@@ -212,6 +212,20 @@ function donut(winrate) {
 
 const PERIOD_NAME = { today: 'сегодня', week: 'за неделю', all: 'за всё время' }
 
+// Top/bottom coins by 30-day R result; values rescale live with the risk slider.
+function coinsTile() {
+  const coins = state.data.symbols_30d || []
+  if (!coins.length) return `<div class="sub">нет закрытых сделок за 30 дней</div>`
+  const top = coins.slice(0, 3)
+  const bottom = coins.slice(-3).reverse().filter(c => !top.includes(c))
+  const row = (ic, c) =>
+    `<div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:2px 0">
+      <span>${ic} ${c.symbol} <span class="sub">· ${c.n} сд.</span></span>
+      <span class="coinR ${cls(c.r)}" data-r="${c.r}" style="font-family:var(--mono);font-weight:700">${fmtPct(+(c.r * state.risk).toFixed(2))}</span>
+    </div>`
+  return top.map(c => row('↑', c)).join('') + bottom.map(c => row('↓', c)).join('')
+}
+
 function renderStats() {
   const s = state.data.stats[state.period]
   $$('#period .chip').forEach(c => c.classList.toggle('is-active', c.dataset.period === state.period))
@@ -239,9 +253,9 @@ function renderStats() {
       </div>
 
       <div class="scard">
-        <div class="k">Сумма PnL</div>
-        <div class="v ${cls(s.sum_pnl)}">${fmtPct(s.sum_pnl)}</div>
-        <div class="sub">суммарный результат по закрытым сделкам</div>
+        <div class="k">Монеты · 30 дней</div>
+        ${coinsTile()}
+        <div class="sub">результат к депозиту при риске с ползунка</div>
       </div>
 
       <div class="risk-card">
@@ -269,6 +283,7 @@ function renderStats() {
     const rr = $('#riskRes')
     rr.textContent = (dep > 0 ? '+' : '') + dep + '%'
     rr.className = 'risk-res ' + cls(dep)
+    $$('.coinR').forEach(el => { el.textContent = fmtPct(+(+el.dataset.r * state.risk).toFixed(2)) })
   })
 }
 
