@@ -107,13 +107,24 @@ function ladder(t) {
   }).join('')}</div>`
 }
 
+function ttlLeft(iso) {
+  if (!iso) return null
+  const ms = new Date(iso) - Date.now()
+  if (ms <= 0) return 'решается…'
+  const m = Math.round(ms / 60000)
+  return m >= 60 ? `${Math.floor(m / 60)}ч ${m % 60}м` : `${m}м`
+}
+
 function activeCard(t) {
   const open = state.expanded.has(t.symbol)
   const beTaken = t.max_tp_hit >= 1
+  const pending = !!t.pending_fill
   const c = cls(t.pnl_percent)
-  const protect = beTaken
-    ? `<span class="protect be">🛡 Безубыток · TP${t.max_tp_hit}</span>`
-    : `<span class="protect risk">⚠ Под исходным стопом</span>`
+  const protect = pending
+    ? `<span class="protect be">⏳ Лимитка ждёт заливки · до fallback ${ttlLeft(t.ttl_deadline) ?? '—'}</span>`
+    : beTaken
+      ? `<span class="protect be">🛡 Безубыток · TP${t.max_tp_hit}</span>`
+      : `<span class="protect risk">⚠ Под исходным стопом</span>`
   const reasons = (t.reasons || []).length
     ? `<div class="reasons"><div class="section-label">Почему вошли</div><ul>${t.reasons.map(r => `<li>${escapeHtml(r)}</li>`).join('')}</ul></div>`
     : ''
@@ -126,6 +137,7 @@ function activeCard(t) {
         <div class="coin-meta">
           <span class="badge ${t.side.toLowerCase()}">${t.side === 'LONG' ? 'Лонг' : 'Шорт'}</span>
           <span class="badge tf">${t.tf}</span>
+          ${pending ? `<span class="meta-break"></span><span class="badge tpflag">⏳ лимитка · ${ttlLeft(t.ttl_deadline) ?? '—'}</span>` : ''}
           ${t.max_tp_hit >= 1 ? `<span class="meta-break"></span><span class="badge tpflag">🛡 TP${t.max_tp_hit} взят</span>` : ''}
           <span class="meta-time">${timeAgo(t.open_time)}</span>
         </div>
@@ -139,7 +151,7 @@ function activeCard(t) {
     ${priceTrack(t)}
     <div class="card-body">
       <div class="prices">
-        <div class="prow entry"><div class="k">Вход</div><div class="v">${fmtPrice(t.entry)}</div></div>
+        <div class="prow entry"><div class="k">${pending ? 'Лимитка' : 'Вход'}</div><div class="v">${fmtPrice(t.entry)}</div></div>
         <div class="prow now"><div class="k">Сейчас</div><div class="v">${fmtPrice(t.current_price)}</div></div>
         <div class="prow stop"><div class="k">Исходный SL</div><div class="v">${fmtPrice(t.sl)}</div></div>
         <div class="prow stop"><div class="k">Рабочий стоп</div><div class="v">${fmtPrice(t.effective_stop)}</div></div>
