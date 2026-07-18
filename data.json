@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T16:30:38Z",
+  "generated_at": "2026-07-18T16:35:31Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -10,6 +10,7 @@
       "entry": 1.4958,
       "entry_kind": "fallback",
       "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 1.5452796093903671,
       "effective_stop": 1.5452796093903671,
       "tp1": 1.4611642734267432,
@@ -20,8 +21,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-17T20:15:25Z",
-      "current_price": 1.4664,
-      "pnl_percent": 1.97,
+      "current_price": 1.4665,
+      "pnl_percent": 1.96,
       "reasons": [
         "Цена пробила поддержку 1.4921",
         "Уровень 1.4921 тестировался 7 раз",
@@ -40,6 +41,7 @@
       "entry": 0.8356,
       "entry_kind": "fallback",
       "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 0.8480766594617941,
       "effective_stop": 0.8480766594617941,
       "tp1": 0.8268663383767442,
@@ -50,8 +52,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-18T09:15:29Z",
-      "current_price": 0.8301,
-      "pnl_percent": 0.66,
+      "current_price": 0.8298,
+      "pnl_percent": 0.69,
       "reasons": [
         "Цена пробила поддержку 0.84010",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -70,6 +72,7 @@
       "entry": 74.86474973529754,
       "entry_kind": "limit",
       "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 75.23907348397401,
       "effective_stop": 75.23907348397401,
       "tp1": 74.60272311122401,
@@ -80,8 +83,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-18T13:15:38Z",
-      "current_price": 74.97,
-      "pnl_percent": -0.14,
+      "current_price": 75.06,
+      "pnl_percent": -0.26,
       "reasons": [
         "Цена пробила поддержку 74.8500",
         "Объём подтверждает пробой (1.6× от среднего)",
