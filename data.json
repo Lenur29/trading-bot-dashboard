@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T16:12:20Z",
+  "generated_at": "2026-07-18T16:30:38Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -20,7 +20,7 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-17T20:15:25Z",
-      "current_price": 1.4663,
+      "current_price": 1.4664,
       "pnl_percent": 1.97,
       "reasons": [
         "Цена пробила поддержку 1.4921",
@@ -50,8 +50,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-18T09:15:29Z",
-      "current_price": 0.8306,
-      "pnl_percent": 0.6,
+      "current_price": 0.8301,
+      "pnl_percent": 0.66,
       "reasons": [
         "Цена пробила поддержку 0.84010",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -61,36 +61,6 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
-      ]
-    },
-    {
-      "symbol": "LTC",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 45.43363240703683,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "sl": 45.20646424500165,
-      "effective_stop": 45.20646424500165,
-      "tp1": 45.592650120461464,
-      "tp2": 45.77438465008961,
-      "tp3": 45.8879687311072,
-      "max_tp_hit": 0,
-      "rr": 1.4999999999999898,
-      "probability": 73,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-07-18T12:15:34Z",
-      "current_price": 46.29,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила сопротивление 45.4400",
-        "Объём подтверждает пробой (2.8× от среднего)",
-        "Хорошее тело свечи (64%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 62.0 — здоровая зона для лонга",
-        "4h согласен с направлением",
-        "FVG поддерживает направление",
-        "Order Block поддерживает направление"
       ]
     },
     {
@@ -125,6 +95,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "CANCEL",
+      "status": "cancelled",
+      "entry_kind": "cancelled",
+      "pnl_percent": 0,
+      "r_multiple": 0.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-07-18T12:15:34Z",
+      "close_time": "2026-07-18T16:15:19Z",
+      "rr": 1.4999999999999898
+    },
     {
       "symbol": "INJ",
       "tf": "15m",
@@ -3109,21 +3094,6 @@
       "open_time": "2026-06-22T07:15:16Z",
       "close_time": "2026-06-22T15:50:03Z",
       "rr": 2.5
-    },
-    {
-      "symbol": "ENA",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "market",
-      "pnl_percent": -3.24,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-06-22T13:45:14Z",
-      "close_time": "2026-06-22T15:21:02Z",
-      "rr": 2.499999999999998
     }
   ],
   "stats": {
