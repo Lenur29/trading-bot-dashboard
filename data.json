@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T09:59:43Z",
+  "generated_at": "2026-07-19T10:09:44Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-17T20:15:25Z",
-      "current_price": 1.4544,
-      "pnl_percent": 2.77,
+      "current_price": 1.4529,
+      "pnl_percent": 2.87,
       "reasons": [
         "Цена пробила поддержку 1.4921",
         "Уровень 1.4921 тестировался 7 раз",
@@ -52,8 +52,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-18T09:15:29Z",
-      "current_price": 0.8318,
-      "pnl_percent": 0.45,
+      "current_price": 0.8315,
+      "pnl_percent": 0.49,
       "reasons": [
         "Цена пробила поддержку 0.84010",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-19T09:31:04Z",
-      "current_price": 6.496,
+      "current_price": 6.482,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 6.5400",
@@ -94,6 +94,37 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "SUI",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.7450449301227458,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-07-19T14:00:00Z",
+      "sl": 0.741319705472132,
+      "effective_stop": 0.741319705472132,
+      "tp1": 0.7476525873781754,
+      "tp2": 0.7506327670986663,
+      "tp3": 0.7524953794239733,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-19T10:00:47Z",
+      "current_price": 0.7469,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 0.74800",
+        "Объём подтверждает пробой (2.6× от среднего)",
+        "Хорошее тело свечи (64%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 63.8 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление"
       ]
     }
   ],
