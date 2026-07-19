@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T10:59:43Z",
+  "generated_at": "2026-07-19T11:09:43Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-17T20:15:25Z",
-      "current_price": 1.4488,
-      "pnl_percent": 3.14,
+      "current_price": 1.4502,
+      "pnl_percent": 3.05,
       "reasons": [
         "Цена пробила поддержку 1.4921",
         "Уровень 1.4921 тестировался 7 раз",
@@ -52,8 +52,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-18T09:15:29Z",
-      "current_price": 0.8328,
-      "pnl_percent": 0.34,
+      "current_price": 0.8326,
+      "pnl_percent": 0.36,
       "reasons": [
         "Цена пробила поддержку 0.84010",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-19T09:31:04Z",
-      "current_price": 6.502,
+      "current_price": 6.512,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 6.5400",
@@ -114,7 +114,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-19T10:00:47Z",
-      "current_price": 0.7539,
+      "current_price": 0.7544,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.74800",
@@ -123,6 +123,37 @@
         "EMA20 > EMA50 > EMA200 — восходящая структура",
         "RSI 63.8 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "LINK",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 8.34858821135034,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-07-19T15:00:00Z",
+      "sl": 8.306845270293588,
+      "effective_stop": 8.306845270293588,
+      "tp1": 8.377808270090066,
+      "tp2": 8.411202622935466,
+      "tp3": 8.432074093463843,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000162,
+      "probability": 73,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-19T11:00:51Z",
+      "current_price": 8.372,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 8.3420",
+        "Уровень 8.3420 тестировался 4 раз",
+        "Объём подтверждает пробой (1.6× от среднего)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 57.2 — здоровая зона для лонга",
+        "4h согласен с направлением",
         "FVG поддерживает направление",
         "Order Block поддерживает направление"
       ]
