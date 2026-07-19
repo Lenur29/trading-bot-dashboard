@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T05:09:43Z",
+  "generated_at": "2026-07-19T09:29:43Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-17T20:15:25Z",
-      "current_price": 1.4573,
-      "pnl_percent": 2.57,
+      "current_price": 1.4557,
+      "pnl_percent": 2.68,
       "reasons": [
         "Цена пробила поддержку 1.4921",
         "Уровень 1.4921 тестировался 7 раз",
@@ -52,8 +52,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-18T09:15:29Z",
-      "current_price": 0.8367,
-      "pnl_percent": -0.13,
+      "current_price": 0.8312,
+      "pnl_percent": 0.53,
       "reasons": [
         "Цена пробила поддержку 0.84010",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -3106,13 +3106,8 @@
   "symbols_30d": [
     {
       "symbol": "AVAX",
-      "r": 4.74,
-      "n": 17
-    },
-    {
-      "symbol": "ADA",
-      "r": 4.34,
-      "n": 13
+      "r": 2.61,
+      "n": 16
     },
     {
       "symbol": "NEAR",
@@ -3123,6 +3118,11 @@
       "symbol": "AAVE",
       "r": 2.41,
       "n": 21
+    },
+    {
+      "symbol": "ADA",
+      "r": 2.27,
+      "n": 12
     },
     {
       "symbol": "XRP",
