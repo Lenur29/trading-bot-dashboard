@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T19:00:15Z",
+  "generated_at": "2026-07-19T19:10:10Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-17T20:15:25Z",
-      "current_price": 1.4256,
-      "pnl_percent": 4.69,
+      "current_price": 1.4316,
+      "pnl_percent": 4.29,
       "reasons": [
         "Цена пробила поддержку 1.4921",
         "Уровень 1.4921 тестировался 7 раз",
@@ -52,8 +52,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-19T09:31:04Z",
-      "current_price": 6.403,
-      "pnl_percent": 0.48,
+      "current_price": 6.411,
+      "pnl_percent": 0.36,
       "reasons": [
         "Цена пробила поддержку 6.5400",
         "Объём подтверждает пробой (4.9× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-19T15:45:14Z",
-      "current_price": 1.9143,
+      "current_price": 1.9148,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.9221",
@@ -3136,11 +3136,6 @@
   },
   "symbols_30d": [
     {
-      "symbol": "AVAX",
-      "r": 2.61,
-      "n": 16
-    },
-    {
       "symbol": "NEAR",
       "r": 2.47,
       "n": 8
@@ -3164,6 +3159,11 @@
       "symbol": "SOL",
       "r": 0.51,
       "n": 12
+    },
+    {
+      "symbol": "AVAX",
+      "r": 0.48,
+      "n": 15
     },
     {
       "symbol": "LINK",
