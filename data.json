@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T13:10:11Z",
+  "generated_at": "2026-07-20T13:20:10Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-17T20:15:25Z",
-      "current_price": 1.4232,
-      "pnl_percent": 4.85,
+      "current_price": 1.4253,
+      "pnl_percent": 4.71,
       "reasons": [
         "Цена пробила поддержку 1.4921",
         "Уровень 1.4921 тестировался 7 раз",
@@ -52,7 +52,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T11:45:28Z",
-      "current_price": 64693.1,
+      "current_price": 64678.2,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 64426.00",
@@ -83,7 +83,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T11:45:28Z",
-      "current_price": 1873.85,
+      "current_price": 1874.1,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1876.36",
@@ -114,7 +114,7 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T11:45:28Z",
-      "current_price": 76.76,
+      "current_price": 76.77,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 76.5900",
@@ -145,7 +145,7 @@
       "probability": 94,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T11:45:28Z",
-      "current_price": 8.455,
+      "current_price": 8.458,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 8.4150",
@@ -176,7 +176,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T12:00:31Z",
-      "current_price": 1.9756,
+      "current_price": 1.9753,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1.9518",
