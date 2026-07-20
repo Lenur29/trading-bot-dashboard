@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T10:00:09Z",
+  "generated_at": "2026-07-20T10:10:08Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-17T20:15:25Z",
-      "current_price": 1.43,
-      "pnl_percent": 4.4,
+      "current_price": 1.4319,
+      "pnl_percent": 4.27,
       "reasons": [
         "Цена пробила поддержку 1.4921",
         "Уровень 1.4921 тестировался 7 раз",
@@ -52,8 +52,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T08:45:24Z",
-      "current_price": 1.0897,
-      "pnl_percent": 0.04,
+      "current_price": 1.09,
+      "pnl_percent": 0.01,
       "reasons": [
         "Цена пробила поддержку 1.0876",
         "Объём подтверждает пробой (1.9× от среднего)",
@@ -64,40 +64,24 @@
         "4h согласен с направлением",
         "FVG поддерживает направление"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "HBAR",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 0.06576481207859008,
+      "result": "SL",
+      "status": "sl",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 0.06609363613898303,
-      "effective_stop": 0.06609363613898303,
-      "tp1": 0.06553463523631502,
-      "tp2": 0.06527157598800067,
-      "tp3": 0.06510716395780419,
-      "max_tp_hit": 0,
-      "rr": 1.5000000000000169,
-      "probability": 77,
+      "pnl_percent": -0.5,
+      "r_multiple": -1.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-07-20T08:45:24Z",
-      "current_price": 0.06594,
-      "pnl_percent": -0.27,
-      "reasons": [
-        "Цена пробила поддержку 0.06558",
-        "Объём подтверждает пробой (3.6× от среднего)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 38.6 — здоровая зона для шорта",
-        "4h согласен с направлением",
-        "FVG поддерживает направление",
-        "BTC согласуется с направлением (-0.56%)",
-        "Активная торговая сессия"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-07-20T10:01:06Z",
+      "rr": 1.5000000000000169
+    },
     {
       "symbol": "NEAR",
       "tf": "15m",
@@ -3082,56 +3066,41 @@
       "open_time": "2026-06-23T12:45:10Z",
       "close_time": "2026-06-24T06:31:01Z",
       "rr": 2.5
-    },
-    {
-      "symbol": "ADA",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "market",
-      "pnl_percent": -1.91,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-06-23T18:45:11Z",
-      "close_time": "2026-06-23T22:17:02Z",
-      "rr": 2.499999999999995
     }
   ],
   "stats": {
     "all": {
-      "total": 598,
+      "total": 599,
       "tp": 87,
-      "sl": 275,
+      "sl": 276,
       "be": 236,
       "winrate": 14.5,
-      "effective_winrate": 54.0,
-      "sum_pnl": -61.87,
-      "r_result": -20.98,
-      "deposit_result": -2.1
+      "effective_winrate": 53.9,
+      "sum_pnl": -62.37,
+      "r_result": -21.98,
+      "deposit_result": -2.2
     },
     "today": {
-      "total": 3,
+      "total": 4,
       "tp": 0,
-      "sl": 2,
+      "sl": 3,
       "be": 1,
       "winrate": 0.0,
-      "effective_winrate": 33.3,
-      "sum_pnl": -3.33,
-      "r_result": -1.65,
-      "deposit_result": -0.16
+      "effective_winrate": 25.0,
+      "sum_pnl": -3.83,
+      "r_result": -2.65,
+      "deposit_result": -0.26
     },
     "week": {
-      "total": 60,
+      "total": 61,
       "tp": 8,
-      "sl": 22,
+      "sl": 23,
       "be": 30,
-      "winrate": 13.3,
-      "effective_winrate": 63.3,
-      "sum_pnl": -4.66,
-      "r_result": -1.18,
-      "deposit_result": -0.12
+      "winrate": 13.1,
+      "effective_winrate": 62.3,
+      "sum_pnl": -5.16,
+      "r_result": -2.18,
+      "deposit_result": -0.22
     }
   },
   "symbols_30d": [
@@ -3181,11 +3150,6 @@
       "n": 15
     },
     {
-      "symbol": "HBAR",
-      "r": -0.13,
-      "n": 7
-    },
-    {
       "symbol": "ETH",
       "r": -0.35,
       "n": 12
@@ -3194,6 +3158,11 @@
       "symbol": "AVAX",
       "r": -0.52,
       "n": 16
+    },
+    {
+      "symbol": "HBAR",
+      "r": -1.13,
+      "n": 8
     },
     {
       "symbol": "OP",
