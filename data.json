@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T21:37:54Z",
+  "generated_at": "2026-07-21T21:47:54Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T15:15:33Z",
-      "current_price": 1925.01,
-      "pnl_percent": 1.82,
+      "current_price": 1923.62,
+      "pnl_percent": 1.75,
       "reasons": [
         "Цена пробила сопротивление 1879.96",
         "Объём подтверждает пробой (1.5× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T15:15:33Z",
-      "current_price": 1.1472,
-      "pnl_percent": 3.24,
+      "current_price": 1.1456,
+      "pnl_percent": 3.1,
       "reasons": [
         "Цена пробила сопротивление 1.1008",
         "Уровень 1.1008 тестировался 3 раз",
@@ -83,8 +83,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T15:15:33Z",
-      "current_price": 0.7692,
-      "pnl_percent": 0.51,
+      "current_price": 0.7689,
+      "pnl_percent": 0.47,
       "reasons": [
         "Цена пробила сопротивление 0.76000",
         "Уровень 0.76000 тестировался 4 раз",
@@ -114,8 +114,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T15:45:32Z",
-      "current_price": 78.1,
-      "pnl_percent": 0.75,
+      "current_price": 78.03,
+      "pnl_percent": 0.66,
       "reasons": [
         "Цена пробила сопротивление 77.1000",
         "Уровень 77.1000 тестировался 3 раз",
@@ -145,8 +145,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T17:15:18Z",
-      "current_price": 5.322,
-      "pnl_percent": -0.75,
+      "current_price": 5.318,
+      "pnl_percent": -0.82,
       "reasons": [
         "Цена пробила сопротивление 5.3270",
         "Объём подтверждает пробой (2.3× от среднего)",
