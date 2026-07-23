@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T08:17:56Z",
+  "generated_at": "2026-07-23T08:27:56Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T15:15:33Z",
-      "current_price": 1920.13,
-      "pnl_percent": 1.56,
+      "current_price": 1920.15,
+      "pnl_percent": 1.57,
       "reasons": [
         "Цена пробила сопротивление 1879.96",
         "Объём подтверждает пробой (1.5× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T15:15:33Z",
-      "current_price": 1.1354,
-      "pnl_percent": 2.18,
+      "current_price": 1.1343,
+      "pnl_percent": 2.08,
       "reasons": [
         "Цена пробила сопротивление 1.1008",
         "Уровень 1.1008 тестировался 3 раз",
@@ -114,8 +114,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T15:45:32Z",
-      "current_price": 77.3,
-      "pnl_percent": -0.28,
+      "current_price": 77.27,
+      "pnl_percent": -0.32,
       "reasons": [
         "Цена пробила сопротивление 77.1000",
         "Уровень 77.1000 тестировался 3 раз",
@@ -145,8 +145,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-22T16:46:10Z",
-      "current_price": 0.09256,
-      "pnl_percent": 0.77,
+      "current_price": 0.09242,
+      "pnl_percent": 0.62,
       "reasons": [
         "Цена пробила сопротивление 0.09028",
         "Уровень 0.09028 тестировался 5 раз",
@@ -176,7 +176,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T07:01:02Z",
-      "current_price": 0.07387,
+      "current_price": 0.07385,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.07350",
@@ -194,9 +194,9 @@
       "tf": "15m",
       "side": "SHORT",
       "entry": 1.8685203940947415,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-07-23T11:15:00Z",
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 1.8804209022656948,
       "effective_stop": 1.8804209022656948,
       "tp1": 1.860190038375074,
@@ -207,8 +207,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T07:16:14Z",
-      "current_price": 1.8685,
-      "pnl_percent": null,
+      "current_price": 1.8641,
+      "pnl_percent": 0.24,
       "reasons": [
         "Цена пробила поддержку 1.8643",
         "Уровень 1.8643 тестировался 3 раз",
@@ -225,9 +225,9 @@
       "tf": "15m",
       "side": "SHORT",
       "entry": 6.566426094729601,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-07-23T11:15:00Z",
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 6.599258225203248,
       "effective_stop": 6.599258225203248,
       "tp1": 6.543443603398048,
@@ -238,8 +238,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T07:16:15Z",
-      "current_price": 6.572,
-      "pnl_percent": null,
+      "current_price": 6.567,
+      "pnl_percent": -0.01,
       "reasons": [
         "Цена пробила поддержку 6.5570",
         "Уровень 6.5570 тестировался 3 раз",
@@ -269,8 +269,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T07:46:01Z",
-      "current_price": 5.143,
-      "pnl_percent": -0.1,
+      "current_price": 5.145,
+      "pnl_percent": -0.14,
       "reasons": [
         "Цена пробила поддержку 5.1400",
         "Объём подтверждает пробой (3.5× от среднего)",
@@ -3342,11 +3342,6 @@
       "n": 10
     },
     {
-      "symbol": "DOT",
-      "r": 1.33,
-      "n": 11
-    },
-    {
       "symbol": "ADA",
       "r": 1.27,
       "n": 13
@@ -3385,6 +3380,11 @@
       "symbol": "SUI",
       "r": 0.14,
       "n": 16
+    },
+    {
+      "symbol": "DOT",
+      "r": -0.8,
+      "n": 10
     },
     {
       "symbol": "AVAX",
