@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:07:56Z",
+  "generated_at": "2026-07-23T14:17:56Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T15:15:33Z",
-      "current_price": 0.7522,
-      "pnl_percent": -1.71,
+      "current_price": 0.753,
+      "pnl_percent": -1.61,
       "reasons": [
         "Цена пробила сопротивление 0.76000",
         "Уровень 0.76000 тестировался 4 раз",
@@ -52,8 +52,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T15:45:32Z",
-      "current_price": 76.79,
-      "pnl_percent": -0.94,
+      "current_price": 76.66,
+      "pnl_percent": -1.11,
       "reasons": [
         "Цена пробила сопротивление 77.1000",
         "Уровень 77.1000 тестировался 3 раз",
@@ -83,8 +83,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-22T16:46:10Z",
-      "current_price": 0.08879,
-      "pnl_percent": -3.33,
+      "current_price": 0.08915,
+      "pnl_percent": -2.94,
       "reasons": [
         "Цена пробила сопротивление 0.09028",
         "Уровень 0.09028 тестировался 5 раз",
@@ -114,7 +114,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T12:46:10Z",
-      "current_price": 6.444,
+      "current_price": 6.46,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 6.5760",
@@ -176,7 +176,7 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T13:16:06Z",
-      "current_price": 0.815,
+      "current_price": 0.8163,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.81660",
@@ -3249,6 +3249,11 @@
       "n": 12
     },
     {
+      "symbol": "SOL",
+      "r": 1.33,
+      "n": 10
+    },
+    {
       "symbol": "ADA",
       "r": 1.27,
       "n": 13
@@ -3272,11 +3277,6 @@
       "symbol": "LINK",
       "r": 0.49,
       "n": 16
-    },
-    {
-      "symbol": "SOL",
-      "r": 0.33,
-      "n": 11
     },
     {
       "symbol": "BTC",
