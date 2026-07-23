@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T07:37:55Z",
+  "generated_at": "2026-07-23T07:47:57Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T15:15:33Z",
-      "current_price": 1914.23,
-      "pnl_percent": 1.25,
+      "current_price": 1913.38,
+      "pnl_percent": 1.21,
       "reasons": [
         "Цена пробила сопротивление 1879.96",
         "Объём подтверждает пробой (1.5× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T15:15:33Z",
-      "current_price": 1.1337,
-      "pnl_percent": 2.02,
+      "current_price": 1.1326,
+      "pnl_percent": 1.93,
       "reasons": [
         "Цена пробила сопротивление 1.1008",
         "Уровень 1.1008 тестировался 3 раз",
@@ -83,8 +83,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T15:15:33Z",
-      "current_price": 0.7694,
-      "pnl_percent": 0.54,
+      "current_price": 0.768,
+      "pnl_percent": 0.35,
       "reasons": [
         "Цена пробила сопротивление 0.76000",
         "Уровень 0.76000 тестировался 4 раз",
@@ -114,8 +114,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T15:45:32Z",
-      "current_price": 77.12,
-      "pnl_percent": -0.52,
+      "current_price": 77.07,
+      "pnl_percent": -0.58,
       "reasons": [
         "Цена пробила сопротивление 77.1000",
         "Уровень 77.1000 тестировался 3 раз",
@@ -145,8 +145,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-22T16:46:10Z",
-      "current_price": 0.09123,
-      "pnl_percent": -0.68,
+      "current_price": 0.09115,
+      "pnl_percent": -0.76,
       "reasons": [
         "Цена пробила сопротивление 0.09028",
         "Уровень 0.09028 тестировался 5 раз",
@@ -176,7 +176,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T07:01:02Z",
-      "current_price": 0.07365,
+      "current_price": 0.07335,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.07350",
@@ -207,7 +207,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T07:16:14Z",
-      "current_price": 1.8639,
+      "current_price": 1.858,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.8643",
@@ -238,7 +238,7 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T07:16:15Z",
-      "current_price": 6.552,
+      "current_price": 6.547,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 6.5570",
@@ -249,6 +249,37 @@
         "RSI 40.2 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "INJ",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 5.137783313713814,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-07-23T11:45:00Z",
+      "sl": 5.186315811220983,
+      "effective_stop": 5.186315811220983,
+      "tp1": 5.1038105654587955,
+      "tp2": 5.06498456745306,
+      "tp3": 5.040718318699475,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 74,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-23T07:46:01Z",
+      "current_price": 5.117,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 5.1400",
+        "Объём подтверждает пробой (3.5× от среднего)",
+        "Хорошее тело свечи (59%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 43.9 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (-0.62%)"
       ]
     }
   ],
