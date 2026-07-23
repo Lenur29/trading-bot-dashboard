@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T21:57:54Z",
+  "generated_at": "2026-07-23T22:07:54Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-22T16:46:10Z",
-      "current_price": 0.08894,
-      "pnl_percent": -3.17,
+      "current_price": 0.08927,
+      "pnl_percent": -2.81,
       "reasons": [
         "Цена пробила сопротивление 0.09028",
         "Уровень 0.09028 тестировался 5 раз",
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T12:46:10Z",
-      "current_price": 6.293,
-      "pnl_percent": 2.07,
+      "current_price": 6.3,
+      "pnl_percent": 1.96,
       "reasons": [
         "Цена пробила поддержку 6.5760",
         "Объём подтверждает пробой (5.3× от среднего)",
@@ -83,8 +83,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T12:46:10Z",
-      "current_price": 567.0,
-      "pnl_percent": -0.14,
+      "current_price": 567.1,
+      "pnl_percent": -0.16,
       "reasons": [
         "Цена пробила поддержку 569.200",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -114,8 +114,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T13:16:06Z",
-      "current_price": 0.8169,
-      "pnl_percent": -0.83,
+      "current_price": 0.8167,
+      "pnl_percent": -0.8,
       "reasons": [
         "Цена пробила поддержку 0.81660",
         "Сильное тело свечи (79%)",
@@ -145,8 +145,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T15:16:11Z",
-      "current_price": 1.4653,
-      "pnl_percent": 0.3,
+      "current_price": 1.4649,
+      "pnl_percent": 0.33,
       "reasons": [
         "Цена пробила поддержку 1.4799",
         "Объём подтверждает пробой (3.5× от среднего)",
