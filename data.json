@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T15:57:55Z",
+  "generated_at": "2026-07-23T16:07:56Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-20T15:45:32Z",
-      "current_price": 76.38,
-      "pnl_percent": -1.47,
+      "current_price": 76.03,
+      "pnl_percent": -1.92,
       "reasons": [
         "Цена пробила сопротивление 77.1000",
         "Уровень 77.1000 тестировался 3 раз",
@@ -52,8 +52,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-22T16:46:10Z",
-      "current_price": 0.08956,
-      "pnl_percent": -2.49,
+      "current_price": 0.08909,
+      "pnl_percent": -3.0,
       "reasons": [
         "Цена пробила сопротивление 0.09028",
         "Уровень 0.09028 тестировался 5 раз",
@@ -83,7 +83,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T12:46:10Z",
-      "current_price": 6.448,
+      "current_price": 6.408,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 6.5760",
@@ -114,7 +114,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T12:46:10Z",
-      "current_price": 567.2,
+      "current_price": 566.3,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 569.200",
@@ -145,7 +145,7 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T13:16:06Z",
-      "current_price": 0.8142,
+      "current_price": 0.8108,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.81660",
@@ -176,7 +176,7 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T15:16:11Z",
-      "current_price": 1.4795,
+      "current_price": 1.4755,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.4799",
