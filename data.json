@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T07:27:54Z",
+  "generated_at": "2026-07-24T07:37:54Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-22T16:46:10Z",
-      "current_price": 0.09083,
-      "pnl_percent": -1.11,
+      "current_price": 0.09063,
+      "pnl_percent": -1.33,
       "reasons": [
         "Цена пробила сопротивление 0.09028",
         "Уровень 0.09028 тестировался 5 раз",
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T12:46:10Z",
-      "current_price": 6.285,
-      "pnl_percent": 2.19,
+      "current_price": 6.278,
+      "pnl_percent": 2.3,
       "reasons": [
         "Цена пробила поддержку 6.5760",
         "Объём подтверждает пробой (5.3× от среднего)",
@@ -83,8 +83,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T12:46:10Z",
-      "current_price": 570.1,
-      "pnl_percent": -0.69,
+      "current_price": 569.3,
+      "pnl_percent": -0.55,
       "reasons": [
         "Цена пробила поддержку 569.200",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -114,8 +114,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T13:16:06Z",
-      "current_price": 0.8127,
-      "pnl_percent": -0.31,
+      "current_price": 0.8115,
+      "pnl_percent": -0.16,
       "reasons": [
         "Цена пробила поддержку 0.81660",
         "Сильное тело свечи (79%)",
@@ -125,6 +125,37 @@
         "4h согласен с направлением",
         "FVG поддерживает направление",
         "BTC согласуется с направлением (-0.58%)"
+      ]
+    },
+    {
+      "symbol": "INJ",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 5.375744806356591,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-07-24T11:30:00Z",
+      "sl": 5.346679945230959,
+      "effective_stop": 5.346679945230959,
+      "tp1": 5.396090209144534,
+      "tp2": 5.419342098045039,
+      "tp3": 5.433874528607856,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-24T07:31:03Z",
+      "current_price": 5.416,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 5.4090",
+        "Уровень 5.4090 тестировался 3 раз",
+        "Объём подтверждает пробой (2.1× от среднего)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 67.9 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
