@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T19:58:35Z",
+  "generated_at": "2026-07-24T20:03:35Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T12:46:10Z",
-      "current_price": 6.231,
-      "pnl_percent": 3.03,
+      "current_price": 6.236,
+      "pnl_percent": 2.96,
       "reasons": [
         "Цена пробила поддержку 6.5760",
         "Объём подтверждает пробой (5.3× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-24T09:16:08Z",
-      "current_price": 73.94,
-      "pnl_percent": 0.71,
+      "current_price": 73.96,
+      "pnl_percent": 0.68,
       "reasons": [
         "Цена пробила поддержку 75.6400",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -3125,11 +3125,6 @@
       "n": 12
     },
     {
-      "symbol": "ENA",
-      "r": 1.39,
-      "n": 14
-    },
-    {
       "symbol": "LINK",
       "r": 1.31,
       "n": 14
@@ -3138,6 +3133,11 @@
       "symbol": "NEAR",
       "r": 1.24,
       "n": 12
+    },
+    {
+      "symbol": "ENA",
+      "r": 1.21,
+      "n": 13
     },
     {
       "symbol": "GRAM",
