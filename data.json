@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T15:28:36Z",
+  "generated_at": "2026-07-24T15:33:36Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T12:46:10Z",
-      "current_price": 6.199,
-      "pnl_percent": 3.53,
+      "current_price": 6.205,
+      "pnl_percent": 3.44,
       "reasons": [
         "Цена пробила поддержку 6.5760",
         "Объём подтверждает пробой (5.3× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T13:16:06Z",
-      "current_price": 0.7989,
-      "pnl_percent": 1.39,
+      "current_price": 0.7994,
+      "pnl_percent": 1.33,
       "reasons": [
         "Цена пробила поддержку 0.81660",
         "Сильное тело свечи (79%)",
@@ -83,8 +83,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-24T09:16:08Z",
-      "current_price": 74.14,
-      "pnl_percent": 0.44,
+      "current_price": 74.2,
+      "pnl_percent": 0.36,
       "reasons": [
         "Цена пробила поддержку 75.6400",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -114,7 +114,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-24T12:15:41Z",
-      "current_price": 1.8194,
+      "current_price": 1.824,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.8826",
@@ -125,6 +125,37 @@
         "4h согласен с направлением",
         "FVG поддерживает направление",
         "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "HBAR",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.07069169368609475,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-07-24T19:30:00Z",
+      "sl": 0.07020665367322007,
+      "effective_stop": 0.07020665367322007,
+      "tp1": 0.07103122169510703,
+      "tp2": 0.07141925370540678,
+      "tp3": 0.07166177371184411,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 74,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-24T15:30:40Z",
+      "current_price": 0.07108,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 0.07086",
+        "Объём подтверждает пробой (2.7× от среднего)",
+        "Сильное тело свечи (88%)",
+        "RSI 62.3 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление",
+        "BTC согласуется с направлением (+0.47%)"
       ]
     }
   ],
