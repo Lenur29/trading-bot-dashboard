@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T21:13:35Z",
+  "generated_at": "2026-07-24T21:18:35Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T12:46:10Z",
-      "current_price": 6.227,
-      "pnl_percent": 3.1,
+      "current_price": 6.238,
+      "pnl_percent": 2.93,
       "reasons": [
         "Цена пробила поддержку 6.5760",
         "Объём подтверждает пробой (5.3× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-24T09:16:08Z",
-      "current_price": 73.48,
-      "pnl_percent": 1.33,
+      "current_price": 73.54,
+      "pnl_percent": 1.25,
       "reasons": [
         "Цена пробила поддержку 75.6400",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -63,6 +63,68 @@
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "BTC согласуется с направлением (-0.54%)"
+      ]
+    },
+    {
+      "symbol": "AAVE",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 93.94454459102893,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-07-25T01:15:00Z",
+      "sl": 94.41426731398407,
+      "effective_stop": 94.41426731398407,
+      "tp1": 93.61573868496033,
+      "tp2": 93.23996050659622,
+      "tp3": 93.00509914511865,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 76,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-24T21:15:53Z",
+      "current_price": 93.43,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 93.5000",
+        "Объём подтверждает пробой (2.1× от среднего)",
+        "Хорошее тело свечи (66%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 30.0 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "DOT",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.8034715907819818,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-07-25T01:15:00Z",
+      "sl": 0.8094777284653346,
+      "effective_stop": 0.8094777284653346,
+      "tp1": 0.7992672944036349,
+      "tp2": 0.7944623842569527,
+      "tp3": 0.7914593154152763,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-24T21:15:54Z",
+      "current_price": 0.8029,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 0.80460",
+        "Объём подтверждает пробой (3.4× от среднего)",
+        "Хорошее тело свечи (65%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 46.0 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "⚠️ Встречный FVG в зоне риска"
       ]
     }
   ],
