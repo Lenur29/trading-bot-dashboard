@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T19:38:35Z",
+  "generated_at": "2026-07-24T19:43:35Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-23T12:46:10Z",
-      "current_price": 6.235,
-      "pnl_percent": 2.97,
+      "current_price": 6.227,
+      "pnl_percent": 3.1,
       "reasons": [
         "Цена пробила поддержку 6.5760",
         "Объём подтверждает пробой (5.3× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-24T09:16:08Z",
-      "current_price": 73.9,
-      "pnl_percent": 0.77,
+      "current_price": 73.92,
+      "pnl_percent": 0.74,
       "reasons": [
         "Цена пробила поддержку 75.6400",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -64,40 +64,24 @@
         "FVG поддерживает направление",
         "BTC согласуется с направлением (-0.54%)"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "HBAR",
       "tf": "15m",
       "side": "LONG",
-      "entry": 0.07069169368609475,
+      "result": "TP",
+      "status": "tp3",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 0.07020665367322007,
-      "effective_stop": 0.07083720568995716,
-      "tp1": 0.07103122169510703,
-      "tp2": 0.07141925370540678,
-      "tp3": 0.07166177371184411,
-      "max_tp_hit": 2,
-      "rr": 1.5,
-      "probability": 74,
+      "pnl_percent": 1.0,
+      "r_multiple": 1.46,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 3,
       "open_time": "2026-07-24T15:30:40Z",
-      "current_price": 0.07153,
-      "pnl_percent": 1.19,
-      "reasons": [
-        "Цена пробила сопротивление 0.07086",
-        "Объём подтверждает пробой (2.7× от среднего)",
-        "Сильное тело свечи (88%)",
-        "RSI 62.3 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "FVG поддерживает направление",
-        "Order Block поддерживает направление",
-        "BTC согласуется с направлением (+0.47%)"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-07-24T19:43:32Z",
+      "rr": 1.5
+    },
     {
       "symbol": "DOT",
       "tf": "15m",
@@ -3082,56 +3066,41 @@
       "open_time": "2026-06-18T15:45:17Z",
       "close_time": "2026-06-28T17:23:01Z",
       "rr": 2.5000000000000027
-    },
-    {
-      "symbol": "AAVE",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "market",
-      "pnl_percent": 0.9,
-      "r_multiple": 0.18,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-06-26T14:30:13Z",
-      "close_time": "2026-06-28T10:48:02Z",
-      "rr": 2.5
     }
   ],
   "stats": {
     "all": {
-      "total": 630,
-      "tp": 92,
+      "total": 631,
+      "tp": 93,
       "sl": 291,
       "be": 247,
-      "winrate": 14.6,
-      "effective_winrate": 53.8,
-      "sum_pnl": -61.57,
-      "r_result": -23.3,
-      "deposit_result": -2.33
+      "winrate": 14.7,
+      "effective_winrate": 53.9,
+      "sum_pnl": -60.57,
+      "r_result": -21.84,
+      "deposit_result": -2.18
     },
     "today": {
-      "total": 5,
-      "tp": 1,
+      "total": 6,
+      "tp": 2,
       "sl": 2,
       "be": 2,
-      "winrate": 20.0,
-      "effective_winrate": 60.0,
-      "sum_pnl": -1.73,
-      "r_result": 0.66,
-      "deposit_result": 0.07
+      "winrate": 33.3,
+      "effective_winrate": 66.7,
+      "sum_pnl": -0.73,
+      "r_result": 2.12,
+      "deposit_result": 0.21
     },
     "week": {
-      "total": 57,
-      "tp": 10,
+      "total": 58,
+      "tp": 11,
       "sl": 25,
       "be": 22,
-      "winrate": 17.5,
-      "effective_winrate": 56.1,
-      "sum_pnl": 0.26,
-      "r_result": -1.12,
-      "deposit_result": -0.11
+      "winrate": 19.0,
+      "effective_winrate": 56.9,
+      "sum_pnl": 1.26,
+      "r_result": 0.34,
+      "deposit_result": 0.03
     }
   },
   "symbols_30d": [
@@ -3148,6 +3117,11 @@
     {
       "symbol": "ADA",
       "r": 2.27,
+      "n": 12
+    },
+    {
+      "symbol": "HBAR",
+      "r": 2.25,
       "n": 12
     },
     {
@@ -3174,11 +3148,6 @@
       "symbol": "DOT",
       "r": 0.98,
       "n": 10
-    },
-    {
-      "symbol": "HBAR",
-      "r": 0.79,
-      "n": 11
     },
     {
       "symbol": "SOL",
