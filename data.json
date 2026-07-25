@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-07-25T13:38:35Z",
+  "generated_at": "2026-07-25T13:43:34Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "AVAX",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 6.426,
-      "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 6.617593756071549,
-      "effective_stop": 6.368521873178535,
-      "tp1": 6.291884370749916,
-      "tp2": 6.138609365892677,
-      "tp3": 6.042812487856903,
-      "max_tp_hit": 2,
-      "rr": 1.4999999999999962,
-      "probability": 75,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-07-23T12:46:10Z",
-      "current_price": 6.33,
-      "pnl_percent": 1.49,
-      "reasons": [
-        "Цена пробила поддержку 6.5760",
-        "Объём подтверждает пробой (5.3× от среднего)",
-        "Сильное тело свечи (85%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 28.9 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "FVG поддерживает направление",
-        "BTC согласуется с направлением (-0.68%)"
-      ]
-    },
     {
       "symbol": "SOL",
       "tf": "15m",
@@ -52,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-24T09:16:08Z",
-      "current_price": 73.94,
-      "pnl_percent": 0.71,
+      "current_price": 74.08,
+      "pnl_percent": 0.52,
       "reasons": [
         "Цена пробила поддержку 75.6400",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -67,6 +36,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "AVAX",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "BE",
+      "status": "be",
+      "entry_kind": "fallback",
+      "pnl_percent": 2.33,
+      "r_multiple": 0.78,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 2,
+      "open_time": "2026-07-23T12:46:10Z",
+      "close_time": "2026-07-25T13:43:32Z",
+      "rr": 1.4999999999999962
+    },
     {
       "symbol": "AAVE",
       "tf": "15m",
@@ -3051,56 +3035,41 @@
       "open_time": "2026-06-28T22:00:29Z",
       "close_time": "2026-06-28T22:04:03Z",
       "rr": 2.500000000000007
-    },
-    {
-      "symbol": "INJ",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "market",
-      "pnl_percent": 0.31,
-      "r_multiple": 0.18,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-06-28T16:22:20Z",
-      "close_time": "2026-06-28T22:04:02Z",
-      "rr": 2.5000000000000053
     }
   ],
   "stats": {
     "all": {
-      "total": 632,
+      "total": 633,
       "tp": 93,
       "sl": 292,
-      "be": 247,
+      "be": 248,
       "winrate": 14.7,
-      "effective_winrate": 53.8,
-      "sum_pnl": -61.32,
-      "r_result": -22.84,
-      "deposit_result": -2.28
+      "effective_winrate": 53.9,
+      "sum_pnl": -58.99,
+      "r_result": -22.06,
+      "deposit_result": -2.21
     },
     "today": {
-      "total": 1,
+      "total": 2,
       "tp": 0,
       "sl": 1,
-      "be": 0,
+      "be": 1,
       "winrate": 0.0,
-      "effective_winrate": 0.0,
-      "sum_pnl": -0.75,
-      "r_result": -1.0,
-      "deposit_result": -0.1
+      "effective_winrate": 50.0,
+      "sum_pnl": 1.58,
+      "r_result": -0.22,
+      "deposit_result": -0.02
     },
     "week": {
-      "total": 47,
+      "total": 48,
       "tp": 9,
       "sl": 22,
-      "be": 16,
-      "winrate": 19.1,
-      "effective_winrate": 53.2,
-      "sum_pnl": -0.69,
-      "r_result": -1.74,
-      "deposit_result": -0.17
+      "be": 17,
+      "winrate": 18.8,
+      "effective_winrate": 54.2,
+      "sum_pnl": 1.64,
+      "r_result": -0.96,
+      "deposit_result": -0.1
     }
   },
   "symbols_30d": [
@@ -3145,6 +3114,11 @@
       "n": 13
     },
     {
+      "symbol": "OP",
+      "r": 0.18,
+      "n": 1
+    },
+    {
       "symbol": "SOL",
       "r": 0.15,
       "n": 10
@@ -3160,11 +3134,6 @@
       "n": 11
     },
     {
-      "symbol": "OP",
-      "r": -0.82,
-      "n": 2
-    },
-    {
       "symbol": "BNB",
       "r": -0.89,
       "n": 11
@@ -3175,14 +3144,14 @@
       "n": 16
     },
     {
+      "symbol": "AVAX",
+      "r": -1.25,
+      "n": 18
+    },
+    {
       "symbol": "BTC",
       "r": -1.93,
       "n": 10
-    },
-    {
-      "symbol": "AVAX",
-      "r": -2.03,
-      "n": 17
     },
     {
       "symbol": "ARB",
