@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T12:38:36Z",
+  "generated_at": "2026-07-26T12:43:36Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-24T09:16:08Z",
-      "current_price": 74.89,
-      "pnl_percent": -0.56,
+      "current_price": 74.79,
+      "pnl_percent": -0.43,
       "reasons": [
         "Цена пробила поддержку 75.6400",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-26T09:34:25Z",
-      "current_price": 47.28,
+      "current_price": 47.26,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 47.0900",
@@ -83,7 +83,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-26T10:45:43Z",
-      "current_price": 1888.18,
+      "current_price": 1886.43,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1885.14",
@@ -114,7 +114,7 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-26T12:15:45Z",
-      "current_price": 64519.6,
+      "current_price": 64465.7,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 64550.00",
@@ -145,7 +145,7 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-26T12:15:46Z",
-      "current_price": 8.465,
+      "current_price": 8.451,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 8.4330",
@@ -3204,8 +3204,8 @@
     },
     {
       "symbol": "AAVE",
-      "r": 2.87,
-      "n": 17
+      "r": 2.69,
+      "n": 16
     },
     {
       "symbol": "HBAR",
