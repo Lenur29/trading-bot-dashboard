@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T23:03:36Z",
+  "generated_at": "2026-07-26T09:19:12Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-24T09:16:08Z",
-      "current_price": 74.45,
-      "pnl_percent": 0.03,
+      "current_price": 75.02,
+      "pnl_percent": -0.74,
       "reasons": [
         "Цена пробила поддержку 75.6400",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -3149,14 +3149,14 @@
       "n": 18
     },
     {
-      "symbol": "BTC",
-      "r": -1.93,
-      "n": 10
-    },
-    {
       "symbol": "ARB",
       "r": -2.61,
       "n": 5
+    },
+    {
+      "symbol": "BTC",
+      "r": -2.86,
+      "n": 9
     },
     {
       "symbol": "INJ",
