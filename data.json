@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T18:18:36Z",
+  "generated_at": "2026-07-26T18:23:36Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-24T09:16:08Z",
-      "current_price": 75.33,
-      "pnl_percent": -1.15,
+      "current_price": 75.35,
+      "pnl_percent": -1.18,
       "reasons": [
         "Цена пробила поддержку 75.6400",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-26T12:15:45Z",
-      "current_price": 64646.3,
-      "pnl_percent": 0.28,
+      "current_price": 64667.6,
+      "pnl_percent": 0.31,
       "reasons": [
         "Цена пробила сопротивление 64550.00",
         "Объём подтверждает пробой (3.8× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-26T15:02:43Z",
-      "current_price": 1913.21,
+      "current_price": 1913.88,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1897.16",
@@ -114,7 +114,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-26T15:15:41Z",
-      "current_price": 96.58,
+      "current_price": 96.65,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 96.8400",
@@ -145,7 +145,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-26T15:45:54Z",
-      "current_price": 1.5125,
+      "current_price": 1.5142,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1.5076",
@@ -176,7 +176,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-26T17:30:44Z",
-      "current_price": 1.7891,
+      "current_price": 1.7883,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.7956",
