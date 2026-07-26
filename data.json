@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T12:13:35Z",
+  "generated_at": "2026-07-26T12:18:36Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-24T09:16:08Z",
-      "current_price": 74.99,
-      "pnl_percent": -0.7,
+      "current_price": 74.95,
+      "pnl_percent": -0.64,
       "reasons": [
         "Цена пробила поддержку 75.6400",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-26T09:34:25Z",
-      "current_price": 47.1,
+      "current_price": 47.11,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 47.0900",
@@ -83,7 +83,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-26T10:45:43Z",
-      "current_price": 1889.45,
+      "current_price": 1888.14,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1885.14",
@@ -93,6 +93,68 @@
         "RSI 61.9 — здоровая зона для лонга",
         "4h согласен с направлением",
         "Order Block поддерживает направление",
+        "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "BTC",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 64468.341355518474,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-07-26T16:15:00Z",
+      "sl": 64145.99964874088,
+      "effective_stop": 64145.99964874088,
+      "tp1": 64693.98055026279,
+      "tp2": 64951.85391568487,
+      "tp3": 65113.024769073665,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 73,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-26T12:15:45Z",
+      "current_price": 64548.5,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 64550.00",
+        "Объём подтверждает пробой (3.8× от среднего)",
+        "Хорошее тело свечи (60%)",
+        "EMA20 > EMA50 — краткосрочный аптренд",
+        "RSI 65.0 — здоровая зона для лонга",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление",
+        "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "LINK",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 8.426274320930716,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-07-26T16:15:00Z",
+      "sl": 8.384142949326062,
+      "effective_stop": 8.384142949326062,
+      "tp1": 8.455766281053974,
+      "tp2": 8.489471378337697,
+      "tp3": 8.510537064140024,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000127,
+      "probability": 79,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-26T12:15:46Z",
+      "current_price": 8.469,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 8.4330",
+        "Объём подтверждает пробой (2.8× от среднего)",
+        "Сильное тело свечи (100%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 65.8 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
         "Активная торговая сессия"
       ]
     }
