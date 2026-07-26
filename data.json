@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T22:00:28Z",
+  "generated_at": "2026-07-26T22:05:27Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -35,37 +35,6 @@
       ]
     },
     {
-      "symbol": "BTC",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 64468.341355518474,
-      "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 64145.99964874088,
-      "effective_stop": 64565.04386755175,
-      "tp1": 64693.98055026279,
-      "tp2": 64951.85391568487,
-      "tp3": 65113.024769073665,
-      "max_tp_hit": 1,
-      "rr": 1.5,
-      "probability": 73,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-07-26T12:15:45Z",
-      "current_price": 65016.2,
-      "pnl_percent": 0.85,
-      "reasons": [
-        "Цена пробила сопротивление 64550.00",
-        "Объём подтверждает пробой (3.8× от среднего)",
-        "Хорошее тело свечи (60%)",
-        "EMA20 > EMA50 — краткосрочный аптренд",
-        "RSI 65.0 — здоровая зона для лонга",
-        "FVG поддерживает направление",
-        "Order Block поддерживает направление",
-        "Активная торговая сессия"
-      ]
-    },
-    {
       "symbol": "ETH",
       "tf": "15m",
       "side": "LONG",
@@ -74,17 +43,17 @@
       "pending_fill": false,
       "ttl_deadline": null,
       "sl": 1878.782529961889,
-      "effective_stop": 1878.782529961889,
+      "effective_stop": 1924.0192410114332,
       "tp1": 1937.9382290266776,
       "tp2": 1965.7762050571664,
       "tp3": 1983.174940076222,
-      "max_tp_hit": 0,
+      "max_tp_hit": 1,
       "rr": 1.5,
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-26T15:02:43Z",
-      "current_price": 1936.22,
-      "pnl_percent": 1.18,
+      "current_price": 1937.32,
+      "pnl_percent": 1.24,
       "reasons": [
         "Цена пробила сопротивление 1897.16",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -95,71 +64,54 @@
         "FVG поддерживает направление",
         "London/NY overlap — пиковая ликвидность"
       ]
-    },
+    }
+  ],
+  "history": [
     {
-      "symbol": "AAVE",
+      "symbol": "BTC",
       "tf": "15m",
       "side": "LONG",
-      "entry": 96.13,
-      "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 94.80749245413045,
-      "effective_stop": 96.52675226376086,
-      "tp1": 97.05575528210868,
-      "tp2": 98.11376131880431,
-      "tp3": 98.77501509173908,
-      "max_tp_hit": 1,
-      "rr": 1.5000000000000033,
-      "probability": 78,
+      "result": "TP",
+      "status": "tp3",
+      "entry_kind": "limit",
+      "pnl_percent": 0.73,
+      "r_multiple": 1.46,
       "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-07-26T15:15:41Z",
-      "current_price": 98.59,
-      "pnl_percent": 2.56,
-      "reasons": [
-        "Цена пробила сопротивление 96.8400",
-        "Уровень 96.8400 тестировался 5 раз",
-        "Объём выше среднего (1.4×)",
-        "Сильное тело свечи (91%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 68.7 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "FVG поддерживает направление"
-      ]
+      "max_tp_hit": 3,
+      "open_time": "2026-07-26T12:15:45Z",
+      "close_time": "2026-07-26T22:03:25Z",
+      "rr": 1.5
     },
     {
       "symbol": "NEAR",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 1.7960543722008093,
+      "result": "SL",
+      "status": "sl",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 1.8078170581784683,
-      "effective_stop": 1.8078170581784683,
-      "tp1": 1.787820492016448,
-      "tp2": 1.778410343234321,
-      "tp3": 1.7725290002454914,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 74,
+      "pnl_percent": -0.65,
+      "r_multiple": -1.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-07-26T17:30:44Z",
-      "current_price": 1.8065,
-      "pnl_percent": -0.58,
-      "reasons": [
-        "Цена пробила поддержку 1.7956",
-        "Объём выше среднего (1.5×)",
-        "Сильное тело свечи (86%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 40.7 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-07-26T22:00:26Z",
+      "rr": 1.5
+    },
+    {
+      "symbol": "AAVE",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "TP",
+      "status": "tp3",
+      "entry_kind": "fallback",
+      "pnl_percent": 2.01,
+      "r_multiple": 1.46,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 3,
+      "open_time": "2026-07-26T15:15:41Z",
+      "close_time": "2026-07-26T22:00:25Z",
+      "rr": 1.5000000000000033
+    },
     {
       "symbol": "GRAM",
       "tf": "15m",
@@ -3114,86 +3066,41 @@
       "open_time": "2026-06-27T17:15:35Z",
       "close_time": "2026-06-29T17:14:01Z",
       "rr": 2.5000000000000036
-    },
-    {
-      "symbol": "AAVE",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "market",
-      "pnl_percent": -2.6,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-06-29T12:15:20Z",
-      "close_time": "2026-06-29T13:58:02Z",
-      "rr": 2.499999999999997
-    },
-    {
-      "symbol": "SOL",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "market",
-      "pnl_percent": 0.34,
-      "r_multiple": 0.18,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-06-29T10:15:14Z",
-      "close_time": "2026-06-29T12:39:02Z",
-      "rr": 2.5
-    },
-    {
-      "symbol": "AVAX",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "market",
-      "pnl_percent": 0.37,
-      "r_multiple": 0.18,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-06-29T10:00:46Z",
-      "close_time": "2026-06-29T12:39:02Z",
-      "rr": 2.499999999999997
     }
   ],
   "stats": {
     "all": {
-      "total": 641,
-      "tp": 95,
-      "sl": 296,
+      "total": 644,
+      "tp": 97,
+      "sl": 297,
       "be": 250,
-      "winrate": 14.8,
-      "effective_winrate": 53.8,
-      "sum_pnl": -58.87,
-      "r_result": -22.3,
-      "deposit_result": -2.23
+      "winrate": 15.1,
+      "effective_winrate": 53.9,
+      "sum_pnl": -56.78,
+      "r_result": -20.38,
+      "deposit_result": -2.04
     },
     "today": {
-      "total": 0,
-      "tp": 0,
-      "sl": 0,
+      "total": 3,
+      "tp": 2,
+      "sl": 1,
       "be": 0,
-      "winrate": 0.0,
-      "effective_winrate": 0.0,
-      "sum_pnl": 0,
-      "r_result": 0,
-      "deposit_result": 0.0
+      "winrate": 66.7,
+      "effective_winrate": 66.7,
+      "sum_pnl": 2.08,
+      "r_result": 1.92,
+      "deposit_result": 0.19
     },
     "week": {
-      "total": 46,
-      "tp": 8,
-      "sl": 23,
+      "total": 49,
+      "tp": 10,
+      "sl": 24,
       "be": 15,
-      "winrate": 17.4,
-      "effective_winrate": 50.0,
-      "sum_pnl": -0.69,
-      "r_result": -3.36,
-      "deposit_result": -0.34
+      "winrate": 20.4,
+      "effective_winrate": 51.0,
+      "sum_pnl": 1.4,
+      "r_result": -1.44,
+      "deposit_result": -0.14
     }
   },
   "symbols_30d": [
@@ -3204,8 +3111,8 @@
     },
     {
       "symbol": "AAVE",
-      "r": 2.69,
-      "n": 16
+      "r": 4.15,
+      "n": 17
     },
     {
       "symbol": "HBAR",
@@ -3226,11 +3133,6 @@
       "symbol": "ENA",
       "r": 1.03,
       "n": 12
-    },
-    {
-      "symbol": "NEAR",
-      "r": 0.24,
-      "n": 13
     },
     {
       "symbol": "GRAM",
@@ -3268,19 +3170,24 @@
       "n": 17
     },
     {
+      "symbol": "NEAR",
+      "r": -0.76,
+      "n": 14
+    },
+    {
       "symbol": "BNB",
       "r": -0.89,
       "n": 11
     },
     {
+      "symbol": "BTC",
+      "r": -1.4,
+      "n": 10
+    },
+    {
       "symbol": "ARB",
       "r": -1.61,
       "n": 4
-    },
-    {
-      "symbol": "BTC",
-      "r": -2.86,
-      "n": 9
     },
     {
       "symbol": "INJ",
