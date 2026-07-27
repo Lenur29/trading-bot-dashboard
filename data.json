@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-07-27T14:35:29Z",
+  "generated_at": "2026-07-27T14:40:28Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "ETH",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 1913.58,
-      "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 1878.782529961889,
-      "effective_stop": 1924.0192410114332,
-      "tp1": 1937.9382290266776,
-      "tp2": 1965.7762050571664,
-      "tp3": 1983.174940076222,
-      "max_tp_hit": 2,
-      "rr": 1.5,
-      "probability": 78,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-07-26T15:02:43Z",
-      "current_price": 1930.06,
-      "pnl_percent": 0.86,
-      "reasons": [
-        "Цена пробила сопротивление 1897.16",
-        "Объём подтверждает пробой (2.3× от среднего)",
-        "Хорошее тело свечи (65%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 68.2 — здоровая зона для лонга",
-        "4h согласен с направлением",
-        "FVG поддерживает направление",
-        "London/NY overlap — пиковая ликвидность"
-      ]
-    },
     {
       "symbol": "DOT",
       "tf": "15m",
@@ -52,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T08:15:35Z",
-      "current_price": 0.7928,
-      "pnl_percent": 1.69,
+      "current_price": 0.7939,
+      "pnl_percent": 1.55,
       "reasons": [
         "Цена пробила поддержку 0.81520",
         "Объём подтверждает пробой (3.6× от среднего)",
@@ -83,7 +52,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:30:55Z",
-      "current_price": 1.4817,
+      "current_price": 1.4793,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.4877",
@@ -114,7 +83,7 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:30:55Z",
-      "current_price": 1.7782,
+      "current_price": 1.7806,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.8039",
@@ -145,7 +114,7 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:30:55Z",
-      "current_price": 0.6997,
+      "current_price": 0.6981,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.71080",
@@ -160,6 +129,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "ETH",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "BE",
+      "status": "be",
+      "entry_kind": "fallback",
+      "pnl_percent": 1.42,
+      "r_multiple": 0.78,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 2,
+      "open_time": "2026-07-26T15:02:43Z",
+      "close_time": "2026-07-27T14:37:26Z",
+      "rr": 1.5
+    },
     {
       "symbol": "BTC",
       "tf": "15m",
@@ -3144,63 +3128,48 @@
       "open_time": "2026-06-30T08:45:29Z",
       "close_time": "2026-06-30T11:50:03Z",
       "rr": 2.5000000000000075
-    },
-    {
-      "symbol": "ENA",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "TP",
-      "status": "tp3",
-      "entry_kind": "market",
-      "pnl_percent": 4.07,
-      "r_multiple": 2.13,
-      "setup_type": "Trend continuation",
-      "max_tp_hit": 3,
-      "open_time": "2026-06-30T06:52:15Z",
-      "close_time": "2026-06-30T11:13:02Z",
-      "rr": 2.5
     }
   ],
   "stats": {
     "all": {
-      "total": 649,
+      "total": 650,
       "tp": 97,
       "sl": 301,
-      "be": 251,
+      "be": 252,
       "winrate": 14.9,
-      "effective_winrate": 53.6,
-      "sum_pnl": -61.52,
-      "r_result": -23.96,
-      "deposit_result": -2.4
+      "effective_winrate": 53.7,
+      "sum_pnl": -60.1,
+      "r_result": -23.18,
+      "deposit_result": -2.32
     },
     "today": {
-      "total": 8,
+      "total": 9,
       "tp": 2,
       "sl": 5,
-      "be": 1,
-      "winrate": 25.0,
-      "effective_winrate": 37.5,
-      "sum_pnl": -2.65,
-      "r_result": -1.66,
-      "deposit_result": -0.17
+      "be": 2,
+      "winrate": 22.2,
+      "effective_winrate": 44.4,
+      "sum_pnl": -1.23,
+      "r_result": -0.88,
+      "deposit_result": -0.09
     },
     "week": {
-      "total": 54,
+      "total": 55,
       "tp": 10,
       "sl": 28,
-      "be": 16,
-      "winrate": 18.5,
-      "effective_winrate": 48.1,
-      "sum_pnl": -3.34,
-      "r_result": -5.02,
-      "deposit_result": -0.5
+      "be": 17,
+      "winrate": 18.2,
+      "effective_winrate": 49.1,
+      "sum_pnl": -1.92,
+      "r_result": -4.24,
+      "deposit_result": -0.42
     }
   },
   "symbols_30d": [
     {
       "symbol": "ETH",
-      "r": 4.61,
-      "n": 9
+      "r": 5.39,
+      "n": 10
     },
     {
       "symbol": "AAVE",
