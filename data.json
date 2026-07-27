@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T19:05:28Z",
+  "generated_at": "2026-07-27T19:10:28Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T08:15:35Z",
-      "current_price": 0.7907,
-      "pnl_percent": 1.95,
+      "current_price": 0.7934,
+      "pnl_percent": 1.61,
       "reasons": [
         "Цена пробила поддержку 0.81520",
         "Объём подтверждает пробой (3.6× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:30:55Z",
-      "current_price": 1.481,
-      "pnl_percent": 0.01,
+      "current_price": 1.4859,
+      "pnl_percent": -0.32,
       "reasons": [
         "Цена пробила поддержку 1.4877",
         "Уровень 1.4877 тестировался 3 раз",
@@ -83,8 +83,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:30:55Z",
-      "current_price": 1.7362,
-      "pnl_percent": 0.92,
+      "current_price": 1.7429,
+      "pnl_percent": 0.54,
       "reasons": [
         "Цена пробила поддержку 1.8039",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -114,8 +114,8 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:30:55Z",
-      "current_price": 0.701,
-      "pnl_percent": 0.14,
+      "current_price": 0.7034,
+      "pnl_percent": -0.2,
       "reasons": [
         "Цена пробила поддержку 0.71080",
         "Объём подтверждает пробой (3.8× от среднего)",
@@ -145,8 +145,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:45:44Z",
-      "current_price": 574.6,
-      "pnl_percent": -0.39,
+      "current_price": 575.8,
+      "pnl_percent": -0.6,
       "reasons": [
         "Цена пробила поддержку 570.600",
         "Уровень 570.600 тестировался 3 раз",
