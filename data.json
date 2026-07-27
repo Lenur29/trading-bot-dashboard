@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T08:15:28Z",
+  "generated_at": "2026-07-27T08:20:28Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-26T15:02:43Z",
-      "current_price": 1964.27,
-      "pnl_percent": 2.65,
+      "current_price": 1965.44,
+      "pnl_percent": 2.71,
       "reasons": [
         "Цена пробила сопротивление 1897.16",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T06:45:36Z",
-      "current_price": 0.09028,
+      "current_price": 0.09085,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.08987",
@@ -63,6 +63,37 @@
         "RSI 60.2 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "DOT",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.8162394697665821,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-07-27T12:15:00Z",
+      "sl": 0.8222161992801232,
+      "effective_stop": 0.8222161992801232,
+      "tp1": 0.8120557591071034,
+      "tp2": 0.8072743754962705,
+      "tp3": 0.8042860107394999,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999958,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-27T08:15:35Z",
+      "current_price": 0.8106,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 0.81520",
+        "Объём подтверждает пробой (3.6× от среднего)",
+        "Сильное тело свечи (98%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 28.8 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
