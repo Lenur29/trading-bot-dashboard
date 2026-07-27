@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T15:25:28Z",
+  "generated_at": "2026-07-27T15:30:29Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T08:15:35Z",
-      "current_price": 0.7925,
-      "pnl_percent": 1.72,
+      "current_price": 0.7931,
+      "pnl_percent": 1.65,
       "reasons": [
         "Цена пробила поддержку 0.81520",
         "Объём подтверждает пробой (3.6× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:30:55Z",
-      "current_price": 1.4766,
+      "current_price": 1.477,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.4877",
@@ -83,7 +83,7 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:30:55Z",
-      "current_price": 1.7806,
+      "current_price": 1.7792,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.8039",
@@ -114,7 +114,7 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:30:55Z",
-      "current_price": 0.7009,
+      "current_price": 0.7012,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.71080",
@@ -145,7 +145,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:45:44Z",
-      "current_price": 567.2,
+      "current_price": 568.9,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 570.600",
@@ -176,8 +176,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:45:45Z",
-      "current_price": 4.831,
-      "pnl_percent": 1.5,
+      "current_price": 4.833,
+      "pnl_percent": 1.46,
       "reasons": [
         "Цена пробила поддержку 4.8730",
         "Уровень 4.8730 тестировался 3 раз",
