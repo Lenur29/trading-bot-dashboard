@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T21:50:28Z",
+  "generated_at": "2026-07-27T21:55:28Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T08:15:35Z",
-      "current_price": 0.791,
-      "pnl_percent": 1.91,
+      "current_price": 0.7908,
+      "pnl_percent": 1.93,
       "reasons": [
         "Цена пробила поддержку 0.81520",
         "Объём подтверждает пробой (3.6× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:30:55Z",
-      "current_price": 1.4781,
-      "pnl_percent": 0.2,
+      "current_price": 1.4779,
+      "pnl_percent": 0.22,
       "reasons": [
         "Цена пробила поддержку 1.4877",
         "Уровень 1.4877 тестировался 3 раз",
@@ -83,8 +83,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:30:55Z",
-      "current_price": 1.7305,
-      "pnl_percent": 1.24,
+      "current_price": 1.7318,
+      "pnl_percent": 1.17,
       "reasons": [
         "Цена пробила поддержку 1.8039",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -114,8 +114,8 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:30:55Z",
-      "current_price": 0.6999,
-      "pnl_percent": 0.3,
+      "current_price": 0.7003,
+      "pnl_percent": 0.24,
       "reasons": [
         "Цена пробила поддержку 0.71080",
         "Объём подтверждает пробой (3.8× от среднего)",
@@ -145,8 +145,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:45:44Z",
-      "current_price": 573.1,
-      "pnl_percent": -0.13,
+      "current_price": 573.7,
+      "pnl_percent": -0.23,
       "reasons": [
         "Цена пробила поддержку 570.600",
         "Уровень 570.600 тестировался 3 раз",
