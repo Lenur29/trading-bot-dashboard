@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T10:45:28Z",
+  "generated_at": "2026-07-28T10:50:28Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:30:55Z",
-      "current_price": 1.6733,
-      "pnl_percent": 4.51,
+      "current_price": 1.6717,
+      "pnl_percent": 4.6,
       "reasons": [
         "Цена пробила поддержку 1.8039",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:30:55Z",
-      "current_price": 0.6825,
-      "pnl_percent": 2.78,
+      "current_price": 0.6827,
+      "pnl_percent": 2.75,
       "reasons": [
         "Цена пробила поддержку 0.71080",
         "Объём подтверждает пробой (3.8× от среднего)",
@@ -83,8 +83,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-27T14:45:44Z",
-      "current_price": 566.6,
-      "pnl_percent": 1.01,
+      "current_price": 566.4,
+      "pnl_percent": 1.05,
       "reasons": [
         "Цена пробила поддержку 570.600",
         "Уровень 570.600 тестировался 3 раз",
@@ -3142,8 +3142,8 @@
     },
     {
       "symbol": "AAVE",
-      "r": 3.15,
-      "n": 18
+      "r": 2.97,
+      "n": 17
     },
     {
       "symbol": "HBAR",
