@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T14:05:07Z",
+  "generated_at": "2026-07-29T14:10:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T08:30:22Z",
-      "current_price": 1.594,
-      "pnl_percent": -0.45,
+      "current_price": 1.5928,
+      "pnl_percent": -0.38,
       "reasons": [
         "Цена пробила поддержку 1.5919",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T12:30:23Z",
-      "current_price": 0.06809,
+      "current_price": 0.06802,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.06830",
@@ -64,40 +64,24 @@
         "FVG поддерживает направление",
         "Order Block поддерживает направление"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "BTC",
       "tf": "15m",
       "side": "LONG",
-      "entry": 64375.11792312556,
+      "result": "BE",
+      "status": "be",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 64032.050583054246,
-      "effective_stop": 64478.03812514695,
-      "tp1": 64615.26506117548,
-      "tp2": 64889.71893323253,
-      "tp3": 65061.252603268185,
-      "max_tp_hit": 1,
-      "rr": 1.4999999999999913,
-      "probability": 80,
+      "pnl_percent": 0.22,
+      "r_multiple": 0.42,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
       "open_time": "2026-07-29T13:45:18Z",
-      "current_price": 64561.5,
-      "pnl_percent": 0.29,
-      "reasons": [
-        "Цена пробила сопротивление 64485.00",
-        "Уровень 64485.00 тестировался 3 раз",
-        "Объём подтверждает пробой (2.7× от среднего)",
-        "Сильное тело свечи (74%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 54.3 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "FVG поддерживает направление"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-07-29T14:08:05Z",
+      "rr": 1.4999999999999913
+    },
     {
       "symbol": "ETH",
       "tf": "15m",
@@ -3082,56 +3066,41 @@
       "open_time": "2026-07-01T13:30:48Z",
       "close_time": "2026-07-01T13:31:33Z",
       "rr": 1.4999999999999936
-    },
-    {
-      "symbol": "BNB",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "market",
-      "pnl_percent": 0.22,
-      "r_multiple": 0.21,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-07-01T10:45:42Z",
-      "close_time": "2026-07-01T11:19:32Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 664,
+      "total": 665,
       "tp": 99,
       "sl": 302,
-      "be": 263,
+      "be": 264,
       "winrate": 14.9,
-      "effective_winrate": 54.5,
-      "sum_pnl": -44.54,
-      "r_result": -15.92,
-      "deposit_result": -1.59
+      "effective_winrate": 54.6,
+      "sum_pnl": -44.31,
+      "r_result": -15.5,
+      "deposit_result": -1.55
     },
     "today": {
-      "total": 5,
+      "total": 6,
       "tp": 1,
       "sl": 0,
-      "be": 4,
-      "winrate": 20.0,
+      "be": 5,
+      "winrate": 16.7,
       "effective_winrate": 100.0,
-      "sum_pnl": 9.27,
-      "r_result": 3.14,
-      "deposit_result": 0.31
+      "sum_pnl": 9.49,
+      "r_result": 3.56,
+      "deposit_result": 0.36
     },
     "week": {
-      "total": 52,
+      "total": 53,
       "tp": 9,
       "sl": 20,
-      "be": 23,
-      "winrate": 17.3,
-      "effective_winrate": 61.5,
-      "sum_pnl": 12.46,
-      "r_result": 5.32,
-      "deposit_result": 0.53
+      "be": 24,
+      "winrate": 17.0,
+      "effective_winrate": 62.3,
+      "sum_pnl": 12.69,
+      "r_result": 5.74,
+      "deposit_result": 0.57
     }
   },
   "symbols_30d": [
@@ -3217,8 +3186,8 @@
     },
     {
       "symbol": "BTC",
-      "r": -2.4,
-      "n": 11
+      "r": -1.98,
+      "n": 12
     },
     {
       "symbol": "INJ",
