@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T14:15:07Z",
+  "generated_at": "2026-07-29T14:20:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T08:30:22Z",
-      "current_price": 1.5895,
-      "pnl_percent": -0.17,
+      "current_price": 1.5875,
+      "pnl_percent": -0.04,
       "reasons": [
         "Цена пробила поддержку 1.5919",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T12:30:23Z",
-      "current_price": 0.06788,
+      "current_price": 0.06794,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.06830",
@@ -63,6 +63,68 @@
         "4h согласен с направлением",
         "FVG поддерживает направление",
         "Order Block поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 45.278095833161096,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-07-29T18:15:00Z",
+      "sl": 45.5044863123269,
+      "effective_stop": 45.5044863123269,
+      "tp1": 45.119622497745034,
+      "tp2": 44.938510114412395,
+      "tp3": 44.825314874829495,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999922,
+      "probability": 79,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-29T14:15:20Z",
+      "current_price": 45.11,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 45.2100",
+        "Объём подтверждает пробой (2.1× от среднего)",
+        "Сильное тело свечи (82%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 36.5 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "London/NY overlap — пиковая ликвидность"
+      ]
+    },
+    {
+      "symbol": "ENA",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.08112957144143192,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-07-29T18:15:00Z",
+      "sl": 0.08190599796660764,
+      "effective_stop": 0.08190599796660764,
+      "tp1": 0.08058607287380891,
+      "tp2": 0.07996493165366833,
+      "tp3": 0.07957671839108048,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-29T14:15:20Z",
+      "current_price": 0.0805,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 0.08132",
+        "Объём подтверждает пробой (2.3× от среднего)",
+        "Сильное тело свечи (81%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 35.1 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "London/NY overlap — пиковая ликвидность"
       ]
     }
   ],
