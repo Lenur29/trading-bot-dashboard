@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T13:45:07Z",
+  "generated_at": "2026-07-29T13:50:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T08:30:22Z",
-      "current_price": 1.5933,
-      "pnl_percent": -0.41,
+      "current_price": 1.5925,
+      "pnl_percent": -0.36,
       "reasons": [
         "Цена пробила поддержку 1.5919",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T12:30:23Z",
-      "current_price": 0.06817,
+      "current_price": 0.0682,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.06830",
@@ -63,6 +63,37 @@
         "4h согласен с направлением",
         "FVG поддерживает направление",
         "Order Block поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "BTC",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 64375.11792312556,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-07-29T17:45:00Z",
+      "sl": 64032.050583054246,
+      "effective_stop": 64032.050583054246,
+      "tp1": 64615.26506117548,
+      "tp2": 64889.71893323253,
+      "tp3": 65061.252603268185,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999913,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-29T13:45:18Z",
+      "current_price": 64600.6,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 64485.00",
+        "Уровень 64485.00 тестировался 3 раз",
+        "Объём подтверждает пробой (2.7× от среднего)",
+        "Сильное тело свечи (74%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 54.3 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление"
       ]
     }
   ],
