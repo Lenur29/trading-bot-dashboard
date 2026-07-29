@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T20:00:06Z",
+  "generated_at": "2026-07-29T20:05:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T12:30:23Z",
-      "current_price": 0.06738,
-      "pnl_percent": 0.71,
+      "current_price": 0.0673,
+      "pnl_percent": 0.83,
       "reasons": [
         "Цена пробила поддержку 0.06830",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T19:30:24Z",
-      "current_price": 6.355,
+      "current_price": 6.343,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 6.3980",
@@ -60,6 +60,37 @@
         "Сильное тело свечи (83%)",
         "EMA20 < EMA50 < EMA200 — нисходящая структура",
         "RSI 44.2 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "SOL",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 73.52280260432775,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-07-30T00:00:00Z",
+      "sl": 74.7103394939302,
+      "effective_stop": 74.7103394939302,
+      "tp1": 72.69152678160603,
+      "tp2": 71.74149726992407,
+      "tp3": 71.14772882512284,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999964,
+      "probability": 81,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-29T20:00:41Z",
+      "current_price": 72.64,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 73.3800",
+        "Объём подтверждает пробой (2.2× от среднего)",
+        "Сильное тело свечи (92%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 35.6 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
