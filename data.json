@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T17:10:07Z",
+  "generated_at": "2026-07-29T17:15:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T08:30:22Z",
-      "current_price": 1.5907,
-      "pnl_percent": -0.25,
+      "current_price": 1.5944,
+      "pnl_percent": -0.48,
       "reasons": [
         "Цена пробила поддержку 1.5919",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T12:30:23Z",
-      "current_price": 0.06767,
-      "pnl_percent": 0.28,
+      "current_price": 0.06778,
+      "pnl_percent": 0.12,
       "reasons": [
         "Цена пробила поддержку 0.06830",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -70,9 +70,9 @@
       "tf": "15m",
       "side": "SHORT",
       "entry": 45.278095833161096,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-07-29T18:15:00Z",
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 45.5044863123269,
       "effective_stop": 45.5044863123269,
       "tp1": 45.119622497745034,
@@ -83,8 +83,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T14:15:20Z",
-      "current_price": 45.2,
-      "pnl_percent": null,
+      "current_price": 45.32,
+      "pnl_percent": -0.09,
       "reasons": [
         "Цена пробила поддержку 45.2100",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -114,7 +114,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T14:15:20Z",
-      "current_price": 0.07907,
+      "current_price": 0.07946,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.08132",
@@ -3187,11 +3187,6 @@
       "n": 11
     },
     {
-      "symbol": "DOT",
-      "r": 1.86,
-      "n": 13
-    },
-    {
       "symbol": "XRP",
       "r": 1.3,
       "n": 11
@@ -3210,6 +3205,16 @@
       "symbol": "GRAM",
       "r": 1.04,
       "n": 5
+    },
+    {
+      "symbol": "DOT",
+      "r": 0.93,
+      "n": 12
+    },
+    {
+      "symbol": "BNB",
+      "r": 0.71,
+      "n": 10
     },
     {
       "symbol": "NEAR",
@@ -3232,19 +3237,14 @@
       "n": 17
     },
     {
-      "symbol": "BNB",
-      "r": -0.29,
-      "n": 11
-    },
-    {
       "symbol": "SOL",
       "r": -0.61,
       "n": 11
     },
     {
       "symbol": "ARB",
-      "r": -1.79,
-      "n": 3
+      "r": -0.79,
+      "n": 2
     },
     {
       "symbol": "BTC",
