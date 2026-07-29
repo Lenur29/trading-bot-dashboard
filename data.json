@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T22:35:07Z",
+  "generated_at": "2026-07-29T22:40:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -83,8 +83,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T20:30:28Z",
-      "current_price": 1.4023,
-      "pnl_percent": -0.09,
+      "current_price": 1.4019,
+      "pnl_percent": -0.06,
       "reasons": [
         "Цена пробила поддержку 1.3975",
         "Уровень 1.3975 тестировался 3 раз",
