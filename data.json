@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T12:10:06Z",
+  "generated_at": "2026-07-29T12:15:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T08:30:22Z",
-      "current_price": 1.5847,
+      "current_price": 1.5888,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.5919",
@@ -3109,6 +3109,11 @@
       "n": 12
     },
     {
+      "symbol": "HBAR",
+      "r": 1.12,
+      "n": 10
+    },
+    {
       "symbol": "GRAM",
       "r": 1.04,
       "n": 5
@@ -3127,11 +3132,6 @@
       "symbol": "AVAX",
       "r": 0.17,
       "n": 18
-    },
-    {
-      "symbol": "HBAR",
-      "r": 0.12,
-      "n": 11
     },
     {
       "symbol": "SUI",
@@ -3165,8 +3165,8 @@
     },
     {
       "symbol": "LTC",
-      "r": -9.06,
-      "n": 19
+      "r": -8.06,
+      "n": 18
     }
   ]
 }
