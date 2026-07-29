@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-07-29T10:40:06Z",
+  "generated_at": "2026-07-29T10:45:06Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "ETH",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 1913.0598195622285,
-      "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 1902.8260495541006,
-      "effective_stop": 1916.1299505646668,
-      "tp1": 1920.2234585679182,
-      "tp2": 1928.4104745744205,
-      "tp3": 1933.5273595784845,
-      "max_tp_hit": 1,
-      "rr": 1.5,
-      "probability": 74,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-07-29T08:01:15Z",
-      "current_price": 1916.47,
-      "pnl_percent": 0.18,
-      "reasons": [
-        "Цена пробила сопротивление 1921.64",
-        "Объём выше среднего (1.4×)",
-        "Сильное тело свечи (75%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 64.4 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
-      ]
-    },
     {
       "symbol": "NEAR",
       "tf": "15m",
@@ -52,7 +21,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T08:30:22Z",
-      "current_price": 1.5892,
+      "current_price": 1.5882,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.5919",
@@ -67,6 +36,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "ETH",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "BE",
+      "status": "be",
+      "entry_kind": "limit",
+      "pnl_percent": 0.22,
+      "r_multiple": 0.42,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
+      "open_time": "2026-07-29T08:01:15Z",
+      "close_time": "2026-07-29T10:40:04Z",
+      "rr": 1.5
+    },
     {
       "symbol": "AVAX",
       "tf": "15m",
@@ -3051,63 +3035,48 @@
       "open_time": "2026-07-01T10:45:42Z",
       "close_time": "2026-07-01T11:19:32Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "LINK",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "market",
-      "pnl_percent": 0.21,
-      "r_multiple": 0.18,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-06-30T21:15:22Z",
-      "close_time": "2026-07-01T06:30:34Z",
-      "rr": 2.5000000000000053
     }
   ],
   "stats": {
     "all": {
-      "total": 663,
+      "total": 664,
       "tp": 99,
       "sl": 302,
-      "be": 262,
+      "be": 263,
       "winrate": 14.9,
-      "effective_winrate": 54.4,
-      "sum_pnl": -44.76,
-      "r_result": -16.34,
-      "deposit_result": -1.63
+      "effective_winrate": 54.5,
+      "sum_pnl": -44.54,
+      "r_result": -15.92,
+      "deposit_result": -1.59
     },
     "today": {
-      "total": 4,
+      "total": 5,
       "tp": 1,
       "sl": 0,
-      "be": 3,
-      "winrate": 25.0,
+      "be": 4,
+      "winrate": 20.0,
       "effective_winrate": 100.0,
-      "sum_pnl": 9.04,
-      "r_result": 2.72,
-      "deposit_result": 0.27
+      "sum_pnl": 9.27,
+      "r_result": 3.14,
+      "deposit_result": 0.31
     },
     "week": {
-      "total": 51,
+      "total": 52,
       "tp": 9,
       "sl": 20,
-      "be": 22,
-      "winrate": 17.6,
-      "effective_winrate": 60.8,
-      "sum_pnl": 12.24,
-      "r_result": 4.9,
-      "deposit_result": 0.49
+      "be": 23,
+      "winrate": 17.3,
+      "effective_winrate": 61.5,
+      "sum_pnl": 12.46,
+      "r_result": 5.32,
+      "deposit_result": 0.53
     }
   },
   "symbols_30d": [
     {
       "symbol": "ETH",
-      "r": 6.39,
-      "n": 9
+      "r": 6.81,
+      "n": 10
     },
     {
       "symbol": "AAVE",
