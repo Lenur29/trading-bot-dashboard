@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T12:05:06Z",
+  "generated_at": "2026-07-29T12:10:06Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T08:30:22Z",
-      "current_price": 1.5859,
+      "current_price": 1.5847,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.5919",
@@ -3084,6 +3084,11 @@
       "n": 17
     },
     {
+      "symbol": "LINK",
+      "r": 2.37,
+      "n": 12
+    },
+    {
       "symbol": "ADA",
       "r": 2.09,
       "n": 11
@@ -3091,11 +3096,6 @@
     {
       "symbol": "DOT",
       "r": 1.86,
-      "n": 13
-    },
-    {
-      "symbol": "LINK",
-      "r": 1.37,
       "n": 13
     },
     {
