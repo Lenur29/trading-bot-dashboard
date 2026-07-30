@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T11:10:06Z",
+  "generated_at": "2026-07-30T11:15:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T20:00:41Z",
-      "current_price": 74.01,
-      "pnl_percent": -0.66,
+      "current_price": 74.0,
+      "pnl_percent": -0.65,
       "reasons": [
         "Цена пробила поддержку 73.3800",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -3125,11 +3125,6 @@
       "n": 11
     },
     {
-      "symbol": "ENA",
-      "r": 1.69,
-      "n": 13
-    },
-    {
       "symbol": "HBAR",
       "r": 1.54,
       "n": 11
@@ -3168,6 +3163,11 @@
       "symbol": "NEAR",
       "r": -0.3,
       "n": 16
+    },
+    {
+      "symbol": "ENA",
+      "r": -0.44,
+      "n": 12
     },
     {
       "symbol": "SOL",
