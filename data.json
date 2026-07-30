@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T14:00:06Z",
+  "generated_at": "2026-07-30T14:05:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-30T09:30:20Z",
-      "current_price": 8.514,
-      "pnl_percent": 0.9,
+      "current_price": 8.49,
+      "pnl_percent": 0.62,
       "reasons": [
         "Цена пробила сопротивление 8.3460",
         "Объём подтверждает пробой (3.8× от среднего)",
@@ -3095,8 +3095,8 @@
     },
     {
       "symbol": "HBAR",
-      "r": 1.54,
-      "n": 11
+      "r": 1.36,
+      "n": 10
     },
     {
       "symbol": "XRP",
@@ -3110,8 +3110,8 @@
     },
     {
       "symbol": "BNB",
-      "r": 0.71,
-      "n": 10
+      "r": 0.53,
+      "n": 9
     },
     {
       "symbol": "OP",
@@ -3125,8 +3125,8 @@
     },
     {
       "symbol": "SUI",
-      "r": 0.02,
-      "n": 14
+      "r": -0.16,
+      "n": 13
     },
     {
       "symbol": "NEAR",
