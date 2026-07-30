@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T22:30:06Z",
+  "generated_at": "2026-07-30T22:35:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-30T09:30:20Z",
-      "current_price": 8.495,
-      "pnl_percent": 0.68,
+      "current_price": 8.49,
+      "pnl_percent": 0.62,
       "reasons": [
         "Цена пробила сопротивление 8.3460",
         "Объём подтверждает пробой (3.8× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-30T22:15:23Z",
-      "current_price": 64985.5,
+      "current_price": 64921.3,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 64774.00",
@@ -63,6 +63,37 @@
         "Бычья свеча подтверждает пробой",
         "Уровень 64774.00 был ретест-подтверждён до текущего пробоя",
         "🎯 Пробой PDH с ретестом — A+ дневной сетап"
+      ]
+    },
+    {
+      "symbol": "ETH",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 1922.1645288889115,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-07-31T02:30:00Z",
+      "sl": 1912.332070611113,
+      "effective_stop": 1912.332070611113,
+      "tp1": 1929.0472496833704,
+      "tp2": 1936.9132163056092,
+      "tp3": 1941.8294454445083,
+      "max_tp_hit": 0,
+      "rr": 1.499999999999994,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-07-30T22:30:18Z",
+      "current_price": 1930.62,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 1924.05",
+        "Уровень 1924.05 тестировался 5 раз",
+        "Объём подтверждает пробой (2.8× от среднего)",
+        "Сильное тело свечи (73%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 63.9 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением"
       ]
     }
   ],
