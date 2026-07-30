@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T11:50:06Z",
+  "generated_at": "2026-07-30T11:55:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-29T20:00:41Z",
-      "current_price": 74.14,
-      "pnl_percent": -0.84,
+      "current_price": 74.27,
+      "pnl_percent": -1.02,
       "reasons": [
         "Цена пробила поддержку 73.3800",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-30T09:30:20Z",
-      "current_price": 8.422,
+      "current_price": 8.462,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 8.3460",
@@ -3196,8 +3196,8 @@
     },
     {
       "symbol": "LTC",
-      "r": -9.06,
-      "n": 19
+      "r": -9.24,
+      "n": 18
     }
   ]
 }
