@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T19:40:07Z",
+  "generated_at": "2026-07-31T19:45:06Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-31T08:30:14Z",
-      "current_price": 1.3845,
-      "pnl_percent": 0.46,
+      "current_price": 1.3862,
+      "pnl_percent": 0.34,
       "reasons": [
         "Цена пробила поддержку 1.3965",
         "Объём подтверждает пробой (4.2× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-31T14:05:26Z",
-      "current_price": 6.416,
-      "pnl_percent": 0.43,
+      "current_price": 6.42,
+      "pnl_percent": 0.37,
       "reasons": [
         "Цена пробила поддержку 6.4130",
         "Объём подтверждает пробой (3.3× от среднего)",
@@ -3130,11 +3130,6 @@
       "n": 12
     },
     {
-      "symbol": "ADA",
-      "r": 0.91,
-      "n": 11
-    },
-    {
       "symbol": "DOT",
       "r": 0.75,
       "n": 11
@@ -3148,6 +3143,11 @@
       "symbol": "ENA",
       "r": 0.56,
       "n": 11
+    },
+    {
+      "symbol": "ADA",
+      "r": 0.25,
+      "n": 10
     },
     {
       "symbol": "ARB",
