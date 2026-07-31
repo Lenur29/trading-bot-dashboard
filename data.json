@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T20:55:07Z",
+  "generated_at": "2026-07-31T21:05:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-31T08:30:14Z",
-      "current_price": 1.3869,
-      "pnl_percent": 0.29,
+      "current_price": 1.3883,
+      "pnl_percent": 0.19,
       "reasons": [
         "Цена пробила поддержку 1.3965",
         "Объём подтверждает пробой (4.2× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-31T14:05:26Z",
-      "current_price": 6.4,
-      "pnl_percent": 0.68,
+      "current_price": 6.399,
+      "pnl_percent": 0.7,
       "reasons": [
         "Цена пробила поддержку 6.4130",
         "Объём подтверждает пробой (3.3× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-31T19:45:18Z",
-      "current_price": 0.6801,
+      "current_price": 0.6804,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.68080",
@@ -3112,26 +3112,26 @@
       "deposit_result": -1.92
     },
     "today": {
-      "total": 8,
-      "tp": 1,
-      "sl": 3,
-      "be": 4,
-      "winrate": 12.5,
-      "effective_winrate": 62.5,
-      "sum_pnl": -1.9,
-      "r_result": 0.5,
-      "deposit_result": 0.05
+      "total": 0,
+      "tp": 0,
+      "sl": 0,
+      "be": 0,
+      "winrate": 0.0,
+      "effective_winrate": 0.0,
+      "sum_pnl": 0,
+      "r_result": 0,
+      "deposit_result": 0.0
     },
     "week": {
-      "total": 55,
-      "tp": 9,
-      "sl": 21,
-      "be": 25,
-      "winrate": 16.4,
-      "effective_winrate": 61.8,
-      "sum_pnl": 7.55,
-      "r_result": 4.8,
-      "deposit_result": 0.48
+      "total": 49,
+      "tp": 7,
+      "sl": 19,
+      "be": 23,
+      "winrate": 14.3,
+      "effective_winrate": 61.2,
+      "sum_pnl": 8.28,
+      "r_result": 2.68,
+      "deposit_result": 0.27
     }
   },
   "symbols_30d": [
