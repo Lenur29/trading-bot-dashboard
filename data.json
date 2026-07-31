@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T16:25:08Z",
+  "generated_at": "2026-07-31T16:30:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-31T08:30:14Z",
-      "current_price": 1.3846,
-      "pnl_percent": 0.45,
+      "current_price": 1.3859,
+      "pnl_percent": 0.36,
       "reasons": [
         "Цена пробила поддержку 1.3965",
         "Объём подтверждает пробой (4.2× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-31T13:45:22Z",
-      "current_price": 1.0612,
+      "current_price": 1.0615,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.0690",
@@ -83,7 +83,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-31T14:05:26Z",
-      "current_price": 6.422,
+      "current_price": 6.423,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 6.4130",
@@ -3196,11 +3196,6 @@
       "n": 13
     },
     {
-      "symbol": "SOL",
-      "r": -0.33,
-      "n": 12
-    },
-    {
       "symbol": "BTC",
       "r": -0.38,
       "n": 11
@@ -3214,6 +3209,11 @@
       "symbol": "NEAR",
       "r": -1.43,
       "n": 14
+    },
+    {
+      "symbol": "SOL",
+      "r": -1.79,
+      "n": 11
     },
     {
       "symbol": "INJ",
