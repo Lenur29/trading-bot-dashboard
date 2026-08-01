@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T13:30:07Z",
+  "generated_at": "2026-08-01T13:35:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-31T08:30:14Z",
-      "current_price": 1.3965,
-      "pnl_percent": -0.4,
+      "current_price": 1.3973,
+      "pnl_percent": -0.46,
       "reasons": [
         "Цена пробила поддержку 1.3965",
         "Объём подтверждает пробой (4.2× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-01T11:15:13Z",
-      "current_price": 0.1744,
+      "current_price": 0.1753,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.17280",
@@ -93,6 +93,37 @@
         "RSI 57.4 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
         "FVG поддерживает, но есть встречный FVG в зоне риска",
+        "Order Block поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 44.32711674869087,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-01T17:30:00Z",
+      "sl": 44.54875233243432,
+      "effective_stop": 44.54875233243432,
+      "tp1": 44.171971840070455,
+      "tp2": 43.994663373075696,
+      "tp3": 43.88384558120397,
+      "max_tp_hit": 0,
+      "rr": 1.500000000000016,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-01T13:30:15Z",
+      "current_price": 44.29,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 44.2400",
+        "Уровень 44.2400 тестировался 4 раз",
+        "Объём подтверждает пробой (1.7× от среднего)",
+        "Хорошее тело свечи (50%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 36.8 — здоровая зона для шорта",
+        "FVG поддерживает направление",
         "Order Block поддерживает направление"
       ]
     }
@@ -3206,14 +3237,14 @@
       "n": 12
     },
     {
-      "symbol": "SUI",
-      "r": -1.37,
-      "n": 13
-    },
-    {
       "symbol": "NEAR",
       "r": -1.43,
       "n": 14
+    },
+    {
+      "symbol": "SUI",
+      "r": -2.83,
+      "n": 12
     },
     {
       "symbol": "INJ",
