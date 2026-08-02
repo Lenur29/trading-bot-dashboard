@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T04:45:06Z",
+  "generated_at": "2026-08-02T10:20:06Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-07-31T08:30:14Z",
-      "current_price": 1.4042,
-      "pnl_percent": -0.96,
+      "current_price": 1.404,
+      "pnl_percent": -0.94,
       "reasons": [
         "Цена пробила поддержку 1.3965",
         "Объём подтверждает пробой (4.2× от среднего)",
@@ -3075,8 +3075,8 @@
   "symbols_30d": [
     {
       "symbol": "ETH",
-      "r": 6.3,
-      "n": 10
+      "r": 6.09,
+      "n": 9
     },
     {
       "symbol": "AAVE",
@@ -3114,11 +3114,6 @@
       "n": 11
     },
     {
-      "symbol": "ADA",
-      "r": 0.46,
-      "n": 10
-    },
-    {
       "symbol": "ARB",
       "r": 0.21,
       "n": 1
@@ -3132,6 +3127,11 @@
       "symbol": "BTC",
       "r": -0.38,
       "n": 11
+    },
+    {
+      "symbol": "ADA",
+      "r": -1.0,
+      "n": 9
     },
     {
       "symbol": "AVAX",
