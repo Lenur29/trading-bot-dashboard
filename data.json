@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T20:55:06Z",
+  "generated_at": "2026-08-02T21:00:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-02T18:45:15Z",
-      "current_price": 8.343,
+      "current_price": 8.342,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 8.3380",
@@ -3050,26 +3050,26 @@
       "deposit_result": -1.9
     },
     "today": {
-      "total": 2,
-      "tp": 1,
-      "sl": 1,
+      "total": 0,
+      "tp": 0,
+      "sl": 0,
       "be": 0,
-      "winrate": 50.0,
-      "effective_winrate": 50.0,
-      "sum_pnl": -0.66,
-      "r_result": 0.46,
-      "deposit_result": 0.05
+      "winrate": 0.0,
+      "effective_winrate": 0.0,
+      "sum_pnl": 0,
+      "r_result": 0,
+      "deposit_result": 0.0
     },
     "week": {
-      "total": 53,
-      "tp": 8,
-      "sl": 19,
-      "be": 26,
-      "winrate": 15.1,
-      "effective_winrate": 64.2,
-      "sum_pnl": 7.64,
-      "r_result": 5.04,
-      "deposit_result": 0.5
+      "total": 47,
+      "tp": 6,
+      "sl": 17,
+      "be": 24,
+      "winrate": 12.8,
+      "effective_winrate": 63.8,
+      "sum_pnl": 6.39,
+      "r_result": 3.28,
+      "deposit_result": 0.33
     }
   },
   "symbols_30d": [
