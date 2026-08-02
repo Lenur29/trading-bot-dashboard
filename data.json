@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T17:30:04Z",
+  "generated_at": "2026-08-02T17:35:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3048,8 +3048,8 @@
     },
     {
       "symbol": "AAVE",
-      "r": 3.76,
-      "n": 15
+      "r": 3.55,
+      "n": 14
     },
     {
       "symbol": "XRP",
