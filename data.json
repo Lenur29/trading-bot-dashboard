@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T21:45:07Z",
+  "generated_at": "2026-08-02T21:50:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-02T18:45:15Z",
-      "current_price": 8.377,
+      "current_price": 8.386,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 8.3380",
@@ -83,7 +83,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-02T21:15:22Z",
-      "current_price": 1.0869,
+      "current_price": 1.0876,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1.0818",
@@ -94,6 +94,37 @@
         "FVG поддерживает направление",
         "Order Block поддерживает направление",
         "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "ADA",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.1887644402915045,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-03T01:45:00Z",
+      "sl": 0.18613055636126,
+      "effective_stop": 0.18613055636126,
+      "tp1": 0.19060815904267564,
+      "tp2": 0.19271526618687124,
+      "tp3": 0.19403220815199348,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 86,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-02T21:45:18Z",
+      "current_price": 0.1892,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 0.18910",
+        "Объём подтверждает пробой (2.6× от среднего)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 57.0 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление"
       ]
     }
   ],
