@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T19:15:06Z",
+  "generated_at": "2026-08-02T19:20:06Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-02T18:45:15Z",
-      "current_price": 8.317,
+      "current_price": 8.319,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 8.3380",
@@ -3084,11 +3084,6 @@
       "n": 14
     },
     {
-      "symbol": "XRP",
-      "r": 2.72,
-      "n": 11
-    },
-    {
       "symbol": "LINK",
       "r": 1.98,
       "n": 10
@@ -3096,6 +3091,11 @@
     {
       "symbol": "HBAR",
       "r": 1.36,
+      "n": 10
+    },
+    {
+      "symbol": "XRP",
+      "r": 1.26,
       "n": 10
     },
     {
