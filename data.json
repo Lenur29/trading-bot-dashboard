@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T18:30:07Z",
+  "generated_at": "2026-08-04T18:35:08Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-03T14:00:26Z",
-      "current_price": 594.5,
-      "pnl_percent": 0.42,
+      "current_price": 594.3,
+      "pnl_percent": 0.39,
       "reasons": [
         "Цена пробила сопротивление 587.900",
         "Объём подтверждает пробой (1.5× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-04T06:45:25Z",
-      "current_price": 8.239,
-      "pnl_percent": -0.72,
+      "current_price": 8.23,
+      "pnl_percent": -0.61,
       "reasons": [
         "Цена пробила поддержку 8.1870",
         "Уровень 8.1870 тестировался 3 раз",
@@ -63,6 +63,37 @@
         "RSI 36.6 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "SOL",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 73.87880526134553,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-04T22:30:00Z",
+      "sl": 73.41014336531111,
+      "effective_stop": 73.41014336531111,
+      "tp1": 74.20686858856962,
+      "tp2": 74.58179810539716,
+      "tp3": 74.81612905341437,
+      "max_tp_hit": 0,
+      "rr": 1.500000000000008,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-04T18:30:25Z",
+      "current_price": 74.21,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 74.1200",
+        "Уровень 74.1200 тестировался 6 раз",
+        "Объём подтверждает пробой (1.7× от среднего)",
+        "Хорошее тело свечи (61%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 62.0 — здоровая зона для лонга",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление"
       ]
     }
   ],
