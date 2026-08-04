@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-08-04T16:55:07Z",
+  "generated_at": "2026-08-04T17:00:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "LTC",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 44.13,
-      "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 44.588706035829205,
-      "effective_stop": 44.588706035829205,
-      "tp1": 43.80890577491956,
-      "tp2": 43.441940946256196,
-      "tp3": 43.2125879283416,
-      "max_tp_hit": 0,
-      "rr": 1.5000000000000109,
-      "probability": 73,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-08-03T07:15:13Z",
-      "current_price": 44.51,
-      "pnl_percent": -0.86,
-      "reasons": [
-        "Цена пробила поддержку 44.3900",
-        "Уровень 44.3900 тестировался 5 раз",
-        "Объём подтверждает пробой (1.8× от среднего)",
-        "Сильное тело свечи (82%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 33.4 — здоровая зона для шорта",
-        "FVG поддерживает направление",
-        "Order Block поддерживает направление"
-      ]
-    },
     {
       "symbol": "BNB",
       "tf": "15m",
@@ -52,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-03T14:00:26Z",
-      "current_price": 592.1,
-      "pnl_percent": 0.02,
+      "current_price": 593.0,
+      "pnl_percent": 0.17,
       "reasons": [
         "Цена пробила сопротивление 587.900",
         "Объём подтверждает пробой (1.5× от среднего)",
@@ -83,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-04T06:45:25Z",
-      "current_price": 8.164,
-      "pnl_percent": 0.2,
+      "current_price": 8.182,
+      "pnl_percent": -0.02,
       "reasons": [
         "Цена пробила поддержку 8.1870",
         "Уровень 8.1870 тестировался 3 раз",
@@ -98,6 +67,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "SL",
+      "status": "sl",
+      "entry_kind": "fallback",
+      "pnl_percent": -1.04,
+      "r_multiple": -1.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-08-03T07:15:13Z",
+      "close_time": "2026-08-04T16:59:04Z",
+      "rr": 1.5000000000000109
+    },
     {
       "symbol": "BTC",
       "tf": "15m",
@@ -3082,56 +3066,41 @@
       "open_time": "2026-07-04T22:15:39Z",
       "close_time": "2026-07-05T08:01:14Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "SUI",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "market",
-      "pnl_percent": -1.91,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-07-04T17:45:48Z",
-      "close_time": "2026-07-05T08:01:13Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 698,
+      "total": 699,
       "tp": 101,
-      "sl": 319,
+      "sl": 320,
       "be": 278,
-      "winrate": 14.5,
-      "effective_winrate": 54.3,
-      "sum_pnl": -56.19,
-      "r_result": -23.34,
-      "deposit_result": -2.33
+      "winrate": 14.4,
+      "effective_winrate": 54.2,
+      "sum_pnl": -57.23,
+      "r_result": -24.34,
+      "deposit_result": -2.43
     },
     "today": {
-      "total": 4,
+      "total": 5,
       "tp": 0,
-      "sl": 1,
+      "sl": 2,
       "be": 3,
       "winrate": 0.0,
-      "effective_winrate": 75.0,
-      "sum_pnl": 1.04,
-      "r_result": 0.26,
-      "deposit_result": 0.03
+      "effective_winrate": 60.0,
+      "sum_pnl": 0.0,
+      "r_result": -0.74,
+      "deposit_result": -0.07
     },
     "week": {
-      "total": 47,
+      "total": 48,
       "tp": 4,
-      "sl": 18,
+      "sl": 19,
       "be": 25,
-      "winrate": 8.5,
-      "effective_winrate": 61.7,
-      "sum_pnl": 2.78,
-      "r_result": -0.94,
-      "deposit_result": -0.09
+      "winrate": 8.3,
+      "effective_winrate": 60.4,
+      "sum_pnl": 1.74,
+      "r_result": -1.94,
+      "deposit_result": -0.19
     }
   },
   "symbols_30d": [
@@ -3217,8 +3186,8 @@
     },
     {
       "symbol": "LTC",
-      "r": -9.49,
-      "n": 16
+      "r": -10.49,
+      "n": 17
     }
   ]
 }
