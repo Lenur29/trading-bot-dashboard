@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T20:30:07Z",
+  "generated_at": "2026-08-04T20:35:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-03T14:00:26Z",
-      "current_price": 592.8,
-      "pnl_percent": 0.14,
+      "current_price": 593.0,
+      "pnl_percent": 0.17,
       "reasons": [
         "Цена пробила сопротивление 587.900",
         "Объём подтверждает пробой (1.5× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-04T06:45:25Z",
-      "current_price": 8.184,
-      "pnl_percent": -0.05,
+      "current_price": 8.18,
+      "pnl_percent": -0.0,
       "reasons": [
         "Цена пробила поддержку 8.1870",
         "Уровень 8.1870 тестировался 3 раз",
@@ -83,8 +83,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-04T18:30:25Z",
-      "current_price": 74.05,
-      "pnl_percent": 0.23,
+      "current_price": 74.04,
+      "pnl_percent": 0.22,
       "reasons": [
         "Цена пробила сопротивление 74.1200",
         "Уровень 74.1200 тестировался 6 раз",
@@ -94,6 +94,37 @@
         "RSI 62.0 — здоровая зона для лонга",
         "FVG поддерживает направление",
         "Order Block поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "GRAM",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 1.3892000504761215,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-05T00:30:00Z",
+      "sl": 1.3982448086787158,
+      "effective_stop": 1.3982448086787158,
+      "tp1": 1.3828687197343055,
+      "tp2": 1.37563291317223,
+      "tp3": 1.3711105340709329,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000084,
+      "probability": 77,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-04T20:30:22Z",
+      "current_price": 1.3862,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 1.3893",
+        "Объём подтверждает пробой (1.7× от среднего)",
+        "Хорошее тело свечи (65%)",
+        "RSI 44.7 — здоровая зона для шорта",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление",
+        "BTC согласуется с направлением (-0.39%)"
       ]
     }
   ],
