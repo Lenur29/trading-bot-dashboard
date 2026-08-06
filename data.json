@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T17:15:07Z",
+  "generated_at": "2026-08-06T17:20:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-06T13:00:15Z",
-      "current_price": 1.3833,
-      "pnl_percent": -0.02,
+      "current_price": 1.3832,
+      "pnl_percent": -0.01,
       "reasons": [
         "Цена пробила поддержку 1.3780",
         "Уровень 1.3780 тестировался 5 раз",
@@ -52,7 +52,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-06T14:00:16Z",
-      "current_price": 0.2062,
+      "current_price": 0.2056,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.19260",
@@ -83,7 +83,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-06T15:45:15Z",
-      "current_price": 0.0686,
+      "current_price": 0.06853,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.06869",
@@ -94,6 +94,37 @@
         "4h согласен с направлением",
         "FVG поддерживает, но есть встречный FVG в зоне риска",
         "London/NY overlap — пиковая ликвидность"
+      ]
+    },
+    {
+      "symbol": "LINK",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 8.204061915117148,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-06T21:15:00Z",
+      "sl": 8.163041605541562,
+      "effective_stop": 8.163041605541562,
+      "tp1": 8.232776131820058,
+      "tp2": 8.265592379480527,
+      "tp3": 8.28610253426832,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000093,
+      "probability": 74,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-06T17:15:12Z",
+      "current_price": 8.281,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 8.2710",
+        "Уровень 8.2710 тестировался 3 раз",
+        "Объём выше среднего (1.2×)",
+        "Хорошее тело свечи (67%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 68.5 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление"
       ]
     }
   ],
@@ -3156,14 +3187,14 @@
       "n": 10
     },
     {
+      "symbol": "XRP",
+      "r": 1.8,
+      "n": 11
+    },
+    {
       "symbol": "HBAR",
       "r": 1.36,
       "n": 10
-    },
-    {
-      "symbol": "XRP",
-      "r": 0.8,
-      "n": 12
     },
     {
       "symbol": "BTC",
