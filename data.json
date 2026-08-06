@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T14:00:07Z",
+  "generated_at": "2026-08-06T14:05:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-06T09:15:33Z",
-      "current_price": 1.0453,
-      "pnl_percent": 0.53,
+      "current_price": 1.0458,
+      "pnl_percent": 0.48,
       "reasons": [
         "Цена пробила поддержку 1.0478",
         "Объём подтверждает пробой (6.8× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-06T13:00:15Z",
-      "current_price": 1.3786,
+      "current_price": 1.3788,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.3780",
@@ -83,7 +83,7 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-06T13:15:15Z",
-      "current_price": 73.21,
+      "current_price": 73.23,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 73.1900",
@@ -94,6 +94,37 @@
         "FVG поддерживает направление",
         "BTC согласуется с направлением (-0.45%)",
         "London/NY overlap — пиковая ликвидность"
+      ]
+    },
+    {
+      "symbol": "ADA",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.1907901895379872,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-06T18:00:00Z",
+      "sl": 0.18948250056200153,
+      "effective_stop": 0.18948250056200153,
+      "tp1": 0.19170557182117717,
+      "tp2": 0.19275172300196575,
+      "tp3": 0.19340556748995857,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-06T14:00:16Z",
+      "current_price": 0.1948,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 0.19260",
+        "Объём подтверждает пробой (4.1× от среднего)",
+        "Сильное тело свечи (76%)",
+        "EMA20 > EMA50 — краткосрочный аптренд",
+        "RSI 68.4 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
