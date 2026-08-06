@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T15:45:07Z",
+  "generated_at": "2026-08-06T15:50:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-06T13:00:15Z",
-      "current_price": 1.3824,
-      "pnl_percent": 0.04,
+      "current_price": 1.3848,
+      "pnl_percent": -0.13,
       "reasons": [
         "Цена пробила поддержку 1.3780",
         "Уровень 1.3780 тестировался 5 раз",
@@ -52,8 +52,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-06T13:15:15Z",
-      "current_price": 73.36,
-      "pnl_percent": 0.03,
+      "current_price": 73.49,
+      "pnl_percent": -0.15,
       "reasons": [
         "Цена пробила поддержку 73.1900",
         "Объём подтверждает пробой (3.3× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-06T14:00:16Z",
-      "current_price": 0.2077,
+      "current_price": 0.2108,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.19260",
@@ -94,6 +94,37 @@
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "HBAR",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.06890565174787988,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-06T19:45:00Z",
+      "sl": 0.06975780185102771,
+      "effective_stop": 0.06975780185102771,
+      "tp1": 0.06830914667567639,
+      "tp2": 0.06762742659315812,
+      "tp3": 0.06720135154158421,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 74,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-06T15:45:15Z",
+      "current_price": 0.06865,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 0.06869",
+        "Объём подтверждает пробой (2.9× от среднего)",
+        "Сильное тело свечи (85%)",
+        "RSI 41.8 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает, но есть встречный FVG в зоне риска",
+        "London/NY overlap — пиковая ликвидность"
       ]
     }
   ],
