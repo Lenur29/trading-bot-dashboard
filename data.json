@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T09:45:07Z",
+  "generated_at": "2026-08-07T09:50:08Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-06T15:45:15Z",
-      "current_price": 0.06862,
-      "pnl_percent": -0.42,
+      "current_price": 0.06861,
+      "pnl_percent": -0.41,
       "reasons": [
         "Цена пробила поддержку 0.06869",
         "Объём подтверждает пробой (2.9× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-07T08:45:25Z",
-      "current_price": 0.0963,
+      "current_price": 0.09606,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.09365",
@@ -83,7 +83,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-07T08:45:25Z",
-      "current_price": 90.77,
+      "current_price": 90.69,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 90.5900",
@@ -94,6 +94,37 @@
         "RSI 59.3 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "ETH",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 1906.169332633463,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-07T13:45:00Z",
+      "sl": 1896.6384859702957,
+      "effective_stop": 1896.6384859702957,
+      "tp1": 1912.84092529768,
+      "tp2": 1920.465602628214,
+      "tp3": 1925.2310259597975,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 84,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-07T09:45:15Z",
+      "current_price": 1914.79,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 1914.00",
+        "Объём подтверждает пробой (3.6× от среднего)",
+        "Сильное тело свечи (70%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 68.4 — здоровая зона для лонга",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление"
       ]
     }
   ],
