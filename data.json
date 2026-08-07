@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T23:55:07Z",
+  "generated_at": "2026-08-07T06:55:07Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-06T13:00:15Z",
-      "current_price": 1.3678,
-      "pnl_percent": 1.1,
+      "current_price": 1.3399,
+      "pnl_percent": 3.12,
       "reasons": [
         "Цена пробила поддержку 1.3780",
         "Уровень 1.3780 тестировался 5 раз",
@@ -52,8 +52,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-06T15:45:15Z",
-      "current_price": 0.06812,
-      "pnl_percent": 0.31,
+      "current_price": 0.06845,
+      "pnl_percent": -0.18,
       "reasons": [
         "Цена пробила поддержку 0.06869",
         "Объём подтверждает пробой (2.9× от среднего)",
@@ -83,8 +83,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-06T18:45:17Z",
-      "current_price": 6.43,
-      "pnl_percent": 0.51,
+      "current_price": 6.413,
+      "pnl_percent": 0.77,
       "reasons": [
         "Цена пробила поддержку 6.4530",
         "Уровень 6.4530 тестировался 4 раз",
@@ -3146,14 +3146,14 @@
       "n": 7
     },
     {
+      "symbol": "AAVE",
+      "r": 3.26,
+      "n": 9
+    },
+    {
       "symbol": "LINK",
       "r": 2.82,
       "n": 12
-    },
-    {
-      "symbol": "AAVE",
-      "r": 2.26,
-      "n": 10
     },
     {
       "symbol": "XRP",
@@ -3191,6 +3191,11 @@
       "n": 14
     },
     {
+      "symbol": "NEAR",
+      "r": -1.89,
+      "n": 12
+    },
+    {
       "symbol": "GRAM",
       "r": -2.54,
       "n": 10
@@ -3199,11 +3204,6 @@
       "symbol": "ADA",
       "r": -2.58,
       "n": 12
-    },
-    {
-      "symbol": "NEAR",
-      "r": -2.89,
-      "n": 13
     },
     {
       "symbol": "INJ",
