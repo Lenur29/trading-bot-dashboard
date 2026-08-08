@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T06:25:45Z",
+  "generated_at": "2026-08-08T10:00:45Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-07T09:45:15Z",
-      "current_price": 1915.85,
-      "pnl_percent": -0.83,
+      "current_price": 1917.85,
+      "pnl_percent": -0.73,
       "reasons": [
         "Цена пробила сопротивление 1914.00",
         "Объём подтверждает пробой (3.6× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-07T14:15:30Z",
-      "current_price": 1.033,
-      "pnl_percent": -1.24,
+      "current_price": 1.0354,
+      "pnl_percent": -1.48,
       "reasons": [
         "Цена пробила поддержку 1.0340",
         "Объём подтверждает пробой (2.9× от среднего)",
@@ -3135,6 +3135,11 @@
       "n": 11
     },
     {
+      "symbol": "SOL",
+      "r": 0.26,
+      "n": 12
+    },
+    {
       "symbol": "AVAX",
       "r": 0.17,
       "n": 14
@@ -3145,14 +3150,14 @@
       "n": 12
     },
     {
+      "symbol": "ENA",
+      "r": -0.23,
+      "n": 12
+    },
+    {
       "symbol": "DOT",
       "r": -0.67,
       "n": 10
-    },
-    {
-      "symbol": "SOL",
-      "r": -0.74,
-      "n": 13
     },
     {
       "symbol": "GRAM",
@@ -3160,23 +3165,18 @@
       "n": 11
     },
     {
-      "symbol": "ENA",
-      "r": -1.23,
-      "n": 13
-    },
-    {
       "symbol": "NEAR",
       "r": -1.89,
       "n": 12
     },
     {
-      "symbol": "ADA",
-      "r": -2.58,
-      "n": 12
+      "symbol": "INJ",
+      "r": -2.22,
+      "n": 11
     },
     {
-      "symbol": "INJ",
-      "r": -3.22,
+      "symbol": "ADA",
+      "r": -2.58,
       "n": 12
     },
     {
@@ -3186,8 +3186,8 @@
     },
     {
       "symbol": "LTC",
-      "r": -9.49,
-      "n": 16
+      "r": -8.49,
+      "n": 15
     }
   ]
 }
