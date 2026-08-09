@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T10:00:45Z",
+  "generated_at": "2026-08-09T10:05:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-07T09:45:15Z",
-      "current_price": 1920.84,
-      "pnl_percent": -0.57,
+      "current_price": 1921.05,
+      "pnl_percent": -0.56,
       "reasons": [
         "Цена пробила сопротивление 1914.00",
         "Объём подтверждает пробой (3.6× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-09T09:05:52Z",
-      "current_price": 1.0354,
+      "current_price": 1.0355,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.0358",
@@ -3120,11 +3120,6 @@
       "n": 11
     },
     {
-      "symbol": "AAVE",
-      "r": 0.8,
-      "n": 9
-    },
-    {
       "symbol": "XRP",
       "r": 0.8,
       "n": 12
@@ -3153,6 +3148,11 @@
       "symbol": "ENA",
       "r": -0.23,
       "n": 12
+    },
+    {
+      "symbol": "AAVE",
+      "r": -0.66,
+      "n": 8
     },
     {
       "symbol": "DOT",
