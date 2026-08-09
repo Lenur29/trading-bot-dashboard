@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T20:15:46Z",
+  "generated_at": "2026-08-09T20:20:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-07T09:45:15Z",
-      "current_price": 1918.66,
-      "pnl_percent": -0.68,
+      "current_price": 1919.1,
+      "pnl_percent": -0.66,
       "reasons": [
         "Цена пробила сопротивление 1914.00",
         "Объём подтверждает пробой (3.6× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-09T14:34:59Z",
-      "current_price": 46.06,
-      "pnl_percent": -0.27,
+      "current_price": 46.09,
+      "pnl_percent": -0.2,
       "reasons": [
         "Цена пробила сопротивление 46.2900",
         "Объём выше среднего (1.3×)",
@@ -83,8 +83,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-09T18:45:50Z",
-      "current_price": 0.8078,
-      "pnl_percent": 0.07,
+      "current_price": 0.8082,
+      "pnl_percent": 0.02,
       "reasons": [
         "Цена пробила поддержку 0.80530",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -114,7 +114,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-09T19:45:50Z",
-      "current_price": 6.557,
+      "current_price": 6.55,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 6.5640",
@@ -3182,6 +3182,11 @@
       "n": 11
     },
     {
+      "symbol": "BTC",
+      "r": 0.83,
+      "n": 10
+    },
+    {
       "symbol": "HBAR",
       "r": 0.78,
       "n": 12
@@ -3195,11 +3200,6 @@
       "symbol": "AVAX",
       "r": 0.17,
       "n": 14
-    },
-    {
-      "symbol": "BTC",
-      "r": -0.17,
-      "n": 11
     },
     {
       "symbol": "XRP",
