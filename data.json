@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T22:15:46Z",
+  "generated_at": "2026-08-09T22:20:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-07T09:45:15Z",
-      "current_price": 1933.71,
-      "pnl_percent": 0.1,
+      "current_price": 1932.2,
+      "pnl_percent": 0.02,
       "reasons": [
         "Цена пробила сопротивление 1914.00",
         "Объём подтверждает пробой (3.6× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-09T19:45:50Z",
-      "current_price": 6.576,
+      "current_price": 6.569,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 6.5640",
@@ -94,6 +94,37 @@
         "Бычья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "OI +2.2% за 1ч — открываются новые позиции, у движения есть топливо"
+      ]
+    },
+    {
+      "symbol": "SUI",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.6999360250458396,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-10T02:15:00Z",
+      "sl": 0.6950596602949879,
+      "effective_stop": 0.6950596602949879,
+      "tp1": 0.7033494803714359,
+      "tp2": 0.7072505721721172,
+      "tp3": 0.7096887545475431,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-09T22:16:03Z",
+      "current_price": 0.7029,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 0.70290",
+        "Уровень 0.70290 тестировался 3 раз",
+        "Объём подтверждает пробой (1.7× от среднего)",
+        "Сильное тело свечи (87%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 64.2 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление"
       ]
     }
   ],
