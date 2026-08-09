@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T10:15:46Z",
+  "generated_at": "2026-08-09T10:20:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-07T09:45:15Z",
-      "current_price": 1921.63,
-      "pnl_percent": -0.53,
+      "current_price": 1920.97,
+      "pnl_percent": -0.56,
       "reasons": [
         "Цена пробила сопротивление 1914.00",
         "Объём подтверждает пробой (3.6× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-09T09:05:52Z",
-      "current_price": 1.0371,
-      "pnl_percent": -0.04,
+      "current_price": 1.0372,
+      "pnl_percent": -0.05,
       "reasons": [
         "Цена пробила поддержку 1.0358",
         "Объём подтверждает пробой (4.4× от среднего)",
@@ -61,6 +61,37 @@
         "EMA20 < EMA50 — краткосрочный даунтренд",
         "RSI 30.4 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "BNB",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 602.1344533010373,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-09T14:15:00Z",
+      "sl": 599.1237810345322,
+      "effective_stop": 599.1237810345322,
+      "tp1": 604.2419238875909,
+      "tp2": 606.650461700795,
+      "tp3": 608.1557978340476,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999856,
+      "probability": 85,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-09T10:15:57Z",
+      "current_price": 604.3,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 602.000",
+        "Объём подтверждает пробой (1.6× от среднего)",
+        "Сильное тело свечи (91%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 62.1 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
       ]
