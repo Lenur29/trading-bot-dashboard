@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:00:45Z",
+  "generated_at": "2026-08-10T15:05:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 85,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-10T12:30:54Z",
-      "current_price": 0.06812,
+      "current_price": 0.06822,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.06850",
@@ -52,7 +52,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-10T13:00:58Z",
-      "current_price": 1.0253,
+      "current_price": 1.0262,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.0305",
@@ -61,6 +61,37 @@
         "EMA20 < EMA50 < EMA200 — нисходящая структура",
         "RSI 36.8 — здоровая зона для шорта",
         "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "AAVE",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 91.21974706700705,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-10T19:00:00Z",
+      "sl": 91.82136738467342,
+      "effective_stop": 91.82136738467342,
+      "tp1": 90.79861284464059,
+      "tp2": 90.31731659050749,
+      "tp3": 90.0165064316743,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000049,
+      "probability": 76,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-10T15:00:56Z",
+      "current_price": 90.47,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 90.8000",
+        "Объём подтверждает пробой (2.7× от среднего)",
+        "Сильное тело свечи (81%)",
+        "EMA20 < EMA50 — краткосрочный даунтренд",
+        "RSI 33.5 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "Order Block поддерживает направление"
       ]
