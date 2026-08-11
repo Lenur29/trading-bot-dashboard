@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-08-11T16:15:43Z",
+  "generated_at": "2026-08-11T16:20:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "LINK",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 8.588,
+      "entry_kind": "market",
+      "pending_fill": false,
+      "ttl_deadline": null,
+      "sl": 8.464876162136179,
+      "effective_stop": 8.464876162136179,
+      "tp1": 8.674186686504674,
+      "tp2": 8.772685756795731,
+      "tp3": 8.83424767572764,
+      "max_tp_hit": 0,
+      "rr": 1.500000000000007,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-11T16:15:51Z",
+      "current_price": 8.597,
+      "pnl_percent": 0.1,
+      "reasons": [
+        "Цена пробила сопротивление 8.6110",
+        "Объём подтверждает пробой (1.8× от среднего)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 49.6 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает, но есть встречный FVG в зоне риска",
+        "Order Block поддерживает направление"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "AAVE",
