@@ -1,41 +1,24 @@
 {
-  "generated_at": "2026-08-11T14:50:45Z",
+  "generated_at": "2026-08-11T14:55:43Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [
+  "active": [],
+  "history": [
     {
       "symbol": "AAVE",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 88.90591835892897,
+      "result": "TP",
+      "status": "tp3",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 89.45653806814973,
-      "effective_stop": 88.74073244616275,
-      "tp1": 88.52048456247445,
-      "tp2": 88.07998879509785,
-      "tp3": 87.80467894048746,
-      "max_tp_hit": 2,
-      "rr": 1.5,
-      "probability": 82,
+      "pnl_percent": 0.9,
+      "r_multiple": 1.46,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 3,
       "open_time": "2026-08-11T12:31:05Z",
-      "current_price": 87.77,
-      "pnl_percent": 1.28,
-      "reasons": [
-        "Цена пробила поддержку 88.9100",
-        "Объём подтверждает пробой (2.2× от среднего)",
-        "Сильное тело свечи (92%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 42.2 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "⚠️ Встречный FVG в зоне риска"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-08-11T14:50:44Z",
+      "rr": 1.5
+    },
     {
       "symbol": "DOT",
       "tf": "15m",
@@ -3020,56 +3003,41 @@
       "open_time": "2026-07-13T10:15:46Z",
       "close_time": "2026-07-13T14:26:30Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "DOT",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "market",
-      "pnl_percent": 0.22,
-      "r_multiple": 0.21,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-07-13T11:45:40Z",
-      "close_time": "2026-07-13T14:10:30Z",
-      "rr": 1.4999999999999936
     }
   ],
   "stats": {
     "all": {
-      "total": 734,
-      "tp": 105,
+      "total": 735,
+      "tp": 106,
       "sl": 338,
       "be": 291,
-      "winrate": 14.3,
+      "winrate": 14.4,
       "effective_winrate": 54.0,
-      "sum_pnl": -64.76,
-      "r_result": -29.96,
-      "deposit_result": -3.0
+      "sum_pnl": -63.86,
+      "r_result": -28.5,
+      "deposit_result": -2.85
     },
     "today": {
-      "total": 6,
-      "tp": 2,
+      "total": 7,
+      "tp": 3,
       "sl": 1,
       "be": 3,
-      "winrate": 33.3,
-      "effective_winrate": 83.3,
-      "sum_pnl": 4.35,
-      "r_result": 3.18,
-      "deposit_result": 0.32
+      "winrate": 42.9,
+      "effective_winrate": 85.7,
+      "sum_pnl": 5.26,
+      "r_result": 4.64,
+      "deposit_result": 0.46
     },
     "week": {
-      "total": 40,
-      "tp": 4,
+      "total": 41,
+      "tp": 5,
       "sl": 20,
       "be": 16,
-      "winrate": 10.0,
-      "effective_winrate": 50.0,
-      "sum_pnl": -7.53,
-      "r_result": -6.36,
-      "deposit_result": -0.64
+      "winrate": 12.2,
+      "effective_winrate": 51.2,
+      "sum_pnl": -6.62,
+      "r_result": -4.9,
+      "deposit_result": -0.49
     }
   },
   "symbols_30d": [
@@ -3092,6 +3060,11 @@
       "symbol": "HBAR",
       "r": 1.2,
       "n": 13
+    },
+    {
+      "symbol": "AAVE",
+      "r": 1.01,
+      "n": 9
     },
     {
       "symbol": "BTC",
@@ -3117,11 +3090,6 @@
       "symbol": "DOT",
       "r": -0.21,
       "n": 12
-    },
-    {
-      "symbol": "AAVE",
-      "r": -0.45,
-      "n": 8
     },
     {
       "symbol": "GRAM",
