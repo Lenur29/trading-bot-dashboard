@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T17:35:46Z",
+  "generated_at": "2026-08-12T17:40:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -52,7 +52,7 @@
       "probability": 78,
       "setup_type": "Trend continuation",
       "open_time": "2026-08-12T15:00:53Z",
-      "current_price": 1.0089,
+      "current_price": 1.0099,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.0104",
