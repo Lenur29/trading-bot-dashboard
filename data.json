@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T13:20:46Z",
+  "generated_at": "2026-08-13T13:25:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-11T20:16:00Z",
-      "current_price": 609.6,
-      "pnl_percent": -1.01,
+      "current_price": 609.2,
+      "pnl_percent": -1.07,
       "reasons": [
         "Цена пробила сопротивление 610.500",
         "Объём выше среднего (1.4×)",
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-12T19:05:50Z",
-      "current_price": 0.08592,
-      "pnl_percent": 0.14,
+      "current_price": 0.08582,
+      "pnl_percent": 0.26,
       "reasons": [
         "Цена пробила поддержку 0.08788",
         "Объём подтверждает пробой (1.9× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-13T11:31:03Z",
-      "current_price": 0.7666,
+      "current_price": 0.7662,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.77120",
@@ -114,8 +114,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-13T11:31:03Z",
-      "current_price": 1888.88,
-      "pnl_percent": -0.16,
+      "current_price": 1887.05,
+      "pnl_percent": -0.06,
       "reasons": [
         "Цена пробила поддержку 1881.00",
         "Объём подтверждает пробой (2.5× от среднего)",
@@ -3192,11 +3192,6 @@
       "n": 12
     },
     {
-      "symbol": "AAVE",
-      "r": 1.01,
-      "n": 9
-    },
-    {
       "symbol": "BTC",
       "r": 0.83,
       "n": 10
@@ -3210,6 +3205,11 @@
       "symbol": "HBAR",
       "r": -0.01,
       "n": 13
+    },
+    {
+      "symbol": "AAVE",
+      "r": -0.45,
+      "n": 8
     },
     {
       "symbol": "GRAM",
