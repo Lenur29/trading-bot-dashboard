@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T16:35:46Z",
+  "generated_at": "2026-08-14T16:40:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-12T19:05:50Z",
-      "current_price": 0.08405,
-      "pnl_percent": 2.31,
+      "current_price": 0.08393,
+      "pnl_percent": 2.45,
       "reasons": [
         "Цена пробила поддержку 0.08788",
         "Объём подтверждает пробой (1.9× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-13T19:45:53Z",
-      "current_price": 0.06579,
-      "pnl_percent": -0.46,
+      "current_price": 0.06566,
+      "pnl_percent": -0.26,
       "reasons": [
         "Цена пробила поддержку 0.06562",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -83,8 +83,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-14T12:00:56Z",
-      "current_price": 86.62,
-      "pnl_percent": -0.52,
+      "current_price": 86.69,
+      "pnl_percent": -0.6,
       "reasons": [
         "Цена пробила поддержку 86.3300",
         "Уровень 86.3300 тестировался 3 раз",
@@ -3141,14 +3141,14 @@
       "n": 6
     },
     {
-      "symbol": "LINK",
-      "r": 2.61,
-      "n": 11
-    },
-    {
       "symbol": "ETH",
       "r": 2.21,
       "n": 8
+    },
+    {
+      "symbol": "LINK",
+      "r": 1.95,
+      "n": 10
     },
     {
       "symbol": "AVAX",
@@ -3191,6 +3191,11 @@
       "n": 12
     },
     {
+      "symbol": "INJ",
+      "r": -1.22,
+      "n": 9
+    },
+    {
       "symbol": "ADA",
       "r": -1.78,
       "n": 12
@@ -3198,11 +3203,6 @@
     {
       "symbol": "ENA",
       "r": -1.86,
-      "n": 10
-    },
-    {
-      "symbol": "INJ",
-      "r": -2.22,
       "n": 10
     },
     {
