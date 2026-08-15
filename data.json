@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T16:30:46Z",
+  "generated_at": "2026-08-15T16:35:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-13T19:45:53Z",
-      "current_price": 0.06552,
-      "pnl_percent": -0.05,
+      "current_price": 0.06553,
+      "pnl_percent": -0.06,
       "reasons": [
         "Цена пробила поддержку 0.06562",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-15T16:00:55Z",
-      "current_price": 611.7,
+      "current_price": 611.4,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 611.300",
@@ -63,6 +63,37 @@
         "4h согласен с направлением",
         "FVG поддерживает направление",
         "Order Block поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "LINK",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 9.454560161612594,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-15T20:30:00Z",
+      "sl": 9.38243441816915,
+      "effective_stop": 9.38243441816915,
+      "tp1": 9.505048182023005,
+      "tp2": 9.56274877677776,
+      "tp3": 9.598811648499481,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 81,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-15T16:30:55Z",
+      "current_price": 9.574,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 9.5090",
+        "Уровень 9.5090 тестировался 6 раз",
+        "Объём выше среднего (1.4×)",
+        "Хорошее тело свечи (60%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 68.1 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением"
       ]
     }
   ],
