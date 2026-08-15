@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T16:00:45Z",
+  "generated_at": "2026-08-15T16:05:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-13T19:45:53Z",
-      "current_price": 0.06584,
-      "pnl_percent": -0.53,
+      "current_price": 0.0658,
+      "pnl_percent": -0.47,
       "reasons": [
         "Цена пробила поддержку 0.06562",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -32,6 +32,37 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "BNB",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 610.5209176662297,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-15T20:00:00Z",
+      "sl": 607.4683130778985,
+      "effective_stop": 607.4683130778985,
+      "tp1": 612.6577408780615,
+      "tp2": 615.0998245487265,
+      "tp3": 616.6261268428921,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-15T16:00:55Z",
+      "current_price": 611.4,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 611.300",
+        "Уровень 611.300 тестировался 4 раз",
+        "Сильное тело свечи (100%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 58.9 — здоровая зона для лонга",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление"
       ]
     }
   ],
