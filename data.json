@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T13:55:46Z",
+  "generated_at": "2026-08-16T14:00:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-16T09:15:52Z",
-      "current_price": 4.106,
-      "pnl_percent": 0.1,
+      "current_price": 4.103,
+      "pnl_percent": 0.17,
       "reasons": [
         "Цена пробила поддержку 4.1080",
         "Сильное тело свечи (88%)",
@@ -83,7 +83,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-16T10:15:57Z",
-      "current_price": 0.9999,
+      "current_price": 1.0002,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.99940",
@@ -114,8 +114,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-16T10:15:57Z",
-      "current_price": 75.3,
-      "pnl_percent": 0.08,
+      "current_price": 75.28,
+      "pnl_percent": 0.11,
       "reasons": [
         "Цена пробила поддержку 75.3100",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -3193,8 +3193,8 @@
     },
     {
       "symbol": "AVAX",
-      "r": 1.0,
-      "n": 12
+      "r": 0.79,
+      "n": 11
     },
     {
       "symbol": "AAVE",
@@ -3243,8 +3243,8 @@
     },
     {
       "symbol": "SUI",
-      "r": -3.49,
-      "n": 10
+      "r": -3.7,
+      "n": 9
     },
     {
       "symbol": "LTC",
