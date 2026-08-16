@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T14:00:46Z",
+  "generated_at": "2026-08-16T14:05:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-13T19:45:53Z",
-      "current_price": 0.06507,
-      "pnl_percent": 0.64,
+      "current_price": 0.06508,
+      "pnl_percent": 0.63,
       "reasons": [
         "Цена пробила поддержку 0.06562",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -70,9 +70,9 @@
       "tf": "15m",
       "side": "SHORT",
       "entry": 1.0006530246688219,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-08-16T14:15:00Z",
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 1.005656289792166,
       "effective_stop": 1.005656289792166,
       "tp1": 0.9971507390824811,
@@ -83,8 +83,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-16T10:15:57Z",
-      "current_price": 1.0002,
-      "pnl_percent": null,
+      "current_price": 1.0001,
+      "pnl_percent": 0.06,
       "reasons": [
         "Цена пробила поддержку 0.99940",
         "Объём подтверждает пробой (3.4× от среднего)",
@@ -114,8 +114,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-16T10:15:57Z",
-      "current_price": 75.28,
-      "pnl_percent": 0.11,
+      "current_price": 75.22,
+      "pnl_percent": 0.19,
       "reasons": [
         "Цена пробила поддержку 75.3100",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -3207,11 +3207,6 @@
       "n": 13
     },
     {
-      "symbol": "XRP",
-      "r": -0.1,
-      "n": 11
-    },
-    {
       "symbol": "SOL",
       "r": -0.4,
       "n": 11
@@ -3220,6 +3215,11 @@
       "symbol": "GRAM",
       "r": -0.66,
       "n": 12
+    },
+    {
+      "symbol": "XRP",
+      "r": -0.76,
+      "n": 10
     },
     {
       "symbol": "INJ",
