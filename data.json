@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T19:15:46Z",
+  "generated_at": "2026-08-16T19:20:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-13T19:45:53Z",
-      "current_price": 0.06515,
-      "pnl_percent": 0.52,
+      "current_price": 0.06516,
+      "pnl_percent": 0.5,
       "reasons": [
         "Цена пробила поддержку 0.06562",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-16T10:15:57Z",
-      "current_price": 1.0002,
-      "pnl_percent": 0.05,
+      "current_price": 1.001,
+      "pnl_percent": -0.03,
       "reasons": [
         "Цена пробила поддержку 0.99940",
         "Объём подтверждает пробой (3.4× от среднего)",
@@ -64,40 +64,24 @@
         "FVG поддерживает направление",
         "Order Block поддерживает направление"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "SOL",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 75.363676193726,
+      "result": "BE",
+      "status": "be",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 75.74049457469461,
-      "effective_stop": 75.2506306794354,
-      "tp1": 75.09990332704797,
-      "tp2": 74.79844862227307,
-      "tp3": 74.61003943178876,
-      "max_tp_hit": 1,
-      "rr": 1.4999999999999811,
-      "probability": 75,
+      "pnl_percent": 0.21,
+      "r_multiple": 0.42,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
       "open_time": "2026-08-16T10:15:57Z",
-      "current_price": 75.25,
-      "pnl_percent": 0.15,
-      "reasons": [
-        "Цена пробила поддержку 75.3100",
-        "Объём подтверждает пробой (1.7× от среднего)",
-        "Сильное тело свечи (75%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 33.2 — здоровая зона для шорта",
-        "FVG поддерживает направление",
-        "Order Block поддерживает направление",
-        "Активная торговая сессия"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-08-16T19:16:43Z",
+      "rr": 1.4999999999999811
+    },
     {
       "symbol": "INJ",
       "tf": "15m",
@@ -3082,56 +3066,41 @@
       "open_time": "2026-07-15T15:45:40Z",
       "close_time": "2026-07-15T16:21:30Z",
       "rr": 1.5000000000000064
-    },
-    {
-      "symbol": "AAVE",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "market",
-      "pnl_percent": -1.63,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-07-15T13:00:50Z",
-      "close_time": "2026-07-15T14:25:30Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 754,
+      "total": 755,
       "tp": 111,
       "sl": 347,
-      "be": 296,
+      "be": 297,
       "winrate": 14.7,
       "effective_winrate": 54.0,
-      "sum_pnl": -61.14,
-      "r_result": -28.1,
-      "deposit_result": -2.81
+      "sum_pnl": -60.93,
+      "r_result": -27.68,
+      "deposit_result": -2.77
     },
     "today": {
-      "total": 4,
+      "total": 5,
       "tp": 0,
       "sl": 4,
-      "be": 0,
+      "be": 1,
       "winrate": 0.0,
-      "effective_winrate": 0.0,
-      "sum_pnl": -3.95,
-      "r_result": -4.0,
-      "deposit_result": -0.4
+      "effective_winrate": 20.0,
+      "sum_pnl": -3.74,
+      "r_result": -3.58,
+      "deposit_result": -0.36
     },
     "week": {
-      "total": 37,
+      "total": 38,
       "tp": 8,
       "sl": 20,
-      "be": 9,
-      "winrate": 21.6,
-      "effective_winrate": 45.9,
-      "sum_pnl": -1.15,
-      "r_result": -4.54,
-      "deposit_result": -0.45
+      "be": 10,
+      "winrate": 21.1,
+      "effective_winrate": 47.4,
+      "sum_pnl": -0.94,
+      "r_result": -4.12,
+      "deposit_result": -0.41
     }
   },
   "symbols_30d": [
@@ -3171,14 +3140,14 @@
       "n": 7
     },
     {
+      "symbol": "SOL",
+      "r": 0.02,
+      "n": 12
+    },
+    {
       "symbol": "HBAR",
       "r": -0.01,
       "n": 13
-    },
-    {
-      "symbol": "SOL",
-      "r": -0.4,
-      "n": 11
     },
     {
       "symbol": "GRAM",
