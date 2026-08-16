@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T17:35:46Z",
+  "generated_at": "2026-08-16T17:40:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-13T19:45:53Z",
-      "current_price": 0.06514,
-      "pnl_percent": 0.53,
+      "current_price": 0.06518,
+      "pnl_percent": 0.47,
       "reasons": [
         "Цена пробила поддержку 0.06562",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-16T10:15:57Z",
-      "current_price": 1.0004,
-      "pnl_percent": 0.03,
+      "current_price": 1.0015,
+      "pnl_percent": -0.08,
       "reasons": [
         "Цена пробила поддержку 0.99940",
         "Объём подтверждает пробой (3.4× от среднего)",
@@ -95,40 +95,24 @@
         "Order Block поддерживает направление",
         "Активная торговая сессия"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "INJ",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 4.115983158458601,
+      "result": "SL",
+      "status": "sl",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 4.151825130268601,
-      "effective_stop": 4.151825130268601,
-      "tp1": 4.090893778191601,
-      "tp2": 4.062220200743601,
-      "tp3": 4.044299214838601,
-      "max_tp_hit": 0,
-      "rr": 1.5000000000000098,
-      "probability": 80,
+      "pnl_percent": -0.87,
+      "r_multiple": -1.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-08-16T16:45:56Z",
-      "current_price": 4.138,
-      "pnl_percent": -0.53,
-      "reasons": [
-        "Цена пробила поддержку 4.1200",
-        "Уровень 4.1200 тестировался 3 раз",
-        "Объём подтверждает пробой (2.8× от среднего)",
-        "Сильное тело свечи (91%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 45.7 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-08-16T17:39:43Z",
+      "rr": 1.5000000000000098
+    },
     {
       "symbol": "INJ",
       "tf": "15m",
@@ -3113,56 +3097,41 @@
       "open_time": "2026-07-15T13:00:50Z",
       "close_time": "2026-07-15T14:25:30Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "NEAR",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "TP",
-      "status": "tp3",
-      "entry_kind": "market",
-      "pnl_percent": 2.5,
-      "r_multiple": 1.46,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 3,
-      "open_time": "2026-07-15T08:45:38Z",
-      "close_time": "2026-07-15T12:30:29Z",
-      "rr": 1.500000000000003
     }
   ],
   "stats": {
     "all": {
-      "total": 753,
+      "total": 754,
       "tp": 111,
-      "sl": 346,
+      "sl": 347,
       "be": 296,
       "winrate": 14.7,
-      "effective_winrate": 54.1,
-      "sum_pnl": -60.27,
-      "r_result": -27.1,
-      "deposit_result": -2.71
+      "effective_winrate": 54.0,
+      "sum_pnl": -61.14,
+      "r_result": -28.1,
+      "deposit_result": -2.81
     },
     "today": {
-      "total": 3,
+      "total": 4,
       "tp": 0,
-      "sl": 3,
+      "sl": 4,
       "be": 0,
       "winrate": 0.0,
       "effective_winrate": 0.0,
-      "sum_pnl": -3.08,
-      "r_result": -3.0,
-      "deposit_result": -0.3
+      "sum_pnl": -3.95,
+      "r_result": -4.0,
+      "deposit_result": -0.4
     },
     "week": {
-      "total": 36,
+      "total": 37,
       "tp": 8,
-      "sl": 19,
+      "sl": 20,
       "be": 9,
-      "winrate": 22.2,
-      "effective_winrate": 47.2,
-      "sum_pnl": -0.28,
-      "r_result": -3.54,
-      "deposit_result": -0.35
+      "winrate": 21.6,
+      "effective_winrate": 45.9,
+      "sum_pnl": -1.15,
+      "r_result": -4.54,
+      "deposit_result": -0.45
     }
   },
   "symbols_30d": [
@@ -3232,14 +3201,14 @@
       "n": 11
     },
     {
-      "symbol": "INJ",
-      "r": -2.22,
-      "n": 10
-    },
-    {
       "symbol": "SUI",
       "r": -2.7,
       "n": 8
+    },
+    {
+      "symbol": "INJ",
+      "r": -3.22,
+      "n": 11
     },
     {
       "symbol": "NEAR",
