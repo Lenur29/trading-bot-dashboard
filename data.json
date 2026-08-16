@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T20:55:46Z",
+  "generated_at": "2026-08-16T21:00:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-13T19:45:53Z",
-      "current_price": 0.06498,
-      "pnl_percent": 0.78,
+      "current_price": 0.06495,
+      "pnl_percent": 0.82,
       "reasons": [
         "Цена пробила поддержку 0.06562",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-16T10:15:57Z",
-      "current_price": 0.9992,
-      "pnl_percent": 0.15,
+      "current_price": 0.9986,
+      "pnl_percent": 0.21,
       "reasons": [
         "Цена пробила поддержку 0.99940",
         "Объём подтверждает пробой (3.4× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-16T20:45:54Z",
-      "current_price": 0.08303,
+      "current_price": 0.0829,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.08324",
@@ -3112,26 +3112,26 @@
       "deposit_result": -2.77
     },
     "today": {
-      "total": 5,
+      "total": 0,
       "tp": 0,
-      "sl": 4,
-      "be": 1,
+      "sl": 0,
+      "be": 0,
       "winrate": 0.0,
-      "effective_winrate": 20.0,
-      "sum_pnl": -3.74,
-      "r_result": -3.58,
-      "deposit_result": -0.36
+      "effective_winrate": 0.0,
+      "sum_pnl": 0,
+      "r_result": 0,
+      "deposit_result": 0.0
     },
     "week": {
-      "total": 38,
+      "total": 34,
       "tp": 8,
-      "sl": 20,
-      "be": 10,
-      "winrate": 21.1,
-      "effective_winrate": 47.4,
-      "sum_pnl": -0.94,
-      "r_result": -4.12,
-      "deposit_result": -0.41
+      "sl": 17,
+      "be": 9,
+      "winrate": 23.5,
+      "effective_winrate": 50.0,
+      "sum_pnl": 0.13,
+      "r_result": -1.54,
+      "deposit_result": -0.15
     }
   },
   "symbols_30d": [
