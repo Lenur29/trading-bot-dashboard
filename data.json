@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T21:00:46Z",
+  "generated_at": "2026-08-16T21:05:48Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-13T19:45:53Z",
-      "current_price": 0.06495,
-      "pnl_percent": 0.82,
+      "current_price": 0.06494,
+      "pnl_percent": 0.84,
       "reasons": [
         "Цена пробила поддержку 0.06562",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-16T10:15:57Z",
-      "current_price": 0.9986,
-      "pnl_percent": 0.21,
+      "current_price": 0.9985,
+      "pnl_percent": 0.22,
       "reasons": [
         "Цена пробила поддержку 0.99940",
         "Объём подтверждает пробой (3.4× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-16T20:45:54Z",
-      "current_price": 0.0829,
+      "current_price": 0.0827,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.08324",
@@ -92,6 +92,37 @@
         "EMA20 < EMA50 < EMA200 — нисходящая структура",
         "RSI 35.9 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "NEAR",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 1.6116855037102902,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-17T01:00:00Z",
+      "sl": 1.6197439312288415,
+      "effective_stop": 1.6197439312288415,
+      "tp1": 1.6060446044473042,
+      "tp2": 1.5995978624324632,
+      "tp3": 1.5955686486731875,
+      "max_tp_hit": 0,
+      "rr": 1.50000000000001,
+      "probability": 76,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-16T21:00:58Z",
+      "current_price": 1.602,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 1.6040",
+        "Уровень 1.6040 тестировался 12 раз",
+        "Объём подтверждает пробой (3.5× от среднего)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 31.7 — здоровая зона для шорта",
+        "4h согласен с направлением",
         "FVG поддерживает направление",
         "Активная торговая сессия"
       ]
