@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T10:15:46Z",
+  "generated_at": "2026-08-16T10:20:46Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-13T19:45:53Z",
-      "current_price": 0.06502,
-      "pnl_percent": 0.72,
+      "current_price": 0.065,
+      "pnl_percent": 0.75,
       "reasons": [
         "Цена пробила поддержку 0.06562",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-16T09:15:52Z",
-      "current_price": 4.097,
+      "current_price": 4.092,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 4.1080",
@@ -62,6 +62,68 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление",
+        "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "XRP",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 1.0006530246688219,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-16T14:15:00Z",
+      "sl": 1.005656289792166,
+      "effective_stop": 1.005656289792166,
+      "tp1": 0.9971507390824811,
+      "tp2": 0.9931481269838058,
+      "tp3": 0.9906464944221338,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 76,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-16T10:15:57Z",
+      "current_price": 0.9986,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 0.99940",
+        "Объём подтверждает пробой (3.4× от среднего)",
+        "Хорошее тело свечи (65%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 34.0 — здоровая зона для шорта",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "SOL",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 75.363676193726,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-16T14:15:00Z",
+      "sl": 75.74049457469461,
+      "effective_stop": 75.74049457469461,
+      "tp1": 75.09990332704797,
+      "tp2": 74.79844862227307,
+      "tp3": 74.61003943178876,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999811,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-16T10:15:57Z",
+      "current_price": 75.18,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 75.3100",
+        "Объём подтверждает пробой (1.7× от среднего)",
+        "Сильное тело свечи (75%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 33.2 — здоровая зона для шорта",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление",
         "Активная торговая сессия"
       ]
     }
