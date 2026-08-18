@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T21:13:22Z",
+  "generated_at": "2026-08-18T21:18:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-18T15:45:34Z",
-      "current_price": 44.59,
-      "pnl_percent": -0.32,
+      "current_price": 44.53,
+      "pnl_percent": -0.19,
       "reasons": [
         "Цена пробила поддержку 44.2600",
         "Объём подтверждает пробой (2.0× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-18T16:15:30Z",
-      "current_price": 1.599,
-      "pnl_percent": 0.37,
+      "current_price": 1.596,
+      "pnl_percent": 0.56,
       "reasons": [
         "Цена пробила поддержку 1.6250",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -63,6 +63,37 @@
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "London/NY overlap — пиковая ликвидность"
+      ]
+    },
+    {
+      "symbol": "LINK",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 9.48737871775999,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-19T01:15:00Z",
+      "sl": 9.43994182417119,
+      "effective_stop": 9.43994182417119,
+      "tp1": 9.52058454327215,
+      "tp2": 9.558534058143191,
+      "tp3": 9.58225250493759,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000113,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-18T21:15:31Z",
+      "current_price": 9.503,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 9.5030",
+        "Объём подтверждает пробой (2.8× от среднего)",
+        "Хорошее тело свечи (57%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 58.0 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
