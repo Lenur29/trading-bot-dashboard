@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T16:13:22Z",
+  "generated_at": "2026-08-18T16:18:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-18T11:30:33Z",
-      "current_price": 1.313,
-      "pnl_percent": -0.01,
+      "current_price": 1.312,
+      "pnl_percent": 0.07,
       "reasons": [
         "Цена пробила поддержку 1.3120",
         "Объём подтверждает пробой (2.7× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-18T15:45:34Z",
-      "current_price": 44.22,
+      "current_price": 44.2,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 44.2600",
@@ -63,6 +63,37 @@
         "4h согласен с направлением",
         "FVG поддерживает направление",
         "Order Block поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "NEAR",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 1.6259310964244942,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-18T20:15:00Z",
+      "sl": 1.6515827975791029,
+      "effective_stop": 1.6515827975791029,
+      "tp1": 1.6079749056162682,
+      "tp2": 1.5874535446925813,
+      "tp3": 1.5746276941152768,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000036,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-18T16:15:30Z",
+      "current_price": 1.618,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 1.6250",
+        "Объём подтверждает пробой (2.1× от среднего)",
+        "Сильное тело свечи (87%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 45.8 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "London/NY overlap — пиковая ликвидность"
       ]
     }
   ],
