@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-08-18T15:13:22Z",
+  "generated_at": "2026-08-18T15:18:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "SOL",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 75.89482541142314,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-08-18T15:15:00Z",
-      "sl": 75.51535128436602,
-      "effective_stop": 75.51535128436602,
-      "tp1": 76.16045730036313,
-      "tp2": 76.46403660200883,
-      "tp3": 76.65377366553739,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 74,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-08-18T11:15:32Z",
-      "current_price": 76.88,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила сопротивление 75.9600",
-        "Объём выше среднего (1.3×)",
-        "Сильное тело свечи (88%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 57.1 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
-      ]
-    },
     {
       "symbol": "GRAM",
       "tf": "15m",
@@ -67,6 +36,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "SOL",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "CANCEL",
+      "status": "cancelled",
+      "entry_kind": "cancelled",
+      "pnl_percent": 0,
+      "r_multiple": 0.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-08-18T11:15:32Z",
+      "close_time": "2026-08-18T15:15:19Z",
+      "rr": 1.5
+    },
     {
       "symbol": "LINK",
       "tf": "15m",
@@ -3051,21 +3035,6 @@
       "open_time": "2026-07-16T22:30:47Z",
       "close_time": "2026-07-17T06:37:31Z",
       "rr": 1.5000000000000067
-    },
-    {
-      "symbol": "LTC",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "market",
-      "pnl_percent": -0.51,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-07-16T21:15:40Z",
-      "close_time": "2026-07-17T06:37:31Z",
-      "rr": 1.4999999999999845
     }
   ],
   "stats": {
