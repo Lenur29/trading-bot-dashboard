@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T18:03:22Z",
+  "generated_at": "2026-08-18T18:08:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-18T15:45:34Z",
-      "current_price": 44.29,
+      "current_price": 44.31,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 44.2600",
@@ -52,7 +52,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-18T16:15:30Z",
-      "current_price": 1.612,
+      "current_price": 1.613,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.6250",
@@ -3165,14 +3165,14 @@
       "n": 13
     },
     {
+      "symbol": "SUI",
+      "r": -1.7,
+      "n": 7
+    },
+    {
       "symbol": "ENA",
       "r": -2.44,
       "n": 12
-    },
-    {
-      "symbol": "SUI",
-      "r": -2.7,
-      "n": 8
     },
     {
       "symbol": "INJ",
