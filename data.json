@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T08:28:22Z",
+  "generated_at": "2026-08-19T08:33:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-18T15:45:34Z",
-      "current_price": 44.64,
-      "pnl_percent": -0.43,
+      "current_price": 44.63,
+      "pnl_percent": -0.41,
       "reasons": [
         "Цена пробила поддержку 44.2600",
         "Объём подтверждает пробой (2.0× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-19T07:05:33Z",
-      "current_price": 9.709,
+      "current_price": 9.727,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 9.6380",
@@ -63,6 +63,37 @@
         "RSI 62.6 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "SOL",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 76.94399539144612,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-19T12:30:00Z",
+      "sl": 76.50298009286979,
+      "effective_stop": 76.50298009286979,
+      "tp1": 77.25270610044956,
+      "tp2": 77.60551833931062,
+      "tp3": 77.82602598859879,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000107,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-19T08:30:32Z",
+      "current_price": 77.19,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 77.1500",
+        "Уровень 77.1500 тестировался 3 раз",
+        "Объём подтверждает пробой (2.2× от среднего)",
+        "Сильное тело свечи (78%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 60.3 — здоровая зона для лонга",
+        "4h согласен с направлением",
+        "Order Block поддерживает направление"
       ]
     }
   ],
