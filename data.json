@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:18:22Z",
+  "generated_at": "2026-08-19T15:23:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-19T07:05:33Z",
-      "current_price": 9.816,
-      "pnl_percent": 0.3,
+      "current_price": 9.825,
+      "pnl_percent": 0.39,
       "reasons": [
         "Цена пробила сопротивление 9.6380",
         "Уровень 9.6380 тестировался 3 раз",
@@ -3084,11 +3084,6 @@
       "n": 12
     },
     {
-      "symbol": "BTC",
-      "r": 2.54,
-      "n": 7
-    },
-    {
       "symbol": "HBAR",
       "r": 2.52,
       "n": 13
@@ -3112,6 +3107,11 @@
       "symbol": "AVAX",
       "r": 1.28,
       "n": 9
+    },
+    {
+      "symbol": "BTC",
+      "r": 1.08,
+      "n": 6
     },
     {
       "symbol": "LINK",
