@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:53:20Z",
+  "generated_at": "2026-08-19T15:58:20Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3093,8 +3093,8 @@
     },
     {
       "symbol": "ADA",
-      "r": -1.24,
-      "n": 9
+      "r": -0.24,
+      "n": 8
     },
     {
       "symbol": "GRAM",
