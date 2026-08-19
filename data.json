@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:23:22Z",
+  "generated_at": "2026-08-19T15:28:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -12,17 +12,17 @@
       "pending_fill": false,
       "ttl_deadline": null,
       "sl": 9.52926314110862,
-      "effective_stop": 9.52926314110862,
+      "effective_stop": 9.864321057667414,
       "tp1": 9.967415801223968,
       "tp2": 10.173605288337072,
       "tp3": 10.302473717782762,
-      "max_tp_hit": 0,
+      "max_tp_hit": 1,
       "rr": 1.5000000000000062,
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-19T07:05:33Z",
-      "current_price": 9.825,
-      "pnl_percent": 0.39,
+      "current_price": 9.97,
+      "pnl_percent": 1.87,
       "reasons": [
         "Цена пробила сопротивление 9.6380",
         "Уровень 9.6380 тестировался 3 раз",
