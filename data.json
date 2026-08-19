@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:58:23Z",
+  "generated_at": "2026-08-19T10:03:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-19T07:05:33Z",
-      "current_price": 9.733,
+      "current_price": 9.736,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 9.6380",
@@ -52,7 +52,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-19T08:30:32Z",
-      "current_price": 77.28,
+      "current_price": 77.21,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 77.1500",
@@ -83,7 +83,7 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-19T08:45:38Z",
-      "current_price": 1918.49,
+      "current_price": 1917.4,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1920.78",
@@ -3166,6 +3166,11 @@
       "n": 9
     },
     {
+      "symbol": "HBAR",
+      "r": 1.06,
+      "n": 12
+    },
+    {
       "symbol": "AAVE",
       "r": 0.76,
       "n": 7
@@ -3174,11 +3179,6 @@
       "symbol": "XRP",
       "r": 0.7,
       "n": 11
-    },
-    {
-      "symbol": "HBAR",
-      "r": 0.06,
-      "n": 13
     },
     {
       "symbol": "LINK",
