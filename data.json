@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-08-20T07:56:47Z",
+  "generated_at": "2026-08-20T08:01:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "ENA",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.09310740929708168,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-20T12:00:00Z",
+      "sl": 0.09212535463265073,
+      "effective_stop": 0.09212535463265073,
+      "tp1": 0.09379484756218334,
+      "tp2": 0.09458049129372811,
+      "tp3": 0.09507151862594358,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 82,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-20T08:00:58Z",
+      "current_price": 0.09427,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 0.09370",
+        "Объём подтверждает пробой (2.2× от среднего)",
+        "Хорошее тело свечи (52%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 62.7 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "LINK",
