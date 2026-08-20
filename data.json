@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T22:18:20Z",
+  "generated_at": "2026-08-20T07:16:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3107,14 +3107,14 @@
       "n": 7
     },
     {
-      "symbol": "ENA",
-      "r": -2.44,
-      "n": 12
-    },
-    {
       "symbol": "NEAR",
       "r": -2.89,
       "n": 12
+    },
+    {
+      "symbol": "ENA",
+      "r": -3.9,
+      "n": 11
     },
     {
       "symbol": "INJ",
