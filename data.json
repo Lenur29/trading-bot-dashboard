@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T07:56:50Z",
+  "generated_at": "2026-08-21T08:01:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-20T15:00:59Z",
-      "current_price": 49.58,
-      "pnl_percent": 3.27,
+      "current_price": 49.71,
+      "pnl_percent": 3.54,
       "reasons": [
         "Цена пробила сопротивление 47.5300",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-21T07:31:03Z",
-      "current_price": 7.48,
+      "current_price": 7.507,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 7.4430",
@@ -60,6 +60,37 @@
         "Хорошее тело свечи (60%)",
         "EMA20 > EMA50 > EMA200 — восходящая структура",
         "RSI 67.3 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "HBAR",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.07495668594593387,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-21T12:00:00Z",
+      "sl": 0.07456467052850388,
+      "effective_stop": 0.07456467052850388,
+      "tp1": 0.07523109673813486,
+      "tp2": 0.07554470907207886,
+      "tp3": 0.07574071678079385,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000062,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-21T08:00:57Z",
+      "current_price": 0.07567,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 0.07537",
+        "Объём выше среднего (1.3×)",
+        "Хорошее тело свечи (68%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "⚠️ RSI 70.3 — перекуплен, риск отката",
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
