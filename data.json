@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T07:26:50Z",
+  "generated_at": "2026-08-21T07:31:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-20T15:00:59Z",
-      "current_price": 49.13,
-      "pnl_percent": 2.33,
+      "current_price": 49.32,
+      "pnl_percent": 2.73,
       "reasons": [
         "Цена пробила сопротивление 47.5300",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -32,6 +32,37 @@
         "Бычья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "London/NY overlap — пиковая ликвидность"
+      ]
+    },
+    {
+      "symbol": "AVAX",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 7.344516523628853,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-21T11:30:00Z",
+      "sl": 7.24537116769576,
+      "effective_stop": 7.24537116769576,
+      "tp1": 7.413918272782018,
+      "tp2": 7.493234557528492,
+      "tp3": 7.542807235495038,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-21T07:31:03Z",
+      "current_price": 7.486,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 7.4430",
+        "Объём подтверждает пробой (1.9× от среднего)",
+        "Хорошее тело свечи (60%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 67.3 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
