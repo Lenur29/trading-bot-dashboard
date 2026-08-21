@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-08-21T08:06:50Z",
+  "generated_at": "2026-08-21T08:11:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "LTC",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 48.01,
-      "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 46.98950866370777,
-      "effective_stop": 48.316147400887665,
-      "tp1": 48.72434393540456,
-      "tp2": 49.54073700443834,
-      "tp3": 50.05098267258446,
-      "max_tp_hit": 2,
-      "rr": 1.5000000000000044,
-      "probability": 80,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-08-20T15:00:59Z",
-      "current_price": 49.95,
-      "pnl_percent": 4.04,
-      "reasons": [
-        "Цена пробила сопротивление 47.5300",
-        "Объём подтверждает пробой (1.7× от среднего)",
-        "Сильное тело свечи (78%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 65.4 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "FVG поддерживает направление",
-        "London/NY overlap — пиковая ликвидность"
-      ]
-    },
     {
       "symbol": "AVAX",
       "tf": "15m",
@@ -52,7 +21,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-21T07:31:03Z",
-      "current_price": 7.501,
+      "current_price": 7.529,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 7.4430",
@@ -83,7 +52,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-21T08:00:57Z",
-      "current_price": 0.07555,
+      "current_price": 0.07579,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.07537",
@@ -98,6 +67,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "TP",
+      "status": "tp3",
+      "entry_kind": "fallback",
+      "pnl_percent": 3.1,
+      "r_multiple": 1.46,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 3,
+      "open_time": "2026-08-20T15:00:59Z",
+      "close_time": "2026-08-21T08:07:47Z",
+      "rr": 1.5000000000000044
+    },
     {
       "symbol": "HBAR",
       "tf": "15m",
@@ -3082,56 +3066,41 @@
       "open_time": "2026-07-18T17:00:54Z",
       "close_time": "2026-07-18T20:20:35Z",
       "rr": 1.5000000000000215
-    },
-    {
-      "symbol": "INJ",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 0.68,
-      "r_multiple": 0.74,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 2,
-      "open_time": "2026-07-18T14:15:27Z",
-      "close_time": "2026-07-18T18:45:00Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 778,
-      "tp": 119,
+      "total": 779,
+      "tp": 120,
       "sl": 353,
       "be": 306,
-      "winrate": 15.3,
-      "effective_winrate": 54.6,
-      "sum_pnl": -47.32,
-      "r_result": -17.86,
-      "deposit_result": -1.79
+      "winrate": 15.4,
+      "effective_winrate": 54.7,
+      "sum_pnl": -44.22,
+      "r_result": -16.4,
+      "deposit_result": -1.64
     },
     "today": {
-      "total": 3,
-      "tp": 2,
+      "total": 4,
+      "tp": 3,
       "sl": 0,
       "be": 1,
-      "winrate": 66.7,
+      "winrate": 75.0,
       "effective_winrate": 100.0,
-      "sum_pnl": 5.5,
-      "r_result": 3.34,
-      "deposit_result": 0.33
+      "sum_pnl": 8.6,
+      "r_result": 4.8,
+      "deposit_result": 0.48
     },
     "week": {
-      "total": 33,
-      "tp": 10,
+      "total": 34,
+      "tp": 11,
       "sl": 10,
       "be": 13,
-      "winrate": 30.3,
-      "effective_winrate": 69.7,
-      "sum_pnl": 15.9,
-      "r_result": 10.42,
-      "deposit_result": 1.04
+      "winrate": 32.4,
+      "effective_winrate": 70.6,
+      "sum_pnl": 19.01,
+      "r_result": 11.88,
+      "deposit_result": 1.19
     }
   },
   "symbols_30d": [
@@ -3217,8 +3186,8 @@
     },
     {
       "symbol": "LTC",
-      "r": -6.12,
-      "n": 10
+      "r": -4.66,
+      "n": 11
     }
   ]
 }
