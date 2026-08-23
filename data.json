@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T18:51:47Z",
+  "generated_at": "2026-08-23T18:56:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3067,11 +3067,6 @@
       "n": 9
     },
     {
-      "symbol": "DOT",
-      "r": 2.0,
-      "n": 10
-    },
-    {
       "symbol": "LINK",
       "r": 1.86,
       "n": 13
@@ -3080,6 +3075,11 @@
       "symbol": "XRP",
       "r": 1.38,
       "n": 11
+    },
+    {
+      "symbol": "DOT",
+      "r": 1.22,
+      "n": 9
     },
     {
       "symbol": "BTC",
