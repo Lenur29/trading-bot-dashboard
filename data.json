@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T19:41:47Z",
+  "generated_at": "2026-08-23T19:46:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3057,11 +3057,6 @@
       "n": 8
     },
     {
-      "symbol": "HBAR",
-      "r": 2.9,
-      "n": 13
-    },
-    {
       "symbol": "AAVE",
       "r": 2.64,
       "n": 9
@@ -3070,6 +3065,11 @@
       "symbol": "LINK",
       "r": 1.86,
       "n": 13
+    },
+    {
+      "symbol": "HBAR",
+      "r": 1.44,
+      "n": 12
     },
     {
       "symbol": "XRP",
