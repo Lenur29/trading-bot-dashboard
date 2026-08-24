@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T21:51:49Z",
+  "generated_at": "2026-08-24T21:56:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-24T14:15:55Z",
-      "current_price": 5.669,
-      "pnl_percent": -2.48,
+      "current_price": 5.671,
+      "pnl_percent": -2.44,
       "reasons": [
         "Цена пробила сопротивление 5.5190",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-24T21:15:54Z",
-      "current_price": 0.08011,
+      "current_price": 0.0799,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.07978",
