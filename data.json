@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T21:56:49Z",
+  "generated_at": "2026-08-25T22:01:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-24T14:15:55Z",
-      "current_price": 5.537,
-      "pnl_percent": -4.75,
+      "current_price": 5.589,
+      "pnl_percent": -3.85,
       "reasons": [
         "Цена пробила сопротивление 5.5190",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -3084,11 +3084,6 @@
       "n": 10
     },
     {
-      "symbol": "AAVE",
-      "r": 2.64,
-      "n": 9
-    },
-    {
       "symbol": "DOT",
       "r": 2.22,
       "n": 8
@@ -3112,6 +3107,11 @@
       "symbol": "LINK",
       "r": 1.44,
       "n": 12
+    },
+    {
+      "symbol": "AAVE",
+      "r": 1.18,
+      "n": 8
     },
     {
       "symbol": "BTC",
@@ -3139,13 +3139,13 @@
       "n": 12
     },
     {
-      "symbol": "ENA",
-      "r": -1.9,
-      "n": 9
+      "symbol": "NEAR",
+      "r": -1.66,
+      "n": 8
     },
     {
-      "symbol": "NEAR",
-      "r": -2.66,
+      "symbol": "ENA",
+      "r": -1.9,
       "n": 9
     },
     {
