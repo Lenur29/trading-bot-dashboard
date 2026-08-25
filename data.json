@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T22:01:50Z",
+  "generated_at": "2026-08-25T06:51:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-24T14:15:55Z",
-      "current_price": 5.682,
-      "pnl_percent": -2.25,
+      "current_price": 5.902,
+      "pnl_percent": 1.53,
       "reasons": [
         "Цена пробила сопротивление 5.5190",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -33,40 +33,24 @@
         "4h согласен с направлением",
         "FVG поддерживает направление"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "HBAR",
       "tf": "15m",
       "side": "LONG",
-      "entry": 0.07937235627060177,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-08-25T01:15:00Z",
-      "sl": 0.07838331686702946,
-      "effective_stop": 0.07838331686702946,
-      "tp1": 0.08006468385310239,
-      "tp2": 0.08085591537596024,
-      "tp3": 0.08135043507774639,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 74,
+      "result": "TP",
+      "status": "tp3",
+      "entry_kind": "limit",
+      "pnl_percent": 1.82,
+      "r_multiple": 1.46,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 3,
       "open_time": "2026-08-24T21:15:54Z",
-      "current_price": 0.0797,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила сопротивление 0.07978",
-        "Объём подтверждает пробой (2.2× от среднего)",
-        "Сильное тело свечи (74%)",
-        "RSI 59.9 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление",
-        "Order Block поддерживает направление"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-08-25T06:49:47Z",
+      "rr": 1.5
+    },
     {
       "symbol": "LTC",
       "tf": "15m",
@@ -3051,56 +3035,41 @@
       "open_time": "2026-07-22T14:16:08Z",
       "close_time": "2026-07-23T06:33:53Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "NEAR",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "fallback",
-      "pnl_percent": 0.89,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-07-22T06:38:03Z",
-      "close_time": "2026-07-23T06:33:53Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 801,
-      "tp": 124,
+      "total": 802,
+      "tp": 125,
       "sl": 360,
       "be": 317,
-      "winrate": 15.5,
+      "winrate": 15.6,
       "effective_winrate": 55.1,
-      "sum_pnl": -24.85,
-      "r_result": -12.22,
-      "deposit_result": -1.22
+      "sum_pnl": -23.03,
+      "r_result": -10.76,
+      "deposit_result": -1.08
     },
     "today": {
-      "total": 0,
-      "tp": 0,
+      "total": 1,
+      "tp": 1,
       "sl": 0,
       "be": 0,
-      "winrate": 0.0,
-      "effective_winrate": 0.0,
-      "sum_pnl": 0,
-      "r_result": 0,
-      "deposit_result": 0.0
+      "winrate": 100.0,
+      "effective_winrate": 100.0,
+      "sum_pnl": 1.82,
+      "r_result": 1.46,
+      "deposit_result": 0.15
     },
     "week": {
-      "total": 40,
-      "tp": 12,
+      "total": 41,
+      "tp": 13,
       "sl": 10,
       "be": 18,
-      "winrate": 30.0,
-      "effective_winrate": 75.0,
-      "sum_pnl": 37.21,
-      "r_result": 16.16,
-      "deposit_result": 1.62
+      "winrate": 31.7,
+      "effective_winrate": 75.6,
+      "sum_pnl": 39.03,
+      "r_result": 17.62,
+      "deposit_result": 1.76
     }
   },
   "symbols_30d": [
@@ -3113,6 +3082,11 @@
       "symbol": "ETH",
       "r": 5.62,
       "n": 11
+    },
+    {
+      "symbol": "HBAR",
+      "r": 2.9,
+      "n": 13
     },
     {
       "symbol": "AAVE",
@@ -3138,11 +3112,6 @@
       "symbol": "AVAX",
       "r": 1.54,
       "n": 8
-    },
-    {
-      "symbol": "HBAR",
-      "r": 1.44,
-      "n": 12
     },
     {
       "symbol": "BTC",
