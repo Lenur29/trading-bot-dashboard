@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T15:01:50Z",
+  "generated_at": "2026-08-25T15:06:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-24T14:15:55Z",
-      "current_price": 5.723,
-      "pnl_percent": -1.55,
+      "current_price": 5.7,
+      "pnl_percent": -1.94,
       "reasons": [
         "Цена пробила сопротивление 5.5190",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -3080,8 +3080,8 @@
     },
     {
       "symbol": "ETH",
-      "r": 5.62,
-      "n": 11
+      "r": 4.16,
+      "n": 10
     },
     {
       "symbol": "AAVE",
