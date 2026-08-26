@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T01:56:49Z",
+  "generated_at": "2026-08-26T07:06:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-24T14:15:55Z",
-      "current_price": 5.579,
-      "pnl_percent": -4.03,
+      "current_price": 5.54,
+      "pnl_percent": -4.7,
       "reasons": [
         "Цена пробила сопротивление 5.5190",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -3155,8 +3155,8 @@
     },
     {
       "symbol": "LTC",
-      "r": -4.34,
-      "n": 10
+      "r": -3.34,
+      "n": 9
     }
   ]
 }
