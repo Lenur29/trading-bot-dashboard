@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T16:31:47Z",
+  "generated_at": "2026-08-26T16:36:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3107,11 +3107,6 @@
       "n": 8
     },
     {
-      "symbol": "INJ",
-      "r": -2.38,
-      "n": 7
-    },
-    {
       "symbol": "ADA",
       "r": -2.4,
       "n": 13
@@ -3120,6 +3115,11 @@
       "symbol": "GRAM",
       "r": -2.86,
       "n": 11
+    },
+    {
+      "symbol": "INJ",
+      "r": -3.16,
+      "n": 6
     },
     {
       "symbol": "LTC",
