@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T15:21:50Z",
+  "generated_at": "2026-08-27T15:26:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T08:01:15Z",
-      "current_price": 80389.5,
-      "pnl_percent": 1.19,
+      "current_price": 80498.8,
+      "pnl_percent": 1.33,
       "reasons": [
         "Цена пробила сопротивление 78839.40",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T13:31:00Z",
-      "current_price": 107.07,
+      "current_price": 107.28,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 104.650",
@@ -83,7 +83,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T14:01:07Z",
-      "current_price": 0.15496,
+      "current_price": 0.15614,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.14717",
@@ -114,7 +114,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T14:31:10Z",
-      "current_price": 0.2147,
+      "current_price": 0.2149,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.21290",
@@ -3192,6 +3192,11 @@
       "n": 11
     },
     {
+      "symbol": "BTC",
+      "r": 1.62,
+      "n": 3
+    },
+    {
       "symbol": "AVAX",
       "r": 1.54,
       "n": 8
@@ -3200,11 +3205,6 @@
       "symbol": "BNB",
       "r": 1.12,
       "n": 7
-    },
-    {
-      "symbol": "BTC",
-      "r": 0.62,
-      "n": 4
     },
     {
       "symbol": "LINK",
