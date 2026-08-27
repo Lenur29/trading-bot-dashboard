@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T10:16:50Z",
+  "generated_at": "2026-08-27T10:21:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T08:01:15Z",
-      "current_price": 79900.0,
+      "current_price": 79994.3,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 78839.40",
@@ -52,7 +52,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T08:01:16Z",
-      "current_price": 104.5,
+      "current_price": 104.41,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 101.360",
@@ -83,7 +83,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T09:31:00Z",
-      "current_price": 0.07851,
+      "current_price": 0.07845,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.07872",
@@ -114,8 +114,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T09:31:00Z",
-      "current_price": 0.8788,
-      "pnl_percent": -0.06,
+      "current_price": 0.8792,
+      "pnl_percent": -0.02,
       "reasons": [
         "Цена пробила сопротивление 0.89080",
         "Уровень 0.89080 тестировался 3 раз",
@@ -3182,11 +3182,6 @@
       "n": 7
     },
     {
-      "symbol": "XRP",
-      "r": 2.16,
-      "n": 12
-    },
-    {
       "symbol": "HBAR",
       "r": 1.9,
       "n": 14
@@ -3195,6 +3190,11 @@
       "symbol": "BNB",
       "r": 1.9,
       "n": 8
+    },
+    {
+      "symbol": "XRP",
+      "r": 1.74,
+      "n": 11
     },
     {
       "symbol": "AVAX",
