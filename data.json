@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T14:26:50Z",
+  "generated_at": "2026-08-27T14:31:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T08:01:15Z",
-      "current_price": 79753.2,
-      "pnl_percent": 0.39,
+      "current_price": 79911.0,
+      "pnl_percent": 0.59,
       "reasons": [
         "Цена пробила сопротивление 78839.40",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T13:31:00Z",
-      "current_price": 105.77,
+      "current_price": 106.16,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 104.650",
@@ -83,7 +83,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T14:01:07Z",
-      "current_price": 0.15166,
+      "current_price": 0.15105,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.14717",
@@ -94,6 +94,37 @@
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "OI +16.0% за 1ч — открываются новые позиции, у движения есть топливо"
+      ]
+    },
+    {
+      "symbol": "ADA",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.21247464994061804,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-27T18:30:00Z",
+      "sl": 0.20865702197138278,
+      "effective_stop": 0.20865702197138278,
+      "tp1": 0.21514698951908273,
+      "tp2": 0.21820109189447096,
+      "tp3": 0.22010990587908857,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999978,
+      "probability": 83,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-27T14:31:10Z",
+      "current_price": 0.2149,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 0.21290",
+        "Объём подтверждает пробой (1.5× от среднего)",
+        "Сильное тело свечи (88%)",
+        "EMA20 > EMA50 — краткосрочный аптренд",
+        "RSI 63.0 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
