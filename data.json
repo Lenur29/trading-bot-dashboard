@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T11:41:50Z",
+  "generated_at": "2026-08-27T11:46:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T08:01:15Z",
-      "current_price": 79390.4,
+      "current_price": 79406.3,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 78839.40",
@@ -52,7 +52,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T08:01:16Z",
-      "current_price": 103.94,
+      "current_price": 103.86,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 101.360",
@@ -3137,8 +3137,8 @@
   "symbols_30d": [
     {
       "symbol": "SOL",
-      "r": 7.78,
-      "n": 12
+      "r": 7.36,
+      "n": 11
     },
     {
       "symbol": "ETH",
