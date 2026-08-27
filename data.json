@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T17:26:50Z",
+  "generated_at": "2026-08-27T17:31:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T08:01:15Z",
-      "current_price": 80755.9,
-      "pnl_percent": 1.65,
+      "current_price": 80729.1,
+      "pnl_percent": 1.61,
       "reasons": [
         "Цена пробила сопротивление 78839.40",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -32,37 +32,6 @@
         "4h согласен с направлением",
         "Order Block поддерживает направление",
         "Активная торговая сессия"
-      ]
-    },
-    {
-      "symbol": "SOL",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 103.98119272443377,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-08-27T17:30:00Z",
-      "sl": 102.99304930864848,
-      "effective_stop": 102.99304930864848,
-      "tp1": 104.67289311548348,
-      "tp2": 105.4634078481117,
-      "tp3": 105.95747955600434,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 80,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-08-27T13:31:00Z",
-      "current_price": 109.24,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила сопротивление 104.650",
-        "Уровень 104.650 тестировался 3 раз",
-        "Сильное тело свечи (77%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 65.6 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
       ]
     },
     {
@@ -83,7 +52,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T14:01:07Z",
-      "current_price": 0.17155,
+      "current_price": 0.1699,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.14717",
@@ -114,7 +83,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-27T14:31:10Z",
-      "current_price": 0.2169,
+      "current_price": 0.2165,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.21290",
@@ -129,6 +98,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "SOL",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "CANCEL",
+      "status": "cancelled",
+      "entry_kind": "cancelled",
+      "pnl_percent": 0,
+      "r_multiple": 0.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-08-27T13:31:00Z",
+      "close_time": "2026-08-27T17:30:48Z",
+      "rr": 1.5
+    },
     {
       "symbol": "HBAR",
       "tf": "15m",
@@ -3112,21 +3096,6 @@
       "max_tp_hit": 0,
       "open_time": "2026-07-22T16:46:10Z",
       "close_time": "2026-07-24T13:05:32Z",
-      "rr": 1.5
-    },
-    {
-      "symbol": "INJ",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "limit",
-      "pnl_percent": -0.54,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-07-24T07:31:03Z",
-      "close_time": "2026-07-24T08:31:51Z",
       "rr": 1.5
     }
   ],
