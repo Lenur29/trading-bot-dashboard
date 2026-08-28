@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-08-28T12:26:47Z",
+  "generated_at": "2026-08-28T12:31:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 49.01894514585346,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-28T16:30:00Z",
+      "sl": 49.26403987158272,
+      "effective_stop": 49.26403987158272,
+      "tp1": 48.847378837842975,
+      "tp2": 48.65130305725957,
+      "tp3": 48.52875569439494,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000078,
+      "probability": 76,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-28T12:30:56Z",
+      "current_price": 48.78,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 48.9800",
+        "Объём подтверждает пробой (1.5× от среднего)",
+        "Хорошее тело свечи (67%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 36.9 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "Активная торговая сессия"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "ADA",
