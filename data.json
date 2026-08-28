@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T10:36:49Z",
+  "generated_at": "2026-08-28T10:41:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-28T09:45:59Z",
-      "current_price": 0.2076,
+      "current_price": 0.2081,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.20830",
@@ -52,7 +52,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-28T09:45:59Z",
-      "current_price": 0.7569,
+      "current_price": 0.7582,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.75770",
@@ -3111,8 +3111,8 @@
     },
     {
       "symbol": "ETH",
-      "r": 4.84,
-      "n": 10
+      "r": 4.42,
+      "n": 9
     },
     {
       "symbol": "HBAR",
