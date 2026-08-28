@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T12:01:49Z",
+  "generated_at": "2026-08-28T12:06:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -33,40 +33,24 @@
         "FVG поддерживает направление",
         "BTC согласуется с направлением (-0.32%)"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "SUI",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 0.7619933892243828,
+      "result": "BE",
+      "status": "be",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 0.7664872450831571,
-      "effective_stop": 0.7606452324667504,
-      "tp1": 0.7588476901232407,
-      "tp2": 0.7552526054362212,
-      "tp3": 0.753005677506834,
-      "max_tp_hit": 1,
-      "rr": 1.5,
-      "probability": 74,
+      "pnl_percent": 0.25,
+      "r_multiple": 0.42,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
       "open_time": "2026-08-28T09:45:59Z",
-      "current_price": 0.7596,
-      "pnl_percent": 0.31,
-      "reasons": [
-        "Цена пробила поддержку 0.75770",
-        "Объём подтверждает пробой (2.8× от среднего)",
-        "Сильное тело свечи (85%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 36.4 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "FVG поддерживает направление",
-        "BTC согласуется с направлением (-0.32%)"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-08-28T12:05:47Z",
+      "rr": 1.5
+    },
     {
       "symbol": "ADA",
       "tf": "15m",
@@ -3051,56 +3035,41 @@
       "open_time": "2026-07-24T15:30:40Z",
       "close_time": "2026-07-24T19:43:32Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "DOT",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "fallback",
-      "pnl_percent": 1.35,
-      "r_multiple": 0.78,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 2,
-      "open_time": "2026-07-23T13:16:06Z",
-      "close_time": "2026-07-24T18:52:33Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 814,
+      "total": 815,
       "tp": 127,
       "sl": 366,
-      "be": 321,
+      "be": 322,
       "winrate": 15.6,
-      "effective_winrate": 55.0,
-      "sum_pnl": -27.56,
-      "r_result": -12.16,
-      "deposit_result": -1.22
+      "effective_winrate": 55.1,
+      "sum_pnl": -27.31,
+      "r_result": -11.74,
+      "deposit_result": -1.17
     },
     "today": {
-      "total": 2,
+      "total": 3,
       "tp": 0,
       "sl": 0,
-      "be": 2,
+      "be": 3,
       "winrate": 0.0,
       "effective_winrate": 100.0,
-      "sum_pnl": 7.28,
-      "r_result": 0.84,
-      "deposit_result": 0.08
+      "sum_pnl": 7.52,
+      "r_result": 1.26,
+      "deposit_result": 0.13
     },
     "week": {
-      "total": 39,
+      "total": 40,
       "tp": 10,
       "sl": 13,
-      "be": 16,
-      "winrate": 25.6,
-      "effective_winrate": 66.7,
-      "sum_pnl": 25.26,
-      "r_result": 9.04,
-      "deposit_result": 0.9
+      "be": 17,
+      "winrate": 25.0,
+      "effective_winrate": 67.5,
+      "sum_pnl": 25.51,
+      "r_result": 9.46,
+      "deposit_result": 0.95
     }
   },
   "symbols_30d": [
@@ -3150,14 +3119,14 @@
       "n": 13
     },
     {
-      "symbol": "DOT",
-      "r": -0.66,
+      "symbol": "SUI",
+      "r": -0.28,
       "n": 7
     },
     {
-      "symbol": "SUI",
-      "r": -0.7,
-      "n": 6
+      "symbol": "DOT",
+      "r": -0.66,
+      "n": 7
     },
     {
       "symbol": "ENA",
