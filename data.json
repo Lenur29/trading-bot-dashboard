@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T06:31:47Z",
+  "generated_at": "2026-08-28T06:36:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3112,11 +3112,6 @@
       "n": 14
     },
     {
-      "symbol": "GRAM",
-      "r": -3.28,
-      "n": 10
-    },
-    {
       "symbol": "LTC",
       "r": -3.34,
       "n": 9
@@ -3125,6 +3120,11 @@
       "symbol": "INJ",
       "r": -3.58,
       "n": 5
+    },
+    {
+      "symbol": "GRAM",
+      "r": -3.7,
+      "n": 9
     }
   ]
 }
