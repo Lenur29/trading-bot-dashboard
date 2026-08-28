@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T10:11:50Z",
+  "generated_at": "2026-08-28T10:16:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-28T09:45:59Z",
-      "current_price": 0.2068,
+      "current_price": 0.2063,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.20830",
@@ -52,7 +52,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-28T09:45:59Z",
-      "current_price": 0.7534,
+      "current_price": 0.7542,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.75770",
@@ -3136,8 +3136,8 @@
     },
     {
       "symbol": "AVAX",
-      "r": 1.54,
-      "n": 8
+      "r": 1.12,
+      "n": 7
     },
     {
       "symbol": "BNB",
