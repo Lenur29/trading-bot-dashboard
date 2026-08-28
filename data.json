@@ -1,41 +1,24 @@
 {
-  "generated_at": "2026-08-28T12:16:49Z",
+  "generated_at": "2026-08-28T12:21:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [
+  "active": [],
+  "history": [
     {
       "symbol": "ADA",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 0.20952338415392724,
+      "result": "BE",
+      "status": "be",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 0.2105911598764453,
-      "effective_stop": 0.20920305143717183,
-      "tp1": 0.20877594114816458,
-      "tp2": 0.20792172057015013,
-      "tp3": 0.2073878327088911,
-      "max_tp_hit": 1,
-      "rr": 1.5000000000000047,
-      "probability": 74,
+      "pnl_percent": 0.21,
+      "r_multiple": 0.42,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
       "open_time": "2026-08-28T09:45:59Z",
-      "current_price": 0.209,
-      "pnl_percent": 0.25,
-      "reasons": [
-        "Цена пробила поддержку 0.20830",
-        "Объём подтверждает пробой (2.4× от среднего)",
-        "Сильное тело свечи (91%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 33.5 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "FVG поддерживает направление",
-        "BTC согласуется с направлением (-0.32%)"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-08-28T12:19:46Z",
+      "rr": 1.5000000000000047
+    },
     {
       "symbol": "SUI",
       "tf": "15m",
@@ -3020,56 +3003,41 @@
       "open_time": "2026-07-24T21:15:54Z",
       "close_time": "2026-07-24T21:48:33Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "HBAR",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "TP",
-      "status": "tp3",
-      "entry_kind": "limit",
-      "pnl_percent": 1.0,
-      "r_multiple": 1.46,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 3,
-      "open_time": "2026-07-24T15:30:40Z",
-      "close_time": "2026-07-24T19:43:32Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 815,
+      "total": 816,
       "tp": 127,
       "sl": 366,
-      "be": 322,
+      "be": 323,
       "winrate": 15.6,
       "effective_winrate": 55.1,
-      "sum_pnl": -27.31,
-      "r_result": -11.74,
-      "deposit_result": -1.17
+      "sum_pnl": -27.09,
+      "r_result": -11.32,
+      "deposit_result": -1.13
     },
     "today": {
-      "total": 3,
+      "total": 4,
       "tp": 0,
       "sl": 0,
-      "be": 3,
+      "be": 4,
       "winrate": 0.0,
       "effective_winrate": 100.0,
-      "sum_pnl": 7.52,
-      "r_result": 1.26,
-      "deposit_result": 0.13
+      "sum_pnl": 7.74,
+      "r_result": 1.68,
+      "deposit_result": 0.17
     },
     "week": {
-      "total": 40,
+      "total": 41,
       "tp": 10,
       "sl": 13,
-      "be": 17,
-      "winrate": 25.0,
-      "effective_winrate": 67.5,
-      "sum_pnl": 25.51,
-      "r_result": 9.46,
-      "deposit_result": 0.95
+      "be": 18,
+      "winrate": 24.4,
+      "effective_winrate": 68.3,
+      "sum_pnl": 25.73,
+      "r_result": 9.88,
+      "deposit_result": 0.99
     }
   },
   "symbols_30d": [
@@ -3129,14 +3097,14 @@
       "n": 7
     },
     {
+      "symbol": "ADA",
+      "r": -1.56,
+      "n": 15
+    },
+    {
       "symbol": "ENA",
       "r": -1.9,
       "n": 9
-    },
-    {
-      "symbol": "ADA",
-      "r": -1.98,
-      "n": 14
     },
     {
       "symbol": "NEAR",
