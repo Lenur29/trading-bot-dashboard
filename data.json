@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T13:46:47Z",
+  "generated_at": "2026-08-29T13:51:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3043,8 +3043,8 @@
   "symbols_30d": [
     {
       "symbol": "SOL",
-      "r": 7.36,
-      "n": 11
+      "r": 8.36,
+      "n": 10
     },
     {
       "symbol": "ETH",
