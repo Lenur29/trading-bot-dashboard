@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T07:01:47Z",
+  "generated_at": "2026-08-30T08:21:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3072,6 +3072,11 @@
       "n": 11
     },
     {
+      "symbol": "LINK",
+      "r": 1.44,
+      "n": 12
+    },
+    {
       "symbol": "BNB",
       "r": 1.12,
       "n": 7
@@ -3080,11 +3085,6 @@
       "symbol": "BTC",
       "r": 0.84,
       "n": 2
-    },
-    {
-      "symbol": "LINK",
-      "r": 0.44,
-      "n": 13
     },
     {
       "symbol": "SUI",
