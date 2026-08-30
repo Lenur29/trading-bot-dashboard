@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T19:36:50Z",
+  "generated_at": "2026-08-30T19:41:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-30T10:46:00Z",
-      "current_price": 7.403,
-      "pnl_percent": -0.09,
+      "current_price": 7.4,
+      "pnl_percent": -0.13,
       "reasons": [
         "Цена пробила сопротивление 7.3430",
         "Объём подтверждает пробой (2.9× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-30T12:01:05Z",
-      "current_price": 127.86,
-      "pnl_percent": 1.62,
+      "current_price": 127.67,
+      "pnl_percent": 1.47,
       "reasons": [
         "Цена пробила сопротивление 125.930",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -83,8 +83,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-30T12:16:14Z",
-      "current_price": 5.256,
-      "pnl_percent": -0.74,
+      "current_price": 5.245,
+      "pnl_percent": -0.94,
       "reasons": [
         "Цена пробила сопротивление 5.2650",
         "Уровень 5.2650 тестировался 5 раз",
@@ -101,9 +101,9 @@
       "tf": "15m",
       "side": "LONG",
       "entry": 1.4102595375407314,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-08-30T22:30:00Z",
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 1.3921348834759222,
       "effective_stop": 1.3921348834759222,
       "tp1": 1.422946795386098,
@@ -114,8 +114,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-30T18:30:56Z",
-      "current_price": 1.4118,
-      "pnl_percent": null,
+      "current_price": 1.413,
+      "pnl_percent": 0.19,
       "reasons": [
         "Цена пробила сопротивление 1.4250",
         "Сильное тело свечи (85%)",
