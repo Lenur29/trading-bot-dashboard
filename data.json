@@ -1,41 +1,24 @@
 {
-  "generated_at": "2026-08-29T23:01:49Z",
+  "generated_at": "2026-08-30T07:01:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [
+  "active": [],
+  "history": [
     {
       "symbol": "SOL",
       "tf": "15m",
       "side": "LONG",
-      "entry": 104.7631236200129,
+      "result": "BE",
+      "status": "be",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 104.11776999186036,
-      "effective_stop": 104.95672970845867,
-      "tp1": 105.21487115971969,
-      "tp2": 105.73115406224173,
-      "tp3": 106.053830876318,
-      "max_tp_hit": 1,
-      "rr": 1.5,
-      "probability": 73,
+      "pnl_percent": 0.48,
+      "r_multiple": 0.78,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 2,
       "open_time": "2026-08-29T19:16:03Z",
-      "current_price": 105.46,
-      "pnl_percent": 0.67,
-      "reasons": [
-        "Цена пробила сопротивление 105.370",
-        "Сильное тело свечи (88%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 69.9 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление",
-        "BTC согласуется с направлением (+0.35%)"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-08-30T07:01:46Z",
+      "rr": 1.5
+    },
     {
       "symbol": "ENA",
       "tf": "15m",
@@ -3020,68 +3003,53 @@
       "open_time": "2026-07-25T14:00:59Z",
       "close_time": "2026-07-25T18:29:32Z",
       "rr": 1.499999999999991
-    },
-    {
-      "symbol": "LTC",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "limit",
-      "pnl_percent": -0.53,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-07-25T14:15:43Z",
-      "close_time": "2026-07-25T17:16:33Z",
-      "rr": 1.5000000000000093
     }
   ],
   "stats": {
     "all": {
-      "total": 819,
+      "total": 820,
       "tp": 127,
       "sl": 368,
-      "be": 324,
+      "be": 325,
       "winrate": 15.5,
       "effective_winrate": 55.1,
-      "sum_pnl": -33.04,
-      "r_result": -12.9,
-      "deposit_result": -1.29
+      "sum_pnl": -32.56,
+      "r_result": -12.12,
+      "deposit_result": -1.21
     },
     "today": {
-      "total": 0,
+      "total": 1,
       "tp": 0,
       "sl": 0,
-      "be": 0,
+      "be": 1,
       "winrate": 0.0,
-      "effective_winrate": 0.0,
-      "sum_pnl": 0,
-      "r_result": 0,
-      "deposit_result": 0.0
+      "effective_winrate": 100.0,
+      "sum_pnl": 0.48,
+      "r_result": 0.78,
+      "deposit_result": 0.08
     },
     "week": {
-      "total": 32,
+      "total": 33,
       "tp": 5,
       "sl": 15,
-      "be": 12,
-      "winrate": 15.6,
-      "effective_winrate": 53.1,
-      "sum_pnl": -12.26,
-      "r_result": -2.3,
-      "deposit_result": -0.23
+      "be": 13,
+      "winrate": 15.2,
+      "effective_winrate": 54.5,
+      "sum_pnl": -11.78,
+      "r_result": -1.52,
+      "deposit_result": -0.15
     }
   },
   "symbols_30d": [
     {
       "symbol": "SOL",
-      "r": 8.36,
-      "n": 10
+      "r": 9.14,
+      "n": 11
     },
     {
       "symbol": "ETH",
-      "r": 3.42,
-      "n": 10
+      "r": 3.0,
+      "n": 9
     },
     {
       "symbol": "AAVE",
@@ -3104,14 +3072,14 @@
       "n": 11
     },
     {
-      "symbol": "BTC",
-      "r": 1.62,
-      "n": 3
-    },
-    {
       "symbol": "BNB",
       "r": 1.12,
       "n": 7
+    },
+    {
+      "symbol": "BTC",
+      "r": 0.84,
+      "n": 2
     },
     {
       "symbol": "LINK",
