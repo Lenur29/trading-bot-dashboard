@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T12:11:49Z",
+  "generated_at": "2026-08-30T12:16:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-30T10:46:00Z",
-      "current_price": 7.398,
+      "current_price": 7.389,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 7.3430",
@@ -52,7 +52,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-30T12:01:05Z",
-      "current_price": 127.19,
+      "current_price": 127.24,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 125.930",
@@ -63,6 +63,68 @@
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "NEAR",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 1.8801365652756241,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-30T16:15:00Z",
+      "sl": 1.8609759080460082,
+      "effective_stop": 1.8609759080460082,
+      "tp1": 1.8935490253363552,
+      "tp2": 1.908877551120048,
+      "tp3": 1.918457879734856,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000036,
+      "probability": 86,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-30T12:16:14Z",
+      "current_price": 1.889,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 1.8850",
+        "Уровень 1.8850 тестировался 3 раз",
+        "Объём подтверждает пробой (3.4× от среднего)",
+        "Хорошее тело свечи (62%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 58.2 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "INJ",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 5.201380564503347,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-30T16:15:00Z",
+      "sl": 5.129417548724763,
+      "effective_stop": 5.129417548724763,
+      "tp1": 5.251754675548355,
+      "tp2": 5.309325088171223,
+      "tp3": 5.345306596060515,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 79,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-30T12:16:14Z",
+      "current_price": 5.279,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 5.2650",
+        "Уровень 5.2650 тестировался 5 раз",
+        "Объём подтверждает пробой (3.2× от среднего)",
+        "Сильное тело свечи (71%)",
+        "EMA20 > EMA50 — краткосрочный аптренд",
+        "⚠️ RSI 70.8 — перекуплен, риск отката",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением"
       ]
     }
   ],
