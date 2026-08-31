@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T07:56:47Z",
+  "generated_at": "2026-08-31T08:01:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3067,14 +3067,19 @@
       "n": 12
     },
     {
-      "symbol": "AVAX",
-      "r": 1.12,
-      "n": 7
-    },
-    {
       "symbol": "BTC",
       "r": 0.84,
       "n": 2
+    },
+    {
+      "symbol": "SUI",
+      "r": 0.72,
+      "n": 6
+    },
+    {
+      "symbol": "AVAX",
+      "r": 0.7,
+      "n": 6
     },
     {
       "symbol": "BNB",
@@ -3085,11 +3090,6 @@
       "symbol": "XRP",
       "r": 0.32,
       "n": 11
-    },
-    {
-      "symbol": "SUI",
-      "r": -0.28,
-      "n": 7
     },
     {
       "symbol": "ADA",
