@@ -1,41 +1,87 @@
 {
-  "generated_at": "2026-08-31T14:41:49Z",
+  "generated_at": "2026-08-31T14:46:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
     {
-      "symbol": "GRAM",
+      "symbol": "ETH",
       "tf": "15m",
-      "side": "SHORT",
-      "entry": 1.3380852825080012,
-      "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 1.3456238964048086,
-      "effective_stop": 1.3456238964048086,
-      "tp1": 1.332808252780236,
-      "tp2": 1.32677736166279,
-      "tp3": 1.3230080547143863,
+      "side": "LONG",
+      "entry": 2447.7670521576156,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-31T18:45:00Z",
+      "sl": 2430.321659440603,
+      "effective_stop": 2430.321659440603,
+      "tp1": 2459.9788270595245,
+      "tp2": 2473.9351412331343,
+      "tp3": 2482.6578375916406,
       "max_tp_hit": 0,
-      "rr": 1.499999999999994,
-      "probability": 78,
+      "rr": 1.5,
+      "probability": 74,
       "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-08-31T14:01:43Z",
-      "current_price": 1.342,
-      "pnl_percent": -0.29,
+      "open_time": "2026-08-31T14:46:21Z",
+      "current_price": 2461.25,
+      "pnl_percent": null,
       "reasons": [
-        "Цена пробила поддержку 1.3310",
-        "Уровень 1.3310 тестировался 3 раз",
-        "Объём подтверждает пробой (1.9× от среднего)",
-        "Сильное тело свечи (71%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 30.3 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением"
+        "Цена пробила сопротивление 2458.48",
+        "Объём подтверждает пробой (3.5× от среднего)",
+        "Хорошее тело свечи (62%)",
+        "EMA20 > EMA50 — краткосрочный аптренд",
+        "RSI 65.9 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "NEAR",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 1.850168244020968,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-31T18:45:00Z",
+      "sl": 1.823232152297978,
+      "effective_stop": 1.823232152297978,
+      "tp1": 1.8690235082270608,
+      "tp2": 1.8905723816054527,
+      "tp3": 1.9040404274669478,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 74,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-31T14:46:22Z",
+      "current_price": 1.866,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 1.8660",
+        "Объём подтверждает пробой (1.8× от среднего)",
+        "Сильное тело свечи (74%)",
+        "EMA20 > EMA50 — краткосрочный аптренд",
+        "RSI 58.8 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
   "history": [
+    {
+      "symbol": "GRAM",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "SL",
+      "status": "sl",
+      "entry_kind": "limit",
+      "pnl_percent": -0.56,
+      "r_multiple": -1.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-08-31T14:01:43Z",
+      "close_time": "2026-08-31T14:43:46Z",
+      "rr": 1.499999999999994
+    },
     {
       "symbol": "NEAR",
       "tf": "15m",
@@ -3020,56 +3066,41 @@
       "open_time": "2026-07-26T15:15:41Z",
       "close_time": "2026-07-26T22:00:25Z",
       "rr": 1.5000000000000033
-    },
-    {
-      "symbol": "GRAM",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "limit",
-      "pnl_percent": -0.54,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-07-26T15:45:54Z",
-      "close_time": "2026-07-26T20:32:33Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 826,
+      "total": 827,
       "tp": 127,
-      "sl": 372,
+      "sl": 373,
       "be": 327,
       "winrate": 15.4,
-      "effective_winrate": 55.0,
-      "sum_pnl": -38.6,
-      "r_result": -14.92,
-      "deposit_result": -1.49
+      "effective_winrate": 54.9,
+      "sum_pnl": -39.16,
+      "r_result": -15.92,
+      "deposit_result": -1.59
     },
     "today": {
-      "total": 3,
+      "total": 4,
       "tp": 0,
-      "sl": 3,
+      "sl": 4,
       "be": 0,
       "winrate": 0.0,
       "effective_winrate": 0.0,
-      "sum_pnl": -6.97,
-      "r_result": -3.0,
-      "deposit_result": -0.3
+      "sum_pnl": -7.54,
+      "r_result": -4.0,
+      "deposit_result": -0.4
     },
     "week": {
-      "total": 34,
+      "total": 35,
       "tp": 5,
-      "sl": 16,
+      "sl": 17,
       "be": 13,
-      "winrate": 14.7,
-      "effective_winrate": 52.9,
-      "sum_pnl": -19.22,
-      "r_result": -2.16,
-      "deposit_result": -0.22
+      "winrate": 14.3,
+      "effective_winrate": 51.4,
+      "sum_pnl": -19.78,
+      "r_result": -3.16,
+      "deposit_result": -0.32
     }
   },
   "symbols_30d": [
@@ -3139,11 +3170,6 @@
       "n": 9
     },
     {
-      "symbol": "GRAM",
-      "r": -2.7,
-      "n": 8
-    },
-    {
       "symbol": "NEAR",
       "r": -2.7,
       "n": 8
@@ -3151,6 +3177,11 @@
     {
       "symbol": "ENA",
       "r": -3.32,
+      "n": 9
+    },
+    {
+      "symbol": "GRAM",
+      "r": -3.7,
       "n": 9
     },
     {
