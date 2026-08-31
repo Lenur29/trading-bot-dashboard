@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T17:11:50Z",
+  "generated_at": "2026-08-31T17:16:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-31T14:46:21Z",
-      "current_price": 2469.76,
+      "current_price": 2469.21,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 2458.48",
@@ -52,8 +52,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-31T14:46:22Z",
-      "current_price": 1.86,
-      "pnl_percent": 0.53,
+      "current_price": 1.859,
+      "pnl_percent": 0.48,
       "reasons": [
         "Цена пробила сопротивление 1.8660",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -64,40 +64,24 @@
         "4h согласен с направлением",
         "FVG поддерживает направление"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "INJ",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 4.979387513531845,
+      "result": "BE",
+      "status": "be",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 5.060174716599785,
-      "effective_stop": 4.955151352611463,
-      "tp1": 4.9228364713842865,
-      "tp2": 4.858206708929934,
-      "tp3": 4.817813107395964,
-      "max_tp_hit": 1,
-      "rr": 1.500000000000004,
-      "probability": 74,
+      "pnl_percent": 0.68,
+      "r_multiple": 0.42,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
       "open_time": "2026-08-31T16:00:57Z",
-      "current_price": 4.945,
-      "pnl_percent": 0.69,
-      "reasons": [
-        "Цена пробила поддержку 4.9530",
-        "Уровень 4.9530 тестировался 3 раз",
-        "Объём подтверждает пробой (1.6× от среднего)",
-        "Сильное тело свечи (76%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 42.7 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "FVG поддерживает направление"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-08-31T17:13:47Z",
+      "rr": 1.500000000000004
+    },
     {
       "symbol": "GRAM",
       "tf": "15m",
@@ -3082,56 +3066,41 @@
       "open_time": "2026-07-26T17:30:44Z",
       "close_time": "2026-07-26T22:00:26Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "AAVE",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "TP",
-      "status": "tp3",
-      "entry_kind": "fallback",
-      "pnl_percent": 2.01,
-      "r_multiple": 1.46,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 3,
-      "open_time": "2026-07-26T15:15:41Z",
-      "close_time": "2026-07-26T22:00:25Z",
-      "rr": 1.5000000000000033
     }
   ],
   "stats": {
     "all": {
-      "total": 827,
+      "total": 828,
       "tp": 127,
       "sl": 373,
-      "be": 327,
-      "winrate": 15.4,
-      "effective_winrate": 54.9,
-      "sum_pnl": -39.16,
-      "r_result": -15.92,
-      "deposit_result": -1.59
+      "be": 328,
+      "winrate": 15.3,
+      "effective_winrate": 55.0,
+      "sum_pnl": -38.48,
+      "r_result": -15.5,
+      "deposit_result": -1.55
     },
     "today": {
-      "total": 4,
+      "total": 5,
       "tp": 0,
       "sl": 4,
-      "be": 0,
+      "be": 1,
       "winrate": 0.0,
-      "effective_winrate": 0.0,
-      "sum_pnl": -7.54,
-      "r_result": -4.0,
-      "deposit_result": -0.4
+      "effective_winrate": 20.0,
+      "sum_pnl": -6.86,
+      "r_result": -3.58,
+      "deposit_result": -0.36
     },
     "week": {
-      "total": 35,
+      "total": 36,
       "tp": 5,
       "sl": 17,
-      "be": 13,
-      "winrate": 14.3,
-      "effective_winrate": 51.4,
-      "sum_pnl": -19.78,
-      "r_result": -3.16,
-      "deposit_result": -0.32
+      "be": 14,
+      "winrate": 13.9,
+      "effective_winrate": 52.8,
+      "sum_pnl": -19.1,
+      "r_result": -2.74,
+      "deposit_result": -0.27
     }
   },
   "symbols_30d": [
@@ -3186,14 +3155,14 @@
       "n": 11
     },
     {
-      "symbol": "ADA",
-      "r": -0.56,
-      "n": 14
-    },
-    {
       "symbol": "DOT",
       "r": -0.66,
       "n": 7
+    },
+    {
+      "symbol": "ADA",
+      "r": -0.98,
+      "n": 13
     },
     {
       "symbol": "LTC",
@@ -3217,8 +3186,8 @@
     },
     {
       "symbol": "INJ",
-      "r": -4.58,
-      "n": 6
+      "r": -4.16,
+      "n": 7
     }
   ]
 }
