@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-08-31T13:56:47Z",
+  "generated_at": "2026-08-31T14:01:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "GRAM",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 1.3380852825080012,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-08-31T18:00:00Z",
+      "sl": 1.3456238964048086,
+      "effective_stop": 1.3456238964048086,
+      "tp1": 1.332808252780236,
+      "tp2": 1.32677736166279,
+      "tp3": 1.3230080547143863,
+      "max_tp_hit": 0,
+      "rr": 1.499999999999994,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-08-31T14:01:43Z",
+      "current_price": 1.327,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 1.3310",
+        "Уровень 1.3310 тестировался 3 раз",
+        "Объём подтверждает пробой (1.9× от среднего)",
+        "Сильное тело свечи (71%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 30.3 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "NEAR",
