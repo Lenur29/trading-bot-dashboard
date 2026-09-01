@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T18:56:51Z",
+  "generated_at": "2026-09-01T19:01:53Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-01T08:16:08Z",
-      "current_price": 4.864,
-      "pnl_percent": -0.35,
+      "current_price": 4.866,
+      "pnl_percent": -0.39,
       "reasons": [
         "Цена пробила поддержку 4.9350",
         "Объём подтверждает пробой (7.3× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-01T10:16:03Z",
-      "current_price": 0.15679,
-      "pnl_percent": -2.2,
+      "current_price": 0.15795,
+      "pnl_percent": -1.47,
       "reasons": [
         "Цена пробила сопротивление 0.15178",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -66,44 +66,13 @@
       ]
     },
     {
-      "symbol": "GRAM",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 1.355641685266192,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-01T19:00:00Z",
-      "sl": 1.3645696201328432,
-      "effective_stop": 1.3645696201328432,
-      "tp1": 1.3493921308595362,
-      "tp2": 1.3422497829662154,
-      "tp3": 1.3377858155328899,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 73,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-09-01T15:07:57Z",
-      "current_price": 1.319,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила поддержку 1.3500",
-        "Объём подтверждает пробой (1.6× от среднего)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 33.4 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление",
-        "London/NY overlap — пиковая ликвидность"
-      ]
-    },
-    {
       "symbol": "SUI",
       "tf": "15m",
       "side": "SHORT",
       "entry": 0.7259772693891581,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-01T22:45:00Z",
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 0.7372749700264272,
       "effective_stop": 0.7372749700264272,
       "tp1": 0.7180688789430697,
@@ -114,8 +83,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-01T18:46:07Z",
-      "current_price": 0.7224,
-      "pnl_percent": null,
+      "current_price": 0.7245,
+      "pnl_percent": 0.2,
       "reasons": [
         "Цена пробила поддержку 0.72430",
         "Уровень 0.72430 тестировался 3 раз",
@@ -126,9 +95,55 @@
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление"
       ]
+    },
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 49.3,
+      "entry_kind": "market",
+      "pending_fill": false,
+      "ttl_deadline": null,
+      "sl": 48.61488212940596,
+      "effective_stop": 48.61488212940596,
+      "tp1": 49.77958250941582,
+      "tp2": 50.327676805891045,
+      "tp3": 50.670235741188066,
+      "max_tp_hit": 0,
+      "rr": 1.499999999999995,
+      "probability": 76,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-01T19:01:09Z",
+      "current_price": 49.36,
+      "pnl_percent": 0.12,
+      "reasons": [
+        "Цена пробила сопротивление 49.9100",
+        "Объём подтверждает пробой (1.6× от среднего)",
+        "Сильное тело свечи (72%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 48.6 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "⚠️ Встречный Order Block рядом"
+      ]
     }
   ],
   "history": [
+    {
+      "symbol": "GRAM",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "CANCEL",
+      "status": "cancelled",
+      "entry_kind": "cancelled",
+      "pnl_percent": 0,
+      "r_multiple": 0.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-09-01T15:07:57Z",
+      "close_time": "2026-09-01T19:00:48Z",
+      "rr": 1.5
+    },
     {
       "symbol": "LINK",
       "tf": "15m",
@@ -3112,21 +3127,6 @@
       "max_tp_hit": 0,
       "open_time": "2026-07-27T12:45:41Z",
       "close_time": "2026-07-27T14:11:25Z",
-      "rr": 1.5
-    },
-    {
-      "symbol": "ENA",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 0.39,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-07-27T06:45:36Z",
-      "close_time": "2026-07-27T10:31:24Z",
       "rr": 1.5
     }
   ],
