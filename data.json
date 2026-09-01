@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T10:11:50Z",
+  "generated_at": "2026-09-01T10:16:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-08-31T14:46:21Z",
-      "current_price": 2450.84,
-      "pnl_percent": -1.44,
+      "current_price": 2451.58,
+      "pnl_percent": -1.41,
       "reasons": [
         "Цена пробила сопротивление 2458.48",
         "Объём подтверждает пробой (3.5× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-01T08:16:08Z",
-      "current_price": 4.828,
+      "current_price": 4.823,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 4.9350",
@@ -63,6 +63,37 @@
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "BTC согласуется с направлением (-0.60%)"
+      ]
+    },
+    {
+      "symbol": "ENA",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.15135741525679716,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-01T14:15:00Z",
+      "sl": 0.14803190978439312,
+      "effective_stop": 0.14803190978439312,
+      "tp1": 0.15368526908747998,
+      "tp2": 0.15634567346540323,
+      "tp3": 0.15800842620160524,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 76,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-01T10:16:03Z",
+      "current_price": 0.15481,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 0.15178",
+        "Объём подтверждает пробой (2.2× от среднего)",
+        "Сильное тело свечи (89%)",
+        "EMA20 > EMA50 — краткосрочный аптренд",
+        "RSI 65.8 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
