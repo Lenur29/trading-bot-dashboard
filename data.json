@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T15:36:50Z",
+  "generated_at": "2026-09-01T15:41:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-01T08:16:08Z",
-      "current_price": 4.88,
-      "pnl_percent": -0.68,
+      "current_price": 4.884,
+      "pnl_percent": -0.76,
       "reasons": [
         "Цена пробила поддержку 4.9350",
         "Объём подтверждает пробой (7.3× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-01T10:16:03Z",
-      "current_price": 0.1619,
-      "pnl_percent": 0.99,
+      "current_price": 0.16173,
+      "pnl_percent": 0.89,
       "reasons": [
         "Цена пробила сопротивление 0.15178",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -83,8 +83,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-01T14:16:06Z",
-      "current_price": 11.41,
-      "pnl_percent": 0.04,
+      "current_price": 11.421,
+      "pnl_percent": 0.13,
       "reasons": [
         "Цена пробила сопротивление 11.4350",
         "Уровень 11.4350 тестировался 4 раз",
@@ -114,7 +114,7 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-01T15:07:57Z",
-      "current_price": 1.346,
+      "current_price": 1.347,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.3500",
@@ -3237,13 +3237,13 @@
       "n": 12
     },
     {
-      "symbol": "ENA",
-      "r": -3.32,
-      "n": 9
+      "symbol": "GRAM",
+      "r": -2.7,
+      "n": 8
     },
     {
-      "symbol": "GRAM",
-      "r": -3.7,
+      "symbol": "ENA",
+      "r": -3.32,
       "n": 9
     },
     {
