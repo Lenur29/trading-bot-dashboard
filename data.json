@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T13:21:52Z",
+  "generated_at": "2026-09-02T13:26:51Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-01T08:16:08Z",
-      "current_price": 4.741,
-      "pnl_percent": 2.19,
+      "current_price": 4.747,
+      "pnl_percent": 2.06,
       "reasons": [
         "Цена пробила поддержку 4.9350",
         "Объём подтверждает пробой (7.3× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-01T10:16:03Z",
-      "current_price": 0.1494,
-      "pnl_percent": -6.81,
+      "current_price": 0.14933,
+      "pnl_percent": -6.85,
       "reasons": [
         "Цена пробила сопротивление 0.15178",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -83,8 +83,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-02T08:46:24Z",
-      "current_price": 11.029,
-      "pnl_percent": -0.09,
+      "current_price": 11.037,
+      "pnl_percent": -0.16,
       "reasons": [
         "Цена пробила поддержку 11.1730",
         "Уровень 11.1730 тестировался 3 раз",
@@ -114,8 +114,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-02T08:46:24Z",
-      "current_price": 0.1942,
-      "pnl_percent": 0.15,
+      "current_price": 0.194,
+      "pnl_percent": 0.26,
       "reasons": [
         "Цена пробила поддержку 0.19680",
         "Уровень 0.19680 тестировался 5 раз",
@@ -3182,6 +3182,11 @@
       "n": 9
     },
     {
+      "symbol": "SUI",
+      "r": 2.14,
+      "n": 6
+    },
+    {
       "symbol": "ETH",
       "r": 2.0,
       "n": 10
@@ -3195,11 +3200,6 @@
       "symbol": "XRP",
       "r": 1.32,
       "n": 10
-    },
-    {
-      "symbol": "SUI",
-      "r": 1.14,
-      "n": 7
     },
     {
       "symbol": "BTC",
