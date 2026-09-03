@@ -1,59 +1,28 @@
 {
-  "generated_at": "2026-09-03T12:26:50Z",
+  "generated_at": "2026-09-03T12:31:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
     {
-      "symbol": "ADA",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 0.20521811815202118,
-      "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 0.20385833855325008,
-      "effective_stop": 0.20562605203165252,
-      "tp1": 0.20616996387116093,
-      "tp2": 0.20725778755017782,
-      "tp3": 0.20793767734956337,
-      "max_tp_hit": 2,
-      "rr": 1.4999999999999953,
-      "probability": 85,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-09-03T08:15:54Z",
-      "current_price": 0.2075,
-      "pnl_percent": 1.11,
-      "reasons": [
-        "Цена пробила сопротивление 0.20640",
-        "Объём подтверждает пробой (1.6× от среднего)",
-        "Сильное тело свечи (79%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 59.9 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "FVG поддерживает направление",
-        "Order Block поддерживает направление"
-      ]
-    },
-    {
       "symbol": "AAVE",
       "tf": "15m",
       "side": "LONG",
-      "entry": 127.5286942669418,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-03T12:30:00Z",
+      "entry": 130.69,
+      "entry_kind": "fallback",
+      "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 126.67903389512561,
       "effective_stop": 126.67903389512561,
-      "tp1": 128.12345652721314,
-      "tp2": 128.80318482466606,
-      "tp3": 129.22801501057415,
+      "tp1": 133.49767627341205,
+      "tp2": 136.70644915731157,
+      "tp3": 138.71193220974877,
       "max_tp_hit": 0,
       "rr": 1.4999999999999967,
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-03T08:31:01Z",
-      "current_price": 131.04,
-      "pnl_percent": null,
+      "current_price": 130.82,
+      "pnl_percent": 0.1,
       "reasons": [
         "Цена пробила сопротивление 128.150",
         "Уровень 128.150 тестировался 3 раз",
@@ -69,22 +38,22 @@
       "symbol": "LTC",
       "tf": "15m",
       "side": "LONG",
-      "entry": 50.262160500398466,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-03T12:30:00Z",
+      "entry": 50.83,
+      "entry_kind": "fallback",
+      "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 49.97220548584894,
       "effective_stop": 49.97220548584894,
-      "tp1": 50.465129010583134,
-      "tp2": 50.69709302222276,
-      "tp3": 50.84207052949752,
+      "tp1": 51.43045615990574,
+      "tp2": 52.116691771226584,
+      "tp3": 52.54558902830212,
       "max_tp_hit": 0,
       "rr": 1.4999999999999951,
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-03T08:31:01Z",
-      "current_price": 50.81,
-      "pnl_percent": null,
+      "current_price": 50.9,
+      "pnl_percent": 0.14,
       "reasons": [
         "Цена пробила сопротивление 50.5400",
         "Сильное тело свечи (83%)",
@@ -114,7 +83,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-03T12:16:03Z",
-      "current_price": 0.15529,
+      "current_price": 0.15556,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.15517",
@@ -129,6 +98,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "ADA",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "TP",
+      "status": "tp3",
+      "entry_kind": "limit",
+      "pnl_percent": 0.97,
+      "r_multiple": 1.46,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 3,
+      "open_time": "2026-09-03T08:15:54Z",
+      "close_time": "2026-09-03T12:30:48Z",
+      "rr": 1.4999999999999953
+    },
     {
       "symbol": "LINK",
       "tf": "15m",
@@ -3113,56 +3097,41 @@
       "open_time": "2026-07-27T14:45:44Z",
       "close_time": "2026-07-28T15:14:04Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "SOL",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 0.21,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-07-28T11:15:52Z",
-      "close_time": "2026-07-28T11:45:00Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 839,
-      "tp": 127,
+      "total": 840,
+      "tp": 128,
       "sl": 378,
       "be": 334,
-      "winrate": 15.1,
-      "effective_winrate": 54.9,
-      "sum_pnl": -49.64,
-      "r_result": -17.62,
-      "deposit_result": -1.76
+      "winrate": 15.2,
+      "effective_winrate": 55.0,
+      "sum_pnl": -48.68,
+      "r_result": -16.16,
+      "deposit_result": -1.62
     },
     "today": {
-      "total": 4,
-      "tp": 0,
+      "total": 5,
+      "tp": 1,
       "sl": 2,
       "be": 2,
-      "winrate": 0.0,
-      "effective_winrate": 50.0,
-      "sum_pnl": -2.96,
-      "r_result": -1.16,
-      "deposit_result": -0.12
+      "winrate": 20.0,
+      "effective_winrate": 60.0,
+      "sum_pnl": -1.99,
+      "r_result": 0.3,
+      "deposit_result": 0.03
     },
     "week": {
-      "total": 32,
-      "tp": 2,
+      "total": 33,
+      "tp": 3,
       "sl": 13,
       "be": 17,
-      "winrate": 6.2,
-      "effective_winrate": 59.4,
-      "sum_pnl": -11.63,
-      "r_result": -1.86,
-      "deposit_result": -0.19
+      "winrate": 9.1,
+      "effective_winrate": 60.6,
+      "sum_pnl": -10.67,
+      "r_result": -0.4,
+      "deposit_result": -0.04
     }
   },
   "symbols_30d": [
@@ -3222,6 +3191,11 @@
       "n": 6
     },
     {
+      "symbol": "ADA",
+      "r": -1.4,
+      "n": 12
+    },
+    {
       "symbol": "LTC",
       "r": -1.92,
       "n": 9
@@ -3230,11 +3204,6 @@
       "symbol": "NEAR",
       "r": -2.28,
       "n": 9
-    },
-    {
-      "symbol": "ADA",
-      "r": -2.86,
-      "n": 11
     },
     {
       "symbol": "GRAM",
