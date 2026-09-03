@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T16:36:50Z",
+  "generated_at": "2026-09-03T16:41:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-03T08:31:01Z",
-      "current_price": 51.14,
-      "pnl_percent": 0.61,
+      "current_price": 51.16,
+      "pnl_percent": 0.65,
       "reasons": [
         "Цена пробила сопротивление 50.5400",
         "Сильное тело свечи (83%)",
@@ -52,7 +52,7 @@
       "probability": 91,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-03T12:46:03Z",
-      "current_price": 80820.0,
+      "current_price": 80795.2,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 77672.00",
@@ -83,7 +83,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-03T16:06:58Z",
-      "current_price": 0.8872,
+      "current_price": 0.8869,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.89190",
@@ -3166,11 +3166,6 @@
       "n": 11
     },
     {
-      "symbol": "BTC",
-      "r": 0.84,
-      "n": 2
-    },
-    {
       "symbol": "AVAX",
       "r": 0.7,
       "n": 6
@@ -3184,6 +3179,11 @@
       "symbol": "LINK",
       "r": 0.44,
       "n": 13
+    },
+    {
+      "symbol": "BTC",
+      "r": 0.42,
+      "n": 1
     },
     {
       "symbol": "DOT",
