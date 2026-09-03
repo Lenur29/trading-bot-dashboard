@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T12:41:50Z",
+  "generated_at": "2026-09-03T12:46:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-03T08:31:01Z",
-      "current_price": 130.81,
-      "pnl_percent": 0.09,
+      "current_price": 131.09,
+      "pnl_percent": 0.31,
       "reasons": [
         "Цена пробила сопротивление 128.150",
         "Уровень 128.150 тестировался 3 раз",
@@ -52,8 +52,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-03T08:31:01Z",
-      "current_price": 50.87,
-      "pnl_percent": 0.08,
+      "current_price": 50.96,
+      "pnl_percent": 0.26,
       "reasons": [
         "Цена пробила сопротивление 50.5400",
         "Сильное тело свечи (83%)",
@@ -83,7 +83,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-03T12:16:03Z",
-      "current_price": 0.15613,
+      "current_price": 0.156,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.15517",
@@ -94,6 +94,37 @@
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "BTC",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 77832.9051576801,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-03T16:45:00Z",
+      "sl": 77312.12146779099,
+      "effective_stop": 77312.12146779099,
+      "tp1": 78197.45374060248,
+      "tp2": 78614.08069251376,
+      "tp3": 78874.47253745832,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000075,
+      "probability": 91,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-03T12:46:03Z",
+      "current_price": 78297.1,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 77672.00",
+        "Уровень 77672.00 тестировался 3 раз",
+        "Объём подтверждает пробой (4.1× от среднего)",
+        "Сильное тело свечи (70%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 65.7 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением"
       ]
     }
   ],
