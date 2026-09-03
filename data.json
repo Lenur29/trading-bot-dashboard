@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T16:11:50Z",
+  "generated_at": "2026-09-03T16:16:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -35,37 +35,6 @@
       ]
     },
     {
-      "symbol": "ENA",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 0.15224664732380846,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-03T16:15:00Z",
-      "sl": 0.14878320879840734,
-      "effective_stop": 0.14878320879840734,
-      "tp1": 0.15467105429158926,
-      "tp2": 0.15744180511191014,
-      "tp3": 0.15917352437461071,
-      "max_tp_hit": 0,
-      "rr": 1.5000000000000018,
-      "probability": 78,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-09-03T12:16:03Z",
-      "current_price": 0.17015,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила сопротивление 0.15517",
-        "Объём подтверждает пробой (2.6× от среднего)",
-        "Сильное тело свечи (78%)",
-        "EMA20 > EMA50 — краткосрочный аптренд",
-        "RSI 69.3 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
-      ]
-    },
-    {
       "symbol": "BTC",
       "tf": "15m",
       "side": "LONG",
@@ -83,7 +52,7 @@
       "probability": 91,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-03T12:46:03Z",
-      "current_price": 80992.5,
+      "current_price": 80815.3,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 77672.00",
@@ -114,7 +83,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-03T16:06:58Z",
-      "current_price": 0.8885,
+      "current_price": 0.8863,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.89190",
@@ -129,6 +98,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "ENA",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "CANCEL",
+      "status": "cancelled",
+      "entry_kind": "cancelled",
+      "pnl_percent": 0,
+      "r_multiple": 0.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-09-03T12:16:03Z",
+      "close_time": "2026-09-03T16:15:47Z",
+      "rr": 1.5000000000000018
+    },
     {
       "symbol": "AAVE",
       "tf": "15m",
@@ -3113,21 +3097,6 @@
       "open_time": "2026-07-28T13:31:12Z",
       "close_time": "2026-07-28T16:45:05Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "BTC",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "limit",
-      "pnl_percent": -0.5,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-07-28T13:31:12Z",
-      "close_time": "2026-07-28T15:22:05Z",
-      "rr": 1.5000000000000102
     }
   ],
   "stats": {
