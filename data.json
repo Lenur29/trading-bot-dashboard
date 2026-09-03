@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T18:41:50Z",
+  "generated_at": "2026-09-03T18:46:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-03T08:31:01Z",
-      "current_price": 51.2,
-      "pnl_percent": 0.73,
+      "current_price": 51.22,
+      "pnl_percent": 0.77,
       "reasons": [
         "Цена пробила сопротивление 50.5400",
         "Сильное тело свечи (83%)",
