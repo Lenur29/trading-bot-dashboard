@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-09-04T08:26:47Z",
+  "generated_at": "2026-09-04T08:31:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "AAVE",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 133.72734369083176,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-04T12:30:00Z",
+      "sl": 131.99127756335344,
+      "effective_stop": 131.99127756335344,
+      "tp1": 134.9425899800666,
+      "tp2": 136.33144288204926,
+      "tp3": 137.1994759457884,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 79,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-04T08:31:03Z",
+      "current_price": 134.5,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 134.160",
+        "Объём подтверждает пробой (1.6× от среднего)",
+        "Сильное тело свечи (86%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 61.3 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "DOT",
