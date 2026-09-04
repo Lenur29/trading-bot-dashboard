@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T06:56:47Z",
+  "generated_at": "2026-09-04T07:01:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3082,14 +3082,14 @@
       "n": 6
     },
     {
-      "symbol": "LINK",
-      "r": 0.44,
-      "n": 13
-    },
-    {
       "symbol": "BTC",
       "r": 0.42,
       "n": 1
+    },
+    {
+      "symbol": "LINK",
+      "r": 0.02,
+      "n": 12
     },
     {
       "symbol": "ADA",
@@ -3107,14 +3107,14 @@
       "n": 7
     },
     {
+      "symbol": "GRAM",
+      "r": -2.12,
+      "n": 6
+    },
+    {
       "symbol": "NEAR",
       "r": -2.28,
       "n": 9
-    },
-    {
-      "symbol": "GRAM",
-      "r": -3.12,
-      "n": 7
     },
     {
       "symbol": "INJ",
