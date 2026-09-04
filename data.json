@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:31:49Z",
+  "generated_at": "2026-09-04T13:36:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-04T09:01:23Z",
-      "current_price": 1.971,
-      "pnl_percent": 0.84,
+      "current_price": 1.952,
+      "pnl_percent": -0.13,
       "reasons": [
         "Цена пробила сопротивление 1.9700",
         "Объём подтверждает пробой (2.4× от среднего)",
@@ -3149,14 +3149,14 @@
       "n": 9
     },
     {
-      "symbol": "INJ",
+      "symbol": "ENA",
       "r": -3.74,
       "n": 8
     },
     {
-      "symbol": "ENA",
-      "r": -4.74,
-      "n": 9
+      "symbol": "INJ",
+      "r": -3.74,
+      "n": 8
     }
   ]
 }
