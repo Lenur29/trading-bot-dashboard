@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T12:21:50Z",
+  "generated_at": "2026-09-04T12:26:51Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -83,7 +83,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-04T11:31:07Z",
-      "current_price": 51.29,
+      "current_price": 51.26,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 51.2300",
@@ -3196,14 +3196,14 @@
       "n": 7
     },
     {
+      "symbol": "GRAM",
+      "r": -1.12,
+      "n": 5
+    },
+    {
       "symbol": "ADA",
       "r": -1.4,
       "n": 12
-    },
-    {
-      "symbol": "GRAM",
-      "r": -2.12,
-      "n": 6
     },
     {
       "symbol": "NEAR",
