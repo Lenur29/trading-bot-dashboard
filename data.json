@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-09-05T09:51:47Z",
+  "generated_at": "2026-09-05T13:51:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "LINK",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 11.77866486743225,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-05T17:45:00Z",
+      "sl": 11.691177870048776,
+      "effective_stop": 11.691177870048776,
+      "tp1": 11.839905765600681,
+      "tp2": 11.90989536350746,
+      "tp3": 11.953638862199197,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 76,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-05T13:50:58Z",
+      "current_price": 11.837,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 11.8570",
+        "Объём подтверждает пробой (2.1× от среднего)",
+        "Хорошее тело свечи (62%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 66.7 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "NEAR",
