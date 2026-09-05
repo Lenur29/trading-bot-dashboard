@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T05:11:47Z",
+  "generated_at": "2026-09-05T09:06:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3068,8 +3068,8 @@
     },
     {
       "symbol": "XRP",
-      "r": 1.74,
-      "n": 11
+      "r": 0.96,
+      "n": 10
     },
     {
       "symbol": "AVAX",
@@ -3097,6 +3097,11 @@
       "n": 7
     },
     {
+      "symbol": "NEAR",
+      "r": -0.86,
+      "n": 9
+    },
+    {
       "symbol": "GRAM",
       "r": -1.12,
       "n": 5
@@ -3109,11 +3114,6 @@
     {
       "symbol": "LTC",
       "r": -1.5,
-      "n": 10
-    },
-    {
-      "symbol": "NEAR",
-      "r": -1.86,
       "n": 10
     },
     {
