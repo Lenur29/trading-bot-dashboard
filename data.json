@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T09:11:47Z",
+  "generated_at": "2026-09-05T09:16:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3057,11 +3057,6 @@
       "n": 12
     },
     {
-      "symbol": "SUI",
-      "r": 2.14,
-      "n": 6
-    },
-    {
       "symbol": "ETH",
       "r": 2.0,
       "n": 10
@@ -3075,6 +3070,11 @@
       "symbol": "AVAX",
       "r": 0.7,
       "n": 6
+    },
+    {
+      "symbol": "SUI",
+      "r": 0.68,
+      "n": 5
     },
     {
       "symbol": "BTC",
