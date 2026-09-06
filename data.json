@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T16:26:50Z",
+  "generated_at": "2026-09-06T16:31:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-06T09:16:04Z",
-      "current_price": 105.85,
-      "pnl_percent": -0.68,
+      "current_price": 105.95,
+      "pnl_percent": -0.58,
       "reasons": [
         "Цена пробила сопротивление 105.350",
         "Уровень 105.350 тестировался 3 раз",
@@ -47,13 +47,13 @@
       "tp1": 2.3962818445002636,
       "tp2": 2.434738915211268,
       "tp3": 2.458774584405646,
-      "max_tp_hit": 1,
+      "max_tp_hit": 2,
       "rr": 1.5,
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-06T13:46:00Z",
-      "current_price": 2.424,
-      "pnl_percent": 2.6,
+      "current_price": 2.426,
+      "pnl_percent": 2.68,
       "reasons": [
         "Цена пробила сопротивление 2.4140",
         "Уровень 2.4140 тестировался 5 раз",
@@ -83,8 +83,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-06T16:01:18Z",
-      "current_price": 5.11,
-      "pnl_percent": 0.22,
+      "current_price": 5.135,
+      "pnl_percent": 0.71,
       "reasons": [
         "Цена пробила сопротивление 5.1190",
         "Уровень 5.1190 тестировался 4 раз",
