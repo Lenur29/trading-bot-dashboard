@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T13:41:50Z",
+  "generated_at": "2026-09-06T13:46:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-06T09:16:04Z",
-      "current_price": 106.33,
-      "pnl_percent": -0.23,
+      "current_price": 106.66,
+      "pnl_percent": 0.08,
       "reasons": [
         "Цена пробила сопротивление 105.350",
         "Уровень 105.350 тестировался 3 раз",
@@ -52,8 +52,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-06T09:31:09Z",
-      "current_price": 12.285,
-      "pnl_percent": 0.2,
+      "current_price": 12.283,
+      "pnl_percent": 0.18,
       "reasons": [
         "Цена пробила сопротивление 12.2500",
         "Сильное тело свечи (71%)",
@@ -83,7 +83,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-06T10:15:56Z",
-      "current_price": 0.9706,
+      "current_price": 0.9694,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.94610",
@@ -94,6 +94,37 @@
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "NEAR",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 2.3626319076281344,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-06T17:45:00Z",
+      "sl": 2.3145605692393785,
+      "effective_stop": 2.3145605692393785,
+      "tp1": 2.3962818445002636,
+      "tp2": 2.434738915211268,
+      "tp3": 2.458774584405646,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 84,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-06T13:46:00Z",
+      "current_price": 2.449,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 2.4140",
+        "Уровень 2.4140 тестировался 5 раз",
+        "Объём выше среднего (1.2×)",
+        "Сильное тело свечи (80%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 65.8 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением"
       ]
     }
   ],
