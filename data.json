@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T14:01:50Z",
+  "generated_at": "2026-09-06T14:06:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-06T09:16:04Z",
-      "current_price": 107.01,
-      "pnl_percent": 0.41,
+      "current_price": 106.79,
+      "pnl_percent": 0.21,
       "reasons": [
         "Цена пробила сопротивление 105.350",
         "Уровень 105.350 тестировался 3 раз",
@@ -43,17 +43,17 @@
       "pending_fill": false,
       "ttl_deadline": null,
       "sl": 12.086468996415142,
-      "effective_stop": 12.086468996415142,
+      "effective_stop": 12.313359301075456,
       "tp1": 12.383171702509399,
       "tp2": 12.522796505377285,
       "tp3": 12.610062007169713,
-      "max_tp_hit": 0,
+      "max_tp_hit": 1,
       "rr": 1.5,
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-06T09:31:09Z",
-      "current_price": 12.344,
-      "pnl_percent": 0.68,
+      "current_price": 12.374,
+      "pnl_percent": 0.92,
       "reasons": [
         "Цена пробила сопротивление 12.2500",
         "Сильное тело свечи (71%)",
@@ -83,7 +83,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-06T10:15:56Z",
-      "current_price": 0.9728,
+      "current_price": 0.9721,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.94610",
@@ -114,7 +114,7 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-06T13:46:00Z",
-      "current_price": 2.472,
+      "current_price": 2.471,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 2.4140",
@@ -3172,14 +3172,14 @@
       "n": 9
     },
     {
+      "symbol": "AAVE",
+      "r": 5.58,
+      "n": 10
+    },
+    {
       "symbol": "HBAR",
       "r": 4.68,
       "n": 13
-    },
-    {
-      "symbol": "AAVE",
-      "r": 4.58,
-      "n": 11
     },
     {
       "symbol": "ETH",
