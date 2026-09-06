@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:56:50Z",
+  "generated_at": "2026-09-06T16:01:51Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-06T09:16:04Z",
-      "current_price": 105.71,
-      "pnl_percent": -0.81,
+      "current_price": 105.67,
+      "pnl_percent": -0.84,
       "reasons": [
         "Цена пробила сопротивление 105.350",
         "Уровень 105.350 тестировался 3 раз",
@@ -52,8 +52,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-06T13:46:00Z",
-      "current_price": 2.388,
-      "pnl_percent": 1.07,
+      "current_price": 2.384,
+      "pnl_percent": 0.9,
       "reasons": [
         "Цена пробила сопротивление 2.4140",
         "Уровень 2.4140 тестировался 5 раз",
@@ -63,6 +63,37 @@
         "RSI 65.8 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "INJ",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 5.098802186854904,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-06T20:00:00Z",
+      "sl": 4.980946375067028,
+      "effective_stop": 4.980946375067028,
+      "tp1": 5.181301255106417,
+      "tp2": 5.275585904536717,
+      "tp3": 5.334513810430655,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999973,
+      "probability": 76,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-06T16:01:18Z",
+      "current_price": 5.147,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 5.1190",
+        "Уровень 5.1190 тестировался 4 раз",
+        "Объём выше среднего (1.4×)",
+        "Сильное тело свечи (93%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 60.6 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает, но есть встречный FVG в зоне риска"
       ]
     }
   ],
