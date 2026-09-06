@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T19:26:49Z",
+  "generated_at": "2026-09-06T19:31:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-06T09:16:04Z",
-      "current_price": 105.69,
-      "pnl_percent": -0.83,
+      "current_price": 105.62,
+      "pnl_percent": -0.89,
       "reasons": [
         "Цена пробила сопротивление 105.350",
         "Уровень 105.350 тестировался 3 раз",
