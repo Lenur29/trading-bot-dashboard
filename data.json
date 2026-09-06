@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T20:56:49Z",
+  "generated_at": "2026-09-06T21:01:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-06T09:16:04Z",
-      "current_price": 105.65,
-      "pnl_percent": -0.86,
+      "current_price": 105.81,
+      "pnl_percent": -0.71,
       "reasons": [
         "Цена пробила сопротивление 105.350",
         "Уровень 105.350 тестировался 3 раз",
@@ -3050,26 +3050,26 @@
       "deposit_result": -1.09
     },
     "today": {
-      "total": 8,
-      "tp": 3,
-      "sl": 1,
-      "be": 4,
-      "winrate": 37.5,
-      "effective_winrate": 87.5,
-      "sum_pnl": 9.59,
-      "r_result": 5.42,
-      "deposit_result": 0.54
+      "total": 0,
+      "tp": 0,
+      "sl": 0,
+      "be": 0,
+      "winrate": 0.0,
+      "effective_winrate": 0.0,
+      "sum_pnl": 0,
+      "r_result": 0,
+      "deposit_result": 0.0
     },
     "week": {
-      "total": 38,
+      "total": 34,
       "tp": 4,
-      "sl": 14,
-      "be": 20,
-      "winrate": 10.5,
-      "effective_winrate": 63.2,
-      "sum_pnl": -7.14,
-      "r_result": 2.04,
-      "deposit_result": 0.2
+      "sl": 13,
+      "be": 17,
+      "winrate": 11.8,
+      "effective_winrate": 61.8,
+      "sum_pnl": -8.55,
+      "r_result": 1.06,
+      "deposit_result": 0.11
     }
   },
   "symbols_30d": [
@@ -3085,8 +3085,8 @@
     },
     {
       "symbol": "HBAR",
-      "r": 4.68,
-      "n": 13
+      "r": 4.26,
+      "n": 12
     },
     {
       "symbol": "ETH",
