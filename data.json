@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-09-07T17:46:49Z",
+  "generated_at": "2026-09-07T17:51:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "AVAX",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 7.85162589999124,
-      "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 7.691300923390929,
-      "effective_stop": 7.8997233929713335,
-      "tp1": 7.963853383611458,
-      "tp2": 8.092113364891706,
-      "tp3": 8.172275853191863,
-      "max_tp_hit": 2,
-      "rr": 1.4999999999999982,
-      "probability": 83,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-09-07T09:16:03Z",
-      "current_price": 8.145,
-      "pnl_percent": 3.74,
-      "reasons": [
-        "Цена пробила сопротивление 7.8710",
-        "Объём подтверждает пробой (1.9× от среднего)",
-        "Сильное тело свечи (83%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 62.6 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
-      ]
-    },
     {
       "symbol": "HBAR",
       "tf": "15m",
@@ -52,7 +21,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-07T17:00:55Z",
-      "current_price": 0.08255,
+      "current_price": 0.08254,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.08287",
@@ -67,6 +36,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "AVAX",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "TP",
+      "status": "tp3",
+      "entry_kind": "limit",
+      "pnl_percent": 2.98,
+      "r_multiple": 1.46,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 3,
+      "open_time": "2026-09-07T09:16:03Z",
+      "close_time": "2026-09-07T17:47:46Z",
+      "rr": 1.4999999999999982
+    },
     {
       "symbol": "INJ",
       "tf": "15m",
@@ -3051,56 +3035,41 @@
       "open_time": "2026-08-02T12:00:20Z",
       "close_time": "2026-08-02T14:17:04Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "LTC",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "fallback",
-      "pnl_percent": 0.35,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-08-01T13:30:15Z",
-      "close_time": "2026-08-01T19:02:04Z",
-      "rr": 1.500000000000016
     }
   ],
   "stats": {
     "all": {
-      "total": 864,
-      "tp": 134,
+      "total": 865,
+      "tp": 135,
       "sl": 383,
       "be": 347,
-      "winrate": 15.5,
+      "winrate": 15.6,
       "effective_winrate": 55.7,
-      "sum_pnl": -35.56,
-      "r_result": -6.22,
-      "deposit_result": -0.62
+      "sum_pnl": -32.57,
+      "r_result": -4.76,
+      "deposit_result": -0.48
     },
     "today": {
-      "total": 7,
-      "tp": 3,
+      "total": 8,
+      "tp": 4,
       "sl": 1,
       "be": 3,
-      "winrate": 42.9,
-      "effective_winrate": 85.7,
-      "sum_pnl": 4.62,
-      "r_result": 4.64,
-      "deposit_result": 0.46
+      "winrate": 50.0,
+      "effective_winrate": 87.5,
+      "sum_pnl": 7.6,
+      "r_result": 6.1,
+      "deposit_result": 0.61
     },
     "week": {
-      "total": 41,
-      "tp": 7,
+      "total": 42,
+      "tp": 8,
       "sl": 14,
       "be": 20,
-      "winrate": 17.1,
-      "effective_winrate": 65.9,
-      "sum_pnl": -3.93,
-      "r_result": 5.7,
-      "deposit_result": 0.57
+      "winrate": 19.0,
+      "effective_winrate": 66.7,
+      "sum_pnl": -0.95,
+      "r_result": 7.16,
+      "deposit_result": 0.72
     }
   },
   "symbols_30d": [
@@ -3120,6 +3089,11 @@
       "n": 10
     },
     {
+      "symbol": "AVAX",
+      "r": 2.84,
+      "n": 7
+    },
+    {
       "symbol": "DOT",
       "r": 2.26,
       "n": 9
@@ -3133,11 +3107,6 @@
       "symbol": "XRP",
       "r": 1.54,
       "n": 8
-    },
-    {
-      "symbol": "AVAX",
-      "r": 1.38,
-      "n": 6
     },
     {
       "symbol": "NEAR",
