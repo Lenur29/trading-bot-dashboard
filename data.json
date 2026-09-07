@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T13:11:50Z",
+  "generated_at": "2026-09-07T13:16:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-07T09:16:03Z",
-      "current_price": 8.051,
-      "pnl_percent": 2.54,
+      "current_price": 8.061,
+      "pnl_percent": 2.67,
       "reasons": [
         "Цена пробила сопротивление 7.8710",
         "Объём подтверждает пробой (1.9× от среднего)",
@@ -32,37 +32,6 @@
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
-      ]
-    },
-    {
-      "symbol": "LTC",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 54.59708083961766,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-07T13:15:00Z",
-      "sl": 54.00146403201519,
-      "effective_stop": 54.00146403201519,
-      "tp1": 55.01401260493939,
-      "tp2": 55.49050605102136,
-      "tp3": 55.7883144548226,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 79,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-09-07T09:16:03Z",
-      "current_price": 58.52,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила сопротивление 54.9300",
-        "Объём подтверждает пробой (2.3× от среднего)",
-        "Сильное тело свечи (94%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 64.7 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "⚠️ Встречный FVG в зоне риска"
       ]
     },
     {
@@ -83,7 +52,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-07T12:31:04Z",
-      "current_price": 0.8349,
+      "current_price": 0.8352,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.81590",
@@ -114,7 +83,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-07T12:46:00Z",
-      "current_price": 0.08289,
+      "current_price": 0.08245,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.08144",
@@ -129,6 +98,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "CANCEL",
+      "status": "cancelled",
+      "entry_kind": "cancelled",
+      "pnl_percent": 0,
+      "r_multiple": 0.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-09-07T09:16:03Z",
+      "close_time": "2026-09-07T13:15:47Z",
+      "rr": 1.5
+    },
     {
       "symbol": "INJ",
       "tf": "15m",
@@ -3113,21 +3097,6 @@
       "open_time": "2026-07-31T19:45:18Z",
       "close_time": "2026-08-01T07:59:05Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "AVAX",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 0.46,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-07-31T14:05:26Z",
-      "close_time": "2026-08-01T07:59:04Z",
-      "rr": 1.5000000000000033
     }
   ],
   "stats": {
