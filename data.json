@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T16:06:50Z",
+  "generated_at": "2026-09-07T16:11:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-07T09:16:03Z",
-      "current_price": 8.065,
-      "pnl_percent": 2.72,
+      "current_price": 8.05,
+      "pnl_percent": 2.53,
       "reasons": [
         "Цена пробила сопротивление 7.8710",
         "Объём подтверждает пробой (1.9× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-07T12:46:00Z",
-      "current_price": 0.08098,
-      "pnl_percent": 0.09,
+      "current_price": 0.08105,
+      "pnl_percent": 0.18,
       "reasons": [
         "Цена пробила сопротивление 0.08144",
         "Объём подтверждает пробой (1.5× от среднего)",
@@ -3130,6 +3130,11 @@
       "n": 10
     },
     {
+      "symbol": "XRP",
+      "r": 1.54,
+      "n": 8
+    },
+    {
       "symbol": "AVAX",
       "r": 1.38,
       "n": 6
@@ -3143,11 +3148,6 @@
       "symbol": "SUI",
       "r": 1.1,
       "n": 6
-    },
-    {
-      "symbol": "XRP",
-      "r": 0.54,
-      "n": 9
     },
     {
       "symbol": "BTC",
