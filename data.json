@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-09-07T12:11:50Z",
+  "generated_at": "2026-09-07T12:16:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "INJ",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 5.546713249282928,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-07T12:15:00Z",
-      "sl": 5.4764749964646295,
-      "effective_stop": 5.4764749964646295,
-      "tp1": 5.595880026255737,
-      "tp2": 5.652070628510376,
-      "tp3": 5.687189754919525,
-      "max_tp_hit": 0,
-      "rr": 1.4999999999999956,
-      "probability": 75,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-09-07T08:16:02Z",
-      "current_price": 5.736,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила сопротивление 5.5810",
-        "Хорошее тело свечи (52%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 57.5 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление",
-        "Order Block поддерживает направление"
-      ]
-    },
     {
       "symbol": "AVAX",
       "tf": "15m",
@@ -52,8 +21,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-07T09:16:03Z",
-      "current_price": 7.868,
-      "pnl_percent": 0.21,
+      "current_price": 7.879,
+      "pnl_percent": 0.35,
       "reasons": [
         "Цена пробила сопротивление 7.8710",
         "Объём подтверждает пробой (1.9× от среднего)",
@@ -83,7 +52,7 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-07T09:16:03Z",
-      "current_price": 56.1,
+      "current_price": 56.25,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 54.9300",
@@ -98,6 +67,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "INJ",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "CANCEL",
+      "status": "cancelled",
+      "entry_kind": "cancelled",
+      "pnl_percent": 0,
+      "r_multiple": 0.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-09-07T08:16:02Z",
+      "close_time": "2026-09-07T12:15:46Z",
+      "rr": 1.4999999999999956
+    },
     {
       "symbol": "SOL",
       "tf": "15m",
@@ -3082,21 +3066,6 @@
       "open_time": "2026-07-31T14:05:26Z",
       "close_time": "2026-08-01T07:59:04Z",
       "rr": 1.5000000000000033
-    },
-    {
-      "symbol": "XRP",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "fallback",
-      "pnl_percent": 0.26,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-07-31T13:45:22Z",
-      "close_time": "2026-07-31T18:54:04Z",
-      "rr": 1.5000000000000175
     }
   ],
   "stats": {
