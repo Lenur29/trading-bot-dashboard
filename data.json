@@ -1,41 +1,24 @@
 {
-  "generated_at": "2026-09-07T07:31:49Z",
+  "generated_at": "2026-09-07T07:36:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [
+  "active": [],
+  "history": [
     {
       "symbol": "SOL",
       "tf": "15m",
       "side": "LONG",
-      "entry": 106.57,
+      "result": "SL",
+      "status": "sl",
       "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 104.38951201451694,
-      "effective_stop": 104.38951201451694,
-      "tp1": 108.09634158983813,
-      "tp2": 109.84073197822457,
-      "tp3": 110.9309759709661,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 84,
+      "pnl_percent": -2.05,
+      "r_multiple": -1.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-09-06T09:16:04Z",
-      "current_price": 104.93,
-      "pnl_percent": -1.54,
-      "reasons": [
-        "Цена пробила сопротивление 105.350",
-        "Уровень 105.350 тестировался 3 раз",
-        "Объём подтверждает пробой (1.6× от среднего)",
-        "Сильное тело свечи (73%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 59.0 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-09-07T07:33:47Z",
+      "rr": 1.5
+    },
     {
       "symbol": "DOT",
       "tf": "15m",
@@ -3020,63 +3003,48 @@
       "open_time": "2026-07-31T13:45:22Z",
       "close_time": "2026-07-31T18:54:04Z",
       "rr": 1.5000000000000175
-    },
-    {
-      "symbol": "SOL",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "TP",
-      "status": "tp3",
-      "entry_kind": "limit",
-      "pnl_percent": 0.73,
-      "r_multiple": 1.46,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 3,
-      "open_time": "2026-07-31T13:45:23Z",
-      "close_time": "2026-07-31T14:55:05Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 859,
+      "total": 860,
       "tp": 133,
-      "sl": 382,
+      "sl": 383,
       "be": 344,
       "winrate": 15.5,
       "effective_winrate": 55.5,
-      "sum_pnl": -36.8,
-      "r_result": -7.94,
-      "deposit_result": -0.79
+      "sum_pnl": -38.84,
+      "r_result": -8.94,
+      "deposit_result": -0.89
     },
     "today": {
-      "total": 2,
+      "total": 3,
       "tp": 2,
-      "sl": 0,
+      "sl": 1,
       "be": 0,
-      "winrate": 100.0,
-      "effective_winrate": 100.0,
-      "sum_pnl": 3.38,
-      "r_result": 2.92,
-      "deposit_result": 0.29
+      "winrate": 66.7,
+      "effective_winrate": 66.7,
+      "sum_pnl": 1.34,
+      "r_result": 1.92,
+      "deposit_result": 0.19
     },
     "week": {
-      "total": 36,
+      "total": 37,
       "tp": 6,
-      "sl": 13,
+      "sl": 14,
       "be": 17,
-      "winrate": 16.7,
-      "effective_winrate": 63.9,
-      "sum_pnl": -5.17,
-      "r_result": 3.98,
-      "deposit_result": 0.4
+      "winrate": 16.2,
+      "effective_winrate": 62.2,
+      "sum_pnl": -7.22,
+      "r_result": 2.98,
+      "deposit_result": 0.3
     }
   },
   "symbols_30d": [
     {
       "symbol": "SOL",
-      "r": 7.26,
-      "n": 9
+      "r": 6.26,
+      "n": 10
     },
     {
       "symbol": "AAVE",
