@@ -1,41 +1,24 @@
 {
-  "generated_at": "2026-09-08T08:01:49Z",
+  "generated_at": "2026-09-08T08:06:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [
+  "active": [],
+  "history": [
     {
       "symbol": "HBAR",
       "tf": "15m",
       "side": "LONG",
-      "entry": 0.08239,
+      "result": "SL",
+      "status": "sl",
       "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 0.08000980058966092,
-      "effective_stop": 0.08000980058966092,
-      "tp1": 0.08405613958723736,
-      "tp2": 0.08596029911550862,
-      "tp3": 0.08715039882067817,
-      "max_tp_hit": 0,
-      "rr": 1.4999999999999976,
-      "probability": 80,
+      "pnl_percent": -2.89,
+      "r_multiple": -1.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-09-07T17:00:55Z",
-      "current_price": 0.08013,
-      "pnl_percent": -2.74,
-      "reasons": [
-        "Цена пробила сопротивление 0.08287",
-        "Объём выше среднего (1.4×)",
-        "Сильное тело свечи (83%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 62.7 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-09-08T08:02:46Z",
+      "rr": 1.4999999999999976
+    },
     {
       "symbol": "LTC",
       "tf": "15m",
@@ -3020,56 +3003,41 @@
       "open_time": "2026-08-02T21:15:22Z",
       "close_time": "2026-08-03T06:53:04Z",
       "rr": 1.5000000000000278
-    },
-    {
-      "symbol": "LINK",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "fallback",
-      "pnl_percent": -1.84,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-08-02T18:45:15Z",
-      "close_time": "2026-08-03T06:53:04Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 867,
+      "total": 868,
       "tp": 135,
-      "sl": 384,
+      "sl": 385,
       "be": 348,
       "winrate": 15.6,
-      "effective_winrate": 55.7,
-      "sum_pnl": -33.06,
-      "r_result": -5.34,
-      "deposit_result": -0.53
+      "effective_winrate": 55.6,
+      "sum_pnl": -35.95,
+      "r_result": -6.34,
+      "deposit_result": -0.63
     },
     "today": {
-      "total": 2,
+      "total": 3,
       "tp": 0,
-      "sl": 1,
+      "sl": 2,
       "be": 1,
       "winrate": 0.0,
-      "effective_winrate": 50.0,
-      "sum_pnl": -0.49,
-      "r_result": -0.58,
-      "deposit_result": -0.06
+      "effective_winrate": 33.3,
+      "sum_pnl": -3.38,
+      "r_result": -1.58,
+      "deposit_result": -0.16
     },
     "week": {
-      "total": 38,
+      "total": 39,
       "tp": 8,
-      "sl": 11,
+      "sl": 12,
       "be": 19,
-      "winrate": 21.1,
-      "effective_winrate": 71.1,
-      "sum_pnl": 4.81,
-      "r_result": 9.74,
-      "deposit_result": 0.97
+      "winrate": 20.5,
+      "effective_winrate": 69.2,
+      "sum_pnl": 1.92,
+      "r_result": 8.74,
+      "deposit_result": 0.87
     }
   },
   "symbols_30d": [
@@ -3079,14 +3047,14 @@
       "n": 10
     },
     {
-      "symbol": "HBAR",
-      "r": 5.72,
-      "n": 13
-    },
-    {
       "symbol": "AAVE",
       "r": 5.58,
       "n": 10
+    },
+    {
+      "symbol": "HBAR",
+      "r": 4.72,
+      "n": 14
     },
     {
       "symbol": "AVAX",
