@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T15:01:51Z",
+  "generated_at": "2026-09-08T15:06:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-08T12:16:00Z",
-      "current_price": 129.12,
+      "current_price": 129.21,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 129.170",
@@ -52,7 +52,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-08T15:01:15Z",
-      "current_price": 6.525,
+      "current_price": 6.523,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 6.5020",
@@ -83,7 +83,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-08T15:01:15Z",
-      "current_price": 2.368,
+      "current_price": 2.383,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 2.3340",
@@ -114,7 +114,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-08T15:01:15Z",
-      "current_price": 1.4149,
+      "current_price": 1.4125,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1.4081",
@@ -3187,6 +3187,11 @@
       "n": 10
     },
     {
+      "symbol": "XRP",
+      "r": 2.54,
+      "n": 7
+    },
+    {
       "symbol": "NEAR",
       "r": 2.38,
       "n": 10
@@ -3199,11 +3204,6 @@
     {
       "symbol": "AVAX",
       "r": 1.84,
-      "n": 8
-    },
-    {
-      "symbol": "XRP",
-      "r": 1.54,
       "n": 8
     },
     {
