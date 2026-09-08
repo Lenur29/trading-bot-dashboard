@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T09:41:49Z",
+  "generated_at": "2026-09-08T09:46:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -12,17 +12,17 @@
       "pending_fill": false,
       "ttl_deadline": null,
       "sl": 1.040810605694729,
-      "effective_stop": 1.040810605694729,
+      "effective_stop": 1.070747845166971,
       "tp1": 1.0799593034661221,
       "tp2": 1.0983822200644249,
       "tp3": 1.109896542938364,
-      "max_tp_hit": 0,
+      "max_tp_hit": 1,
       "rr": 1.5,
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-08T08:46:00Z",
-      "current_price": 1.0758,
-      "pnl_percent": 1.12,
+      "current_price": 1.0841,
+      "pnl_percent": 1.9,
       "reasons": [
         "Цена пробила сопротивление 1.0693",
         "Объём выше среднего (1.4×)",
@@ -32,6 +32,37 @@
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "AVAX",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 8.056590146605007,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-08T13:45:00Z",
+      "sl": 8.015249314154241,
+      "effective_stop": 8.015249314154241,
+      "tp1": 8.085528729320544,
+      "tp2": 8.118601395281157,
+      "tp3": 8.13927181150654,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000102,
+      "probability": 81,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-08T09:46:20Z",
+      "current_price": 8.097,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 8.0730",
+        "Объём подтверждает пробой (1.7× от среднего)",
+        "Сильное тело свечи (75%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 61.3 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "⚠️ Встречный FVG в зоне риска"
       ]
     }
   ],
