@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T14:06:50Z",
+  "generated_at": "2026-09-08T14:11:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-08T12:16:00Z",
-      "current_price": 127.78,
+      "current_price": 128.4,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 129.170",
@@ -39,9 +39,9 @@
       "tf": "15m",
       "side": "SHORT",
       "entry": 1.3889585618435383,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-08T17:45:00Z",
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 1.3959033546527557,
       "effective_stop": 1.3959033546527557,
       "tp1": 1.384097206877086,
@@ -52,8 +52,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-08T13:46:01Z",
-      "current_price": 1.388,
-      "pnl_percent": null,
+      "current_price": 1.389,
+      "pnl_percent": -0.0,
       "reasons": [
         "Цена пробила поддержку 1.3830",
         "Уровень 1.3830 тестировался 6 раз",
