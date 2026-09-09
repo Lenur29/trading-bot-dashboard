@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T12:56:50Z",
+  "generated_at": "2026-09-09T13:01:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-08T15:01:15Z",
-      "current_price": 1.4377,
-      "pnl_percent": 0.52,
+      "current_price": 1.4349,
+      "pnl_percent": 0.32,
       "reasons": [
         "Цена пробила сопротивление 1.4081",
         "Уровень 1.4081 тестировался 3 раз",
@@ -52,7 +52,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-09T12:01:04Z",
-      "current_price": 79580.5,
+      "current_price": 79510.1,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 79144.00",
@@ -83,7 +83,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-09T12:01:05Z",
-      "current_price": 104.71,
+      "current_price": 104.47,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 103.800",
@@ -94,6 +94,37 @@
         "RSI 53.8 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "ETH",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 2499.8003718944433,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-09T17:00:00Z",
+      "sl": 2477.101877864425,
+      "effective_stop": 2477.101877864425,
+      "tp1": 2515.689317715456,
+      "tp2": 2533.8481129394704,
+      "tp3": 2545.1973599544795,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000067,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-09T13:01:01Z",
+      "current_price": 2508.3,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 2504.93",
+        "Объём выше среднего (1.5×)",
+        "Сильное тело свечи (80%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 62.1 — здоровая зона для лонга",
+        "4h согласен с направлением",
+        "FVG поддерживает, но есть встречный FVG в зоне риска",
+        "London/NY overlap — пиковая ликвидность"
       ]
     }
   ],
