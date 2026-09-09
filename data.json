@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T21:46:49Z",
+  "generated_at": "2026-09-09T06:31:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-08T15:01:15Z",
-      "current_price": 2.302,
-      "pnl_percent": -1.71,
+      "current_price": 2.389,
+      "pnl_percent": 2.01,
       "reasons": [
         "Цена пробила сопротивление 2.3340",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-08T15:01:15Z",
-      "current_price": 1.4183,
-      "pnl_percent": -0.84,
+      "current_price": 1.4371,
+      "pnl_percent": 0.48,
       "reasons": [
         "Цена пробила сопротивление 1.4081",
         "Уровень 1.4081 тестировался 3 раз",
@@ -62,6 +62,37 @@
         "EMA20 > EMA50 — краткосрочный аптренд",
         "RSI 67.5 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "BNB",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 752.226582533473,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-09T10:30:00Z",
+      "sl": 747.8365774490787,
+      "effective_stop": 747.8365774490787,
+      "tp1": 755.299586092549,
+      "tp2": 758.8115901600644,
+      "tp3": 761.0065927022615,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999925,
+      "probability": 82,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-09T06:31:00Z",
+      "current_price": 755.5,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 754.700",
+        "Объём подтверждает пробой (3.6× от среднего)",
+        "Сильное тело свечи (79%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 60.0 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
         "FVG поддерживает направление"
       ]
     }
@@ -3121,8 +3152,13 @@
     },
     {
       "symbol": "DOT",
-      "r": 2.68,
-      "n": 10
+      "r": 3.68,
+      "n": 9
+    },
+    {
+      "symbol": "AVAX",
+      "r": 2.84,
+      "n": 7
     },
     {
       "symbol": "XRP",
@@ -3140,19 +3176,14 @@
       "n": 10
     },
     {
-      "symbol": "AVAX",
-      "r": 1.84,
-      "n": 8
+      "symbol": "SUI",
+      "r": 1.1,
+      "n": 6
     },
     {
       "symbol": "BTC",
       "r": 0.42,
       "n": 1
-    },
-    {
-      "symbol": "SUI",
-      "r": 0.1,
-      "n": 7
     },
     {
       "symbol": "ADA",
@@ -3171,8 +3202,8 @@
     },
     {
       "symbol": "LTC",
-      "r": -1.08,
-      "n": 11
+      "r": -0.08,
+      "n": 10
     },
     {
       "symbol": "INJ",
