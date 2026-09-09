@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T09:41:50Z",
+  "generated_at": "2026-09-09T09:46:50Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-08T15:01:15Z",
-      "current_price": 2.431,
-      "pnl_percent": 3.8,
+      "current_price": 2.437,
+      "pnl_percent": 4.06,
       "reasons": [
         "Цена пробила сопротивление 2.3340",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-08T15:01:15Z",
-      "current_price": 1.4236,
-      "pnl_percent": -0.47,
+      "current_price": 1.4217,
+      "pnl_percent": -0.6,
       "reasons": [
         "Цена пробила сопротивление 1.4081",
         "Уровень 1.4081 тестировался 3 раз",
@@ -70,9 +70,9 @@
       "tf": "15m",
       "side": "LONG",
       "entry": 752.226582533473,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-09T10:30:00Z",
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 747.8365774490787,
       "effective_stop": 747.8365774490787,
       "tp1": 755.299586092549,
@@ -83,8 +83,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-09T06:31:00Z",
-      "current_price": 753.3,
-      "pnl_percent": null,
+      "current_price": 752.1,
+      "pnl_percent": -0.02,
       "reasons": [
         "Цена пробила сопротивление 754.700",
         "Объём подтверждает пробой (3.6× от среднего)",
@@ -114,8 +114,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-09T08:31:03Z",
-      "current_price": 2493.73,
-      "pnl_percent": -0.43,
+      "current_price": 2493.9,
+      "pnl_percent": -0.42,
       "reasons": [
         "Цена пробила сопротивление 2515.32",
         "Объём подтверждает пробой (1.8× от среднего)",
