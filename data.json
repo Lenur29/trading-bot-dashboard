@@ -1,41 +1,24 @@
 {
-  "generated_at": "2026-09-10T11:56:49Z",
+  "generated_at": "2026-09-10T12:01:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [
+  "active": [],
+  "history": [
     {
       "symbol": "ENA",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 0.14998,
+      "result": "BE",
+      "status": "be",
       "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 0.15269363710905168,
-      "effective_stop": 0.15269363710905168,
-      "tp1": 0.14808045402366382,
-      "tp2": 0.1459095443364225,
-      "tp3": 0.14455272578189665,
-      "max_tp_hit": 0,
-      "rr": 1.4999999999999964,
-      "probability": 78,
+      "pnl_percent": 0.76,
+      "r_multiple": 0.42,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
       "open_time": "2026-09-10T07:31:09Z",
-      "current_price": 0.14847,
-      "pnl_percent": 1.01,
-      "reasons": [
-        "Цена пробила поддержку 0.14996",
-        "Уровень 0.14996 тестировался 3 раз",
-        "Объём подтверждает пробой (2.3× от среднего)",
-        "Сильное тело свечи (92%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 37.2 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "FVG поддерживает направление"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-09-10T12:00:47Z",
+      "rr": 1.4999999999999964
+    },
     {
       "symbol": "XRP",
       "tf": "15m",
@@ -3020,56 +3003,41 @@
       "open_time": "2026-08-05T07:45:19Z",
       "close_time": "2026-08-05T12:26:04Z",
       "rr": 1.5000000000000078
-    },
-    {
-      "symbol": "GRAM",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "limit",
-      "pnl_percent": -0.65,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-08-04T20:30:22Z",
-      "close_time": "2026-08-05T06:57:05Z",
-      "rr": 1.5000000000000084
     }
   ],
   "stats": {
     "all": {
-      "total": 881,
+      "total": 882,
       "tp": 136,
       "sl": 393,
-      "be": 352,
+      "be": 353,
       "winrate": 15.4,
       "effective_winrate": 55.4,
-      "sum_pnl": -33.69,
-      "r_result": -11.2,
-      "deposit_result": -1.12
+      "sum_pnl": -32.93,
+      "r_result": -10.78,
+      "deposit_result": -1.08
     },
     "today": {
-      "total": 1,
+      "total": 2,
       "tp": 0,
       "sl": 1,
-      "be": 0,
+      "be": 1,
       "winrate": 0.0,
-      "effective_winrate": 0.0,
-      "sum_pnl": -3.58,
-      "r_result": -1.0,
-      "deposit_result": -0.1
+      "effective_winrate": 50.0,
+      "sum_pnl": -2.82,
+      "r_result": -0.58,
+      "deposit_result": -0.06
     },
     "week": {
-      "total": 46,
+      "total": 47,
       "tp": 9,
       "sl": 17,
-      "be": 20,
-      "winrate": 19.6,
-      "effective_winrate": 63.0,
-      "sum_pnl": 13.0,
-      "r_result": 5.26,
-      "deposit_result": 0.53
+      "be": 21,
+      "winrate": 19.1,
+      "effective_winrate": 63.8,
+      "sum_pnl": 13.76,
+      "r_result": 5.68,
+      "deposit_result": 0.57
     }
   },
   "symbols_30d": [
@@ -3150,8 +3118,8 @@
     },
     {
       "symbol": "ENA",
-      "r": -2.74,
-      "n": 7
+      "r": -2.32,
+      "n": 8
     },
     {
       "symbol": "GRAM",
