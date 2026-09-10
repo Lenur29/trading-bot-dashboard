@@ -1,41 +1,24 @@
 {
-  "generated_at": "2026-09-10T06:26:49Z",
+  "generated_at": "2026-09-10T06:31:47Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [
+  "active": [],
+  "history": [
     {
       "symbol": "XRP",
       "tf": "15m",
       "side": "LONG",
-      "entry": 1.4303,
+      "result": "SL",
+      "status": "sl",
       "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 1.3791605314273003,
-      "effective_stop": 1.3791605314273003,
-      "tp1": 1.4660976280008895,
-      "tp2": 1.5070092028590492,
-      "tp3": 1.532578937145399,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 74,
+      "pnl_percent": -3.58,
+      "r_multiple": -1.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-09-08T15:01:15Z",
-      "current_price": 1.3835,
-      "pnl_percent": -3.27,
-      "reasons": [
-        "Цена пробила сопротивление 1.4081",
-        "Уровень 1.4081 тестировался 3 раз",
-        "Объём подтверждает пробой (2.4× от среднего)",
-        "Сильное тело свечи (73%)",
-        "EMA20 > EMA50 — краткосрочный аптренд",
-        "RSI 67.5 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "FVG поддерживает направление"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-09-10T06:30:46Z",
+      "rr": 1.5
+    },
     {
       "symbol": "ETH",
       "tf": "15m",
@@ -3020,56 +3003,41 @@
       "open_time": "2026-08-04T20:30:22Z",
       "close_time": "2026-08-05T06:57:05Z",
       "rr": 1.5000000000000084
-    },
-    {
-      "symbol": "LINK",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "fallback",
-      "pnl_percent": 0.47,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-08-04T06:45:25Z",
-      "close_time": "2026-08-05T06:57:04Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 880,
+      "total": 881,
       "tp": 136,
-      "sl": 392,
+      "sl": 393,
       "be": 352,
-      "winrate": 15.5,
-      "effective_winrate": 55.5,
-      "sum_pnl": -30.11,
-      "r_result": -10.2,
-      "deposit_result": -1.02
+      "winrate": 15.4,
+      "effective_winrate": 55.4,
+      "sum_pnl": -33.69,
+      "r_result": -11.2,
+      "deposit_result": -1.12
     },
     "today": {
-      "total": 0,
+      "total": 1,
       "tp": 0,
-      "sl": 0,
+      "sl": 1,
       "be": 0,
       "winrate": 0.0,
       "effective_winrate": 0.0,
-      "sum_pnl": 0,
-      "r_result": 0,
-      "deposit_result": 0.0
+      "sum_pnl": -3.58,
+      "r_result": -1.0,
+      "deposit_result": -0.1
     },
     "week": {
-      "total": 45,
+      "total": 46,
       "tp": 9,
-      "sl": 16,
+      "sl": 17,
       "be": 20,
-      "winrate": 20.0,
-      "effective_winrate": 64.4,
-      "sum_pnl": 16.57,
-      "r_result": 6.26,
-      "deposit_result": 0.63
+      "winrate": 19.6,
+      "effective_winrate": 63.0,
+      "sum_pnl": 13.0,
+      "r_result": 5.26,
+      "deposit_result": 0.53
     }
   },
   "symbols_30d": [
@@ -3105,8 +3073,8 @@
     },
     {
       "symbol": "XRP",
-      "r": 2.54,
-      "n": 7
+      "r": 1.54,
+      "n": 8
     },
     {
       "symbol": "SUI",
