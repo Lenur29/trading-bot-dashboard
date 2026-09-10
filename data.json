@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T08:16:49Z",
+  "generated_at": "2026-09-10T08:21:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-10T07:31:09Z",
-      "current_price": 0.14958,
+      "current_price": 0.14979,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.14996",
@@ -3155,8 +3155,8 @@
     },
     {
       "symbol": "GRAM",
-      "r": -3.58,
-      "n": 5
+      "r": -4.0,
+      "n": 4
     }
   ]
 }
