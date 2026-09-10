@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T09:16:49Z",
+  "generated_at": "2026-09-10T09:21:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -3119,6 +3119,11 @@
       "n": 11
     },
     {
+      "symbol": "LTC",
+      "r": 0.92,
+      "n": 9
+    },
+    {
       "symbol": "ADA",
       "r": 0.06,
       "n": 13
@@ -3127,11 +3132,6 @@
       "symbol": "LINK",
       "r": 0.02,
       "n": 12
-    },
-    {
-      "symbol": "LTC",
-      "r": -0.08,
-      "n": 10
     },
     {
       "symbol": "BTC",
