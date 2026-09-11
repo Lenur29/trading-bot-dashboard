@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T22:11:49Z",
+  "generated_at": "2026-09-11T06:36:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -7,22 +7,22 @@
       "symbol": "ENA",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 0.1465180244046571,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-11T00:00:00Z",
+      "entry": 0.14283,
+      "entry_kind": "fallback",
+      "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 0.14955738352553083,
       "effective_stop": 0.14955738352553083,
-      "tp1": 0.1443904730200455,
-      "tp2": 0.14195898572334653,
-      "tp3": 0.14043930616290967,
+      "tp1": 0.13812083153212845,
+      "tp2": 0.1327389247117038,
+      "tp3": 0.12937523294893838,
       "max_tp_hit": 0,
       "rr": 1.5000000000000024,
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-10T20:00:55Z",
-      "current_price": 0.14548,
-      "pnl_percent": null,
+      "current_price": 0.14606,
+      "pnl_percent": -2.26,
       "reasons": [
         "Цена пробила поддержку 0.14406",
         "Уровень 0.14406 тестировался 3 раз",
@@ -3074,13 +3074,13 @@
   },
   "symbols_30d": [
     {
-      "symbol": "SOL",
-      "r": 5.68,
-      "n": 12
+      "symbol": "HBAR",
+      "r": 6.3,
+      "n": 11
     },
     {
-      "symbol": "HBAR",
-      "r": 5.3,
+      "symbol": "SOL",
+      "r": 5.68,
       "n": 12
     },
     {
