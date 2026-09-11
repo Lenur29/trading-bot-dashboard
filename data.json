@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T12:26:50Z",
+  "generated_at": "2026-09-11T12:31:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-10T20:00:55Z",
-      "current_price": 0.1418,
-      "pnl_percent": 0.72,
+      "current_price": 0.14254,
+      "pnl_percent": 0.2,
       "reasons": [
         "Цена пробила поддержку 0.14406",
         "Уровень 0.14406 тестировался 3 раз",
@@ -52,7 +52,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-11T10:46:00Z",
-      "current_price": 1.339,
+      "current_price": 1.342,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.3470",
@@ -3120,14 +3120,14 @@
       "n": 9
     },
     {
+      "symbol": "DOT",
+      "r": 3.22,
+      "n": 7
+    },
+    {
       "symbol": "NEAR",
       "r": 2.84,
       "n": 12
-    },
-    {
-      "symbol": "DOT",
-      "r": 2.22,
-      "n": 8
     },
     {
       "symbol": "XRP",
