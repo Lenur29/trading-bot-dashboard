@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T14:31:49Z",
+  "generated_at": "2026-09-12T14:36:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-11T22:01:22Z",
-      "current_price": 0.14219,
-      "pnl_percent": -0.51,
+      "current_price": 0.14237,
+      "pnl_percent": -0.64,
       "reasons": [
         "Цена пробила поддержку 0.13943",
         "Объём выше среднего (1.4×)",
@@ -52,8 +52,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-12T09:00:59Z",
-      "current_price": 54.02,
-      "pnl_percent": 0.25,
+      "current_price": 53.95,
+      "pnl_percent": 0.12,
       "reasons": [
         "Цена пробила сопротивление 54.1400",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -3125,6 +3125,11 @@
       "n": 7
     },
     {
+      "symbol": "ETH",
+      "r": 2.0,
+      "n": 10
+    },
+    {
       "symbol": "NEAR",
       "r": 1.84,
       "n": 13
@@ -3143,11 +3148,6 @@
       "symbol": "SUI",
       "r": 1.1,
       "n": 6
-    },
-    {
-      "symbol": "ETH",
-      "r": 1.0,
-      "n": 11
     },
     {
       "symbol": "LTC",
