@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T15:26:50Z",
+  "generated_at": "2026-09-12T15:31:49Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-11T22:01:22Z",
-      "current_price": 0.14317,
-      "pnl_percent": -1.2,
+      "current_price": 0.14328,
+      "pnl_percent": -1.28,
       "reasons": [
         "Цена пробила поддержку 0.13943",
         "Объём выше среднего (1.4×)",
@@ -52,8 +52,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-12T09:00:59Z",
-      "current_price": 54.17,
-      "pnl_percent": 0.53,
+      "current_price": 54.12,
+      "pnl_percent": 0.44,
       "reasons": [
         "Цена пробила сопротивление 54.1400",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -3155,6 +3155,11 @@
       "n": 9
     },
     {
+      "symbol": "BNB",
+      "r": -0.08,
+      "n": 5
+    },
+    {
       "symbol": "ADA",
       "r": -0.4,
       "n": 11
@@ -3163,11 +3168,6 @@
       "symbol": "BTC",
       "r": -0.58,
       "n": 2
-    },
-    {
-      "symbol": "BNB",
-      "r": -1.08,
-      "n": 6
     },
     {
       "symbol": "LINK",
