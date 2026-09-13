@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T15:34:22Z",
+  "generated_at": "2026-09-13T15:39:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3083,8 +3083,8 @@
     },
     {
       "symbol": "SUI",
-      "r": 1.1,
-      "n": 6
+      "r": 0.68,
+      "n": 5
     },
     {
       "symbol": "NEAR",
