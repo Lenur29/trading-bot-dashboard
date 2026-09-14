@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-09-14T14:14:22Z",
+  "generated_at": "2026-09-14T14:19:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "BTC",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 77907.15016773187,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-14T18:15:00Z",
+      "sl": 77128.07866605456,
+      "effective_stop": 77128.07866605456,
+      "tp1": 78452.500218906,
+      "tp2": 79075.75742024786,
+      "tp3": 79465.29317108651,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-14T14:15:34Z",
+      "current_price": 78589.9,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 78046.20",
+        "Объём подтверждает пробой (1.9× от среднего)",
+        "Сильное тело свечи (87%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 69.6 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "London/NY overlap — пиковая ликвидность"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "ENA",
