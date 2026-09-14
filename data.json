@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T20:59:24Z",
+  "generated_at": "2026-09-14T21:04:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-14T14:15:34Z",
-      "current_price": 79072.6,
-      "pnl_percent": 0.33,
+      "current_price": 78855.1,
+      "pnl_percent": 0.05,
       "reasons": [
         "Цена пробила сопротивление 78046.20",
         "Объём подтверждает пробой (1.9× от среднего)",
@@ -38,22 +38,22 @@
       "symbol": "NEAR",
       "tf": "15m",
       "side": "LONG",
-      "entry": 2.414236253338559,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-14T21:00:00Z",
+      "entry": 2.528,
+      "entry_kind": "fallback",
+      "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 2.3636179839270723,
       "effective_stop": 2.3636179839270723,
-      "tp1": 2.449669041926599,
-      "tp2": 2.4901636574557884,
-      "tp3": 2.515472792161532,
+      "tp1": 2.6430674112510495,
+      "tp2": 2.7745730241093916,
+      "tp3": 2.8567640321458554,
       "max_tp_hit": 0,
       "rr": 1.5,
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-14T17:00:40Z",
-      "current_price": 2.529,
-      "pnl_percent": null,
+      "current_price": 2.504,
+      "pnl_percent": -0.95,
       "reasons": [
         "Цена пробила сопротивление 2.4070",
         "Уровень 2.4070 тестировался 3 раз",
@@ -64,40 +64,24 @@
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "AVAX",
       "tf": "15m",
       "side": "LONG",
-      "entry": 7.467955716853958,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-14T21:00:00Z",
-      "sl": 7.393276159685419,
-      "effective_stop": 7.393276159685419,
-      "tp1": 7.520231406871936,
-      "tp2": 7.579975052606768,
-      "tp3": 7.617314831191037,
-      "max_tp_hit": 0,
-      "rr": 1.4999999999999971,
-      "probability": 77,
+      "result": "CANCEL",
+      "status": "cancelled",
+      "entry_kind": "cancelled",
+      "pnl_percent": 0,
+      "r_multiple": 0.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-09-14T17:00:40Z",
-      "current_price": 7.719,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила сопротивление 7.5290",
-        "Объём подтверждает пробой (1.6× от среднего)",
-        "Хорошее тело свечи (59%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 65.4 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "FVG поддерживает направление",
-        "BTC согласуется с направлением (+0.41%)"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-09-14T21:00:23Z",
+      "rr": 1.4999999999999971
+    },
     {
       "symbol": "ENA",
       "tf": "15m",
@@ -3082,21 +3066,6 @@
       "open_time": "2026-08-06T14:00:16Z",
       "close_time": "2026-08-06T18:00:13Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "SOL",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 0.21,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-08-06T13:15:15Z",
-      "close_time": "2026-08-06T16:30:05Z",
-      "rr": 1.5000000000000104
     }
   ],
   "stats": {
@@ -3123,15 +3092,15 @@
       "deposit_result": 0.0
     },
     "week": {
-      "total": 33,
-      "tp": 6,
-      "sl": 16,
-      "be": 11,
-      "winrate": 18.2,
-      "effective_winrate": 51.5,
-      "sum_pnl": -9.05,
-      "r_result": -2.62,
-      "deposit_result": -0.26
+      "total": 25,
+      "tp": 2,
+      "sl": 15,
+      "be": 8,
+      "winrate": 8.0,
+      "effective_winrate": 40.0,
+      "sum_pnl": -16.66,
+      "r_result": -8.72,
+      "deposit_result": -0.87
     }
   },
   "symbols_30d": [
