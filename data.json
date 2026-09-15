@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-09-15T18:44:22Z",
+  "generated_at": "2026-09-15T18:49:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "AAVE",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 125.64187932003458,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-15T22:45:00Z",
+      "sl": 127.74777890562112,
+      "effective_stop": 127.74777890562112,
+      "tp1": 124.16774961012399,
+      "tp2": 122.48302994165476,
+      "tp3": 121.43008014886149,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000016,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-15T18:45:55Z",
+      "current_price": 121.17,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 124.400",
+        "Объём подтверждает пробой (3.6× от среднего)",
+        "Сильное тело свечи (89%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 33.9 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (-1.55%)"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "ADA",
