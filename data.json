@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T16:19:24Z",
+  "generated_at": "2026-09-15T16:24:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-15T08:00:46Z",
-      "current_price": 51.72,
-      "pnl_percent": 1.24,
+      "current_price": 51.81,
+      "pnl_percent": 1.07,
       "reasons": [
         "Цена пробила поддержку 52.6500",
         "Объём выше среднего (1.4×)",
@@ -52,8 +52,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-15T13:45:51Z",
-      "current_price": 1.325,
-      "pnl_percent": 1.14,
+      "current_price": 1.328,
+      "pnl_percent": 0.91,
       "reasons": [
         "Цена пробила поддержку 1.3370",
         "Объём подтверждает пробой (6.6× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-15T14:45:45Z",
-      "current_price": 0.2018,
+      "current_price": 0.2023,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.20220",
@@ -3186,6 +3186,11 @@
       "n": 5
     },
     {
+      "symbol": "INJ",
+      "r": -0.02,
+      "n": 11
+    },
+    {
       "symbol": "ADA",
       "r": -0.4,
       "n": 11
@@ -3194,11 +3199,6 @@
       "symbol": "NEAR",
       "r": -0.62,
       "n": 13
-    },
-    {
-      "symbol": "INJ",
-      "r": -1.02,
-      "n": 12
     },
     {
       "symbol": "BTC",
