@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T14:44:25Z",
+  "generated_at": "2026-09-15T14:49:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-15T08:00:46Z",
-      "current_price": 51.98,
-      "pnl_percent": 0.74,
+      "current_price": 51.82,
+      "pnl_percent": 1.05,
       "reasons": [
         "Цена пробила поддержку 52.6500",
         "Объём выше среднего (1.4×)",
@@ -47,13 +47,13 @@
       "tp1": 1.3308421407811162,
       "tp2": 1.3201203511272905,
       "tp3": 1.3134192325936493,
-      "max_tp_hit": 1,
+      "max_tp_hit": 2,
       "rr": 1.5,
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-15T13:45:51Z",
-      "current_price": 1.327,
-      "pnl_percent": 0.99,
+      "current_price": 1.319,
+      "pnl_percent": 1.58,
       "reasons": [
         "Цена пробила поддержку 1.3370",
         "Объём подтверждает пробой (6.6× от среднего)",
@@ -63,6 +63,37 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "BTC согласуется с направлением (-0.68%)"
+      ]
+    },
+    {
+      "symbol": "ADA",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.20448319405195167,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-15T18:45:00Z",
+      "sl": 0.2082835557453053,
+      "effective_stop": 0.2082835557453053,
+      "tp1": 0.20182294086660413,
+      "tp2": 0.19878265151192123,
+      "tp3": 0.19688247066524442,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999982,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-15T14:45:45Z",
+      "current_price": 0.2001,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 0.20220",
+        "Объём подтверждает пробой (3.8× от среднего)",
+        "Сильное тело свечи (86%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 30.1 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (-0.93%)"
       ]
     }
   ],
