@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-09-15T07:29:26Z",
+  "generated_at": "2026-09-15T07:34:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "NEAR",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 2.528,
-      "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 2.3636179839270723,
-      "effective_stop": 2.3636179839270723,
-      "tp1": 2.6430674112510495,
-      "tp2": 2.7745730241093916,
-      "tp3": 2.8567640321458554,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 83,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-09-14T17:00:40Z",
-      "current_price": 2.375,
-      "pnl_percent": -6.05,
-      "reasons": [
-        "Цена пробила сопротивление 2.4070",
-        "Уровень 2.4070 тестировался 3 раз",
-        "Объём подтверждает пробой (1.9× от среднего)",
-        "Хорошее тело свечи (67%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 69.4 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением"
-      ]
-    },
     {
       "symbol": "DOT",
       "tf": "15m",
@@ -52,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-15T07:00:33Z",
-      "current_price": 0.9925,
-      "pnl_percent": -0.0,
+      "current_price": 0.9888,
+      "pnl_percent": 0.37,
       "reasons": [
         "Цена пробила поддержку 0.99120",
         "Объём выше среднего (1.4×)",
@@ -67,6 +36,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "NEAR",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "SL",
+      "status": "sl",
+      "entry_kind": "fallback",
+      "pnl_percent": -6.5,
+      "r_multiple": -1.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-09-14T17:00:40Z",
+      "close_time": "2026-09-15T07:32:22Z",
+      "rr": 1.5
+    },
     {
       "symbol": "BTC",
       "tf": "15m",
@@ -3051,56 +3035,41 @@
       "open_time": "2026-08-06T13:00:15Z",
       "close_time": "2026-08-07T06:55:05Z",
       "rr": 1.50000000000001
-    },
-    {
-      "symbol": "LINK",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 0.21,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-08-06T17:15:12Z",
-      "close_time": "2026-08-06T22:02:05Z",
-      "rr": 1.5000000000000093
     }
   ],
   "stats": {
     "all": {
-      "total": 891,
+      "total": 892,
       "tp": 137,
-      "sl": 399,
+      "sl": 400,
       "be": 355,
       "winrate": 15.4,
       "effective_winrate": 55.2,
-      "sum_pnl": -51.15,
-      "r_result": -14.48,
-      "deposit_result": -1.45
+      "sum_pnl": -57.65,
+      "r_result": -15.48,
+      "deposit_result": -1.55
     },
     "today": {
-      "total": 1,
+      "total": 2,
       "tp": 0,
-      "sl": 1,
+      "sl": 2,
       "be": 0,
       "winrate": 0.0,
       "effective_winrate": 0.0,
-      "sum_pnl": -1.92,
-      "r_result": -1.0,
-      "deposit_result": -0.1
+      "sum_pnl": -8.42,
+      "r_result": -2.0,
+      "deposit_result": -0.2
     },
     "week": {
-      "total": 26,
+      "total": 27,
       "tp": 2,
-      "sl": 16,
+      "sl": 17,
       "be": 8,
-      "winrate": 7.7,
-      "effective_winrate": 38.5,
-      "sum_pnl": -18.58,
-      "r_result": -9.72,
-      "deposit_result": -0.97
+      "winrate": 7.4,
+      "effective_winrate": 37.0,
+      "sum_pnl": -25.08,
+      "r_result": -10.72,
+      "deposit_result": -1.07
     }
   },
   "symbols_30d": [
@@ -3155,14 +3124,14 @@
       "n": 5
     },
     {
-      "symbol": "NEAR",
-      "r": 0.38,
-      "n": 12
-    },
-    {
       "symbol": "ADA",
       "r": -0.4,
       "n": 11
+    },
+    {
+      "symbol": "NEAR",
+      "r": -0.62,
+      "n": 13
     },
     {
       "symbol": "INJ",
