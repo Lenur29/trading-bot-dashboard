@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:59:24Z",
+  "generated_at": "2026-09-15T08:04:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -16,13 +16,13 @@
       "tp1": 0.9855416048805347,
       "tp2": 0.9776016926559181,
       "tp3": 0.9726392475155328,
-      "max_tp_hit": 1,
+      "max_tp_hit": 2,
       "rr": 1.5,
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-15T07:00:33Z",
-      "current_price": 0.9823,
-      "pnl_percent": 1.03,
+      "current_price": 0.9798,
+      "pnl_percent": 1.28,
       "reasons": [
         "Цена пробила поддержку 0.99120",
         "Объём выше среднего (1.4×)",
@@ -32,6 +32,37 @@
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "Order Block поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 52.774668155145015,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-15T12:00:00Z",
+      "sl": 53.302414836696464,
+      "effective_stop": 53.302414836696464,
+      "tp1": 52.405245478059,
+      "tp2": 51.98304813281784,
+      "tp3": 51.71917479204212,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-15T08:00:46Z",
+      "current_price": 52.49,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 52.6500",
+        "Объём выше среднего (1.4×)",
+        "Хорошее тело свечи (67%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 36.4 — здоровая зона для шорта",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление",
+        "BTC согласуется с направлением (-0.37%)"
       ]
     }
   ],
