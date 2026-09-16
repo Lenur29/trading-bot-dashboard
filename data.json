@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T18:14:24Z",
+  "generated_at": "2026-09-16T18:19:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-15T18:45:55Z",
-      "current_price": 115.83,
-      "pnl_percent": 5.0,
+      "current_price": 115.41,
+      "pnl_percent": 5.35,
       "reasons": [
         "Цена пробила поддержку 124.400",
         "Объём подтверждает пробой (3.6× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-16T13:30:40Z",
-      "current_price": 0.07299,
-      "pnl_percent": -0.66,
+      "current_price": 0.07294,
+      "pnl_percent": -0.59,
       "reasons": [
         "Цена пробила поддержку 0.07382",
         "Объём подтверждает пробой (1.5× от среднего)",
@@ -63,6 +63,37 @@
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "London/NY overlap — пиковая ликвидность"
+      ]
+    },
+    {
+      "symbol": "NEAR",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 2.460836766026612,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-16T22:15:00Z",
+      "sl": 2.420516020561102,
+      "effective_stop": 2.420516020561102,
+      "tp1": 2.489061287852469,
+      "tp2": 2.521317884224877,
+      "tp3": 2.541478256957632,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000024,
+      "probability": 79,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-16T18:15:37Z",
+      "current_price": 2.523,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 2.4930",
+        "Объём подтверждает пробой (5.0× от среднего)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 65.4 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Активная торговая сессия"
       ]
     }
   ],
