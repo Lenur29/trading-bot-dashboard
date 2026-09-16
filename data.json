@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T13:29:25Z",
+  "generated_at": "2026-09-16T13:34:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-15T18:45:55Z",
-      "current_price": 117.1,
-      "pnl_percent": 3.96,
+      "current_price": 117.08,
+      "pnl_percent": 3.98,
       "reasons": [
         "Цена пробила поддержку 124.400",
         "Объём подтверждает пробой (3.6× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-16T08:30:42Z",
-      "current_price": 10.728,
-      "pnl_percent": 0.66,
+      "current_price": 10.714,
+      "pnl_percent": 0.79,
       "reasons": [
         "Цена пробила поддержку 10.7590",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -63,6 +63,37 @@
         "FVG поддерживает направление",
         "BTC согласуется с направлением (-0.49%)",
         "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "HBAR",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.07413962926581594,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-16T17:30:00Z",
+      "sl": 0.0748810255584741,
+      "effective_stop": 0.0748810255584741,
+      "tp1": 0.07362065186095522,
+      "tp2": 0.0730275348268287,
+      "tp3": 0.0726568366804996,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000062,
+      "probability": 79,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-16T13:30:40Z",
+      "current_price": 0.0736,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 0.07382",
+        "Объём подтверждает пробой (1.5× от среднего)",
+        "Сильное тело свечи (79%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 33.9 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "London/NY overlap — пиковая ликвидность"
       ]
     }
   ],
@@ -3110,14 +3141,14 @@
       "n": 10
     },
     {
+      "symbol": "AAVE",
+      "r": 4.7,
+      "n": 7
+    },
+    {
       "symbol": "SOL",
       "r": 3.8,
       "n": 10
-    },
-    {
-      "symbol": "AAVE",
-      "r": 3.7,
-      "n": 8
     },
     {
       "symbol": "DOT",
