@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T14:14:24Z",
+  "generated_at": "2026-09-16T14:19:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-15T18:45:55Z",
-      "current_price": 116.62,
-      "pnl_percent": 4.35,
+      "current_price": 116.69,
+      "pnl_percent": 4.3,
       "reasons": [
         "Цена пробила поддержку 124.400",
         "Объём подтверждает пробой (3.6× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-16T08:30:42Z",
-      "current_price": 10.651,
-      "pnl_percent": 1.37,
+      "current_price": 10.663,
+      "pnl_percent": 1.26,
       "reasons": [
         "Цена пробила поддержку 10.7590",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-16T13:30:40Z",
-      "current_price": 0.0726,
+      "current_price": 0.07269,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.07382",
@@ -91,6 +91,37 @@
         "Сильное тело свечи (79%)",
         "EMA20 < EMA50 < EMA200 — нисходящая структура",
         "RSI 33.9 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "London/NY overlap — пиковая ликвидность"
+      ]
+    },
+    {
+      "symbol": "ADA",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.19321205475969389,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-16T18:15:00Z",
+      "sl": 0.19591475688698662,
+      "effective_stop": 0.19591475688698662,
+      "tp1": 0.19132016327058898,
+      "tp2": 0.18915800156875479,
+      "tp3": 0.18780665050510842,
+      "max_tp_hit": 0,
+      "rr": 1.500000000000003,
+      "probability": 76,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-16T14:15:42Z",
+      "current_price": 0.1917,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 0.19160",
+        "Объём подтверждает пробой (2.2× от среднего)",
+        "Хорошее тело свечи (50%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 31.5 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "London/NY overlap — пиковая ликвидность"
