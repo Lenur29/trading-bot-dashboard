@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T19:44:25Z",
+  "generated_at": "2026-09-17T19:49:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-17T14:21:42Z",
-      "current_price": 11.307,
-      "pnl_percent": 0.76,
+      "current_price": 11.292,
+      "pnl_percent": 0.63,
       "reasons": [
         "Цена пробила сопротивление 11.3090",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 85,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-17T16:30:32Z",
-      "current_price": 3.02,
+      "current_price": 3.013,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 2.9170",
@@ -83,8 +83,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-17T16:30:32Z",
-      "current_price": 0.15365,
-      "pnl_percent": 0.69,
+      "current_price": 0.15324,
+      "pnl_percent": 0.42,
       "reasons": [
         "Цена пробила сопротивление 0.15397",
         "Уровень 0.15397 тестировался 3 раз",
@@ -94,6 +94,37 @@
         "RSI 63.3 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "BNB",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 728.2648594700394,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-17T23:45:00Z",
+      "sl": 720.982210875339,
+      "effective_stop": 720.982210875339,
+      "tp1": 733.3627134863297,
+      "tp2": 739.1888323620899,
+      "tp3": 742.8301566594401,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999922,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-17T19:45:32Z",
+      "current_price": 730.7,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 730.100",
+        "Объём подтверждает пробой (1.6× от среднего)",
+        "Сильное тело свечи (80%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 63.7 — здоровая зона для лонга",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление",
+        "Активная торговая сессия"
       ]
     }
   ],
