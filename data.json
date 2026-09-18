@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T12:14:24Z",
+  "generated_at": "2026-09-18T12:19:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-17T19:45:32Z",
-      "current_price": 747.1,
-      "pnl_percent": 1.34,
+      "current_price": 746.3,
+      "pnl_percent": 1.23,
       "reasons": [
         "Цена пробила сопротивление 730.100",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-18T08:30:34Z",
-      "current_price": 1.321,
-      "pnl_percent": -0.05,
+      "current_price": 1.3208,
+      "pnl_percent": -0.07,
       "reasons": [
         "Цена пробила сопротивление 1.3305",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -63,6 +63,37 @@
         "Бычья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "AVAX",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 7.940810619564853,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-18T16:15:00Z",
+      "sl": 7.861402513369204,
+      "effective_stop": 7.861402513369204,
+      "tp1": 7.996396293901807,
+      "tp2": 8.059922778858326,
+      "tp3": 8.09962683195615,
+      "max_tp_hit": 0,
+      "rr": 1.499999999999995,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-18T12:15:31Z",
+      "current_price": 7.975,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 7.9740",
+        "Объём выше среднего (1.4×)",
+        "Хорошее тело свечи (57%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 61.7 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
