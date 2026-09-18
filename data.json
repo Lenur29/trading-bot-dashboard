@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T08:44:24Z",
+  "generated_at": "2026-09-18T08:49:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-17T19:45:32Z",
-      "current_price": 753.5,
-      "pnl_percent": 2.21,
+      "current_price": 753.3,
+      "pnl_percent": 2.18,
       "reasons": [
         "Цена пробила сопротивление 730.100",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-18T08:30:34Z",
-      "current_price": 1.3322,
+      "current_price": 1.3331,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1.3305",
@@ -3120,6 +3120,11 @@
       "n": 10
     },
     {
+      "symbol": "LTC",
+      "r": 3.12,
+      "n": 10
+    },
+    {
       "symbol": "AVAX",
       "r": 2.16,
       "n": 7
@@ -3128,11 +3133,6 @@
       "symbol": "DOT",
       "r": 2.12,
       "n": 6
-    },
-    {
-      "symbol": "LTC",
-      "r": 2.12,
-      "n": 11
     },
     {
       "symbol": "NEAR",
