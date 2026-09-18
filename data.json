@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T12:44:24Z",
+  "generated_at": "2026-09-18T12:49:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-17T19:45:32Z",
-      "current_price": 745.9,
-      "pnl_percent": 1.18,
+      "current_price": 745.6,
+      "pnl_percent": 1.14,
       "reasons": [
         "Цена пробила сопротивление 730.100",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-18T08:30:34Z",
-      "current_price": 1.3247,
-      "pnl_percent": 0.23,
+      "current_price": 1.3258,
+      "pnl_percent": 0.31,
       "reasons": [
         "Цена пробила сопротивление 1.3305",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-18T12:15:31Z",
-      "current_price": 8.02,
+      "current_price": 8.012,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 7.9740",
@@ -91,6 +91,37 @@
         "Хорошее тело свечи (57%)",
         "EMA20 > EMA50 > EMA200 — восходящая структура",
         "RSI 61.7 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "NEAR",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 3.5014104825448644,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-18T16:45:00Z",
+      "sl": 3.4074438014184163,
+      "effective_stop": 3.4074438014184163,
+      "tp1": 3.567187159333378,
+      "tp2": 3.642360504234537,
+      "tp3": 3.6893438447977607,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999987,
+      "probability": 83,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-18T12:45:42Z",
+      "current_price": 3.597,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 3.5440",
+        "Объём подтверждает пробой (2.0× от среднего)",
+        "Сильное тело свечи (79%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 62.4 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
