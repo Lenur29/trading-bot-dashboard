@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:44:24Z",
+  "generated_at": "2026-09-18T19:49:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-18T12:45:42Z",
-      "current_price": 3.715,
-      "pnl_percent": 0.7,
+      "current_price": 3.677,
+      "pnl_percent": -0.33,
       "reasons": [
         "Цена пробила сопротивление 3.5440",
         "Объём подтверждает пробой (2.0× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 85,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-18T18:00:35Z",
-      "current_price": 8.279,
+      "current_price": 8.281,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 8.1170",
@@ -83,7 +83,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-18T18:15:30Z",
-      "current_price": 6.658,
+      "current_price": 6.615,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 6.7280",
@@ -94,6 +94,37 @@
         "4h согласен с направлением",
         "FVG поддерживает направление",
         "⚠️ Встречный Order Block рядом"
+      ]
+    },
+    {
+      "symbol": "AAVE",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 138.07683421502983,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-18T23:45:00Z",
+      "sl": 136.69606587287953,
+      "effective_stop": 136.69606587287953,
+      "tp1": 139.04337205453504,
+      "tp2": 140.1479867282553,
+      "tp3": 140.83837089933044,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 83,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-18T19:45:31Z",
+      "current_price": 138.67,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 138.760",
+        "Объём подтверждает пробой (2.4× от среднего)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 59.4 — здоровая зона для лонга",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление",
+        "BTC согласуется с направлением (+0.37%)"
       ]
     }
   ],
