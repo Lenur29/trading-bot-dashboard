@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T15:49:25Z",
+  "generated_at": "2026-09-19T15:54:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T10:00:30Z",
-      "current_price": 0.8401,
-      "pnl_percent": -1.22,
+      "current_price": 0.8424,
+      "pnl_percent": -0.95,
       "reasons": [
         "Цена пробила сопротивление 0.83200",
         "Уровень 0.83200 тестировался 4 раз",
@@ -52,8 +52,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T10:15:28Z",
-      "current_price": 12.569,
-      "pnl_percent": 0.66,
+      "current_price": 12.582,
+      "pnl_percent": 0.76,
       "reasons": [
         "Цена пробила сопротивление 12.5050",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T12:15:31Z",
-      "current_price": 0.19889,
+      "current_price": 0.19981,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.19203",
@@ -114,7 +114,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T15:19:31Z",
-      "current_price": 81695.4,
+      "current_price": 81704.7,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 81618.90",
@@ -3187,11 +3187,6 @@
       "n": 9
     },
     {
-      "symbol": "BNB",
-      "r": 2.38,
-      "n": 5
-    },
-    {
       "symbol": "NEAR",
       "r": 2.26,
       "n": 14
@@ -3220,6 +3215,11 @@
       "symbol": "XRP",
       "r": 1.12,
       "n": 7
+    },
+    {
+      "symbol": "BNB",
+      "r": 0.92,
+      "n": 4
     },
     {
       "symbol": "SUI",
