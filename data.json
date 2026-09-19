@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T16:59:24Z",
+  "generated_at": "2026-09-19T17:04:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T10:00:30Z",
-      "current_price": 0.8572,
-      "pnl_percent": 0.79,
+      "current_price": 0.8584,
+      "pnl_percent": 0.93,
       "reasons": [
         "Цена пробила сопротивление 0.83200",
         "Уровень 0.83200 тестировался 4 раз",
@@ -52,8 +52,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T12:15:31Z",
-      "current_price": 0.20509,
-      "pnl_percent": 1.64,
+      "current_price": 0.20419,
+      "pnl_percent": 1.19,
       "reasons": [
         "Цена пробила сопротивление 0.19203",
         "Уровень 0.19203 тестировался 4 раз",
@@ -83,7 +83,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T15:19:31Z",
-      "current_price": 81795.3,
+      "current_price": 81760.5,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 81618.90",
@@ -94,6 +94,37 @@
         "4h согласен с направлением",
         "FVG поддерживает направление",
         "London/NY overlap — пиковая ликвидность"
+      ]
+    },
+    {
+      "symbol": "ADA",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.22737706503447333,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-19T21:00:00Z",
+      "sl": 0.2247050810131116,
+      "effective_stop": 0.2247050810131116,
+      "tp1": 0.22924745384942655,
+      "tp2": 0.23138504106651592,
+      "tp3": 0.2327210330771968,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000029,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-19T17:00:31Z",
+      "current_price": 0.2301,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 0.22800",
+        "Сильное тело свечи (75%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 65.5 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Активная торговая сессия"
       ]
     }
   ],
