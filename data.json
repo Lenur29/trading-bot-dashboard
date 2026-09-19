@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T22:09:24Z",
+  "generated_at": "2026-09-19T22:14:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T12:15:31Z",
-      "current_price": 0.2026,
-      "pnl_percent": 0.4,
+      "current_price": 0.20109,
+      "pnl_percent": -0.35,
       "reasons": [
         "Цена пробила сопротивление 0.19203",
         "Уровень 0.19203 тестировался 4 раз",
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T15:19:31Z",
-      "current_price": 81029.1,
-      "pnl_percent": -0.41,
+      "current_price": 80979.4,
+      "pnl_percent": -0.47,
       "reasons": [
         "Цена пробила сопротивление 81618.90",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -83,8 +83,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T17:00:31Z",
-      "current_price": 0.2266,
-      "pnl_percent": -1.09,
+      "current_price": 0.2262,
+      "pnl_percent": -1.27,
       "reasons": [
         "Цена пробила сопротивление 0.22800",
         "Сильное тело свечи (75%)",
@@ -3171,14 +3171,14 @@
       "n": 6
     },
     {
-      "symbol": "ADA",
-      "r": 1.69,
-      "n": 14
-    },
-    {
       "symbol": "INJ",
       "r": 1.44,
       "n": 12
+    },
+    {
+      "symbol": "ADA",
+      "r": 1.27,
+      "n": 13
     },
     {
       "symbol": "XRP",
