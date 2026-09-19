@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T15:19:24Z",
+  "generated_at": "2026-09-19T15:24:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T10:00:30Z",
-      "current_price": 0.8405,
-      "pnl_percent": -1.18,
+      "current_price": 0.8436,
+      "pnl_percent": -0.81,
       "reasons": [
         "Цена пробила сопротивление 0.83200",
         "Уровень 0.83200 тестировался 4 раз",
@@ -52,8 +52,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T10:15:28Z",
-      "current_price": 12.567,
-      "pnl_percent": 0.64,
+      "current_price": 12.616,
+      "pnl_percent": 1.03,
       "reasons": [
         "Цена пробила сопротивление 12.5050",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T12:15:31Z",
-      "current_price": 0.19728,
+      "current_price": 0.19711,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.19203",
@@ -94,6 +94,37 @@
         "RSI 65.8 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "BTC",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 81359.09254855833,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-19T19:15:00Z",
+      "sl": 80545.50162307275,
+      "effective_stop": 80545.50162307275,
+      "tp1": 81928.60619639824,
+      "tp2": 82579.4789367867,
+      "tp3": 82986.27439952949,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-19T15:19:31Z",
+      "current_price": 81627.8,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 81618.90",
+        "Объём подтверждает пробой (2.2× от среднего)",
+        "Хорошее тело свечи (70%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "⚠️ RSI 70.4 — перекуплен, риск отката",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "London/NY overlap — пиковая ликвидность"
       ]
     }
   ],
