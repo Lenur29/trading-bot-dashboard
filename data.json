@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T10:14:24Z",
+  "generated_at": "2026-09-19T10:19:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T10:00:30Z",
-      "current_price": 0.8364,
+      "current_price": 0.8362,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.83200",
@@ -32,6 +32,37 @@
         "RSI 67.7 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "LINK",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 12.4064184841276,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-19T14:15:00Z",
+      "sl": 12.24731120738021,
+      "effective_stop": 12.24731120738021,
+      "tp1": 12.517793577850773,
+      "tp2": 12.645079399248687,
+      "tp3": 12.72463303762238,
+      "max_tp_hit": 0,
+      "rr": 1.500000000000003,
+      "probability": 82,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-19T10:15:28Z",
+      "current_price": 12.519,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 12.5050",
+        "Объём подтверждает пробой (1.7× от среднего)",
+        "Хорошее тело свечи (60%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 65.5 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
