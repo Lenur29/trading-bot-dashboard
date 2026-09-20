@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T13:29:22Z",
+  "generated_at": "2026-09-20T13:34:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3103,8 +3103,8 @@
     },
     {
       "symbol": "ADA",
-      "r": 0.27,
-      "n": 14
+      "r": -0.15,
+      "n": 13
     },
     {
       "symbol": "ETH",
