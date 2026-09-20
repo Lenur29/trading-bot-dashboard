@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T03:24:25Z",
+  "generated_at": "2026-09-20T03:29:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T12:15:31Z",
-      "current_price": 0.19489,
-      "pnl_percent": -3.42,
+      "current_price": 0.19482,
+      "pnl_percent": -3.45,
       "reasons": [
         "Цена пробила сопротивление 0.19203",
         "Уровень 0.19203 тестировался 4 раз",
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T15:19:31Z",
-      "current_price": 80420.9,
-      "pnl_percent": -1.15,
+      "current_price": 80379.7,
+      "pnl_percent": -1.2,
       "reasons": [
         "Цена пробила сопротивление 81618.90",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -83,8 +83,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-19T17:00:31Z",
-      "current_price": 0.2222,
-      "pnl_percent": -3.01,
+      "current_price": 0.222,
+      "pnl_percent": -3.1,
       "reasons": [
         "Цена пробила сопротивление 0.22800",
         "Сильное тело свечи (75%)",
