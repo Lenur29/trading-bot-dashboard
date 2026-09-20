@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T11:59:22Z",
+  "generated_at": "2026-09-20T12:04:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3048,8 +3048,8 @@
     },
     {
       "symbol": "SOL",
-      "r": 2.7,
-      "n": 9
+      "r": 2.28,
+      "n": 8
     },
     {
       "symbol": "NEAR",
