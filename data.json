@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T20:59:22Z",
+  "generated_at": "2026-09-20T21:04:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3018,26 +3018,26 @@
       "deposit_result": 0.09
     },
     "today": {
-      "total": 4,
+      "total": 0,
       "tp": 0,
-      "sl": 2,
-      "be": 2,
+      "sl": 0,
+      "be": 0,
       "winrate": 0.0,
-      "effective_winrate": 50.0,
-      "sum_pnl": 2.5,
-      "r_result": -1.16,
-      "deposit_result": -0.12
+      "effective_winrate": 0.0,
+      "sum_pnl": 0,
+      "r_result": 0,
+      "deposit_result": 0.0
     },
     "week": {
-      "total": 32,
+      "total": 31,
       "tp": 8,
       "sl": 6,
-      "be": 18,
-      "winrate": 25.0,
-      "effective_winrate": 81.2,
-      "sum_pnl": 37.38,
-      "r_result": 14.83,
-      "deposit_result": 1.48
+      "be": 17,
+      "winrate": 25.8,
+      "effective_winrate": 80.6,
+      "sum_pnl": 36.5,
+      "r_result": 14.41,
+      "deposit_result": 1.44
     }
   },
   "symbols_30d": [
