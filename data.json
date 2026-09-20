@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T16:14:22Z",
+  "generated_at": "2026-09-20T16:19:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3113,8 +3113,8 @@
     },
     {
       "symbol": "LINK",
-      "r": -0.9,
-      "n": 8
+      "r": -1.32,
+      "n": 7
     },
     {
       "symbol": "BTC",
