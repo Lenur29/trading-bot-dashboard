@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T10:44:25Z",
+  "generated_at": "2026-09-21T10:49:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T08:00:40Z",
-      "current_price": 0.999,
+      "current_price": 0.9986,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.96900",
@@ -52,7 +52,7 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T08:15:37Z",
-      "current_price": 84256.6,
+      "current_price": 84187.3,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 81855.00",
@@ -83,7 +83,7 @@
       "probability": 85,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T08:30:45Z",
-      "current_price": 13.017,
+      "current_price": 13.016,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 12.5720",
@@ -94,6 +94,37 @@
         "RSI 58.5 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 59.13675423656722,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-21T14:45:00Z",
+      "sl": 58.088430630203874,
+      "effective_stop": 58.088430630203874,
+      "tp1": 59.870580761021564,
+      "tp2": 60.70923964611224,
+      "tp3": 61.233401449293915,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-21T10:45:32Z",
+      "current_price": 60.15,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 59.9900",
+        "Объём подтверждает пробой (1.9× от среднего)",
+        "Сильное тело свечи (78%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "⚠️ RSI 70.1 — перекуплен, риск отката",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
