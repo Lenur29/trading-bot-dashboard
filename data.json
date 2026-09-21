@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T21:49:22Z",
+  "generated_at": "2026-09-21T06:34:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3072,17 +3072,17 @@
       "n": 9
     },
     {
-      "symbol": "HBAR",
-      "r": 1.54,
-      "n": 8
-    },
-    {
       "symbol": "INJ",
       "r": 1.44,
       "n": 12
     },
     {
       "symbol": "XRP",
+      "r": 1.12,
+      "n": 7
+    },
+    {
+      "symbol": "HBAR",
       "r": 1.12,
       "n": 7
     },
