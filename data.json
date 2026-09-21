@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T06:39:24Z",
+  "generated_at": "2026-09-21T06:44:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T06:34:48Z",
-      "current_price": 111.94,
+      "current_price": 111.68,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 112.200",
@@ -3089,29 +3089,14 @@
       "n": 14
     },
     {
-      "symbol": "AVAX",
-      "r": 2.16,
-      "n": 7
-    },
-    {
       "symbol": "DOT",
       "r": 2.12,
       "n": 6
     },
     {
-      "symbol": "LTC",
-      "r": 1.66,
-      "n": 9
-    },
-    {
       "symbol": "INJ",
       "r": 1.44,
       "n": 12
-    },
-    {
-      "symbol": "XRP",
-      "r": 1.12,
-      "n": 7
     },
     {
       "symbol": "HBAR",
@@ -3129,6 +3114,16 @@
       "n": 4
     },
     {
+      "symbol": "LTC",
+      "r": 0.88,
+      "n": 8
+    },
+    {
+      "symbol": "AVAX",
+      "r": 0.7,
+      "n": 6
+    },
+    {
       "symbol": "ENA",
       "r": 0.4,
       "n": 12
@@ -3137,6 +3132,11 @@
       "symbol": "ADA",
       "r": -0.15,
       "n": 13
+    },
+    {
+      "symbol": "XRP",
+      "r": -0.34,
+      "n": 6
     },
     {
       "symbol": "ETH",
