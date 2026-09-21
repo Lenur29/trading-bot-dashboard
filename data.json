@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T16:24:25Z",
+  "generated_at": "2026-09-21T16:29:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T12:45:30Z",
-      "current_price": 1.433,
-      "pnl_percent": 0.96,
+      "current_price": 1.432,
+      "pnl_percent": 0.88,
       "reasons": [
         "Цена пробила сопротивление 1.4280",
         "Объём подтверждает пробой (2.0× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T13:15:30Z",
-      "current_price": 117.67,
+      "current_price": 117.68,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 117.130",
@@ -83,7 +83,7 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T14:04:35Z",
-      "current_price": 799.8,
+      "current_price": 798.5,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 791.500",
@@ -95,40 +95,24 @@
         "4h согласен с направлением",
         "FVG поддерживает направление"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "XRP",
       "tf": "15m",
       "side": "LONG",
-      "entry": 1.4855371021251307,
+      "result": "BE",
+      "status": "be",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 1.4651175950383324,
-      "effective_stop": 1.4916629542511701,
-      "tp1": 1.4998307570858895,
-      "tp2": 1.5161663627553281,
-      "tp3": 1.5263761162987273,
-      "max_tp_hit": 1,
-      "rr": 1.499999999999997,
-      "probability": 84,
+      "pnl_percent": 0.58,
+      "r_multiple": 0.42,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
       "open_time": "2026-09-21T15:15:35Z",
-      "current_price": 1.4944,
-      "pnl_percent": 0.6,
-      "reasons": [
-        "Цена пробила сопротивление 1.4976",
-        "Объём подтверждает пробой (1.6× от среднего)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 67.7 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление",
-        "BTC согласуется с направлением (+0.65%)"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-09-21T16:25:22Z",
+      "rr": 1.499999999999997
+    },
     {
       "symbol": "LTC",
       "tf": "15m",
@@ -3113,56 +3097,41 @@
       "open_time": "2026-08-14T07:45:58Z",
       "close_time": "2026-08-14T11:45:43Z",
       "rr": 1.4999999999999938
-    },
-    {
-      "symbol": "NEAR",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "TP",
-      "status": "tp3",
-      "entry_kind": "limit",
-      "pnl_percent": 0.73,
-      "r_multiple": 1.46,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 3,
-      "open_time": "2026-08-13T19:45:54Z",
-      "close_time": "2026-08-14T06:30:43Z",
-      "rr": 1.5000000000000056
     }
   ],
   "stats": {
     "all": {
-      "total": 923,
+      "total": 924,
       "tp": 146,
       "sl": 404,
-      "be": 373,
+      "be": 374,
       "winrate": 15.8,
-      "effective_winrate": 56.2,
-      "sum_pnl": -10.4,
-      "r_result": 2.81,
-      "deposit_result": 0.28
+      "effective_winrate": 56.3,
+      "sum_pnl": -9.82,
+      "r_result": 3.23,
+      "deposit_result": 0.32
     },
     "today": {
-      "total": 2,
+      "total": 3,
       "tp": 1,
       "sl": 0,
-      "be": 1,
-      "winrate": 50.0,
+      "be": 2,
+      "winrate": 33.3,
       "effective_winrate": 100.0,
-      "sum_pnl": 2.33,
-      "r_result": 1.88,
-      "deposit_result": 0.19
+      "sum_pnl": 2.91,
+      "r_result": 2.3,
+      "deposit_result": 0.23
     },
     "week": {
-      "total": 33,
+      "total": 34,
       "tp": 9,
       "sl": 6,
-      "be": 18,
-      "winrate": 27.3,
-      "effective_winrate": 81.8,
-      "sum_pnl": 38.83,
-      "r_result": 16.29,
-      "deposit_result": 1.63
+      "be": 19,
+      "winrate": 26.5,
+      "effective_winrate": 82.4,
+      "sum_pnl": 39.41,
+      "r_result": 16.71,
+      "deposit_result": 1.67
     }
   },
   "symbols_30d": [
@@ -3222,14 +3191,14 @@
       "n": 6
     },
     {
+      "symbol": "XRP",
+      "r": 0.08,
+      "n": 7
+    },
+    {
       "symbol": "ADA",
       "r": -0.15,
       "n": 13
-    },
-    {
-      "symbol": "XRP",
-      "r": -0.34,
-      "n": 6
     },
     {
       "symbol": "ETH",
