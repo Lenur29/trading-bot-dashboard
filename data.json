@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T13:14:25Z",
+  "generated_at": "2026-09-21T13:19:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T10:45:32Z",
-      "current_price": 63.49,
+      "current_price": 63.74,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 59.9900",
@@ -52,7 +52,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T12:45:30Z",
-      "current_price": 1.421,
+      "current_price": 1.422,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1.4280",
@@ -83,7 +83,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T13:01:31Z",
-      "current_price": 0.22661,
+      "current_price": 0.22487,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.22733",
@@ -91,6 +91,37 @@
         "Хорошее тело свечи (58%)",
         "EMA20 > EMA50 > EMA200 — восходящая структура",
         "RSI 64.6 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "SOL",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 115.79111010142111,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-21T17:15:00Z",
+      "sl": 114.6331990004069,
+      "effective_stop": 114.6331990004069,
+      "tp1": 116.60164787213105,
+      "tp2": 117.52797675294242,
+      "tp3": 118.10693230344953,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000038,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-21T13:15:30Z",
+      "current_price": 117.49,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 117.130",
+        "Объём выше среднего (1.2×)",
+        "Хорошее тело свечи (51%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "⚠️ RSI 70.4 — перекуплен, риск отката",
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
