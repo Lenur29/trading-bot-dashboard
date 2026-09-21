@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T08:14:24Z",
+  "generated_at": "2026-09-21T08:19:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T06:34:48Z",
-      "current_price": 112.82,
-      "pnl_percent": 1.09,
+      "current_price": 112.9,
+      "pnl_percent": 1.16,
       "reasons": [
         "Цена пробила сопротивление 112.200",
         "Уровень 112.200 тестировался 11 раз",
@@ -52,7 +52,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T08:00:40Z",
-      "current_price": 0.9595,
+      "current_price": 0.9596,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.96900",
@@ -61,6 +61,37 @@
         "EMA20 > EMA50 > EMA200 — восходящая структура",
         "RSI 61.8 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "BTC",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 81532.68953899556,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-21T12:15:00Z",
+      "sl": 80717.36264360561,
+      "effective_stop": 80717.36264360561,
+      "tp1": 82103.41836576854,
+      "tp2": 82755.6798820805,
+      "tp3": 83163.34332977547,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999911,
+      "probability": 86,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-21T08:15:37Z",
+      "current_price": 81929.1,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 81855.00",
+        "Уровень 81855.00 тестировался 3 раз",
+        "Объём подтверждает пробой (2.8× от среднего)",
+        "Хорошее тело свечи (54%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 60.4 — здоровая зона для лонга",
         "4h согласен с направлением",
         "FVG поддерживает направление"
       ]
