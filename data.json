@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T21:29:24Z",
+  "generated_at": "2026-09-21T21:34:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T13:15:30Z",
-      "current_price": 119.01,
-      "pnl_percent": 1.28,
+      "current_price": 119.52,
+      "pnl_percent": 1.71,
       "reasons": [
         "Цена пробила сопротивление 117.130",
         "Объём выше среднего (1.2×)",
@@ -52,8 +52,8 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T14:04:35Z",
-      "current_price": 803.5,
-      "pnl_percent": 0.99,
+      "current_price": 805.1,
+      "pnl_percent": 1.19,
       "reasons": [
         "Цена пробила сопротивление 791.500",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -83,8 +83,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T20:15:32Z",
-      "current_price": 144.42,
-      "pnl_percent": 0.16,
+      "current_price": 144.72,
+      "pnl_percent": 0.37,
       "reasons": [
         "Цена пробила сопротивление 143.540",
         "Уровень 143.540 тестировался 3 раз",
@@ -94,6 +94,37 @@
         "RSI 64.2 — здоровая зона для лонга",
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "DOT",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 1.1810173751230988,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-22T01:30:00Z",
+      "sl": 1.1601319355022122,
+      "effective_stop": 1.1601319355022122,
+      "tp1": 1.1956371828577195,
+      "tp2": 1.2123455345544287,
+      "tp3": 1.222788254364872,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-21T21:30:30Z",
+      "current_price": 1.1954,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 1.1945",
+        "Сильное тело свечи (90%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 60.3 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "⚠️ BTC движется против сигнала"
       ]
     }
   ],
