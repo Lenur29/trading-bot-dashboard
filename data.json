@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-09-21T14:44:25Z",
+  "generated_at": "2026-09-21T14:49:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "LTC",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 59.13675423656722,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-21T14:45:00Z",
-      "sl": 58.088430630203874,
-      "effective_stop": 58.088430630203874,
-      "tp1": 59.870580761021564,
-      "tp2": 60.70923964611224,
-      "tp3": 61.233401449293915,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 78,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-09-21T10:45:32Z",
-      "current_price": 62.46,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила сопротивление 59.9900",
-        "Объём подтверждает пробой (1.9× от среднего)",
-        "Сильное тело свечи (78%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "⚠️ RSI 70.1 — перекуплен, риск отката",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
-      ]
-    },
     {
       "symbol": "GRAM",
       "tf": "15m",
@@ -52,8 +21,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T12:45:30Z",
-      "current_price": 1.428,
-      "pnl_percent": 0.6,
+      "current_price": 1.432,
+      "pnl_percent": 0.88,
       "reasons": [
         "Цена пробила сопротивление 1.4280",
         "Объём подтверждает пробой (2.0× от среднего)",
@@ -83,7 +52,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T13:15:30Z",
-      "current_price": 117.82,
+      "current_price": 118.26,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 117.130",
@@ -114,7 +83,7 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T14:04:35Z",
-      "current_price": 795.4,
+      "current_price": 797.2,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 791.500",
@@ -129,6 +98,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "CANCEL",
+      "status": "cancelled",
+      "entry_kind": "cancelled",
+      "pnl_percent": 0,
+      "r_multiple": 0.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-09-21T10:45:32Z",
+      "close_time": "2026-09-21T14:45:21Z",
+      "rr": 1.5
+    },
     {
       "symbol": "ENA",
       "tf": "15m",
@@ -3113,21 +3097,6 @@
       "open_time": "2026-08-13T19:45:54Z",
       "close_time": "2026-08-14T06:30:43Z",
       "rr": 1.5000000000000056
-    },
-    {
-      "symbol": "DOT",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 0.21,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-08-13T11:31:03Z",
-      "close_time": "2026-08-13T16:03:43Z",
-      "rr": 1.5
     }
   ],
   "stats": {
