@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-09-21T12:14:25Z",
+  "generated_at": "2026-09-21T12:19:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "BTC",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 81532.68953899556,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-21T12:15:00Z",
-      "sl": 80717.36264360561,
-      "effective_stop": 80717.36264360561,
-      "tp1": 82103.41836576854,
-      "tp2": 82755.6798820805,
-      "tp3": 83163.34332977547,
-      "max_tp_hit": 0,
-      "rr": 1.4999999999999911,
-      "probability": 86,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-09-21T08:15:37Z",
-      "current_price": 85029.1,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила сопротивление 81855.00",
-        "Уровень 81855.00 тестировался 3 раз",
-        "Объём подтверждает пробой (2.8× от среднего)",
-        "Хорошее тело свечи (54%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 60.4 — здоровая зона для лонга",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
-      ]
-    },
     {
       "symbol": "LINK",
       "tf": "15m",
@@ -52,7 +21,7 @@
       "probability": 85,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T08:30:45Z",
-      "current_price": 13.049,
+      "current_price": 13.077,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 12.5720",
@@ -83,7 +52,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-21T10:45:32Z",
-      "current_price": 60.66,
+      "current_price": 60.78,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 59.9900",
@@ -98,6 +67,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "BTC",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "CANCEL",
+      "status": "cancelled",
+      "entry_kind": "cancelled",
+      "pnl_percent": 0,
+      "r_multiple": 0.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-09-21T08:15:37Z",
+      "close_time": "2026-09-21T12:15:23Z",
+      "rr": 1.4999999999999911
+    },
     {
       "symbol": "SUI",
       "tf": "15m",
@@ -3082,21 +3066,6 @@
       "open_time": "2026-08-13T11:31:03Z",
       "close_time": "2026-08-13T14:33:44Z",
       "rr": 1.499999999999993
-    },
-    {
-      "symbol": "ADA",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "TP",
-      "status": "tp3",
-      "entry_kind": "limit",
-      "pnl_percent": 0.73,
-      "r_multiple": 1.46,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 3,
-      "open_time": "2026-08-12T21:00:53Z",
-      "close_time": "2026-08-13T06:33:44Z",
-      "rr": 1.5
     }
   ],
   "stats": {
