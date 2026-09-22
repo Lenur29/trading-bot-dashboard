@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T09:04:25Z",
+  "generated_at": "2026-09-22T09:09:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -52,7 +52,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-22T08:45:56Z",
-      "current_price": 4.488,
+      "current_price": 4.453,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 4.4300",
@@ -63,6 +63,37 @@
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "ADA",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.24597548423729365,
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
+      "sl": 0.24200690147432868,
+      "effective_stop": 0.24200690147432868,
+      "tp1": 0.24875349217136913,
+      "tp2": 0.2519283583817411,
+      "tp3": 0.2539126497632236,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000038,
+      "probability": 81,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-22T09:06:36Z",
+      "current_price": 0.2478,
+      "pnl_percent": 0.74,
+      "reasons": [
+        "Цена пробила сопротивление 0.24660",
+        "Объём подтверждает пробой (1.6× от среднего)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 59.3 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (+0.84%)"
       ]
     }
   ],
