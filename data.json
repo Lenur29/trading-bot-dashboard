@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T08:24:24Z",
+  "generated_at": "2026-09-23T08:29:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-23T07:00:32Z",
-      "current_price": 151.32,
-      "pnl_percent": 0.57,
+      "current_price": 151.01,
+      "pnl_percent": 0.36,
       "reasons": [
         "Цена пробила сопротивление 152.690",
         "Объём подтверждает пробой (2.3× от среднего)",
@@ -3099,6 +3099,11 @@
       "n": 12
     },
     {
+      "symbol": "NEAR",
+      "r": 2.26,
+      "n": 14
+    },
+    {
       "symbol": "AVAX",
       "r": 1.7,
       "n": 5
@@ -3112,11 +3117,6 @@
       "symbol": "INJ",
       "r": 1.44,
       "n": 12
-    },
-    {
-      "symbol": "NEAR",
-      "r": 1.26,
-      "n": 15
     },
     {
       "symbol": "DOT",
