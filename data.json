@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-09-24T13:14:22Z",
+  "generated_at": "2026-09-24T13:19:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 66.8715252622613,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-24T17:15:00Z",
+      "sl": 65.05306120771881,
+      "effective_stop": 65.05306120771881,
+      "tp1": 68.14445010044105,
+      "tp2": 69.59922134407503,
+      "tp3": 70.50845337134628,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000022,
+      "probability": 85,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-24T13:15:43Z",
+      "current_price": 68.41,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 66.8300",
+        "Объём подтверждает пробой (2.0× от среднего)",
+        "Сильное тело свечи (97%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 63.1 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "LTC",
@@ -3108,8 +3140,8 @@
     },
     {
       "symbol": "GRAM",
-      "r": -1.08,
-      "n": 6
+      "r": -0.08,
+      "n": 5
     },
     {
       "symbol": "LINK",
