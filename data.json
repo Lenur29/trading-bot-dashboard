@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T06:49:22Z",
+  "generated_at": "2026-09-24T06:54:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3047,14 +3047,14 @@
       "n": 9
     },
     {
-      "symbol": "HBAR",
-      "r": 4.04,
-      "n": 9
-    },
-    {
       "symbol": "SOL",
       "r": 2.7,
       "n": 9
+    },
+    {
+      "symbol": "HBAR",
+      "r": 2.58,
+      "n": 8
     },
     {
       "symbol": "BNB",
