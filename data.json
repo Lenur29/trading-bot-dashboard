@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T13:49:25Z",
+  "generated_at": "2026-09-24T13:54:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 85,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-24T13:15:43Z",
-      "current_price": 69.03,
+      "current_price": 70.78,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 66.8300",
@@ -3079,14 +3079,14 @@
       "n": 9
     },
     {
+      "symbol": "HBAR",
+      "r": 3.58,
+      "n": 7
+    },
+    {
       "symbol": "SOL",
       "r": 2.7,
       "n": 9
-    },
-    {
-      "symbol": "HBAR",
-      "r": 2.58,
-      "n": 8
     },
     {
       "symbol": "BNB",
