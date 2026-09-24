@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T09:19:24Z",
+  "generated_at": "2026-09-24T09:24:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -8,9 +8,9 @@
       "tf": "15m",
       "side": "LONG",
       "entry": 67.20168986480911,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-24T12:00:00Z",
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 66.25565476989071,
       "effective_stop": 66.25565476989071,
       "tp1": 67.863914431252,
@@ -21,8 +21,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-24T08:00:41Z",
-      "current_price": 67.71,
-      "pnl_percent": null,
+      "current_price": 67.44,
+      "pnl_percent": 0.35,
       "reasons": [
         "Цена пробила сопротивление 68.5500",
         "Сильное тело свечи (80%)",
