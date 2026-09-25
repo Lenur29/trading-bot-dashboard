@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T14:54:25Z",
+  "generated_at": "2026-09-25T14:59:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-25T08:30:56Z",
-      "current_price": 0.2534,
-      "pnl_percent": -0.94,
+      "current_price": 0.255,
+      "pnl_percent": -0.31,
       "reasons": [
         "Цена пробила сопротивление 0.24870",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-25T09:30:40Z",
-      "current_price": 1.5767,
-      "pnl_percent": -0.77,
+      "current_price": 1.5847,
+      "pnl_percent": -0.27,
       "reasons": [
         "Цена пробила сопротивление 1.5494",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-25T14:45:29Z",
-      "current_price": 0.24807,
+      "current_price": 0.25049,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.24824",
@@ -3166,6 +3166,11 @@
       "n": 5
     },
     {
+      "symbol": "INJ",
+      "r": 1.44,
+      "n": 12
+    },
+    {
       "symbol": "NEAR",
       "r": 1.26,
       "n": 15
@@ -3196,19 +3201,14 @@
       "n": 5
     },
     {
-      "symbol": "INJ",
-      "r": 0.44,
-      "n": 13
+      "symbol": "LINK",
+      "r": 0.46,
+      "n": 7
     },
     {
       "symbol": "GRAM",
       "r": -0.08,
       "n": 5
-    },
-    {
-      "symbol": "LINK",
-      "r": -0.54,
-      "n": 8
     },
     {
       "symbol": "BTC",
