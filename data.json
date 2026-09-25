@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T13:19:25Z",
+  "generated_at": "2026-09-25T13:24:26Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-25T08:30:56Z",
-      "current_price": 0.2557,
-      "pnl_percent": -0.04,
+      "current_price": 0.2559,
+      "pnl_percent": 0.04,
       "reasons": [
         "Цена пробила сопротивление 0.24870",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-25T09:30:40Z",
-      "current_price": 1.5945,
+      "current_price": 1.5914,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1.5494",
@@ -83,8 +83,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-25T12:15:32Z",
-      "current_price": 13.992,
-      "pnl_percent": 0.75,
+      "current_price": 14.04,
+      "pnl_percent": 1.1,
       "reasons": [
         "Цена пробила сопротивление 14.1350",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -3146,6 +3146,11 @@
       "n": 7
     },
     {
+      "symbol": "ADA",
+      "r": 3.27,
+      "n": 11
+    },
+    {
       "symbol": "SOL",
       "r": 2.7,
       "n": 9
@@ -3154,11 +3159,6 @@
       "symbol": "BNB",
       "r": 2.34,
       "n": 4
-    },
-    {
-      "symbol": "ADA",
-      "r": 2.27,
-      "n": 12
     },
     {
       "symbol": "AVAX",
