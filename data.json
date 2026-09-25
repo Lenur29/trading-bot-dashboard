@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T14:59:25Z",
+  "generated_at": "2026-09-25T15:04:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-25T08:30:56Z",
-      "current_price": 0.255,
-      "pnl_percent": -0.31,
+      "current_price": 0.2552,
+      "pnl_percent": -0.23,
       "reasons": [
         "Цена пробила сопротивление 0.24870",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-25T09:30:40Z",
-      "current_price": 1.5847,
-      "pnl_percent": -0.27,
+      "current_price": 1.5849,
+      "pnl_percent": -0.26,
       "reasons": [
         "Цена пробила сопротивление 1.5494",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-25T14:45:29Z",
-      "current_price": 0.25049,
+      "current_price": 0.25073,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.24824",
@@ -94,6 +94,37 @@
         "4h согласен с направлением",
         "FVG поддерживает направление",
         "OI +2.5% за 1ч — открываются новые позиции, у движения есть топливо"
+      ]
+    },
+    {
+      "symbol": "DOT",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 1.1791749152693465,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-25T19:00:00Z",
+      "sl": 1.1544914121625074,
+      "effective_stop": 1.1544914121625074,
+      "tp1": 1.1964533674441338,
+      "tp2": 1.2162001699296052,
+      "tp3": 1.2285419214830247,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 84,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-25T15:00:31Z",
+      "current_price": 1.1823,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 1.1923",
+        "Уровень 1.1923 тестировался 4 раз",
+        "Объём подтверждает пробой (1.5× от среднего)",
+        "Хорошее тело свечи (59%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 54.9 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением"
       ]
     }
   ],
