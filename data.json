@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T16:44:25Z",
+  "generated_at": "2026-09-26T16:49:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-25T09:30:40Z",
-      "current_price": 1.5471,
-      "pnl_percent": -2.64,
+      "current_price": 1.5467,
+      "pnl_percent": -2.66,
       "reasons": [
         "Цена пробила сопротивление 1.5494",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-25T14:45:29Z",
-      "current_price": 0.2737,
-      "pnl_percent": 5.16,
+      "current_price": 0.27471,
+      "pnl_percent": 5.54,
       "reasons": [
         "Цена пробила сопротивление 0.24824",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -83,8 +83,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-25T22:30:29Z",
-      "current_price": 1.1813,
-      "pnl_percent": 0.32,
+      "current_price": 1.1847,
+      "pnl_percent": 0.61,
       "reasons": [
         "Цена пробила сопротивление 1.1862",
         "Уровень 1.1862 тестировался 13 раз",
@@ -95,40 +95,24 @@
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "GRAM",
       "tf": "15m",
       "side": "LONG",
-      "entry": 1.4593873036875626,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-26T16:45:00Z",
-      "sl": 1.444793430650687,
-      "effective_stop": 1.444793430650687,
-      "tp1": 1.4696030148133756,
-      "tp2": 1.481278113242876,
-      "tp3": 1.4885750497613137,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 76,
+      "result": "CANCEL",
+      "status": "cancelled",
+      "entry_kind": "cancelled",
+      "pnl_percent": 0,
+      "r_multiple": 0.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-09-26T12:45:32Z",
-      "current_price": 1.506,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила сопротивление 1.4650",
-        "Уровень 1.4650 тестировался 3 раз",
-        "Объём подтверждает пробой (1.6× от среднего)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 68.0 — здоровая зона для лонга",
-        "4h согласен с направлением",
-        "FVG поддерживает направление",
-        "Активная торговая сессия"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-09-26T16:45:21Z",
+      "rr": 1.5
+    },
     {
       "symbol": "LTC",
       "tf": "15m",
@@ -3113,21 +3097,6 @@
       "open_time": "2026-08-19T12:00:29Z",
       "close_time": "2026-08-19T14:35:19Z",
       "rr": 1.500000000000015
-    },
-    {
-      "symbol": "LTC",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "limit",
-      "pnl_percent": -0.81,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-08-18T15:45:34Z",
-      "close_time": "2026-08-19T08:45:19Z",
-      "rr": 1.4999999999999936
     }
   ],
   "stats": {
