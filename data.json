@@ -1,41 +1,24 @@
 {
-  "generated_at": "2026-09-26T20:39:24Z",
+  "generated_at": "2026-09-26T20:44:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [
+  "active": [],
+  "history": [
     {
       "symbol": "SUI",
       "tf": "15m",
       "side": "LONG",
-      "entry": 1.1775,
+      "result": "SL",
+      "status": "sl",
       "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 1.1347387568608933,
-      "effective_stop": 1.1347387568608933,
-      "tp1": 1.2074328701973747,
-      "tp2": 1.24164186470866,
-      "tp3": 1.2630224862782133,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 75,
+      "pnl_percent": -3.63,
+      "r_multiple": -1.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-09-25T22:30:29Z",
-      "current_price": 1.1509,
-      "pnl_percent": -2.26,
-      "reasons": [
-        "Цена пробила сопротивление 1.1862",
-        "Уровень 1.1862 тестировался 13 раз",
-        "Объём подтверждает пробой (1.8× от среднего)",
-        "Хорошее тело свечи (62%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "⚠️ RSI 70.8 — перекуплен, риск отката",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-09-26T20:41:21Z",
+      "rr": 1.5
+    },
     {
       "symbol": "XRP",
       "tf": "15m",
@@ -3020,56 +3003,41 @@
       "open_time": "2026-08-19T07:05:33Z",
       "close_time": "2026-08-19T15:33:19Z",
       "rr": 1.5000000000000062
-    },
-    {
-      "symbol": "ETH",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "TP",
-      "status": "tp3",
-      "entry_kind": "fallback",
-      "pnl_percent": 2.13,
-      "r_multiple": 1.46,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 3,
-      "open_time": "2026-08-19T08:45:38Z",
-      "close_time": "2026-08-19T15:05:20Z",
-      "rr": 1.5000000000000058
     }
   ],
   "stats": {
     "all": {
-      "total": 946,
+      "total": 947,
       "tp": 149,
-      "sl": 413,
+      "sl": 414,
       "be": 384,
-      "winrate": 15.8,
+      "winrate": 15.7,
       "effective_winrate": 56.3,
-      "sum_pnl": -14.61,
-      "r_result": 3.17,
-      "deposit_result": 0.32
+      "sum_pnl": -18.24,
+      "r_result": 2.17,
+      "deposit_result": 0.22
     },
     "today": {
-      "total": 5,
+      "total": 6,
       "tp": 0,
-      "sl": 2,
+      "sl": 3,
       "be": 3,
       "winrate": 0.0,
-      "effective_winrate": 60.0,
-      "sum_pnl": 1.5,
-      "r_result": -0.74,
-      "deposit_result": -0.07
+      "effective_winrate": 50.0,
+      "sum_pnl": -2.13,
+      "r_result": -1.74,
+      "deposit_result": -0.17
     },
     "week": {
-      "total": 34,
+      "total": 35,
       "tp": 6,
-      "sl": 12,
+      "sl": 13,
       "be": 16,
-      "winrate": 17.6,
-      "effective_winrate": 64.7,
-      "sum_pnl": 7.7,
-      "r_result": 3.84,
-      "deposit_result": 0.38
+      "winrate": 17.1,
+      "effective_winrate": 62.9,
+      "sum_pnl": 4.07,
+      "r_result": 2.84,
+      "deposit_result": 0.28
     }
   },
   "symbols_30d": [
@@ -3124,11 +3092,6 @@
       "n": 3
     },
     {
-      "symbol": "SUI",
-      "r": 0.68,
-      "n": 5
-    },
-    {
       "symbol": "LINK",
       "r": 0.46,
       "n": 7
@@ -3147,6 +3110,11 @@
       "symbol": "XRP",
       "r": -0.28,
       "n": 7
+    },
+    {
+      "symbol": "SUI",
+      "r": -0.32,
+      "n": 6
     },
     {
       "symbol": "BTC",
