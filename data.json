@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:04:22Z",
+  "generated_at": "2026-09-27T14:09:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3123,8 +3123,8 @@
     },
     {
       "symbol": "ETH",
-      "r": -5.0,
-      "n": 5
+      "r": -4.0,
+      "n": 4
     }
   ]
 }
