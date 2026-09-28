@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:29:24Z",
+  "generated_at": "2026-09-28T14:34:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-28T14:15:38Z",
-      "current_price": 759.1,
-      "pnl_percent": 0.72,
+      "current_price": 761.1,
+      "pnl_percent": 0.46,
       "reasons": [
         "Цена пробила поддержку 764.000",
         "Сильное тело свечи (91%)",
@@ -32,6 +32,37 @@
         "FVG поддерживает, но есть встречный FVG в зоне риска",
         "Order Block поддерживает направление",
         "London/NY overlap — пиковая ликвидность"
+      ]
+    },
+    {
+      "symbol": "INJ",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 7.442620158466319,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-28T18:30:00Z",
+      "sl": 7.611867544427574,
+      "effective_stop": 7.611867544427574,
+      "tp1": 7.324146988293441,
+      "tp2": 7.188749079524436,
+      "tp3": 7.104125386543808,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-28T14:30:42Z",
+      "current_price": 7.386,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 7.4010",
+        "Объём выше среднего (1.4×)",
+        "Хорошее тело свечи (58%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 40.9 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (-0.62%)"
       ]
     }
   ],
