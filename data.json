@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T21:59:24Z",
+  "generated_at": "2026-09-28T22:04:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-28T15:45:33Z",
-      "current_price": 0.1215,
-      "pnl_percent": -3.34,
+      "current_price": 0.12259,
+      "pnl_percent": -2.47,
       "reasons": [
         "Цена пробила сопротивление 0.11941",
         "Уровень 0.11941 тестировался 8 раз",
@@ -52,8 +52,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-28T19:45:38Z",
-      "current_price": 0.2433,
-      "pnl_percent": 1.47,
+      "current_price": 0.2428,
+      "pnl_percent": 1.68,
       "reasons": [
         "Цена пробила поддержку 0.24800",
         "Уровень 0.24800 тестировался 3 раз",
@@ -63,6 +63,37 @@
         "RSI 41.0 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "AVAX",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 10.426122798550848,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-29T02:00:00Z",
+      "sl": 10.596232472497695,
+      "effective_stop": 10.596232472497695,
+      "tp1": 10.307046026788056,
+      "tp2": 10.170958287630578,
+      "tp3": 10.085903450657154,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-28T22:00:37Z",
+      "current_price": 10.343,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 10.4100",
+        "Объём подтверждает пробой (1.8× от среднего)",
+        "Сильное тело свечи (71%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 43.7 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (-0.43%)"
       ]
     }
   ],
