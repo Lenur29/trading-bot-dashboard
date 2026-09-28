@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-09-28T16:09:24Z",
+  "generated_at": "2026-09-28T18:39:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "INJ",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 7.442620158466319,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-28T18:30:00Z",
-      "sl": 7.611867544427574,
-      "effective_stop": 7.611867544427574,
-      "tp1": 7.324146988293441,
-      "tp2": 7.188749079524436,
-      "tp3": 7.104125386543808,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 75,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-09-28T14:30:42Z",
-      "current_price": 7.324,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила поддержку 7.4010",
-        "Объём выше среднего (1.4×)",
-        "Хорошее тело свечи (58%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 40.9 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "FVG поддерживает направление",
-        "BTC согласуется с направлением (-0.62%)"
-      ]
-    },
     {
       "symbol": "HBAR",
       "tf": "15m",
@@ -52,7 +21,7 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-28T15:45:33Z",
-      "current_price": 0.12599,
+      "current_price": 0.12587,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.11941",
@@ -67,6 +36,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "INJ",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "BE",
+      "status": "be",
+      "entry_kind": "limit",
+      "pnl_percent": 0.96,
+      "r_multiple": 0.42,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
+      "open_time": "2026-09-28T14:30:42Z",
+      "close_time": "2026-09-28T18:36:21Z",
+      "rr": 1.5
+    },
     {
       "symbol": "BNB",
       "tf": "15m",
@@ -3051,56 +3035,41 @@
       "open_time": "2026-08-20T14:16:00Z",
       "close_time": "2026-08-20T15:52:48Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "LINK",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 0.47,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-08-20T08:46:05Z",
-      "close_time": "2026-08-20T13:30:46Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 949,
+      "total": 950,
       "tp": 149,
       "sl": 414,
-      "be": 386,
+      "be": 387,
       "winrate": 15.7,
       "effective_winrate": 56.4,
-      "sum_pnl": -16.64,
-      "r_result": 3.01,
-      "deposit_result": 0.3
+      "sum_pnl": -15.68,
+      "r_result": 3.43,
+      "deposit_result": 0.34
     },
     "today": {
-      "total": 2,
+      "total": 3,
       "tp": 0,
       "sl": 0,
-      "be": 2,
+      "be": 3,
       "winrate": 0.0,
       "effective_winrate": 100.0,
-      "sum_pnl": 1.6,
-      "r_result": 0.84,
-      "deposit_result": 0.08
+      "sum_pnl": 2.55,
+      "r_result": 1.26,
+      "deposit_result": 0.13
     },
     "week": {
-      "total": 28,
+      "total": 29,
       "tp": 4,
       "sl": 10,
-      "be": 14,
-      "winrate": 14.3,
-      "effective_winrate": 64.3,
-      "sum_pnl": -3.9,
-      "r_result": 2.08,
-      "deposit_result": 0.21
+      "be": 15,
+      "winrate": 13.8,
+      "effective_winrate": 65.5,
+      "sum_pnl": -2.95,
+      "r_result": 2.5,
+      "deposit_result": 0.25
     }
   },
   "symbols_30d": [
@@ -3130,6 +3099,11 @@
       "n": 7
     },
     {
+      "symbol": "INJ",
+      "r": 1.86,
+      "n": 13
+    },
+    {
       "symbol": "ENA",
       "r": 1.82,
       "n": 12
@@ -3138,11 +3112,6 @@
       "symbol": "AVAX",
       "r": 1.7,
       "n": 5
-    },
-    {
-      "symbol": "INJ",
-      "r": 1.44,
-      "n": 12
     },
     {
       "symbol": "BNB",
