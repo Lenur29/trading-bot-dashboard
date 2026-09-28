@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-09-28T14:14:22Z",
+  "generated_at": "2026-09-28T14:19:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "BNB",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 764.6388321500694,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-28T18:15:00Z",
+      "sl": 772.2852204715701,
+      "effective_stop": 772.2852204715701,
+      "tp1": 759.2863603250189,
+      "tp2": 753.1692496678183,
+      "tp3": 749.3460555070681,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-28T14:15:38Z",
+      "current_price": 761.9,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 764.000",
+        "Сильное тело свечи (91%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 45.7 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает, но есть встречный FVG в зоне риска",
+        "Order Block поддерживает направление",
+        "London/NY overlap — пиковая ликвидность"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "HBAR",
