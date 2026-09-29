@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:14:22Z",
+  "generated_at": "2026-09-29T20:19:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3043,8 +3043,8 @@
   "symbols_30d": [
     {
       "symbol": "AAVE",
-      "r": 4.48,
-      "n": 9
+      "r": 3.7,
+      "n": 8
     },
     {
       "symbol": "ADA",
