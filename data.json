@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T17:19:22Z",
+  "generated_at": "2026-09-29T17:24:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3083,8 +3083,8 @@
     },
     {
       "symbol": "NEAR",
-      "r": 1.26,
-      "n": 15
+      "r": 0.84,
+      "n": 14
     },
     {
       "symbol": "AVAX",
