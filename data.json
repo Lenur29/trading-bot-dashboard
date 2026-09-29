@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-09-29T21:14:22Z",
+  "generated_at": "2026-09-29T21:19:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "AVAX",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 11.355688520691237,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-30T01:15:00Z",
+      "sl": 11.200062169616638,
+      "effective_stop": 11.200062169616638,
+      "tp1": 11.464626966443456,
+      "tp2": 11.589128047303134,
+      "tp3": 11.666941222840434,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000027,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-29T21:15:29Z",
+      "current_price": 11.474,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 11.4610",
+        "Уровень 11.4610 тестировался 4 раз",
+        "Сильное тело свечи (71%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 65.5 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "ETH",
