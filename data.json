@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:39:25Z",
+  "generated_at": "2026-09-30T14:44:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-30T09:15:41Z",
-      "current_price": 1.2194,
-      "pnl_percent": -2.55,
+      "current_price": 1.2178,
+      "pnl_percent": -2.68,
       "reasons": [
         "Цена пробила сопротивление 1.2142",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-30T10:45:32Z",
-      "current_price": 5.268,
+      "current_price": 5.241,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 5.1210",
@@ -83,7 +83,7 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-30T12:45:42Z",
-      "current_price": 0.26645,
+      "current_price": 0.26323,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.25746",
@@ -3186,6 +3186,11 @@
       "n": 4
     },
     {
+      "symbol": "GRAM",
+      "r": 0.92,
+      "n": 4
+    },
+    {
       "symbol": "XRP",
       "r": 0.72,
       "n": 6
@@ -3194,11 +3199,6 @@
       "symbol": "LINK",
       "r": 0.46,
       "n": 7
-    },
-    {
-      "symbol": "GRAM",
-      "r": -0.08,
-      "n": 5
     },
     {
       "symbol": "LTC",
