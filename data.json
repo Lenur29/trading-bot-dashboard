@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T17:09:25Z",
+  "generated_at": "2026-09-30T17:14:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-30T09:15:41Z",
-      "current_price": 1.2537,
-      "pnl_percent": 0.19,
+      "current_price": 1.255,
+      "pnl_percent": 0.3,
       "reasons": [
         "Цена пробила сопротивление 1.2142",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-30T10:45:32Z",
-      "current_price": 5.392,
-      "pnl_percent": 3.12,
+      "current_price": 5.375,
+      "pnl_percent": 2.79,
       "reasons": [
         "Цена пробила сопротивление 5.1210",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -3115,11 +3115,6 @@
       "n": 11
     },
     {
-      "symbol": "INJ",
-      "r": 2.86,
-      "n": 12
-    },
-    {
       "symbol": "HBAR",
       "r": 2.58,
       "n": 8
@@ -3128,6 +3123,11 @@
       "symbol": "DOT",
       "r": 2.54,
       "n": 7
+    },
+    {
+      "symbol": "INJ",
+      "r": 2.44,
+      "n": 11
     },
     {
       "symbol": "AVAX",
