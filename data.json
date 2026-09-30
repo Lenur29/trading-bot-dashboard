@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:44:25Z",
+  "generated_at": "2026-09-30T16:49:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-30T09:15:41Z",
-      "current_price": 1.2516,
-      "pnl_percent": 0.02,
+      "current_price": 1.2463,
+      "pnl_percent": -0.4,
       "reasons": [
         "Цена пробила сопротивление 1.2142",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-30T10:45:32Z",
-      "current_price": 5.441,
-      "pnl_percent": 4.05,
+      "current_price": 5.481,
+      "pnl_percent": 4.82,
       "reasons": [
         "Цена пробила сопротивление 5.1210",
         "Объём подтверждает пробой (1.8× от среднего)",
@@ -64,40 +64,24 @@
         "FVG поддерживает направление",
         "BTC согласуется с направлением (+0.31%)"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "ENA",
       "tf": "15m",
       "side": "LONG",
-      "entry": 0.2551219409066885,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-09-30T16:45:00Z",
-      "sl": 0.2501429760541072,
-      "effective_stop": 0.2501429760541072,
-      "tp1": 0.2586072163034954,
-      "tp2": 0.26259038818556046,
-      "tp3": 0.2650798706118511,
-      "max_tp_hit": 0,
-      "rr": 1.5000000000000024,
-      "probability": 81,
+      "result": "CANCEL",
+      "status": "cancelled",
+      "entry_kind": "cancelled",
+      "pnl_percent": 0,
+      "r_multiple": 0.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-09-30T12:45:42Z",
-      "current_price": 0.2742,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила сопротивление 0.25746",
-        "Уровень 0.25746 тестировался 6 раз",
-        "Объём подтверждает пробой (2.9× от среднего)",
-        "Хорошее тело свечи (64%)",
-        "EMA20 > EMA50 — краткосрочный аптренд",
-        "RSI 64.8 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-09-30T16:45:22Z",
+      "rr": 1.5000000000000024
+    },
     {
       "symbol": "AVAX",
       "tf": "15m",
@@ -3082,21 +3066,6 @@
       "open_time": "2026-08-21T08:00:57Z",
       "close_time": "2026-08-21T09:15:47Z",
       "rr": 1.5000000000000062
-    },
-    {
-      "symbol": "LTC",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "TP",
-      "status": "tp3",
-      "entry_kind": "fallback",
-      "pnl_percent": 3.1,
-      "r_multiple": 1.46,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 3,
-      "open_time": "2026-08-20T15:00:59Z",
-      "close_time": "2026-08-21T08:07:47Z",
-      "rr": 1.5000000000000044
     }
   ],
   "stats": {
