@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:44:24Z",
+  "generated_at": "2026-09-30T12:49:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-30T09:15:41Z",
-      "current_price": 1.2455,
+      "current_price": 1.2499,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1.2142",
@@ -52,7 +52,7 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-09-30T10:45:32Z",
-      "current_price": 5.381,
+      "current_price": 5.345,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 5.1210",
@@ -63,6 +63,37 @@
         "4h согласен с направлением",
         "FVG поддерживает направление",
         "BTC согласуется с направлением (+0.31%)"
+      ]
+    },
+    {
+      "symbol": "ENA",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.2551219409066885,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-09-30T16:45:00Z",
+      "sl": 0.2501429760541072,
+      "effective_stop": 0.2501429760541072,
+      "tp1": 0.2586072163034954,
+      "tp2": 0.26259038818556046,
+      "tp3": 0.2650798706118511,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000024,
+      "probability": 81,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-09-30T12:45:42Z",
+      "current_price": 0.26281,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 0.25746",
+        "Уровень 0.25746 тестировался 6 раз",
+        "Объём подтверждает пробой (2.9× от среднего)",
+        "Хорошее тело свечи (64%)",
+        "EMA20 > EMA50 — краткосрочный аптренд",
+        "RSI 64.8 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением"
       ]
     }
   ],
