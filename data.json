@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T14:59:24Z",
+  "generated_at": "2026-10-01T15:04:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -12,17 +12,17 @@
       "pending_fill": false,
       "ttl_deadline": null,
       "sl": 161.242750498364,
-      "effective_stop": 161.242750498364,
+      "effective_stop": 165.98937154823557,
       "tp1": 167.44987033281146,
       "tp2": 170.3708679019632,
       "tp3": 172.19649138268304,
-      "max_tp_hit": 0,
+      "max_tp_hit": 1,
       "rr": 1.500000000000002,
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-01T14:15:32Z",
-      "current_price": 165.9,
-      "pnl_percent": 0.61,
+      "current_price": 167.68,
+      "pnl_percent": 1.69,
       "reasons": [
         "Цена пробила сопротивление 166.430",
         "Уровень 166.430 тестировался 5 раз",
