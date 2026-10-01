@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-10-01T20:29:22Z",
+  "generated_at": "2026-10-01T20:34:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "GRAM",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 1.538037663255144,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-02T00:30:00Z",
+      "sl": 1.5226572866225925,
+      "effective_stop": 1.5226572866225925,
+      "tp1": 1.5488039268979301,
+      "tp2": 1.5611082282039712,
+      "tp3": 1.568798416520247,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-01T20:30:30Z",
+      "current_price": 1.555,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 1.5490",
+        "Уровень 1.5490 тестировался 5 раз",
+        "Сильное тело свечи (74%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 65.7 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "AAVE",
