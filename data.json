@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T15:04:25Z",
+  "generated_at": "2026-10-01T15:09:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-01T14:15:32Z",
-      "current_price": 167.68,
-      "pnl_percent": 1.69,
+      "current_price": 165.27,
+      "pnl_percent": 0.23,
       "reasons": [
         "Цена пробила сопротивление 166.430",
         "Уровень 166.430 тестировался 5 раз",
@@ -3074,14 +3074,14 @@
   },
   "symbols_30d": [
     {
-      "symbol": "AAVE",
-      "r": 3.7,
-      "n": 8
-    },
-    {
       "symbol": "ADA",
       "r": 3.27,
       "n": 11
+    },
+    {
+      "symbol": "AAVE",
+      "r": 2.92,
+      "n": 7
     },
     {
       "symbol": "HBAR",
