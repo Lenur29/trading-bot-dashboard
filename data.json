@@ -1,41 +1,56 @@
 {
-  "generated_at": "2026-10-01T14:14:24Z",
+  "generated_at": "2026-10-01T14:19:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
     {
-      "symbol": "XRP",
+      "symbol": "AAVE",
       "tf": "15m",
-      "side": "SHORT",
-      "entry": 1.4889752829031795,
-      "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 1.5038650357322112,
-      "effective_stop": 1.48450835705447,
-      "tp1": 1.4785524559228573,
-      "tp2": 1.466640653659632,
-      "tp3": 1.459195777245116,
-      "max_tp_hit": 1,
-      "rr": 1.4999999999999944,
-      "probability": 84,
+      "side": "LONG",
+      "entry": 164.89399745980367,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-01T18:15:00Z",
+      "sl": 161.242750498364,
+      "effective_stop": 161.242750498364,
+      "tp1": 167.44987033281146,
+      "tp2": 170.3708679019632,
+      "tp3": 172.19649138268304,
+      "max_tp_hit": 0,
+      "rr": 1.500000000000002,
+      "probability": 87,
       "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-10-01T13:15:40Z",
-      "current_price": 1.4793,
-      "pnl_percent": 0.65,
+      "open_time": "2026-10-01T14:15:32Z",
+      "current_price": 168.32,
+      "pnl_percent": null,
       "reasons": [
-        "Цена пробила поддержку 1.4855",
-        "Уровень 1.4855 тестировался 3 раз",
-        "Объём подтверждает пробой (2.4× от среднего)",
-        "Сильное тело свечи (70%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 35.6 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
+        "Цена пробила сопротивление 166.430",
+        "Уровень 166.430 тестировался 5 раз",
+        "Объём подтверждает пробой (7.3× от среднего)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 65.7 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
         "FVG поддерживает направление"
       ]
     }
   ],
   "history": [
+    {
+      "symbol": "XRP",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "BE",
+      "status": "be",
+      "entry_kind": "limit",
+      "pnl_percent": 0.42,
+      "r_multiple": 0.42,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
+      "open_time": "2026-10-01T13:15:40Z",
+      "close_time": "2026-10-01T14:18:22Z",
+      "rr": 1.4999999999999944
+    },
     {
       "symbol": "DOT",
       "tf": "15m",
@@ -3020,56 +3035,41 @@
       "open_time": "2026-08-21T13:45:58Z",
       "close_time": "2026-08-21T16:15:48Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "ADA",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 1.14,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-08-21T10:00:56Z",
-      "close_time": "2026-08-21T13:32:47Z",
-      "rr": 1.4999999999999987
     }
   ],
   "stats": {
     "all": {
-      "total": 957,
+      "total": 958,
       "tp": 149,
       "sl": 418,
-      "be": 390,
+      "be": 391,
       "winrate": 15.6,
-      "effective_winrate": 56.3,
-      "sum_pnl": -29.84,
-      "r_result": 0.69,
-      "deposit_result": 0.07
+      "effective_winrate": 56.4,
+      "sum_pnl": -29.42,
+      "r_result": 1.11,
+      "deposit_result": 0.11
     },
     "today": {
-      "total": 1,
+      "total": 2,
       "tp": 0,
       "sl": 1,
-      "be": 0,
+      "be": 1,
       "winrate": 0.0,
-      "effective_winrate": 0.0,
-      "sum_pnl": -5.53,
-      "r_result": -1.0,
-      "deposit_result": -0.1
+      "effective_winrate": 50.0,
+      "sum_pnl": -5.11,
+      "r_result": -0.58,
+      "deposit_result": -0.06
     },
     "week": {
-      "total": 19,
+      "total": 20,
       "tp": 0,
       "sl": 8,
-      "be": 11,
+      "be": 12,
       "winrate": 0.0,
-      "effective_winrate": 57.9,
-      "sum_pnl": -13.66,
-      "r_result": -3.02,
-      "deposit_result": -0.3
+      "effective_winrate": 60.0,
+      "sum_pnl": -13.24,
+      "r_result": -2.6,
+      "deposit_result": -0.26
     }
   },
   "symbols_30d": [
@@ -3124,14 +3124,14 @@
       "n": 4
     },
     {
+      "symbol": "XRP",
+      "r": 1.14,
+      "n": 7
+    },
+    {
       "symbol": "GRAM",
       "r": 0.92,
       "n": 4
-    },
-    {
-      "symbol": "XRP",
-      "r": 0.72,
-      "n": 6
     },
     {
       "symbol": "LINK",
