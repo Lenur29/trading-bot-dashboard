@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:59:24Z",
+  "generated_at": "2026-10-02T15:04:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-02T13:15:29Z",
-      "current_price": 1.1734,
-      "pnl_percent": -0.87,
+      "current_price": 1.1715,
+      "pnl_percent": -1.03,
       "reasons": [
         "Цена пробила сопротивление 1.1964",
         "Уровень 1.1964 тестировался 6 раз",
