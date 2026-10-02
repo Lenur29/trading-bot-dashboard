@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T08:29:24Z",
+  "generated_at": "2026-10-02T08:34:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-01T20:30:30Z",
-      "current_price": 1.55,
-      "pnl_percent": -1.15,
+      "current_price": 1.548,
+      "pnl_percent": -1.28,
       "reasons": [
         "Цена пробила сопротивление 1.5490",
         "Уровень 1.5490 тестировался 5 раз",
@@ -52,7 +52,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-02T08:02:36Z",
-      "current_price": 2759.46,
+      "current_price": 2754.61,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 2733.10",
@@ -83,7 +83,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-02T08:02:37Z",
-      "current_price": 1.5352,
+      "current_price": 1.5341,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1.5264",
@@ -94,6 +94,37 @@
         "4h согласен с направлением",
         "FVG поддерживает направление",
         "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "BNB",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 776.3308571344513,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-02T12:30:00Z",
+      "sl": 768.5675485631068,
+      "effective_stop": 768.5675485631068,
+      "tp1": 781.7651731343925,
+      "tp2": 787.9758199914681,
+      "tp3": 791.8574742771403,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 82,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-02T08:30:34Z",
+      "current_price": 778.2,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 778.200",
+        "Объём выше среднего (1.3×)",
+        "Хорошее тело свечи (68%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 60.3 — здоровая зона для лонга",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление"
       ]
     }
   ],
