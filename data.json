@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:14:24Z",
+  "generated_at": "2026-10-02T17:19:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-02T13:15:29Z",
-      "current_price": 1.1684,
-      "pnl_percent": -1.29,
+      "current_price": 1.1703,
+      "pnl_percent": -1.13,
       "reasons": [
         "Цена пробила сопротивление 1.1964",
         "Уровень 1.1964 тестировался 6 раз",
@@ -3084,6 +3084,11 @@
       "n": 11
     },
     {
+      "symbol": "ENA",
+      "r": 2.82,
+      "n": 11
+    },
+    {
       "symbol": "HBAR",
       "r": 2.58,
       "n": 8
@@ -3102,11 +3107,6 @@
       "symbol": "NEAR",
       "r": 1.84,
       "n": 13
-    },
-    {
-      "symbol": "ENA",
-      "r": 1.82,
-      "n": 12
     },
     {
       "symbol": "BNB",
