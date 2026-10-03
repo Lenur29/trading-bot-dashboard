@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:29:22Z",
+  "generated_at": "2026-10-03T12:34:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3042,11 +3042,6 @@
   },
   "symbols_30d": [
     {
-      "symbol": "ADA",
-      "r": 4.27,
-      "n": 10
-    },
-    {
       "symbol": "AAVE",
       "r": 3.34,
       "n": 8
@@ -3055,6 +3050,11 @@
       "symbol": "ENA",
       "r": 2.82,
       "n": 11
+    },
+    {
+      "symbol": "ADA",
+      "r": 2.81,
+      "n": 9
     },
     {
       "symbol": "HBAR",
