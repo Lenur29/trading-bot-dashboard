@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T22:14:22Z",
+  "generated_at": "2026-10-03T09:14:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3063,8 +3063,8 @@
     },
     {
       "symbol": "INJ",
-      "r": 2.44,
-      "n": 11
+      "r": 2.02,
+      "n": 10
     },
     {
       "symbol": "SOL",
@@ -3082,14 +3082,14 @@
       "n": 5
     },
     {
-      "symbol": "XRP",
-      "r": 1.56,
-      "n": 8
-    },
-    {
       "symbol": "LINK",
       "r": 1.46,
       "n": 6
+    },
+    {
+      "symbol": "XRP",
+      "r": 1.14,
+      "n": 7
     },
     {
       "symbol": "AVAX",
