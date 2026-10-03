@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:39:22Z",
+  "generated_at": "2026-10-03T11:44:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3062,6 +3062,11 @@
       "n": 8
     },
     {
+      "symbol": "LINK",
+      "r": 2.46,
+      "n": 5
+    },
+    {
       "symbol": "INJ",
       "r": 2.02,
       "n": 10
@@ -3080,11 +3085,6 @@
       "symbol": "BNB",
       "r": 1.72,
       "n": 5
-    },
-    {
-      "symbol": "LINK",
-      "r": 1.46,
-      "n": 6
     },
     {
       "symbol": "XRP",
