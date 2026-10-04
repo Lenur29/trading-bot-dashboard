@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T21:34:22Z",
+  "generated_at": "2026-10-04T09:09:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3087,6 +3087,11 @@
       "n": 5
     },
     {
+      "symbol": "DOT",
+      "r": 1.54,
+      "n": 8
+    },
+    {
       "symbol": "XRP",
       "r": 1.14,
       "n": 7
@@ -3097,19 +3102,14 @@
       "n": 7
     },
     {
-      "symbol": "DOT",
-      "r": 0.54,
-      "n": 9
-    },
-    {
       "symbol": "GRAM",
       "r": -0.08,
       "n": 5
     },
     {
       "symbol": "LTC",
-      "r": -0.96,
-      "n": 7
+      "r": -1.38,
+      "n": 6
     },
     {
       "symbol": "SUI",
