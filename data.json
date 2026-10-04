@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T11:54:22Z",
+  "generated_at": "2026-10-04T11:59:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3072,11 +3072,6 @@
       "n": 10
     },
     {
-      "symbol": "SOL",
-      "r": 1.92,
-      "n": 8
-    },
-    {
       "symbol": "NEAR",
       "r": 1.84,
       "n": 13
@@ -3090,6 +3085,11 @@
       "symbol": "DOT",
       "r": 1.54,
       "n": 8
+    },
+    {
+      "symbol": "SOL",
+      "r": 1.5,
+      "n": 7
     },
     {
       "symbol": "XRP",
