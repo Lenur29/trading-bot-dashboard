@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T12:29:22Z",
+  "generated_at": "2026-10-04T12:34:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3047,11 +3047,6 @@
       "n": 8
     },
     {
-      "symbol": "AAVE",
-      "r": 2.92,
-      "n": 7
-    },
-    {
       "symbol": "ENA",
       "r": 2.82,
       "n": 11
@@ -3060,6 +3055,11 @@
       "symbol": "HBAR",
       "r": 2.58,
       "n": 8
+    },
+    {
+      "symbol": "AAVE",
+      "r": 2.5,
+      "n": 6
     },
     {
       "symbol": "LINK",
@@ -3108,8 +3108,8 @@
     },
     {
       "symbol": "LTC",
-      "r": -1.38,
-      "n": 6
+      "r": -0.38,
+      "n": 5
     },
     {
       "symbol": "SUI",
