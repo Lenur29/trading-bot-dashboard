@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T07:14:24Z",
+  "generated_at": "2026-10-05T07:19:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-05T07:00:44Z",
-      "current_price": 121.53,
+      "current_price": 121.4,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 121.110",
@@ -32,6 +32,37 @@
         "4h согласен с направлением",
         "FVG поддерживает направление",
         "Order Block поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "NEAR",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 4.961957110134407,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-05T11:15:00Z",
+      "sl": 4.802061685864836,
+      "effective_stop": 4.802061685864836,
+      "tp1": 5.073883907123107,
+      "tp2": 5.201800246538764,
+      "tp3": 5.28174795867355,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 76,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-05T07:15:39Z",
+      "current_price": 5.076,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 5.0600",
+        "Уровень 5.0600 тестировался 3 раз",
+        "Объём выше среднего (1.2×)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 67.0 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
