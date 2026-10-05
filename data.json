@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T16:29:24Z",
+  "generated_at": "2026-10-05T16:34:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-05T07:15:39Z",
-      "current_price": 4.955,
-      "pnl_percent": -1.1,
+      "current_price": 4.988,
+      "pnl_percent": -0.44,
       "reasons": [
         "Цена пробила сопротивление 5.0600",
         "Уровень 5.0600 тестировался 3 раз",
@@ -32,6 +32,37 @@
         "Бычья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "SOL",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 119.93770730630203,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-05T20:30:00Z",
+      "sl": 121.42494102275845,
+      "effective_stop": 121.42494102275845,
+      "tp1": 118.89664370478253,
+      "tp2": 117.7068567316174,
+      "tp3": 116.9632398733892,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999971,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-05T16:30:32Z",
+      "current_price": 119.16,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 119.130",
+        "Объём выше среднего (1.4×)",
+        "Сильное тело свечи (71%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 31.5 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "London/NY overlap — пиковая ликвидность"
       ]
     }
   ],
