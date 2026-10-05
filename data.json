@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T18:59:24Z",
+  "generated_at": "2026-10-05T19:04:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-05T07:15:39Z",
-      "current_price": 5.159,
-      "pnl_percent": 2.97,
+      "current_price": 5.146,
+      "pnl_percent": 2.71,
       "reasons": [
         "Цена пробила сопротивление 5.0600",
         "Уровень 5.0600 тестировался 3 раз",
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-05T16:30:32Z",
-      "current_price": 120.02,
-      "pnl_percent": -0.07,
+      "current_price": 119.98,
+      "pnl_percent": -0.04,
       "reasons": [
         "Цена пробила поддержку 119.130",
         "Объём выше среднего (1.4×)",
@@ -3115,11 +3115,6 @@
       "n": 11
     },
     {
-      "symbol": "HBAR",
-      "r": 2.58,
-      "n": 8
-    },
-    {
       "symbol": "AAVE",
       "r": 2.5,
       "n": 6
@@ -3133,6 +3128,11 @@
       "symbol": "INJ",
       "r": 2.02,
       "n": 10
+    },
+    {
+      "symbol": "HBAR",
+      "r": 1.8,
+      "n": 7
     },
     {
       "symbol": "BNB",
