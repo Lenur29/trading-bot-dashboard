@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-10-06T16:54:24Z",
+  "generated_at": "2026-10-06T16:59:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "NEAR",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 5.01,
-      "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 4.802061685864836,
-      "effective_stop": 5.072381494240549,
-      "tp1": 5.155556819894614,
-      "tp2": 5.321907471202746,
-      "tp3": 5.425876628270327,
-      "max_tp_hit": 2,
-      "rr": 1.5,
-      "probability": 76,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-10-05T07:15:39Z",
-      "current_price": 5.099,
-      "pnl_percent": 1.78,
-      "reasons": [
-        "Цена пробила сопротивление 5.0600",
-        "Уровень 5.0600 тестировался 3 раз",
-        "Объём выше среднего (1.2×)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 67.0 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
-      ]
-    },
     {
       "symbol": "INJ",
       "tf": "15m",
@@ -52,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-06T12:00:33Z",
-      "current_price": 7.824,
-      "pnl_percent": -0.04,
+      "current_price": 7.787,
+      "pnl_percent": -0.51,
       "reasons": [
         "Цена пробила сопротивление 7.7590",
         "Объём выше среднего (1.4×)",
@@ -67,6 +36,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "NEAR",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "BE",
+      "status": "be",
+      "entry_kind": "fallback",
+      "pnl_percent": 3.24,
+      "r_multiple": 0.78,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 2,
+      "open_time": "2026-10-05T07:15:39Z",
+      "close_time": "2026-10-06T16:58:22Z",
+      "rr": 1.5
+    },
     {
       "symbol": "AVAX",
       "tf": "15m",
@@ -3051,56 +3035,41 @@
       "open_time": "2026-08-24T10:16:12Z",
       "close_time": "2026-08-24T14:15:49Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "ETH",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "TP",
-      "status": "tp3",
-      "entry_kind": "limit",
-      "pnl_percent": 1.68,
-      "r_multiple": 1.46,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 3,
-      "open_time": "2026-08-24T10:16:13Z",
-      "close_time": "2026-08-24T12:51:47Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 973,
+      "total": 974,
       "tp": 149,
       "sl": 426,
-      "be": 398,
+      "be": 399,
       "winrate": 15.3,
-      "effective_winrate": 56.2,
-      "sum_pnl": -36.32,
-      "r_result": -3.23,
-      "deposit_result": -0.32
+      "effective_winrate": 56.3,
+      "sum_pnl": -33.09,
+      "r_result": -2.45,
+      "deposit_result": -0.24
     },
     "today": {
-      "total": 5,
+      "total": 6,
       "tp": 0,
       "sl": 2,
-      "be": 3,
+      "be": 4,
       "winrate": 0.0,
-      "effective_winrate": 60.0,
-      "sum_pnl": -0.26,
-      "r_result": -0.02,
-      "deposit_result": -0.0
+      "effective_winrate": 66.7,
+      "sum_pnl": 2.98,
+      "r_result": 0.76,
+      "deposit_result": 0.08
     },
     "week": {
-      "total": 23,
+      "total": 24,
       "tp": 0,
       "sl": 12,
-      "be": 11,
+      "be": 12,
       "winrate": 0.0,
-      "effective_winrate": 47.8,
-      "sum_pnl": -20.64,
-      "r_result": -6.66,
-      "deposit_result": -0.67
+      "effective_winrate": 50.0,
+      "sum_pnl": -17.4,
+      "r_result": -5.88,
+      "deposit_result": -0.59
     }
   },
   "symbols_30d": [
@@ -3150,14 +3119,14 @@
       "n": 8
     },
     {
+      "symbol": "NEAR",
+      "r": 0.74,
+      "n": 12
+    },
+    {
       "symbol": "DOT",
       "r": 0.08,
       "n": 7
-    },
-    {
-      "symbol": "NEAR",
-      "r": -0.04,
-      "n": 11
     },
     {
       "symbol": "GRAM",
