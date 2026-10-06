@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T13:29:25Z",
+  "generated_at": "2026-10-06T13:34:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-05T07:15:39Z",
-      "current_price": 5.152,
-      "pnl_percent": 2.83,
+      "current_price": 5.186,
+      "pnl_percent": 3.51,
       "reasons": [
         "Цена пробила сопротивление 5.0600",
         "Уровень 5.0600 тестировался 3 раз",
@@ -52,8 +52,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-06T11:30:39Z",
-      "current_price": 0.2753,
-      "pnl_percent": 0.09,
+      "current_price": 0.276,
+      "pnl_percent": 0.35,
       "reasons": [
         "Цена пробила сопротивление 0.27920",
         "Уровень 0.27920 тестировался 3 раз",
@@ -83,7 +83,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-06T12:00:33Z",
-      "current_price": 7.896,
+      "current_price": 7.855,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 7.7590",
@@ -3136,14 +3136,14 @@
   },
   "symbols_30d": [
     {
+      "symbol": "ENA",
+      "r": 4.6,
+      "n": 11
+    },
+    {
       "symbol": "ADA",
       "r": 4.23,
       "n": 9
-    },
-    {
-      "symbol": "ENA",
-      "r": 3.6,
-      "n": 12
     },
     {
       "symbol": "AAVE",
