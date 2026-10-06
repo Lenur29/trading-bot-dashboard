@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T16:09:24Z",
+  "generated_at": "2026-10-06T16:14:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-05T07:15:39Z",
-      "current_price": 5.114,
-      "pnl_percent": 2.08,
+      "current_price": 5.101,
+      "pnl_percent": 1.82,
       "reasons": [
         "Цена пробила сопротивление 5.0600",
         "Уровень 5.0600 тестировался 3 раз",
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-06T12:00:33Z",
-      "current_price": 7.873,
-      "pnl_percent": 0.59,
+      "current_price": 7.898,
+      "pnl_percent": 0.91,
       "reasons": [
         "Цена пробила сопротивление 7.7590",
         "Объём выше среднего (1.4×)",
@@ -64,40 +64,24 @@
         "FVG поддерживает направление",
         "Активная торговая сессия"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "AVAX",
       "tf": "15m",
       "side": "LONG",
-      "entry": 11.415251537873797,
+      "result": "BE",
+      "status": "be",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 11.301099022495059,
-      "effective_stop": 11.449497292487418,
-      "tp1": 11.495158298638913,
-      "tp2": 11.586480310941903,
-      "tp3": 11.643556568631272,
-      "max_tp_hit": 2,
-      "rr": 1.5000000000000056,
-      "probability": 85,
+      "pnl_percent": 0.78,
+      "r_multiple": 0.78,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 2,
       "open_time": "2026-10-06T14:15:36Z",
-      "current_price": 11.478,
-      "pnl_percent": 0.55,
-      "reasons": [
-        "Цена пробила сопротивление 11.4500",
-        "Уровень 11.4500 тестировался 4 раз",
-        "Хорошее тело свечи (63%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 57.2 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-10-06T16:11:23Z",
+      "rr": 1.5000000000000056
+    },
     {
       "symbol": "ADA",
       "tf": "15m",
@@ -3082,56 +3066,41 @@
       "open_time": "2026-08-24T10:16:13Z",
       "close_time": "2026-08-24T12:51:47Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "SOL",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "TP",
-      "status": "tp3",
-      "entry_kind": "limit",
-      "pnl_percent": 1.18,
-      "r_multiple": 1.46,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 3,
-      "open_time": "2026-08-24T11:46:19Z",
-      "close_time": "2026-08-24T12:50:48Z",
-      "rr": 1.499999999999997
     }
   ],
   "stats": {
     "all": {
-      "total": 972,
+      "total": 973,
       "tp": 149,
       "sl": 426,
-      "be": 397,
+      "be": 398,
       "winrate": 15.3,
       "effective_winrate": 56.2,
-      "sum_pnl": -37.1,
-      "r_result": -4.01,
-      "deposit_result": -0.4
+      "sum_pnl": -36.32,
+      "r_result": -3.23,
+      "deposit_result": -0.32
     },
     "today": {
-      "total": 4,
+      "total": 5,
       "tp": 0,
       "sl": 2,
-      "be": 2,
+      "be": 3,
       "winrate": 0.0,
-      "effective_winrate": 50.0,
-      "sum_pnl": -1.04,
-      "r_result": -0.8,
-      "deposit_result": -0.08
+      "effective_winrate": 60.0,
+      "sum_pnl": -0.26,
+      "r_result": -0.02,
+      "deposit_result": -0.0
     },
     "week": {
-      "total": 22,
+      "total": 23,
       "tp": 0,
       "sl": 12,
-      "be": 10,
+      "be": 11,
       "winrate": 0.0,
-      "effective_winrate": 45.5,
-      "sum_pnl": -21.42,
-      "r_result": -7.44,
-      "deposit_result": -0.74
+      "effective_winrate": 47.8,
+      "sum_pnl": -20.64,
+      "r_result": -6.66,
+      "deposit_result": -0.67
     }
   },
   "symbols_30d": [
@@ -3176,12 +3145,12 @@
       "n": 7
     },
     {
-      "symbol": "DOT",
-      "r": 0.08,
-      "n": 7
+      "symbol": "AVAX",
+      "r": 0.86,
+      "n": 8
     },
     {
-      "symbol": "AVAX",
+      "symbol": "DOT",
       "r": 0.08,
       "n": 7
     },
