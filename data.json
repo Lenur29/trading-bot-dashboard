@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T14:14:25Z",
+  "generated_at": "2026-10-06T14:19:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-05T07:15:39Z",
-      "current_price": 5.129,
-      "pnl_percent": 2.38,
+      "current_price": 5.111,
+      "pnl_percent": 2.02,
       "reasons": [
         "Цена пробила сопротивление 5.0600",
         "Уровень 5.0600 тестировался 3 раз",
@@ -52,8 +52,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-06T11:30:39Z",
-      "current_price": 0.2743,
-      "pnl_percent": -0.27,
+      "current_price": 0.2733,
+      "pnl_percent": -0.63,
       "reasons": [
         "Цена пробила сопротивление 0.27920",
         "Уровень 0.27920 тестировался 3 раз",
@@ -83,7 +83,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-06T12:00:33Z",
-      "current_price": 7.861,
+      "current_price": 7.855,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 7.7590",
@@ -94,6 +94,37 @@
         "4h согласен с направлением",
         "FVG поддерживает направление",
         "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "AVAX",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 11.415251537873797,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-06T18:15:00Z",
+      "sl": 11.301099022495059,
+      "effective_stop": 11.301099022495059,
+      "tp1": 11.495158298638913,
+      "tp2": 11.586480310941903,
+      "tp3": 11.643556568631272,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000056,
+      "probability": 85,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-06T14:15:36Z",
+      "current_price": 11.478,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 11.4500",
+        "Уровень 11.4500 тестировался 4 раз",
+        "Хорошее тело свечи (63%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 57.2 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
@@ -3152,8 +3183,8 @@
     },
     {
       "symbol": "LINK",
-      "r": 2.46,
-      "n": 5
+      "r": 2.04,
+      "n": 4
     },
     {
       "symbol": "INJ",
