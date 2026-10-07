@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T14:34:24Z",
+  "generated_at": "2026-10-07T14:39:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-07T09:45:40Z",
-      "current_price": 1.1015,
-      "pnl_percent": -0.25,
+      "current_price": 1.1007,
+      "pnl_percent": -0.17,
       "reasons": [
         "Цена пробила поддержку 1.1250",
         "Уровень 1.1250 тестировался 5 раз",
@@ -52,7 +52,7 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-07T13:15:36Z",
-      "current_price": 66.52,
+      "current_price": 66.43,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 66.7600",
@@ -3111,8 +3111,8 @@
     },
     {
       "symbol": "INJ",
-      "r": 3.06,
-      "n": 10
+      "r": 2.64,
+      "n": 9
     },
     {
       "symbol": "AAVE",
