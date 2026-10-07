@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T13:54:25Z",
+  "generated_at": "2026-10-07T13:59:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-07T09:00:51Z",
-      "current_price": 1.124,
-      "pnl_percent": -0.21,
+      "current_price": 1.1184,
+      "pnl_percent": 0.29,
       "reasons": [
         "Цена пробила поддержку 1.1358",
         "Объём выше среднего (1.3×)",
@@ -52,8 +52,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-07T09:45:40Z",
-      "current_price": 1.108,
-      "pnl_percent": -0.84,
+      "current_price": 1.1037,
+      "pnl_percent": -0.45,
       "reasons": [
         "Цена пробила поддержку 1.1250",
         "Уровень 1.1250 тестировался 5 раз",
@@ -83,7 +83,7 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-07T13:15:36Z",
-      "current_price": 66.96,
+      "current_price": 66.8,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 66.7600",
@@ -95,40 +95,24 @@
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "ENA",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 0.23162182347998206,
+      "result": "SL",
+      "status": "sl",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 0.23406188409189527,
-      "effective_stop": 0.23406188409189527,
-      "tp1": 0.2299137810516428,
-      "tp2": 0.22796173256211225,
-      "tp3": 0.22674170225615564,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 79,
+      "pnl_percent": -1.05,
+      "r_multiple": -1.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-10-07T13:45:30Z",
-      "current_price": 0.23278,
-      "pnl_percent": -0.5,
-      "reasons": [
-        "Цена пробила поддержку 0.22941",
-        "Уровень 0.22941 тестировался 4 раз",
-        "Объём подтверждает пробой (1.8× от среднего)",
-        "Хорошее тело свечи (59%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 40.0 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "FVG поддерживает, но есть встречный FVG в зоне риска"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-10-07T13:55:21Z",
+      "rr": 1.5
+    },
     {
       "symbol": "LINK",
       "tf": "15m",
@@ -3113,63 +3097,48 @@
       "open_time": "2026-08-25T08:31:03Z",
       "close_time": "2026-08-25T13:51:47Z",
       "rr": 1.4999999999999958
-    },
-    {
-      "symbol": "GRAM",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "limit",
-      "pnl_percent": -1.69,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-08-25T08:16:04Z",
-      "close_time": "2026-08-25T13:18:46Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 977,
+      "total": 978,
       "tp": 151,
-      "sl": 427,
+      "sl": 428,
       "be": 399,
-      "winrate": 15.5,
-      "effective_winrate": 56.3,
-      "sum_pnl": -28.47,
-      "r_result": -0.53,
-      "deposit_result": -0.05
+      "winrate": 15.4,
+      "effective_winrate": 56.2,
+      "sum_pnl": -29.52,
+      "r_result": -1.53,
+      "deposit_result": -0.15
     },
     "today": {
-      "total": 3,
+      "total": 4,
       "tp": 2,
-      "sl": 1,
+      "sl": 2,
       "be": 0,
-      "winrate": 66.7,
-      "effective_winrate": 66.7,
-      "sum_pnl": 4.62,
-      "r_result": 1.92,
-      "deposit_result": 0.19
+      "winrate": 50.0,
+      "effective_winrate": 50.0,
+      "sum_pnl": 3.57,
+      "r_result": 0.92,
+      "deposit_result": 0.09
     },
     "week": {
-      "total": 23,
+      "total": 24,
       "tp": 2,
-      "sl": 10,
+      "sl": 11,
       "be": 11,
-      "winrate": 8.7,
-      "effective_winrate": 56.5,
-      "sum_pnl": -1.44,
-      "r_result": -1.38,
-      "deposit_result": -0.14
+      "winrate": 8.3,
+      "effective_winrate": 54.2,
+      "sum_pnl": -2.5,
+      "r_result": -2.38,
+      "deposit_result": -0.24
     }
   },
   "symbols_30d": [
     {
       "symbol": "ENA",
-      "r": 6.06,
-      "n": 12
+      "r": 5.06,
+      "n": 13
     },
     {
       "symbol": "INJ",
