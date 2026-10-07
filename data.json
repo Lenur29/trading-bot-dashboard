@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T16:04:25Z",
+  "generated_at": "2026-10-07T16:09:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-07T09:45:40Z",
-      "current_price": 1.1075,
-      "pnl_percent": -0.79,
+      "current_price": 1.1081,
+      "pnl_percent": -0.85,
       "reasons": [
         "Цена пробила поддержку 1.1250",
         "Уровень 1.1250 тестировался 5 раз",
@@ -52,7 +52,7 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-07T13:15:36Z",
-      "current_price": 66.17,
+      "current_price": 66.4,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 66.7600",
@@ -64,40 +64,24 @@
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "AVAX",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 11.153118551357878,
+      "result": "SL",
+      "status": "sl",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 11.375245227441358,
-      "effective_stop": 11.375245227441358,
-      "tp1": 10.997629878099442,
-      "tp2": 10.819928537232657,
-      "tp3": 10.708865199190917,
-      "max_tp_hit": 0,
-      "rr": 1.4999999999999971,
-      "probability": 79,
+      "pnl_percent": -1.99,
+      "r_multiple": -1.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-10-07T15:30:32Z",
-      "current_price": 11.291,
-      "pnl_percent": -1.24,
-      "reasons": [
-        "Цена пробила поддержку 11.2400",
-        "Уровень 11.2400 тестировался 3 раз",
-        "Объём подтверждает пробой (1.6× от среднего)",
-        "Сильное тело свечи (74%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 41.2 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "FVG поддерживает направление"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-10-07T16:07:21Z",
+      "rr": 1.4999999999999971
+    },
     {
       "symbol": "SUI",
       "tf": "15m",
@@ -3082,56 +3066,41 @@
       "open_time": "2026-08-26T10:46:02Z",
       "close_time": "2026-08-26T14:57:46Z",
       "rr": 1.5000000000000036
-    },
-    {
-      "symbol": "ADA",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "limit",
-      "pnl_percent": -1.35,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-08-26T12:31:09Z",
-      "close_time": "2026-08-26T13:22:47Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 979,
+      "total": 980,
       "tp": 151,
-      "sl": 428,
+      "sl": 429,
       "be": 400,
       "winrate": 15.4,
-      "effective_winrate": 56.3,
-      "sum_pnl": -28.57,
-      "r_result": -1.11,
-      "deposit_result": -0.11
+      "effective_winrate": 56.2,
+      "sum_pnl": -30.56,
+      "r_result": -2.11,
+      "deposit_result": -0.21
     },
     "today": {
-      "total": 5,
+      "total": 6,
       "tp": 2,
-      "sl": 2,
+      "sl": 3,
       "be": 1,
-      "winrate": 40.0,
-      "effective_winrate": 60.0,
-      "sum_pnl": 4.52,
-      "r_result": 1.34,
-      "deposit_result": 0.13
+      "winrate": 33.3,
+      "effective_winrate": 50.0,
+      "sum_pnl": 2.53,
+      "r_result": 0.34,
+      "deposit_result": 0.03
     },
     "week": {
-      "total": 25,
+      "total": 26,
       "tp": 2,
-      "sl": 11,
+      "sl": 12,
       "be": 12,
-      "winrate": 8.0,
-      "effective_winrate": 56.0,
-      "sum_pnl": -1.55,
-      "r_result": -1.96,
-      "deposit_result": -0.2
+      "winrate": 7.7,
+      "effective_winrate": 53.8,
+      "sum_pnl": -3.54,
+      "r_result": -2.96,
+      "deposit_result": -0.3
     }
   },
   "symbols_30d": [
@@ -3191,14 +3160,14 @@
       "n": 5
     },
     {
-      "symbol": "AVAX",
-      "r": -0.14,
-      "n": 9
-    },
-    {
       "symbol": "LTC",
       "r": -0.38,
       "n": 5
+    },
+    {
+      "symbol": "AVAX",
+      "r": -1.14,
+      "n": 10
     },
     {
       "symbol": "DOT",
