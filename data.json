@@ -1,103 +1,54 @@
 {
-  "generated_at": "2026-10-07T06:29:25Z",
+  "generated_at": "2026-10-07T06:34:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [
+  "active": [],
+  "history": [
     {
       "symbol": "INJ",
       "tf": "15m",
       "side": "LONG",
-      "entry": 7.827,
+      "result": "TP",
+      "status": "tp3",
       "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 7.592993811727984,
-      "effective_stop": 7.897201856481605,
-      "tp1": 7.990804331790411,
-      "tp2": 8.178009282408023,
-      "tp3": 8.295012376544031,
-      "max_tp_hit": 2,
-      "rr": 1.5,
-      "probability": 75,
+      "pnl_percent": 4.37,
+      "r_multiple": 1.46,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 3,
       "open_time": "2026-10-06T12:00:33Z",
-      "current_price": 7.606,
-      "pnl_percent": -2.82,
-      "reasons": [
-        "Цена пробила сопротивление 7.7590",
-        "Объём выше среднего (1.4×)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 66.1 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление",
-        "Активная торговая сессия"
-      ]
-    },
-    {
-      "symbol": "ENA",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 0.2388246216235435,
-      "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 0.24255833827435302,
-      "effective_stop": 0.24255833827435302,
-      "tp1": 0.23621101996797686,
-      "tp2": 0.23322404664732924,
-      "tp3": 0.23135718832192448,
-      "max_tp_hit": 0,
-      "rr": 1.4999999999999982,
-      "probability": 77,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-10-06T17:00:30Z",
-      "current_price": 0.23791,
-      "pnl_percent": 0.38,
-      "reasons": [
-        "Цена пробила поддержку 0.23893",
-        "Объём подтверждает пробой (1.8× от среднего)",
-        "Сильное тело свечи (76%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 29.3 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "FVG поддерживает направление",
-        "Активная торговая сессия"
-      ]
+      "close_time": "2026-10-07T06:30:23Z",
+      "rr": 1.5
     },
     {
       "symbol": "AVAX",
       "tf": "15m",
       "side": "LONG",
-      "entry": 11.445223625455919,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-10-07T01:30:00Z",
-      "sl": 11.294280006242632,
-      "effective_stop": 11.294280006242632,
-      "tp1": 11.55088415890522,
-      "tp2": 11.671639054275849,
-      "tp3": 11.747110863882492,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 92,
+      "result": "SL",
+      "status": "sl",
+      "entry_kind": "fallback",
+      "pnl_percent": -2.03,
+      "r_multiple": -1.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-10-06T21:30:29Z",
-      "current_price": 11.212,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила сопротивление 11.4800",
-        "Уровень 11.4800 тестировался 7 раз",
-        "Объём подтверждает пробой (2.6× от среднего)",
-        "Сильное тело свечи (84%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 58.0 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "4h согласен с направлением"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-10-07T06:30:22Z",
+      "rr": 1.5
+    },
+    {
+      "symbol": "ENA",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "TP",
+      "status": "tp3",
+      "entry_kind": "limit",
+      "pnl_percent": 2.28,
+      "r_multiple": 1.46,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 3,
+      "open_time": "2026-10-06T17:00:30Z",
+      "close_time": "2026-10-07T06:30:21Z",
+      "rr": 1.4999999999999982
+    },
     {
       "symbol": "NEAR",
       "tf": "15m",
@@ -3052,97 +3003,57 @@
       "open_time": "2026-08-24T09:30:56Z",
       "close_time": "2026-08-24T20:04:46Z",
       "rr": 1.5000000000000018
-    },
-    {
-      "symbol": "XRP",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 1.35,
-      "r_multiple": 0.78,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 2,
-      "open_time": "2026-08-24T13:01:16Z",
-      "close_time": "2026-08-24T15:44:47Z",
-      "rr": 1.5
-    },
-    {
-      "symbol": "SUI",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 0.97,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-08-24T13:01:16Z",
-      "close_time": "2026-08-24T15:39:48Z",
-      "rr": 1.5000000000000018
-    },
-    {
-      "symbol": "BTC",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "CANCEL",
-      "status": "cancelled",
-      "entry_kind": "cancelled",
-      "pnl_percent": 0,
-      "r_multiple": 0.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-08-24T10:16:12Z",
-      "close_time": "2026-08-24T14:15:49Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 974,
-      "tp": 149,
-      "sl": 426,
+      "total": 977,
+      "tp": 151,
+      "sl": 427,
       "be": 399,
-      "winrate": 15.3,
+      "winrate": 15.5,
       "effective_winrate": 56.3,
-      "sum_pnl": -33.09,
-      "r_result": -2.45,
-      "deposit_result": -0.24
+      "sum_pnl": -28.47,
+      "r_result": -0.53,
+      "deposit_result": -0.05
     },
     "today": {
-      "total": 0,
-      "tp": 0,
-      "sl": 0,
+      "total": 3,
+      "tp": 2,
+      "sl": 1,
       "be": 0,
-      "winrate": 0.0,
-      "effective_winrate": 0.0,
-      "sum_pnl": 0,
-      "r_result": 0,
-      "deposit_result": 0.0
+      "winrate": 66.7,
+      "effective_winrate": 66.7,
+      "sum_pnl": 4.62,
+      "r_result": 1.92,
+      "deposit_result": 0.19
     },
     "week": {
-      "total": 20,
-      "tp": 0,
-      "sl": 9,
+      "total": 23,
+      "tp": 2,
+      "sl": 10,
       "be": 11,
-      "winrate": 0.0,
-      "effective_winrate": 55.0,
-      "sum_pnl": -6.06,
-      "r_result": -3.3,
-      "deposit_result": -0.33
+      "winrate": 8.7,
+      "effective_winrate": 56.5,
+      "sum_pnl": -1.44,
+      "r_result": -1.38,
+      "deposit_result": -0.14
     }
   },
   "symbols_30d": [
     {
       "symbol": "ENA",
-      "r": 4.6,
-      "n": 11
+      "r": 6.06,
+      "n": 12
     },
     {
       "symbol": "ADA",
       "r": 3.23,
+      "n": 10
+    },
+    {
+      "symbol": "INJ",
+      "r": 3.06,
       "n": 10
     },
     {
@@ -3166,19 +3077,9 @@
       "n": 5
     },
     {
-      "symbol": "INJ",
-      "r": 1.6,
-      "n": 9
-    },
-    {
       "symbol": "XRP",
       "r": 1.14,
       "n": 7
-    },
-    {
-      "symbol": "AVAX",
-      "r": 0.86,
-      "n": 8
     },
     {
       "symbol": "DOT",
@@ -3194,6 +3095,11 @@
       "symbol": "GRAM",
       "r": -0.08,
       "n": 5
+    },
+    {
+      "symbol": "AVAX",
+      "r": -0.14,
+      "n": 9
     },
     {
       "symbol": "LTC",
