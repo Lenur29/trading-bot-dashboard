@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-10-07T12:29:25Z",
+  "generated_at": "2026-10-07T12:34:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "HBAR",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 0.09620844070470225,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-10-07T12:30:00Z",
-      "sl": 0.09717052511174927,
-      "effective_stop": 0.09717052511174927,
-      "tp1": 0.09553498161976934,
-      "tp2": 0.09476531409413172,
-      "tp3": 0.0942842718906082,
-      "max_tp_hit": 0,
-      "rr": 1.4999999999999938,
-      "probability": 83,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-10-07T08:30:34Z",
-      "current_price": 0.0935,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила поддержку 0.09584",
-        "Уровень 0.09584 тестировался 3 раз",
-        "Объём подтверждает пробой (1.6× от среднего)",
-        "Сильное тело свечи (77%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 32.3 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "FVG поддерживает направление"
-      ]
-    },
     {
       "symbol": "LINK",
       "tf": "15m",
@@ -52,7 +21,7 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-07T09:00:51Z",
-      "current_price": 13.308,
+      "current_price": 13.339,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 13.6840",
@@ -83,7 +52,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-07T09:00:51Z",
-      "current_price": 1.1173,
+      "current_price": 1.1202,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.1358",
@@ -114,7 +83,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-07T09:45:40Z",
-      "current_price": 1.1094,
+      "current_price": 1.1096,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.1250",
@@ -129,6 +98,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "HBAR",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "CANCEL",
+      "status": "cancelled",
+      "entry_kind": "cancelled",
+      "pnl_percent": 0,
+      "r_multiple": 0.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-10-07T08:30:34Z",
+      "close_time": "2026-10-07T12:30:21Z",
+      "rr": 1.4999999999999938
+    },
     {
       "symbol": "INJ",
       "tf": "15m",
@@ -3113,21 +3097,6 @@
       "open_time": "2026-08-24T21:15:54Z",
       "close_time": "2026-08-25T06:49:47Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "LTC",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "fallback",
-      "pnl_percent": -3.2,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-08-24T09:30:56Z",
-      "close_time": "2026-08-24T20:04:46Z",
-      "rr": 1.5000000000000018
     }
   ],
   "stats": {
