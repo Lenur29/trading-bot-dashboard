@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T14:19:25Z",
+  "generated_at": "2026-10-08T14:24:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-07T09:45:40Z",
-      "current_price": 1.1114,
-      "pnl_percent": -1.15,
+      "current_price": 1.1102,
+      "pnl_percent": -1.04,
       "reasons": [
         "Цена пробила поддержку 1.1250",
         "Уровень 1.1250 тестировался 5 раз",
@@ -52,8 +52,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-07T13:15:36Z",
-      "current_price": 64.46,
-      "pnl_percent": 2.38,
+      "current_price": 64.39,
+      "pnl_percent": 2.48,
       "reasons": [
         "Цена пробила поддержку 66.7600",
         "Уровень 66.7600 тестировался 3 раз",
@@ -83,7 +83,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-08T11:15:51Z",
-      "current_price": 12.982,
+      "current_price": 12.968,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 13.0530",
@@ -114,7 +114,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-08T13:45:29Z",
-      "current_price": 10.629,
+      "current_price": 10.612,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 10.5140",
@@ -3212,6 +3212,11 @@
       "n": 11
     },
     {
+      "symbol": "GRAM",
+      "r": -0.08,
+      "n": 5
+    },
+    {
       "symbol": "SOL",
       "r": -0.34,
       "n": 6
@@ -3220,11 +3225,6 @@
       "symbol": "LTC",
       "r": -0.8,
       "n": 4
-    },
-    {
-      "symbol": "GRAM",
-      "r": -1.08,
-      "n": 6
     },
     {
       "symbol": "SUI",
