@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T15:14:25Z",
+  "generated_at": "2026-10-08T15:19:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -12,17 +12,17 @@
       "pending_fill": false,
       "ttl_deadline": null,
       "sl": 1.1368930675421043,
-      "effective_stop": 1.1368930675421043,
+      "effective_stop": 1.0873720797373687,
       "tp1": 1.072134852720527,
       "tp2": 1.0416603986868436,
       "tp3": 1.0226138649157914,
-      "max_tp_hit": 0,
+      "max_tp_hit": 1,
       "rr": 1.5,
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-07T09:45:40Z",
-      "current_price": 1.0812,
-      "pnl_percent": 1.6,
+      "current_price": 1.0671,
+      "pnl_percent": 2.88,
       "reasons": [
         "Цена пробила поддержку 1.1250",
         "Уровень 1.1250 тестировался 5 раз",
@@ -52,8 +52,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-07T13:15:36Z",
-      "current_price": 63.6,
-      "pnl_percent": 3.68,
+      "current_price": 63.17,
+      "pnl_percent": 4.33,
       "reasons": [
         "Цена пробила поддержку 66.7600",
         "Уровень 66.7600 тестировался 3 раз",
@@ -63,37 +63,6 @@
         "RSI 32.3 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление"
-      ]
-    },
-    {
-      "symbol": "LINK",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 13.10782264674836,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-10-08T15:15:00Z",
-      "sl": 13.238900873215844,
-      "effective_stop": 13.238900873215844,
-      "tp1": 13.016067888221121,
-      "tp2": 12.911205307047135,
-      "tp3": 12.845666193813393,
-      "max_tp_hit": 0,
-      "rr": 1.5000000000000042,
-      "probability": 83,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-10-08T11:15:51Z",
-      "current_price": 12.774,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила поддержку 13.0530",
-        "Объём подтверждает пробой (1.9× от среднего)",
-        "Хорошее тело свечи (50%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 36.0 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "FVG поддерживает направление",
-        "Order Block поддерживает направление"
       ]
     },
     {
@@ -114,7 +83,7 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-08T13:45:29Z",
-      "current_price": 10.356,
+      "current_price": 10.205,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 10.5140",
@@ -126,9 +95,55 @@
         "FVG поддерживает направление",
         "BTC согласуется с направлением (-0.35%)"
       ]
+    },
+    {
+      "symbol": "LINK",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 12.96994046327673,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-08T19:15:00Z",
+      "sl": 13.099639867909497,
+      "effective_stop": 13.099639867909497,
+      "tp1": 12.879150880033793,
+      "tp2": 12.77539135632758,
+      "tp3": 12.710541654011196,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000027,
+      "probability": 84,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-08T15:15:45Z",
+      "current_price": 12.633,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 12.9260",
+        "Уровень 12.9260 тестировался 4 раз",
+        "Объём подтверждает пробой (2.0× от среднего)",
+        "Сильное тело свечи (95%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 30.2 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление"
+      ]
     }
   ],
   "history": [
+    {
+      "symbol": "LINK",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "CANCEL",
+      "status": "cancelled",
+      "entry_kind": "cancelled",
+      "pnl_percent": 0,
+      "r_multiple": 0.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-10-08T11:15:51Z",
+      "close_time": "2026-10-08T15:15:23Z",
+      "rr": 1.5000000000000042
+    },
     {
       "symbol": "GRAM",
       "tf": "15m",
@@ -3113,21 +3128,6 @@
       "open_time": "2026-08-26T21:16:26Z",
       "close_time": "2026-08-27T06:53:47Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "INJ",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "fallback",
-      "pnl_percent": -8.58,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-08-24T14:15:55Z",
-      "close_time": "2026-08-26T14:58:46Z",
-      "rr": 1.4999999999999984
     }
   ],
   "stats": {
