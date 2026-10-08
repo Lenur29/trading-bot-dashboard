@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T13:44:24Z",
+  "generated_at": "2026-10-08T13:49:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -52,8 +52,8 @@
       "probability": 82,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-07T13:15:36Z",
-      "current_price": 63.95,
-      "pnl_percent": 3.15,
+      "current_price": 63.91,
+      "pnl_percent": 3.21,
       "reasons": [
         "Цена пробила поддержку 66.7600",
         "Уровень 66.7600 тестировался 3 раз",
@@ -83,7 +83,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-08T11:15:51Z",
-      "current_price": 12.883,
+      "current_price": 12.868,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 13.0530",
@@ -94,6 +94,37 @@
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "Order Block поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "AVAX",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 10.697147952781894,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-08T17:45:00Z",
+      "sl": 10.855031635748665,
+      "effective_stop": 10.855031635748665,
+      "tp1": 10.586629374705154,
+      "tp2": 10.460322428331736,
+      "tp3": 10.381380586848351,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999976,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-08T13:45:29Z",
+      "current_price": 10.519,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 10.5140",
+        "Объём подтверждает пробой (2.2× от среднего)",
+        "Хорошее тело свечи (60%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 30.0 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (-0.35%)"
       ]
     }
   ],
