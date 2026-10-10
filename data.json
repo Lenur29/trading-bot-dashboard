@@ -1,41 +1,24 @@
 {
-  "generated_at": "2026-10-10T15:44:24Z",
+  "generated_at": "2026-10-10T15:49:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [
+  "active": [],
+  "history": [
     {
       "symbol": "SUI",
       "tf": "15m",
       "side": "LONG",
-      "entry": 1.1175,
+      "result": "BE",
+      "status": "be",
       "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 1.0946688849444057,
-      "effective_stop": 1.1243493345166782,
-      "tp1": 1.133481780538916,
-      "tp2": 1.1517466725833914,
-      "tp3": 1.1631622301111884,
-      "max_tp_hit": 1,
-      "rr": 1.5000000000000064,
-      "probability": 75,
+      "pnl_percent": 0.86,
+      "r_multiple": 0.42,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
       "open_time": "2026-10-10T08:22:32Z",
-      "current_price": 1.1268,
-      "pnl_percent": 0.83,
-      "reasons": [
-        "Цена пробила сопротивление 1.1050",
-        "Объём подтверждает пробой (2.5× от среднего)",
-        "Хорошее тело свечи (57%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 68.3 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "FVG поддерживает направление",
-        "Активная торговая сессия"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-10-10T15:47:21Z",
+      "rr": 1.5000000000000064
+    },
     {
       "symbol": "DOT",
       "tf": "15m",
@@ -3020,56 +3003,41 @@
       "open_time": "2026-08-27T14:01:07Z",
       "close_time": "2026-08-28T06:30:47Z",
       "rr": 1.499999999999999
-    },
-    {
-      "symbol": "BTC",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "fallback",
-      "pnl_percent": 0.51,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-08-27T08:01:15Z",
-      "close_time": "2026-08-27T18:21:48Z",
-      "rr": 1.5000000000000127
     }
   ],
   "stats": {
     "all": {
-      "total": 986,
+      "total": 987,
       "tp": 153,
       "sl": 432,
-      "be": 401,
+      "be": 402,
       "winrate": 15.5,
       "effective_winrate": 56.2,
-      "sum_pnl": -28.52,
-      "r_result": -1.41,
-      "deposit_result": -0.14
+      "sum_pnl": -27.66,
+      "r_result": -0.99,
+      "deposit_result": -0.1
     },
     "today": {
-      "total": 3,
+      "total": 4,
       "tp": 0,
       "sl": 2,
-      "be": 1,
+      "be": 2,
       "winrate": 0.0,
-      "effective_winrate": 33.3,
-      "sum_pnl": -5.5,
-      "r_result": -1.22,
-      "deposit_result": -0.12
+      "effective_winrate": 50.0,
+      "sum_pnl": -4.64,
+      "r_result": -0.8,
+      "deposit_result": -0.08
     },
     "week": {
-      "total": 20,
+      "total": 21,
       "tp": 4,
       "sl": 9,
-      "be": 7,
-      "winrate": 20.0,
-      "effective_winrate": 55.0,
-      "sum_pnl": 6.96,
-      "r_result": 1.22,
-      "deposit_result": 0.12
+      "be": 8,
+      "winrate": 19.0,
+      "effective_winrate": 57.1,
+      "sum_pnl": 7.82,
+      "r_result": 1.64,
+      "deposit_result": 0.16
     }
   },
   "symbols_30d": [
@@ -3135,8 +3103,8 @@
     },
     {
       "symbol": "SUI",
-      "r": -1.16,
-      "n": 4
+      "r": -0.74,
+      "n": 5
     },
     {
       "symbol": "NEAR",
