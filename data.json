@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-10-10T16:29:22Z",
+  "generated_at": "2026-10-10T16:34:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "DOT",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 1.2547325320723146,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-10T20:30:00Z",
+      "sl": 1.2421852067515915,
+      "effective_stop": 1.2421852067515915,
+      "tp1": 1.2635156597968207,
+      "tp2": 1.2735535200533992,
+      "tp3": 1.2798271827137608,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000056,
+      "probability": 73,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-10T16:30:33Z",
+      "current_price": 1.2613,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 1.2560",
+        "Объём подтверждает пробой (1.8× от среднего)",
+        "Хорошее тело свечи (55%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 62.1 — здоровая зона для лонга",
+        "4h согласен с направлением",
+        "⚠️ Встречный FVG в зоне риска",
+        "London/NY overlap — пиковая ликвидность"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "SUI",
