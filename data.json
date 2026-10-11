@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T08:04:22Z",
+  "generated_at": "2026-10-11T08:09:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3107,6 +3107,11 @@
       "n": 5
     },
     {
+      "symbol": "NEAR",
+      "r": -1.5,
+      "n": 10
+    },
+    {
       "symbol": "BTC",
       "r": -1.58,
       "n": 3
@@ -3115,11 +3120,6 @@
       "symbol": "AVAX",
       "r": -1.6,
       "n": 8
-    },
-    {
-      "symbol": "NEAR",
-      "r": -2.5,
-      "n": 11
     },
     {
       "symbol": "ETH",
