@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T17:24:22Z",
+  "generated_at": "2026-10-12T18:09:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3047,11 +3047,6 @@
       "n": 11
     },
     {
-      "symbol": "INJ",
-      "r": 2.8,
-      "n": 6
-    },
-    {
       "symbol": "BNB",
       "r": 2.72,
       "n": 4
@@ -3073,6 +3068,11 @@
     },
     {
       "symbol": "HBAR",
+      "r": 1.34,
+      "n": 5
+    },
+    {
+      "symbol": "INJ",
       "r": 1.34,
       "n": 5
     },
