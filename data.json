@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-10-12T21:14:22Z",
+  "generated_at": "2026-10-12T21:19:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 62.761727558545196,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-13T01:15:00Z",
+      "sl": 63.38934483413065,
+      "effective_stop": 63.38934483413065,
+      "tp1": 62.32239546563538,
+      "tp2": 61.82030164516702,
+      "tp3": 61.506493007374296,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-12T21:15:33Z",
+      "current_price": 62.45,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 62.7100",
+        "Уровень 62.7100 тестировался 3 раз",
+        "Объём подтверждает пробой (2.4× от среднего)",
+        "Сильное тело свечи (72%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 33.8 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "AAVE",
