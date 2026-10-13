@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T14:34:22Z",
+  "generated_at": "2026-10-13T14:39:22Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3043,8 +3043,8 @@
   "symbols_30d": [
     {
       "symbol": "ENA",
-      "r": 5.64,
-      "n": 11
+      "r": 5.22,
+      "n": 10
     },
     {
       "symbol": "BNB",
