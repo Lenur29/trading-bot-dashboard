@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-10-15T13:44:26Z",
+  "generated_at": "2026-10-15T13:49:26Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "BNB",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 720.6523253790031,
-      "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 727.8588486327931,
-      "effective_stop": 718.490368402866,
-      "tp1": 715.6077591013501,
-      "tp2": 709.842540498318,
-      "tp3": 706.239278871423,
-      "max_tp_hit": 1,
-      "rr": 1.500000000000008,
-      "probability": 78,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-10-15T10:30:40Z",
-      "current_price": 717.96,
-      "pnl_percent": 0.37,
-      "reasons": [
-        "Цена пробила поддержку 721.480",
-        "Объём подтверждает пробой (1.7× от среднего)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 44.0 — здоровая зона для шорта",
-        "4h согласен с направлением",
-        "FVG поддерживает, но есть встречный FVG в зоне риска",
-        "Order Block поддерживает направление",
-        "Активная торговая сессия"
-      ]
-    },
     {
       "symbol": "LINK",
       "tf": "15m",
@@ -52,7 +21,7 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-15T13:30:38Z",
-      "current_price": 11.99,
+      "current_price": 11.916,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 11.9110",
@@ -83,7 +52,7 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-15T13:30:38Z",
-      "current_price": 1.3004,
+      "current_price": 1.295,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.2969",
@@ -98,6 +67,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "BNB",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "BE",
+      "status": "be",
+      "entry_kind": "limit",
+      "pnl_percent": 0.42,
+      "r_multiple": 0.42,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
+      "open_time": "2026-10-15T10:30:40Z",
+      "close_time": "2026-10-15T13:46:22Z",
+      "rr": 1.500000000000008
+    },
     {
       "symbol": "GRAM",
       "tf": "15m",
@@ -3082,56 +3066,41 @@
       "open_time": "2026-08-30T12:16:14Z",
       "close_time": "2026-08-30T17:20:47Z",
       "rr": 1.5000000000000036
-    },
-    {
-      "symbol": "SOL",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 0.48,
-      "r_multiple": 0.78,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 2,
-      "open_time": "2026-08-29T19:16:03Z",
-      "close_time": "2026-08-30T07:01:46Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 991,
+      "total": 992,
       "tp": 153,
       "sl": 434,
-      "be": 404,
+      "be": 405,
       "winrate": 15.4,
       "effective_winrate": 56.2,
-      "sum_pnl": -29.48,
-      "r_result": -2.15,
-      "deposit_result": -0.21
+      "sum_pnl": -29.06,
+      "r_result": -1.73,
+      "deposit_result": -0.17
     },
     "today": {
-      "total": 1,
+      "total": 2,
       "tp": 0,
       "sl": 0,
-      "be": 1,
+      "be": 2,
       "winrate": 0.0,
       "effective_winrate": 100.0,
-      "sum_pnl": 0.46,
-      "r_result": 0.42,
-      "deposit_result": 0.04
+      "sum_pnl": 0.88,
+      "r_result": 0.84,
+      "deposit_result": 0.08
     },
     "week": {
-      "total": 10,
+      "total": 11,
       "tp": 2,
       "sl": 4,
-      "be": 4,
-      "winrate": 20.0,
-      "effective_winrate": 60.0,
-      "sum_pnl": 2.08,
-      "r_result": 0.96,
-      "deposit_result": 0.1
+      "be": 5,
+      "winrate": 18.2,
+      "effective_winrate": 63.6,
+      "sum_pnl": 2.5,
+      "r_result": 1.38,
+      "deposit_result": 0.14
     }
   },
   "symbols_30d": [
@@ -3142,8 +3111,8 @@
     },
     {
       "symbol": "BNB",
-      "r": 2.72,
-      "n": 4
+      "r": 3.14,
+      "n": 5
     },
     {
       "symbol": "XRP",
