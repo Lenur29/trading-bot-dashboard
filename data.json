@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T13:59:25Z",
+  "generated_at": "2026-10-15T14:04:26Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-15T13:30:38Z",
-      "current_price": 11.882,
+      "current_price": 11.961,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 11.9110",
@@ -52,7 +52,7 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-15T13:30:38Z",
-      "current_price": 1.287,
+      "current_price": 1.2949,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.2969",
@@ -63,6 +63,68 @@
         "RSI 37.0 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "HBAR",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.08131345909126553,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-15T18:00:00Z",
+      "sl": 0.08238463471915791,
+      "effective_stop": 0.08238463471915791,
+      "tp1": 0.08056363615174086,
+      "tp2": 0.07970669564942695,
+      "tp3": 0.07917110783548076,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 87,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-15T14:00:43Z",
+      "current_price": 0.08099,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 0.08068",
+        "Уровень 0.08068 тестировался 6 раз",
+        "Объём подтверждает пробой (1.6× от среднего)",
+        "Хорошее тело свечи (56%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 39.6 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "INJ",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 7.192069754640851,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-15T18:00:00Z",
+      "sl": 7.3216853252200025,
+      "effective_stop": 7.3216853252200025,
+      "tp1": 7.101338855235445,
+      "tp2": 6.997646398772124,
+      "tp3": 6.932838613482549,
+      "max_tp_hit": 0,
+      "rr": 1.500000000000002,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-15T14:00:43Z",
+      "current_price": 7.152,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 7.1200",
+        "Объём подтверждает пробой (1.9× от среднего)",
+        "Хорошее тело свечи (50%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 35.4 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (-0.43%)"
       ]
     }
   ],
