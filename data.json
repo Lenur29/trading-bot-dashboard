@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-10-13T15:29:22Z",
+  "generated_at": "2026-10-15T12:04:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "BNB",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 720.6523253790031,
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
+      "sl": 727.8588486327931,
+      "effective_stop": 727.8588486327931,
+      "tp1": 715.6077591013501,
+      "tp2": 709.842540498318,
+      "tp3": 706.239278871423,
+      "max_tp_hit": 0,
+      "rr": 1.500000000000008,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-15T10:30:40Z",
+      "current_price": 720.03,
+      "pnl_percent": 0.09,
+      "reasons": [
+        "Цена пробила поддержку 721.480",
+        "Объём подтверждает пробой (1.7× от среднего)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 44.0 — здоровая зона для шорта",
+        "4h согласен с направлением",
+        "FVG поддерживает, но есть встречный FVG в зоне риска",
+        "Order Block поддерживает направление",
+        "Активная торговая сессия"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "LTC",
@@ -3029,15 +3061,15 @@
       "deposit_result": 0.0
     },
     "week": {
-      "total": 22,
-      "tp": 4,
-      "sl": 10,
-      "be": 8,
-      "winrate": 18.2,
-      "effective_winrate": 54.5,
-      "sum_pnl": 6.13,
-      "r_result": 0.64,
-      "deposit_result": 0.06
+      "total": 9,
+      "tp": 2,
+      "sl": 4,
+      "be": 3,
+      "winrate": 22.2,
+      "effective_winrate": 55.6,
+      "sum_pnl": 1.62,
+      "r_result": 0.54,
+      "deposit_result": 0.05
     }
   },
   "symbols_30d": [
@@ -3087,14 +3119,14 @@
       "n": 4
     },
     {
+      "symbol": "NEAR",
+      "r": 0.5,
+      "n": 8
+    },
+    {
       "symbol": "LTC",
       "r": 0.24,
       "n": 4
-    },
-    {
-      "symbol": "DOT",
-      "r": -0.14,
-      "n": 9
     },
     {
       "symbol": "SOL",
@@ -3102,9 +3134,9 @@
       "n": 6
     },
     {
-      "symbol": "NEAR",
-      "r": -0.5,
-      "n": 9
+      "symbol": "BTC",
+      "r": -0.58,
+      "n": 2
     },
     {
       "symbol": "SUI",
@@ -3112,9 +3144,9 @@
       "n": 5
     },
     {
-      "symbol": "BTC",
-      "r": -1.58,
-      "n": 3
+      "symbol": "DOT",
+      "r": -0.92,
+      "n": 8
     },
     {
       "symbol": "AVAX",
