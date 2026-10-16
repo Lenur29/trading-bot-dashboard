@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-10-16T11:29:23Z",
+  "generated_at": "2026-10-16T11:34:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "SUI",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 1.0450829323873185,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-16T15:30:00Z",
+      "sl": 1.0332135173484853,
+      "effective_stop": 1.0332135173484853,
+      "tp1": 1.0533915229145019,
+      "tp2": 1.0628870549455685,
+      "tp3": 1.068821762464985,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999956,
+      "probability": 74,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-16T11:30:41Z",
+      "current_price": 1.0548,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 1.0511",
+        "Объём подтверждает пробой (2.1× от среднего)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 64.8 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (+0.74%)",
+        "Активная торговая сессия"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "HBAR",
