@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T12:29:25Z",
+  "generated_at": "2026-10-16T12:34:27Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -12,17 +12,17 @@
       "pending_fill": false,
       "ttl_deadline": null,
       "sl": 1.0332135173484853,
-      "effective_stop": 1.0332135173484853,
+      "effective_stop": 1.0486437568989686,
       "tp1": 1.0533915229145019,
       "tp2": 1.0628870549455685,
       "tp3": 1.068821762464985,
-      "max_tp_hit": 0,
+      "max_tp_hit": 1,
       "rr": 1.4999999999999956,
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-16T11:30:41Z",
-      "current_price": 1.0498,
-      "pnl_percent": 0.45,
+      "current_price": 1.0539,
+      "pnl_percent": 0.84,
       "reasons": [
         "Цена пробила сопротивление 1.0511",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -52,7 +52,7 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-16T11:45:44Z",
-      "current_price": 1.1904,
+      "current_price": 1.1853,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1.1508",
@@ -63,6 +63,37 @@
         "Бычья свеча подтверждает пробой",
         "Order Block поддерживает направление",
         "BTC согласуется с направлением (+0.58%)"
+      ]
+    },
+    {
+      "symbol": "INJ",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 9.135,
+      "entry_kind": "market",
+      "pending_fill": false,
+      "ttl_deadline": null,
+      "sl": 8.943035585285484,
+      "effective_stop": 8.943035585285484,
+      "tp1": 9.26937509030016,
+      "tp2": 9.422946622071773,
+      "tp3": 9.518928829429031,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-16T12:30:34Z",
+      "current_price": 9.128,
+      "pnl_percent": -0.08,
+      "reasons": [
+        "Цена пробила сопротивление 9.4860",
+        "Объём выше среднего (1.5×)",
+        "Хорошее тело свечи (63%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 48.6 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
       ]
     }
   ],
