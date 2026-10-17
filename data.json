@@ -1,41 +1,24 @@
 {
-  "generated_at": "2026-10-17T21:04:25Z",
+  "generated_at": "2026-10-17T21:09:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [
+  "active": [],
+  "history": [
     {
       "symbol": "ADA",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 0.2209116380402655,
+      "result": "SL",
+      "status": "sl",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 0.22312075442066817,
-      "effective_stop": 0.22312075442066817,
-      "tp1": 0.21936525657398365,
-      "tp2": 0.2175979634696615,
-      "tp3": 0.21649340527946018,
-      "max_tp_hit": 0,
-      "rr": 1.5000000000000038,
-      "probability": 86,
+      "pnl_percent": -1.0,
+      "r_multiple": -1.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-10-17T17:00:39Z",
-      "current_price": 0.2231,
-      "pnl_percent": -0.99,
-      "reasons": [
-        "Цена пробила поддержку 0.21950",
-        "Уровень 0.21950 тестировался 4 раз",
-        "Объём выше среднего (1.3×)",
-        "Хорошее тело свечи (50%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 31.3 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-10-17T21:05:24Z",
+      "rr": 1.5000000000000038
+    },
     {
       "symbol": "BNB",
       "tf": "15m",
@@ -3020,56 +3003,41 @@
       "open_time": "2026-08-31T14:46:21Z",
       "close_time": "2026-09-01T13:07:47Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "NEAR",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 0.61,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-08-31T14:46:22Z",
-      "close_time": "2026-08-31T18:03:47Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 1000,
+      "total": 1001,
       "tp": 153,
-      "sl": 440,
+      "sl": 441,
       "be": 407,
       "winrate": 15.3,
-      "effective_winrate": 56.0,
-      "sum_pnl": -39.71,
-      "r_result": -6.89,
-      "deposit_result": -0.69
+      "effective_winrate": 55.9,
+      "sum_pnl": -40.71,
+      "r_result": -7.89,
+      "deposit_result": -0.79
     },
     "today": {
-      "total": 0,
+      "total": 1,
       "tp": 0,
-      "sl": 0,
+      "sl": 1,
       "be": 0,
       "winrate": 0.0,
       "effective_winrate": 0.0,
-      "sum_pnl": 0,
-      "r_result": 0,
-      "deposit_result": 0.0
+      "sum_pnl": -1.0,
+      "r_result": -1.0,
+      "deposit_result": -0.1
     },
     "week": {
-      "total": 13,
+      "total": 14,
       "tp": 0,
-      "sl": 8,
+      "sl": 9,
       "be": 5,
       "winrate": 0.0,
-      "effective_winrate": 38.5,
-      "sum_pnl": -12.05,
-      "r_result": -5.9,
-      "deposit_result": -0.59
+      "effective_winrate": 35.7,
+      "sum_pnl": -13.05,
+      "r_result": -6.9,
+      "deposit_result": -0.69
     }
   },
   "symbols_30d": [
@@ -3119,11 +3087,6 @@
       "n": 6
     },
     {
-      "symbol": "ADA",
-      "r": -0.32,
-      "n": 6
-    },
-    {
       "symbol": "LTC",
       "r": -0.54,
       "n": 3
@@ -3142,6 +3105,11 @@
       "symbol": "SOL",
       "r": -1.12,
       "n": 5
+    },
+    {
+      "symbol": "ADA",
+      "r": -1.32,
+      "n": 7
     },
     {
       "symbol": "DOT",
