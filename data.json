@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:59:25Z",
+  "generated_at": "2026-10-17T12:04:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-16T11:45:44Z",
-      "current_price": 1.1498,
-      "pnl_percent": -2.74,
+      "current_price": 1.1482,
+      "pnl_percent": -2.88,
       "reasons": [
         "Цена пробила сопротивление 1.1508",
         "Объём подтверждает пробой (5.6× от среднего)",
@@ -32,6 +32,37 @@
         "Бычья свеча подтверждает пробой",
         "Order Block поддерживает направление",
         "BTC согласуется с направлением (+0.58%)"
+      ]
+    },
+    {
+      "symbol": "BNB",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 721.2197882787343,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-17T16:00:00Z",
+      "sl": 728.4319861615216,
+      "effective_stop": 728.4319861615216,
+      "tp1": 716.1712497607832,
+      "tp2": 710.4014914545533,
+      "tp3": 706.7953925131596,
+      "max_tp_hit": 0,
+      "rr": 1.500000000000008,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-17T12:00:32Z",
+      "current_price": 720.65,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 720.820",
+        "Объём подтверждает пробой (2.3× от среднего)",
+        "Сильное тело свечи (83%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 45.0 — здоровая зона для шорта",
+        "4h согласен с направлением",
+        "Order Block поддерживает направление",
+        "Активная торговая сессия"
       ]
     }
   ],
