@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-10-17T12:49:25Z",
+  "generated_at": "2026-10-17T12:54:26Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "DOT",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 1.1822,
-      "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 1.1320998590191422,
-      "effective_stop": 1.1320998590191422,
-      "tp1": 1.2172700986866003,
-      "tp2": 1.2573502114712864,
-      "tp3": 1.2824002819617153,
-      "max_tp_hit": 0,
-      "rr": 1.5000000000000027,
-      "probability": 83,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-10-16T11:45:44Z",
-      "current_price": 1.1371,
-      "pnl_percent": -3.81,
-      "reasons": [
-        "Цена пробила сопротивление 1.1508",
-        "Объём подтверждает пробой (5.6× от среднего)",
-        "Сильное тело свечи (91%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 68.0 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "Order Block поддерживает направление",
-        "BTC согласуется с направлением (+0.58%)"
-      ]
-    },
     {
       "symbol": "BNB",
       "tf": "15m",
@@ -52,7 +21,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-17T12:00:32Z",
-      "current_price": 719.01,
+      "current_price": 718.44,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 720.820",
@@ -67,6 +36,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "DOT",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "SL",
+      "status": "sl",
+      "entry_kind": "fallback",
+      "pnl_percent": -4.24,
+      "r_multiple": -1.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-10-16T11:45:44Z",
+      "close_time": "2026-10-17T12:53:25Z",
+      "rr": 1.5000000000000027
+    },
     {
       "symbol": "INJ",
       "tf": "15m",
@@ -3051,56 +3035,41 @@
       "open_time": "2026-08-31T16:00:57Z",
       "close_time": "2026-08-31T17:13:47Z",
       "rr": 1.500000000000004
-    },
-    {
-      "symbol": "GRAM",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "limit",
-      "pnl_percent": -0.56,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-08-31T14:01:43Z",
-      "close_time": "2026-08-31T14:43:46Z",
-      "rr": 1.499999999999994
     }
   ],
   "stats": {
     "all": {
-      "total": 998,
+      "total": 999,
       "tp": 153,
-      "sl": 439,
+      "sl": 440,
       "be": 406,
       "winrate": 15.3,
       "effective_winrate": 56.0,
-      "sum_pnl": -35.9,
-      "r_result": -6.31,
-      "deposit_result": -0.63
+      "sum_pnl": -40.13,
+      "r_result": -7.31,
+      "deposit_result": -0.73
     },
     "today": {
-      "total": 0,
+      "total": 1,
       "tp": 0,
-      "sl": 0,
+      "sl": 1,
       "be": 0,
       "winrate": 0.0,
       "effective_winrate": 0.0,
-      "sum_pnl": 0,
-      "r_result": 0,
-      "deposit_result": 0.0
+      "sum_pnl": -4.24,
+      "r_result": -1.0,
+      "deposit_result": -0.1
     },
     "week": {
-      "total": 15,
+      "total": 16,
       "tp": 0,
-      "sl": 9,
+      "sl": 10,
       "be": 6,
       "winrate": 0.0,
-      "effective_winrate": 40.0,
-      "sum_pnl": -12.88,
-      "r_result": -6.12,
-      "deposit_result": -0.61
+      "effective_winrate": 37.5,
+      "sum_pnl": -17.11,
+      "r_result": -7.12,
+      "deposit_result": -0.71
     }
   },
   "symbols_30d": [
@@ -3175,14 +3144,14 @@
       "n": 7
     },
     {
-      "symbol": "DOT",
-      "r": -0.92,
-      "n": 8
-    },
-    {
       "symbol": "AVAX",
       "r": -1.6,
       "n": 8
+    },
+    {
+      "symbol": "DOT",
+      "r": -1.92,
+      "n": 9
     },
     {
       "symbol": "ETH",
