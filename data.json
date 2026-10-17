@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-10-17T20:54:25Z",
+  "generated_at": "2026-10-17T20:59:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "BNB",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 721.2197882787343,
-      "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 728.4319861615216,
-      "effective_stop": 719.0561289138981,
-      "tp1": 716.1712497607832,
-      "tp2": 710.4014914545533,
-      "tp3": 706.7953925131596,
-      "max_tp_hit": 1,
-      "rr": 1.500000000000008,
-      "probability": 78,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-10-17T12:00:32Z",
-      "current_price": 718.9,
-      "pnl_percent": 0.32,
-      "reasons": [
-        "Цена пробила поддержку 720.820",
-        "Объём подтверждает пробой (2.3× от среднего)",
-        "Сильное тело свечи (83%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 45.0 — здоровая зона для шорта",
-        "4h согласен с направлением",
-        "Order Block поддерживает направление",
-        "Активная торговая сессия"
-      ]
-    },
     {
       "symbol": "ADA",
       "tf": "15m",
@@ -67,6 +36,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "BNB",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "BE",
+      "status": "be",
+      "entry_kind": "limit",
+      "pnl_percent": 0.42,
+      "r_multiple": 0.42,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
+      "open_time": "2026-10-17T12:00:32Z",
+      "close_time": "2026-10-17T20:56:24Z",
+      "rr": 1.500000000000008
+    },
     {
       "symbol": "DOT",
       "tf": "15m",
@@ -3051,68 +3035,53 @@
       "open_time": "2026-08-31T14:46:22Z",
       "close_time": "2026-08-31T18:03:47Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "INJ",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 0.68,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-08-31T16:00:57Z",
-      "close_time": "2026-08-31T17:13:47Z",
-      "rr": 1.500000000000004
     }
   ],
   "stats": {
     "all": {
-      "total": 999,
+      "total": 1000,
       "tp": 153,
       "sl": 440,
-      "be": 406,
+      "be": 407,
       "winrate": 15.3,
       "effective_winrate": 56.0,
-      "sum_pnl": -40.13,
-      "r_result": -7.31,
-      "deposit_result": -0.73
+      "sum_pnl": -39.71,
+      "r_result": -6.89,
+      "deposit_result": -0.69
     },
     "today": {
-      "total": 1,
+      "total": 2,
       "tp": 0,
       "sl": 1,
-      "be": 0,
+      "be": 1,
       "winrate": 0.0,
-      "effective_winrate": 0.0,
-      "sum_pnl": -4.24,
-      "r_result": -1.0,
-      "deposit_result": -0.1
+      "effective_winrate": 50.0,
+      "sum_pnl": -3.82,
+      "r_result": -0.58,
+      "deposit_result": -0.06
     },
     "week": {
-      "total": 16,
+      "total": 17,
       "tp": 0,
       "sl": 10,
-      "be": 6,
+      "be": 7,
       "winrate": 0.0,
-      "effective_winrate": 37.5,
-      "sum_pnl": -17.11,
-      "r_result": -7.12,
-      "deposit_result": -0.71
+      "effective_winrate": 41.2,
+      "sum_pnl": -16.69,
+      "r_result": -6.7,
+      "deposit_result": -0.67
     }
   },
   "symbols_30d": [
     {
+      "symbol": "BNB",
+      "r": 3.56,
+      "n": 6
+    },
+    {
       "symbol": "ENA",
       "r": 3.34,
       "n": 8
-    },
-    {
-      "symbol": "BNB",
-      "r": 3.14,
-      "n": 5
     },
     {
       "symbol": "HBAR",
