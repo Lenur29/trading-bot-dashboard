@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T22:14:23Z",
+  "generated_at": "2026-10-17T22:19:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3062,14 +3062,14 @@
       "n": 7
     },
     {
-      "symbol": "LINK",
-      "r": 0.62,
-      "n": 4
-    },
-    {
       "symbol": "AAVE",
       "r": 0.3,
       "n": 5
+    },
+    {
+      "symbol": "LINK",
+      "r": 0.2,
+      "n": 3
     },
     {
       "symbol": "NEAR",
