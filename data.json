@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T00:04:23Z",
+  "generated_at": "2026-10-18T09:34:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3072,11 +3072,6 @@
       "n": 3
     },
     {
-      "symbol": "NEAR",
-      "r": 0.08,
-      "n": 7
-    },
-    {
       "symbol": "GRAM",
       "r": -0.12,
       "n": 4
@@ -3110,6 +3105,11 @@
       "symbol": "ADA",
       "r": -1.32,
       "n": 7
+    },
+    {
+      "symbol": "NEAR",
+      "r": -1.38,
+      "n": 6
     },
     {
       "symbol": "DOT",
