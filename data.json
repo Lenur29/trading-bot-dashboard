@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T18:34:23Z",
+  "generated_at": "2026-10-18T18:39:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3042,14 +3042,14 @@
   },
   "symbols_30d": [
     {
-      "symbol": "BNB",
-      "r": 3.56,
-      "n": 6
-    },
-    {
       "symbol": "ENA",
       "r": 2.92,
       "n": 7
+    },
+    {
+      "symbol": "BNB",
+      "r": 2.1,
+      "n": 5
     },
     {
       "symbol": "HBAR",
