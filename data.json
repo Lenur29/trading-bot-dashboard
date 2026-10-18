@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T16:14:23Z",
+  "generated_at": "2026-10-18T16:19:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3048,8 +3048,8 @@
     },
     {
       "symbol": "ENA",
-      "r": 3.34,
-      "n": 8
+      "r": 2.92,
+      "n": 7
     },
     {
       "symbol": "HBAR",
