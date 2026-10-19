@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T07:49:25Z",
+  "generated_at": "2026-10-19T07:54:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-19T07:30:34Z",
-      "current_price": 5.084,
+      "current_price": 5.06,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 5.0800",
