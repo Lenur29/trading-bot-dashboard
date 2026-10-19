@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-10-19T14:59:23Z",
+  "generated_at": "2026-10-19T15:04:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "DOT",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 1.1242169715243333,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-19T19:00:00Z",
+      "sl": 1.1013338196210145,
+      "effective_stop": 1.1013338196210145,
+      "tp1": 1.1402351778566564,
+      "tp2": 1.1585416993793114,
+      "tp3": 1.169983275330971,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 79,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-19T15:00:38Z",
+      "current_price": 1.1492,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 1.1364",
+        "Объём подтверждает пробой (1.6× от среднего)",
+        "Сильное тело свечи (71%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 67.8 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "London/NY overlap — пиковая ликвидность"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "HBAR",
