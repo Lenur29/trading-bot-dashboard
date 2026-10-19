@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T15:29:25Z",
+  "generated_at": "2026-10-19T15:34:26Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-19T15:00:38Z",
-      "current_price": 1.1638,
+      "current_price": 1.1534,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 1.1364",
@@ -32,6 +32,37 @@
         "Бычья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "London/NY overlap — пиковая ликвидность"
+      ]
+    },
+    {
+      "symbol": "SUI",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.9990314114497167,
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
+      "sl": 0.9760727659658907,
+      "effective_stop": 0.9760727659658907,
+      "tp1": 1.015102463288395,
+      "tp2": 1.033469379675456,
+      "tp3": 1.044948702417369,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999982,
+      "probability": 83,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-19T15:30:32Z",
+      "current_price": 1.0004,
+      "pnl_percent": 0.14,
+      "reasons": [
+        "Цена пробила сопротивление 1.0068",
+        "Объём подтверждает пробой (1.7× от среднего)",
+        "Сильное тело свечи (73%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 58.9 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (+0.47%)"
       ]
     }
   ],
