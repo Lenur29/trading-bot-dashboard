@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:44:25Z",
+  "generated_at": "2026-10-20T07:49:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-19T15:00:38Z",
-      "current_price": 1.1315,
-      "pnl_percent": -0.88,
+      "current_price": 1.1296,
+      "pnl_percent": -1.04,
       "reasons": [
         "Цена пробила сопротивление 1.1364",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -32,6 +32,37 @@
         "Бычья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "London/NY overlap — пиковая ликвидность"
+      ]
+    },
+    {
+      "symbol": "BTC",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 81777.95046217462,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-20T11:45:00Z",
+      "sl": 82595.72996679637,
+      "effective_stop": 82595.72996679637,
+      "tp1": 81205.5048089394,
+      "tp2": 80551.28120524199,
+      "tp3": 80142.39145293112,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 77,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-20T07:45:36Z",
+      "current_price": 81496.0,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 81573.00",
+        "Объём подтверждает пробой (2.0× от среднего)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 37.9 — здоровая зона для шорта",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление",
+        "Уровень 81573.00 был ретест-подтверждён до текущего пробоя"
       ]
     }
   ],
