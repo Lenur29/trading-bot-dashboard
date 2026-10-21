@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T07:24:23Z",
+  "generated_at": "2026-10-21T08:54:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3082,11 +3082,6 @@
       "n": 1
     },
     {
-      "symbol": "SOL",
-      "r": -1.12,
-      "n": 5
-    },
-    {
       "symbol": "INJ",
       "r": -1.12,
       "n": 5
@@ -3120,6 +3115,11 @@
       "symbol": "AVAX",
       "r": -1.96,
       "n": 8
+    },
+    {
+      "symbol": "SOL",
+      "r": -2.58,
+      "n": 4
     },
     {
       "symbol": "ETH",
