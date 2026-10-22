@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T19:24:26Z",
+  "generated_at": "2026-10-22T19:29:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Trend continuation",
       "open_time": "2026-10-22T08:45:32Z",
-      "current_price": 0.07936,
-      "pnl_percent": 1.79,
+      "current_price": 0.07947,
+      "pnl_percent": 1.66,
       "reasons": [
         "Цена пробила поддержку 0.08097",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-22T15:00:43Z",
-      "current_price": 0.9808,
-      "pnl_percent": -0.33,
+      "current_price": 0.9805,
+      "pnl_percent": -0.3,
       "reasons": [
         "Цена пробила поддержку 0.97930",
         "Уровень 0.97930 тестировался 3 раз",
@@ -3115,14 +3115,14 @@
       "n": 4
     },
     {
-      "symbol": "HBAR",
-      "r": 1.34,
-      "n": 5
-    },
-    {
       "symbol": "LINK",
       "r": 0.2,
       "n": 3
+    },
+    {
+      "symbol": "HBAR",
+      "r": -0.12,
+      "n": 4
     },
     {
       "symbol": "DOT",
