@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T08:44:25Z",
+  "generated_at": "2026-10-22T08:49:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-22T08:15:44Z",
-      "current_price": 12.032,
+      "current_price": 12.015,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 12.1270",
@@ -52,7 +52,7 @@
       "probability": 73,
       "setup_type": "Trend continuation",
       "open_time": "2026-10-22T08:15:45Z",
-      "current_price": 2409.61,
+      "current_price": 2408.13,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 2424.64",
@@ -63,6 +63,37 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "HBAR",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.08179348285864241,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-22T12:45:00Z",
+      "sl": 0.08261141768722884,
+      "effective_stop": 0.08261141768722884,
+      "tp1": 0.08122092847863191,
+      "tp2": 0.08056658061576277,
+      "tp3": 0.08015761320146955,
+      "max_tp_hit": 0,
+      "rr": 1.499999999999995,
+      "probability": 75,
+      "setup_type": "Trend continuation",
+      "open_time": "2026-10-22T08:45:32Z",
+      "current_price": 0.0805,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 0.08097",
+        "Объём подтверждает пробой (2.2× от среднего)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 23.2 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Активная торговая сессия"
       ]
     }
   ],
