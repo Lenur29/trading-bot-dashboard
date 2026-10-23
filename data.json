@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-10-23T14:44:23Z",
+  "generated_at": "2026-10-23T14:49:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "BNB",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 746.3731919880066,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-23T18:45:00Z",
+      "sl": 738.9094600681266,
+      "effective_stop": 738.9094600681266,
+      "tp1": 751.5978043319227,
+      "tp2": 757.5687898678267,
+      "tp3": 761.3006558277667,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-23T14:45:35Z",
+      "current_price": 749.24,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 748.950",
+        "Объём подтверждает пробой (2.0× от среднего)",
+        "Сильное тело свечи (83%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 63.2 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "London/NY overlap — пиковая ликвидность"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "DOT",
