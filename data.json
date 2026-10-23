@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T10:24:23Z",
+  "generated_at": "2026-10-23T10:29:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3072,6 +3072,11 @@
       "n": 3
     },
     {
+      "symbol": "AAVE",
+      "r": -0.58,
+      "n": 2
+    },
+    {
       "symbol": "SUI",
       "r": -0.9,
       "n": 8
@@ -3098,11 +3103,6 @@
     },
     {
       "symbol": "GRAM",
-      "r": -1.58,
-      "n": 3
-    },
-    {
-      "symbol": "AAVE",
       "r": -1.58,
       "n": 3
     },
