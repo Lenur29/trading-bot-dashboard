@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T21:44:25Z",
+  "generated_at": "2026-10-24T21:49:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-23T22:30:37Z",
-      "current_price": 4.431,
-      "pnl_percent": 4.55,
+      "current_price": 4.426,
+      "pnl_percent": 4.65,
       "reasons": [
         "Цена пробила поддержку 4.7700",
         "Уровень 4.7700 тестировался 6 раз",
@@ -32,6 +32,37 @@
         "RSI 34.7 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "SUI",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.9325714973682352,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-25T01:45:00Z",
+      "sl": 0.9430406431546459,
+      "effective_stop": 0.9430406431546459,
+      "tp1": 0.9252430953177477,
+      "tp2": 0.9168677786886192,
+      "tp3": 0.9116332057954138,
+      "max_tp_hit": 0,
+      "rr": 1.500000000000004,
+      "probability": 77,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-24T21:45:35Z",
+      "current_price": 0.9291,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 0.93390",
+        "Объём подтверждает пробой (2.2× от среднего)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 43.3 — здоровая зона для шорта",
+        "4h согласен с направлением",
+        "FVG поддерживает, но есть встречный FVG в зоне риска",
+        "Order Block поддерживает направление",
+        "Активная торговая сессия"
       ]
     }
   ],
