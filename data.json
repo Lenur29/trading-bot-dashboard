@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T09:59:25Z",
+  "generated_at": "2026-10-24T10:04:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-23T22:30:37Z",
-      "current_price": 4.453,
-      "pnl_percent": 4.07,
+      "current_price": 4.456,
+      "pnl_percent": 4.01,
       "reasons": [
         "Цена пробила поддержку 4.7700",
         "Уровень 4.7700 тестировался 6 раз",
