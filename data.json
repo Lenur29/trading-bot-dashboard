@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T21:14:23Z",
+  "generated_at": "2026-10-25T21:19:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3092,11 +3092,6 @@
       "n": 4
     },
     {
-      "symbol": "DOT",
-      "r": -1.5,
-      "n": 10
-    },
-    {
       "symbol": "ETH",
       "r": -1.58,
       "n": 3
@@ -3110,6 +3105,11 @@
       "symbol": "ADA",
       "r": -1.74,
       "n": 6
+    },
+    {
+      "symbol": "DOT",
+      "r": -1.92,
+      "n": 9
     },
     {
       "symbol": "AVAX",
