@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:04:26Z",
+  "generated_at": "2026-10-26T13:09:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -52,8 +52,8 @@
       "probability": 85,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-26T08:15:49Z",
-      "current_price": 80236.0,
-      "pnl_percent": -0.33,
+      "current_price": 80216.3,
+      "pnl_percent": -0.31,
       "reasons": [
         "Цена пробила поддержку 79904.50",
         "Объём подтверждает пробой (2.6× от среднего)",
