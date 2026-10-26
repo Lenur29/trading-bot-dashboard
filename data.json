@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-10-26T00:04:23Z",
+  "generated_at": "2026-10-26T07:39:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "GRAM",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 1.232740781309796,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-26T11:30:00Z",
+      "sl": 1.2450681891228939,
+      "effective_stop": 1.2450681891228939,
+      "tp1": 1.2241115958406275,
+      "tp2": 1.214249669590149,
+      "tp3": 1.2080859656836,
+      "max_tp_hit": 0,
+      "rr": 1.499999999999995,
+      "probability": 74,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-26T07:37:31Z",
+      "current_price": 1.218,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 1.2230",
+        "Сильное тело свечи (89%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 31.5 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Уровень 1.2230 был ретест-подтверждён до текущего пробоя"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "NEAR",
