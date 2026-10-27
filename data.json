@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T08:09:25Z",
+  "generated_at": "2026-10-27T08:14:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-26T16:30:48Z",
-      "current_price": 0.9951,
-      "pnl_percent": 0.99,
+      "current_price": 0.995,
+      "pnl_percent": 1.0,
       "reasons": [
         "Цена пробила поддержку 1.0158",
         "Уровень 1.0158 тестировался 4 раз",
