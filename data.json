@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-10-27T21:44:23Z",
+  "generated_at": "2026-10-27T21:49:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "XRP",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 1.3205129662890525,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-28T01:45:00Z",
+      "sl": 1.307307836626162,
+      "effective_stop": 1.307307836626162,
+      "tp1": 1.3297565570530758,
+      "tp2": 1.3403206607833882,
+      "tp3": 1.3469232256148336,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 79,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-27T21:45:40Z",
+      "current_price": 1.3261,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 1.3213",
+        "Объём подтверждает пробой (3.4× от среднего)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 57.5 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление",
+        "Активная торговая сессия"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "HBAR",
