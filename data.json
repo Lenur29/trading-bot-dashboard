@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T15:39:25Z",
+  "generated_at": "2026-10-28T15:44:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-28T14:15:40Z",
-      "current_price": 0.07582,
-      "pnl_percent": -0.06,
+      "current_price": 0.07577,
+      "pnl_percent": 0.0,
       "reasons": [
         "Цена пробила поддержку 0.07518",
         "Хорошее тело свечи (57%)",
@@ -3089,11 +3089,6 @@
       "n": 3
     },
     {
-      "symbol": "BNB",
-      "r": 0.68,
-      "n": 5
-    },
-    {
       "symbol": "HBAR",
       "r": 0.66,
       "n": 5
@@ -3102,6 +3097,11 @@
       "symbol": "NEAR",
       "r": 0.4,
       "n": 6
+    },
+    {
+      "symbol": "BNB",
+      "r": 0.26,
+      "n": 4
     },
     {
       "symbol": "INJ",
