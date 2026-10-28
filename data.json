@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T21:59:25Z",
+  "generated_at": "2026-10-28T22:04:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-28T20:01:39Z",
-      "current_price": 102.74,
+      "current_price": 102.42,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 102.540",
@@ -3050,15 +3050,15 @@
       "deposit_result": -0.94
     },
     "today": {
-      "total": 2,
+      "total": 0,
       "tp": 0,
-      "sl": 1,
-      "be": 1,
+      "sl": 0,
+      "be": 0,
       "winrate": 0.0,
-      "effective_winrate": 50.0,
-      "sum_pnl": -1.47,
-      "r_result": -0.58,
-      "deposit_result": -0.06
+      "effective_winrate": 0.0,
+      "sum_pnl": 0,
+      "r_result": 0,
+      "deposit_result": 0.0
     },
     "week": {
       "total": 20,
