@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T08:29:25Z",
+  "generated_at": "2026-10-28T08:34:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-27T21:45:40Z",
-      "current_price": 1.3338,
-      "pnl_percent": -0.16,
+      "current_price": 1.3333,
+      "pnl_percent": -0.2,
       "reasons": [
         "Цена пробила сопротивление 1.3213",
         "Объём подтверждает пробой (3.4× от среднего)",
@@ -3089,13 +3089,13 @@
       "n": 3
     },
     {
-      "symbol": "HBAR",
-      "r": 1.08,
-      "n": 6
-    },
-    {
       "symbol": "BNB",
       "r": 0.68,
+      "n": 5
+    },
+    {
+      "symbol": "HBAR",
+      "r": 0.66,
       "n": 5
     },
     {
