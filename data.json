@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T17:09:25Z",
+  "generated_at": "2026-10-28T17:14:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-28T14:15:40Z",
-      "current_price": 0.07489,
-      "pnl_percent": 1.17,
+      "current_price": 0.0749,
+      "pnl_percent": 1.15,
       "reasons": [
         "Цена пробила поддержку 0.07518",
         "Хорошее тело свечи (57%)",
