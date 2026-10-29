@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T13:49:26Z",
+  "generated_at": "2026-10-29T13:54:26Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-29T12:15:47Z",
-      "current_price": 0.2012,
-      "pnl_percent": -0.69,
+      "current_price": 0.2015,
+      "pnl_percent": -0.84,
       "reasons": [
         "Цена пробила поддержку 0.20030",
         "Объём подтверждает пробой (2.2× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 79,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-29T12:15:47Z",
-      "current_price": 8.795,
-      "pnl_percent": -0.74,
+      "current_price": 8.807,
+      "pnl_percent": -0.87,
       "reasons": [
         "Цена пробила поддержку 8.7490",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -63,37 +63,6 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "⚠️ Встречный FVG в зоне риска"
-      ]
-    },
-    {
-      "symbol": "DOT",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 0.982725725081755,
-      "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 0.9983806596784377,
-      "effective_stop": 0.9983806596784377,
-      "tp1": 0.9717672708640772,
-      "tp2": 0.959243323186731,
-      "tp3": 0.9514158558883897,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 78,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-10-29T12:15:47Z",
-      "current_price": 0.9947,
-      "pnl_percent": -1.22,
-      "reasons": [
-        "Цена пробила поддержку 0.98190",
-        "Объём подтверждает пробой (1.5× от среднего)",
-        "Хорошее тело свечи (57%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 45.6 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает, но есть встречный FVG в зоне риска"
       ]
     },
     {
@@ -114,8 +83,8 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-29T13:45:48Z",
-      "current_price": 80002.1,
-      "pnl_percent": 0.11,
+      "current_price": 80178.7,
+      "pnl_percent": -0.11,
       "reasons": [
         "Цена пробила поддержку 79978.00",
         "Объём подтверждает пробой (3.2× от среднего)",
@@ -126,9 +95,55 @@
         "4h согласен с направлением",
         "Order Block поддерживает направление"
       ]
+    },
+    {
+      "symbol": "ETH",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 2321.418278357923,
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
+      "sl": 2344.6324611415025,
+      "effective_stop": 2344.6324611415025,
+      "tp1": 2305.1683504094176,
+      "tp2": 2286.597004182554,
+      "tp3": 2274.9899127907643,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-29T13:51:49Z",
+      "current_price": 2322.35,
+      "pnl_percent": -0.04,
+      "reasons": [
+        "Цена пробила поддержку 2316.57",
+        "Объём подтверждает пробой (3.9× от среднего)",
+        "Хорошее тело свечи (70%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 42.9 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "⚠️ Встречный Order Block рядом"
+      ]
     }
   ],
   "history": [
+    {
+      "symbol": "DOT",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "SL",
+      "status": "sl",
+      "entry_kind": "limit",
+      "pnl_percent": -1.59,
+      "r_multiple": -1.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-10-29T12:15:47Z",
+      "close_time": "2026-10-29T13:51:22Z",
+      "rr": 1.5
+    },
     {
       "symbol": "XRP",
       "tf": "15m",
@@ -3113,56 +3128,41 @@
       "open_time": "2026-09-06T16:01:18Z",
       "close_time": "2026-09-06T17:05:47Z",
       "rr": 1.4999999999999973
-    },
-    {
-      "symbol": "DOT",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "CANCEL",
-      "status": "cancelled",
-      "entry_kind": "cancelled",
-      "pnl_percent": 0,
-      "r_multiple": 0.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-09-06T10:15:56Z",
-      "close_time": "2026-09-06T14:15:48Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 1031,
+      "total": 1032,
       "tp": 156,
-      "sl": 453,
+      "sl": 454,
       "be": 422,
       "winrate": 15.1,
-      "effective_winrate": 56.1,
-      "sum_pnl": -39.17,
-      "r_result": -8.49,
-      "deposit_result": -0.85
+      "effective_winrate": 56.0,
+      "sum_pnl": -40.76,
+      "r_result": -9.49,
+      "deposit_result": -0.95
     },
     "today": {
-      "total": 3,
+      "total": 4,
       "tp": 1,
-      "sl": 1,
+      "sl": 2,
       "be": 1,
-      "winrate": 33.3,
-      "effective_winrate": 66.7,
-      "sum_pnl": 0.97,
-      "r_result": 0.88,
-      "deposit_result": 0.09
+      "winrate": 25.0,
+      "effective_winrate": 50.0,
+      "sum_pnl": -0.62,
+      "r_result": -0.12,
+      "deposit_result": -0.01
     },
     "week": {
-      "total": 23,
+      "total": 24,
       "tp": 2,
-      "sl": 9,
+      "sl": 10,
       "be": 12,
-      "winrate": 8.7,
-      "effective_winrate": 60.9,
-      "sum_pnl": 1.9,
-      "r_result": -0.32,
-      "deposit_result": -0.03
+      "winrate": 8.3,
+      "effective_winrate": 58.3,
+      "sum_pnl": 0.3,
+      "r_result": -1.32,
+      "deposit_result": -0.13
     }
   },
   "symbols_30d": [
@@ -3227,14 +3227,14 @@
       "n": 4
     },
     {
-      "symbol": "DOT",
-      "r": -1.5,
-      "n": 10
-    },
-    {
       "symbol": "XRP",
       "r": -1.74,
       "n": 6
+    },
+    {
+      "symbol": "DOT",
+      "r": -2.5,
+      "n": 11
     },
     {
       "symbol": "ADA",
