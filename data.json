@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T15:44:26Z",
+  "generated_at": "2026-10-30T15:49:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-30T09:15:38Z",
-      "current_price": 77517.8,
-      "pnl_percent": -0.28,
+      "current_price": 77393.9,
+      "pnl_percent": -0.12,
       "reasons": [
         "Цена пробила поддержку 77934.50",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-30T15:00:37Z",
-      "current_price": 94.54,
-      "pnl_percent": 1.35,
+      "current_price": 94.37,
+      "pnl_percent": 1.53,
       "reasons": [
         "Цена пробила поддержку 96.3800",
         "Объём выше среднего (1.5×)",
@@ -62,6 +62,37 @@
         "RSI 31.8 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает направление",
+        "Order Block поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "ETH",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 2232.151228039361,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-30T19:45:00Z",
+      "sl": 2268.3744894024376,
+      "effective_stop": 2268.3744894024376,
+      "tp1": 2206.794945085207,
+      "tp2": 2177.8163359947457,
+      "tp3": 2159.7047053132073,
+      "max_tp_hit": 0,
+      "rr": 1.4999999999999947,
+      "probability": 83,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-30T15:45:39Z",
+      "current_price": 2225.81,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 2213.08",
+        "Объём подтверждает пробой (1.6× от среднего)",
+        "Сильное тело свечи (86%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 46.1 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
         "Order Block поддерживает направление"
       ]
     }
