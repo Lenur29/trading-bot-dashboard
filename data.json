@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T14:59:25Z",
+  "generated_at": "2026-10-30T15:04:26Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-30T09:15:38Z",
-      "current_price": 77206.4,
-      "pnl_percent": 0.12,
+      "current_price": 77478.8,
+      "pnl_percent": -0.23,
       "reasons": [
         "Цена пробила поддержку 77934.50",
         "Объём подтверждает пробой (1.7× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-30T09:15:38Z",
-      "current_price": 7.131,
-      "pnl_percent": 2.07,
+      "current_price": 7.157,
+      "pnl_percent": 1.71,
       "reasons": [
         "Цена пробила поддержку 7.2110",
         "Объём подтверждает пробой (1.5× от среднего)",
@@ -63,6 +63,37 @@
         "Медвежья свеча подтверждает пробой",
         "FVG поддерживает, но есть встречный FVG в зоне риска",
         "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "SOL",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 95.83327542587824,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-10-30T19:00:00Z",
+      "sl": 97.15983230650951,
+      "effective_stop": 97.15983230650951,
+      "tp1": 94.90468560943636,
+      "tp2": 93.84344010493133,
+      "tp3": 93.1801616646157,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 73,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-10-30T15:00:37Z",
+      "current_price": 94.98,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 96.3800",
+        "Объём выше среднего (1.5×)",
+        "Хорошее тело свечи (50%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 31.8 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление"
       ]
     }
   ],
