@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-10-30T21:34:25Z",
+  "generated_at": "2026-10-30T21:39:26Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "SOL",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 95.83327542587824,
-      "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 97.15983230650951,
-      "effective_stop": 95.43530836168885,
-      "tp1": 94.90468560943636,
-      "tp2": 93.84344010493133,
-      "tp3": 93.1801616646157,
-      "max_tp_hit": 2,
-      "rr": 1.5,
-      "probability": 73,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-10-30T15:00:37Z",
-      "current_price": 95.43,
-      "pnl_percent": 0.42,
-      "reasons": [
-        "Цена пробила поддержку 96.3800",
-        "Объём выше среднего (1.5×)",
-        "Хорошее тело свечи (50%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 31.8 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "FVG поддерживает направление",
-        "Order Block поддерживает направление"
-      ]
-    },
     {
       "symbol": "ETH",
       "tf": "15m",
@@ -52,8 +21,8 @@
       "probability": 83,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-30T15:45:39Z",
-      "current_price": 2238.98,
-      "pnl_percent": -0.31,
+      "current_price": 2239.21,
+      "pnl_percent": -0.32,
       "reasons": [
         "Цена пробила поддержку 2213.08",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -83,8 +52,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-10-30T16:00:32Z",
-      "current_price": 1.167,
-      "pnl_percent": -0.66,
+      "current_price": 1.166,
+      "pnl_percent": -0.57,
       "reasons": [
         "Цена пробила поддержку 1.1510",
         "Объём подтверждает пробой (1.5× от среднего)",
@@ -98,6 +67,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "SOL",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "BE",
+      "status": "be",
+      "entry_kind": "limit",
+      "pnl_percent": 1.08,
+      "r_multiple": 0.78,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 2,
+      "open_time": "2026-10-30T15:00:37Z",
+      "close_time": "2026-10-30T21:35:22Z",
+      "rr": 1.5
+    },
     {
       "symbol": "BTC",
       "tf": "15m",
@@ -3082,56 +3066,41 @@
       "open_time": "2026-09-07T09:16:03Z",
       "close_time": "2026-09-07T17:47:46Z",
       "rr": 1.4999999999999982
-    },
-    {
-      "symbol": "INJ",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 0.92,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-09-07T16:45:56Z",
-      "close_time": "2026-09-07T17:35:47Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 1038,
+      "total": 1039,
       "tp": 156,
       "sl": 458,
-      "be": 424,
+      "be": 425,
       "winrate": 15.0,
       "effective_winrate": 55.9,
-      "sum_pnl": -43.21,
-      "r_result": -12.29,
-      "deposit_result": -1.23
+      "sum_pnl": -42.13,
+      "r_result": -11.51,
+      "deposit_result": -1.15
     },
     "today": {
-      "total": 2,
+      "total": 3,
       "tp": 0,
       "sl": 0,
-      "be": 2,
+      "be": 3,
       "winrate": 0.0,
       "effective_winrate": 100.0,
-      "sum_pnl": 2.41,
-      "r_result": 1.2,
-      "deposit_result": 0.12
+      "sum_pnl": 3.49,
+      "r_result": 1.98,
+      "deposit_result": 0.2
     },
     "week": {
-      "total": 25,
+      "total": 26,
       "tp": 2,
       "sl": 12,
-      "be": 11,
-      "winrate": 8.0,
-      "effective_winrate": 52.0,
-      "sum_pnl": 0.15,
-      "r_result": -3.38,
-      "deposit_result": -0.34
+      "be": 12,
+      "winrate": 7.7,
+      "effective_winrate": 53.8,
+      "sum_pnl": 1.23,
+      "r_result": -2.6,
+      "deposit_result": -0.26
     }
   },
   "symbols_30d": [
@@ -3217,8 +3186,8 @@
     },
     {
       "symbol": "SOL",
-      "r": -5.0,
-      "n": 5
+      "r": -4.22,
+      "n": 6
     }
   ]
 }
