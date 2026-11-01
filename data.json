@@ -1,41 +1,24 @@
 {
-  "generated_at": "2026-11-01T05:24:26Z",
+  "generated_at": "2026-11-01T10:49:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [
+  "active": [],
+  "history": [
     {
       "symbol": "ETH",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 2232.151228039361,
+      "result": "SL",
+      "status": "sl",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 2268.3744894024376,
-      "effective_stop": 2268.3744894024376,
-      "tp1": 2206.794945085207,
-      "tp2": 2177.8163359947457,
-      "tp3": 2159.7047053132073,
-      "max_tp_hit": 0,
-      "rr": 1.4999999999999947,
-      "probability": 83,
+      "pnl_percent": -1.62,
+      "r_multiple": -1.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-10-30T15:45:39Z",
-      "current_price": 2266.07,
-      "pnl_percent": -1.52,
-      "reasons": [
-        "Цена пробила поддержку 2213.08",
-        "Объём подтверждает пробой (1.6× от среднего)",
-        "Сильное тело свечи (86%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 46.1 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "Order Block поддерживает направление"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-11-01T08:15:23Z",
+      "rr": 1.4999999999999947
+    },
     {
       "symbol": "GRAM",
       "tf": "15m",
@@ -3020,56 +3003,41 @@
       "open_time": "2026-09-07T21:15:58Z",
       "close_time": "2026-09-08T06:55:48Z",
       "rr": 1.5000000000000042
-    },
-    {
-      "symbol": "SUI",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "limit",
-      "pnl_percent": -0.99,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-09-07T20:45:54Z",
-      "close_time": "2026-09-08T06:55:47Z",
-      "rr": 1.4999999999999971
     }
   ],
   "stats": {
     "all": {
-      "total": 1040,
+      "total": 1041,
       "tp": 156,
-      "sl": 459,
+      "sl": 460,
       "be": 425,
       "winrate": 15.0,
-      "effective_winrate": 55.9,
-      "sum_pnl": -43.15,
-      "r_result": -12.51,
-      "deposit_result": -1.25
+      "effective_winrate": 55.8,
+      "sum_pnl": -44.77,
+      "r_result": -13.51,
+      "deposit_result": -1.35
     },
     "today": {
-      "total": 0,
+      "total": 1,
       "tp": 0,
-      "sl": 0,
+      "sl": 1,
       "be": 0,
       "winrate": 0.0,
       "effective_winrate": 0.0,
-      "sum_pnl": 0,
-      "r_result": 0,
-      "deposit_result": 0.0
+      "sum_pnl": -1.62,
+      "r_result": -1.0,
+      "deposit_result": -0.1
     },
     "week": {
-      "total": 23,
+      "total": 24,
       "tp": 2,
-      "sl": 11,
+      "sl": 12,
       "be": 10,
-      "winrate": 8.7,
-      "effective_winrate": 52.2,
-      "sum_pnl": 0.75,
-      "r_result": -2.8,
-      "deposit_result": -0.28
+      "winrate": 8.3,
+      "effective_winrate": 50.0,
+      "sum_pnl": -0.88,
+      "r_result": -3.8,
+      "deposit_result": -0.38
     }
   },
   "symbols_30d": [
@@ -3109,6 +3077,11 @@
       "n": 5
     },
     {
+      "symbol": "DOT",
+      "r": -0.5,
+      "n": 9
+    },
+    {
       "symbol": "LINK",
       "r": -0.58,
       "n": 2
@@ -3119,17 +3092,12 @@
       "n": 1
     },
     {
-      "symbol": "ETH",
-      "r": -1.16,
-      "n": 4
-    },
-    {
-      "symbol": "DOT",
-      "r": -1.5,
-      "n": 10
-    },
-    {
       "symbol": "XRP",
+      "r": -2.16,
+      "n": 5
+    },
+    {
+      "symbol": "ETH",
       "r": -2.16,
       "n": 5
     },
