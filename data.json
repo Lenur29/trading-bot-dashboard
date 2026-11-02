@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:29:25Z",
+  "generated_at": "2026-11-02T13:34:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-02T09:00:35Z",
-      "current_price": 131.37,
-      "pnl_percent": -0.32,
+      "current_price": 131.39,
+      "pnl_percent": -0.34,
       "reasons": [
         "Цена пробила поддержку 133.140",
         "Объём выше среднего (1.4×)",
@@ -32,6 +32,37 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "ADA",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.19076077981718673,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-11-02T17:30:00Z",
+      "sl": 0.1926683876153586,
+      "effective_stop": 0.1926683876153586,
+      "tp1": 0.18942545435846642,
+      "tp2": 0.1878993681199289,
+      "tp3": 0.186945564220843,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 76,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-11-02T13:30:38Z",
+      "current_price": 0.1899,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 0.19020",
+        "Объём подтверждает пробой (1.9× от среднего)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 39.4 — здоровая зона для шорта",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "London/NY overlap — пиковая ликвидность",
+        "Уровень 0.19020 был ретест-подтверждён до текущего пробоя"
       ]
     }
   ],
