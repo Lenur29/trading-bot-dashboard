@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:59:26Z",
+  "generated_at": "2026-11-02T14:04:26Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-02T09:00:35Z",
-      "current_price": 132.17,
-      "pnl_percent": -0.93,
+      "current_price": 132.2,
+      "pnl_percent": -0.95,
       "reasons": [
         "Цена пробила поддержку 133.140",
         "Объём выше среднего (1.4×)",
@@ -52,8 +52,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-02T13:30:38Z",
-      "current_price": 0.1907,
-      "pnl_percent": 0.03,
+      "current_price": 0.1905,
+      "pnl_percent": 0.14,
       "reasons": [
         "Цена пробила поддержку 0.19020",
         "Объём подтверждает пробой (1.9× от среднего)",
@@ -63,6 +63,37 @@
         "FVG поддерживает направление",
         "London/NY overlap — пиковая ликвидность",
         "Уровень 0.19020 был ретест-подтверждён до текущего пробоя"
+      ]
+    },
+    {
+      "symbol": "NEAR",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 4.116346202272042,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-11-02T18:00:00Z",
+      "sl": 4.169954080122008,
+      "effective_stop": 4.169954080122008,
+      "tp1": 4.078820687777065,
+      "tp2": 4.035934385497092,
+      "tp3": 4.009130446572109,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-11-02T14:01:40Z",
+      "current_price": 4.081,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 4.0820",
+        "Объём подтверждает пробой (2.5× от среднего)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 40.6 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "London/NY overlap — пиковая ликвидность"
       ]
     }
   ],
