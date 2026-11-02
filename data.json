@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-11-02T08:59:23Z",
+  "generated_at": "2026-11-02T09:04:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "AAVE",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 133.77119425098002,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-11-02T13:00:00Z",
+      "sl": 135.10890619348982,
+      "effective_stop": 135.10890619348982,
+      "tp1": 132.83479589122317,
+      "tp2": 131.7646263372153,
+      "tp3": 131.09577036596042,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 74,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-11-02T09:00:35Z",
+      "current_price": 132.9,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 133.140",
+        "Объём выше среднего (1.4×)",
+        "Хорошее тело свечи (69%)",
+        "EMA20 < EMA50 — краткосрочный даунтренд",
+        "RSI 35.5 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "ETH",
