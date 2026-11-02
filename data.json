@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:29:26Z",
+  "generated_at": "2026-11-02T17:34:26Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-02T09:00:35Z",
-      "current_price": 127.09,
-      "pnl_percent": 2.95,
+      "current_price": 127.06,
+      "pnl_percent": 2.97,
       "reasons": [
         "Цена пробила поддержку 133.140",
         "Объём выше среднего (1.4×)",
@@ -52,7 +52,7 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-02T14:01:40Z",
-      "current_price": 3.935,
+      "current_price": 3.929,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 4.0820",
@@ -83,7 +83,7 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-02T16:00:58Z",
-      "current_price": 54.15,
+      "current_price": 54.07,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 54.6700",
@@ -92,6 +92,37 @@
         "Хорошее тело свечи (55%)",
         "EMA20 < EMA50 < EMA200 — нисходящая структура",
         "RSI 36.6 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "AVAX",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 8.517002446025652,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-11-02T21:30:00Z",
+      "sl": 8.64176919928828,
+      "effective_stop": 8.64176919928828,
+      "tp1": 8.429665718741813,
+      "tp2": 8.32985231613171,
+      "tp3": 8.267468939500395,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000038,
+      "probability": 88,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-11-02T17:30:40Z",
+      "current_price": 8.397,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 8.4420",
+        "Уровень 8.4420 тестировался 3 раз",
+        "Объём подтверждает пробой (1.7× от среднего)",
+        "Сильное тело свечи (70%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 28.8 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением"
       ]
