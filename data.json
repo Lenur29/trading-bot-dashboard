@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T21:59:25Z",
+  "generated_at": "2026-11-03T22:04:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 87,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-02T16:00:58Z",
-      "current_price": 54.68,
-      "pnl_percent": -1.41,
+      "current_price": 54.65,
+      "pnl_percent": -1.35,
       "reasons": [
         "Цена пробила поддержку 54.6700",
         "Уровень 54.6700 тестировался 3 раз",
@@ -3050,26 +3050,26 @@
       "deposit_result": -1.11
     },
     "today": {
-      "total": 2,
+      "total": 0,
       "tp": 0,
-      "sl": 1,
-      "be": 1,
+      "sl": 0,
+      "be": 0,
       "winrate": 0.0,
-      "effective_winrate": 50.0,
-      "sum_pnl": -1.33,
-      "r_result": -0.22,
-      "deposit_result": -0.02
+      "effective_winrate": 0.0,
+      "sum_pnl": 0,
+      "r_result": 0,
+      "deposit_result": 0.0
     },
     "week": {
-      "total": 22,
+      "total": 20,
       "tp": 2,
       "sl": 10,
-      "be": 10,
-      "winrate": 9.1,
-      "effective_winrate": 54.5,
-      "sum_pnl": -1.83,
-      "r_result": -1.44,
-      "deposit_result": -0.14
+      "be": 8,
+      "winrate": 10.0,
+      "effective_winrate": 50.0,
+      "sum_pnl": -3.64,
+      "r_result": -2.28,
+      "deposit_result": -0.23
     }
   },
   "symbols_30d": [
