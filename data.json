@@ -1,41 +1,24 @@
 {
-  "generated_at": "2026-11-04T01:14:25Z",
+  "generated_at": "2026-11-04T10:59:34Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [
+  "active": [],
+  "history": [
     {
       "symbol": "LTC",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 53.92,
+      "result": "BE",
+      "status": "be",
       "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 55.39727881774768,
-      "effective_stop": 55.39727881774768,
-      "tp1": 52.885904827576624,
-      "tp2": 51.704081773378476,
-      "tp3": 50.96544236450464,
-      "max_tp_hit": 0,
-      "rr": 1.5000000000000044,
-      "probability": 87,
+      "pnl_percent": 1.15,
+      "r_multiple": 0.42,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
       "open_time": "2026-11-02T16:00:58Z",
-      "current_price": 53.21,
-      "pnl_percent": 1.32,
-      "reasons": [
-        "Цена пробила поддержку 54.6700",
-        "Уровень 54.6700 тестировался 3 раз",
-        "Объём подтверждает пробой (3.3× от среднего)",
-        "Хорошее тело свечи (55%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 36.6 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-11-04T10:54:22Z",
+      "rr": 1.5000000000000044
+    },
     {
       "symbol": "AAVE",
       "tf": "15m",
@@ -3020,56 +3003,41 @@
       "open_time": "2026-09-08T12:16:00Z",
       "close_time": "2026-09-08T18:09:47Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "INJ",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 1.31,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-09-08T15:01:15Z",
-      "close_time": "2026-09-08T17:27:46Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 1046,
+      "total": 1047,
       "tp": 157,
       "sl": 461,
-      "be": 428,
+      "be": 429,
       "winrate": 15.0,
-      "effective_winrate": 55.9,
-      "sum_pnl": -42.31,
-      "r_result": -11.07,
-      "deposit_result": -1.11
+      "effective_winrate": 56.0,
+      "sum_pnl": -41.16,
+      "r_result": -10.65,
+      "deposit_result": -1.06
     },
     "today": {
-      "total": 0,
+      "total": 1,
       "tp": 0,
       "sl": 0,
-      "be": 0,
+      "be": 1,
       "winrate": 0.0,
-      "effective_winrate": 0.0,
-      "sum_pnl": 0,
-      "r_result": 0,
-      "deposit_result": 0.0
+      "effective_winrate": 100.0,
+      "sum_pnl": 1.15,
+      "r_result": 0.42,
+      "deposit_result": 0.04
     },
     "week": {
-      "total": 20,
+      "total": 21,
       "tp": 2,
       "sl": 10,
-      "be": 8,
-      "winrate": 10.0,
-      "effective_winrate": 50.0,
-      "sum_pnl": -3.64,
-      "r_result": -2.28,
-      "deposit_result": -0.23
+      "be": 9,
+      "winrate": 9.5,
+      "effective_winrate": 52.4,
+      "sum_pnl": -2.49,
+      "r_result": -1.86,
+      "deposit_result": -0.19
     }
   },
   "symbols_30d": [
@@ -3090,8 +3058,8 @@
     },
     {
       "symbol": "LTC",
-      "r": 1.46,
-      "n": 1
+      "r": 1.88,
+      "n": 2
     },
     {
       "symbol": "INJ",
