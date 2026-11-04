@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T14:29:23Z",
+  "generated_at": "2026-11-04T14:34:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3112,6 +3112,11 @@
       "n": 4
     },
     {
+      "symbol": "SOL",
+      "r": -3.22,
+      "n": 5
+    },
+    {
       "symbol": "BTC",
       "r": -3.58,
       "n": 5
@@ -3120,11 +3125,6 @@
       "symbol": "ADA",
       "r": -3.58,
       "n": 5
-    },
-    {
-      "symbol": "SOL",
-      "r": -4.22,
-      "n": 6
     }
   ]
 }
