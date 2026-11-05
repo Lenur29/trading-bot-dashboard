@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T21:59:25Z",
+  "generated_at": "2026-11-05T22:04:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-05T21:15:42Z",
-      "current_price": 0.8468,
+      "current_price": 0.8485,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.85440",
@@ -3061,15 +3061,15 @@
       "deposit_result": 0.0
     },
     "week": {
-      "total": 19,
-      "tp": 2,
-      "sl": 9,
-      "be": 8,
-      "winrate": 10.5,
-      "effective_winrate": 52.6,
-      "sum_pnl": -1.02,
-      "r_result": -1.28,
-      "deposit_result": -0.13
+      "total": 11,
+      "tp": 1,
+      "sl": 3,
+      "be": 7,
+      "winrate": 9.1,
+      "effective_winrate": 72.7,
+      "sum_pnl": 4.46,
+      "r_result": 2.84,
+      "deposit_result": 0.28
     }
   },
   "symbols_30d": [
