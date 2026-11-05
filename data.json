@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:24:23Z",
+  "generated_at": "2026-11-05T14:29:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3112,17 +3112,17 @@
       "n": 4
     },
     {
+      "symbol": "ADA",
+      "r": -2.58,
+      "n": 4
+    },
+    {
       "symbol": "AVAX",
       "r": -2.8,
       "n": 6
     },
     {
       "symbol": "BTC",
-      "r": -3.58,
-      "n": 5
-    },
-    {
-      "symbol": "ADA",
       "r": -3.58,
       "n": 5
     }
