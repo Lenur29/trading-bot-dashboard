@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T00:24:23Z",
+  "generated_at": "2026-11-05T07:49:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3047,14 +3047,14 @@
       "n": 6
     },
     {
-      "symbol": "ENA",
-      "r": 2.7,
-      "n": 4
-    },
-    {
       "symbol": "SUI",
       "r": 2.56,
       "n": 7
+    },
+    {
+      "symbol": "ENA",
+      "r": 1.92,
+      "n": 3
     },
     {
       "symbol": "LTC",
@@ -3102,6 +3102,11 @@
       "n": 4
     },
     {
+      "symbol": "SOL",
+      "r": -2.22,
+      "n": 4
+    },
+    {
       "symbol": "AVAX",
       "r": -2.38,
       "n": 7
@@ -3110,11 +3115,6 @@
       "symbol": "XRP",
       "r": -2.58,
       "n": 4
-    },
-    {
-      "symbol": "SOL",
-      "r": -3.22,
-      "n": 5
     },
     {
       "symbol": "BTC",
