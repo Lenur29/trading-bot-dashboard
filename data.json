@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T16:54:23Z",
+  "generated_at": "2026-11-05T16:59:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3067,11 +3067,6 @@
       "n": 4
     },
     {
-      "symbol": "NEAR",
-      "r": -0.02,
-      "n": 5
-    },
-    {
       "symbol": "BNB",
       "r": -0.16,
       "n": 3
@@ -3095,6 +3090,11 @@
       "symbol": "LINK",
       "r": -0.58,
       "n": 2
+    },
+    {
+      "symbol": "NEAR",
+      "r": -0.8,
+      "n": 4
     },
     {
       "symbol": "ETH",
