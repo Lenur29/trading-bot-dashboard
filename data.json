@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T16:04:25Z",
+  "generated_at": "2026-11-06T16:09:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -3129,6 +3129,11 @@
       "n": 3
     },
     {
+      "symbol": "AVAX",
+      "r": -1.58,
+      "n": 3
+    },
+    {
       "symbol": "NEAR",
       "r": -1.8,
       "n": 5
@@ -3145,11 +3150,6 @@
     },
     {
       "symbol": "XRP",
-      "r": -2.58,
-      "n": 4
-    },
-    {
-      "symbol": "AVAX",
       "r": -2.58,
       "n": 4
     },
