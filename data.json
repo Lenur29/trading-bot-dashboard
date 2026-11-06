@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:09:26Z",
+  "generated_at": "2026-11-06T08:14:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-05T23:00:40Z",
-      "current_price": 52.31,
-      "pnl_percent": -0.21,
+      "current_price": 52.36,
+      "pnl_percent": -0.31,
       "reasons": [
         "Цена пробила поддержку 51.7900",
         "Сильное тело свечи (90%)",
