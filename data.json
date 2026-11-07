@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T12:09:25Z",
+  "generated_at": "2026-11-07T16:14:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -8,21 +8,21 @@
       "tf": "15m",
       "side": "SHORT",
       "entry": 0.9053694378545248,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-11-07T14:30:00Z",
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
       "sl": 0.9144231322330701,
-      "effective_stop": 0.9144231322330701,
+      "effective_stop": 0.9026533295409612,
       "tp1": 0.8990318517895431,
       "tp2": 0.8917888962867069,
       "tp3": 0.8872620490974342,
-      "max_tp_hit": 0,
+      "max_tp_hit": 2,
       "rr": 1.4999999999999956,
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-07T10:30:48Z",
-      "current_price": 0.9023,
-      "pnl_percent": null,
+      "current_price": 0.8965,
+      "pnl_percent": 0.98,
       "reasons": [
         "Цена пробила поддержку 0.90420",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -3089,11 +3089,6 @@
       "n": 1
     },
     {
-      "symbol": "LTC",
-      "r": 0.88,
-      "n": 3
-    },
-    {
       "symbol": "GRAM",
       "r": 0.62,
       "n": 4
@@ -3109,12 +3104,12 @@
       "n": 2
     },
     {
-      "symbol": "DOT",
-      "r": -0.5,
-      "n": 9
+      "symbol": "LINK",
+      "r": -0.58,
+      "n": 2
     },
     {
-      "symbol": "LINK",
+      "symbol": "LTC",
       "r": -0.58,
       "n": 2
     },
@@ -3142,6 +3137,11 @@
       "symbol": "NEAR",
       "r": -1.8,
       "n": 5
+    },
+    {
+      "symbol": "DOT",
+      "r": -1.96,
+      "n": 8
     },
     {
       "symbol": "ADA",
