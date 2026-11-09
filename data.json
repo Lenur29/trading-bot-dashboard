@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T22:04:25Z",
+  "generated_at": "2026-11-09T22:09:26Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-09T20:30:29Z",
-      "current_price": 8.637,
-      "pnl_percent": 0.16,
+      "current_price": 8.633,
+      "pnl_percent": 0.11,
       "reasons": [
         "Цена пробила сопротивление 8.6110",
         "Уровень 8.6110 тестировался 5 раз",
