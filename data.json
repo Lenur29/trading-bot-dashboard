@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:19:23Z",
+  "generated_at": "2026-11-09T08:24:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3057,6 +3057,11 @@
       "n": 1
     },
     {
+      "symbol": "AAVE",
+      "r": 0.78,
+      "n": 1
+    },
+    {
       "symbol": "GRAM",
       "r": 0.62,
       "n": 4
@@ -3065,11 +3070,6 @@
       "symbol": "BNB",
       "r": -0.16,
       "n": 3
-    },
-    {
-      "symbol": "AAVE",
-      "r": -0.22,
-      "n": 2
     },
     {
       "symbol": "LINK",
@@ -3102,6 +3102,11 @@
       "n": 3
     },
     {
+      "symbol": "SOL",
+      "r": -1.22,
+      "n": 3
+    },
+    {
       "symbol": "AVAX",
       "r": -1.58,
       "n": 3
@@ -3115,11 +3120,6 @@
       "symbol": "ADA",
       "r": -2.16,
       "n": 5
-    },
-    {
-      "symbol": "SOL",
-      "r": -2.22,
-      "n": 4
     },
     {
       "symbol": "BTC",
