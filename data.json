@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-11-09T11:14:23Z",
+  "generated_at": "2026-11-09T11:19:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "XRP",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 1.090758659379156,
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
+      "sl": 1.1047651100454607,
+      "effective_stop": 1.1047651100454607,
+      "tp1": 1.0809541439127428,
+      "tp2": 1.0697489833796991,
+      "tp3": 1.0627457580465467,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 80,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-11-09T11:15:33Z",
+      "current_price": 1.0885,
+      "pnl_percent": 0.21,
+      "reasons": [
+        "Цена пробила поддержку 1.0853",
+        "Объём подтверждает пробой (2.1× от среднего)",
+        "Хорошее тело свечи (70%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 31.5 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "XRP",
