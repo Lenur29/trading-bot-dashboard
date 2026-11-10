@@ -1,41 +1,24 @@
 {
-  "generated_at": "2026-11-10T14:59:25Z",
+  "generated_at": "2026-11-10T15:04:24Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [
+  "active": [],
+  "history": [
     {
       "symbol": "DOT",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 0.853241366617218,
+      "result": "SL",
+      "status": "sl",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 0.8645575183172708,
-      "effective_stop": 0.8645575183172708,
-      "tp1": 0.845320060427181,
-      "tp2": 0.8362671390671387,
-      "tp3": 0.8306090632171123,
-      "max_tp_hit": 0,
-      "rr": 1.499999999999997,
-      "probability": 77,
+      "pnl_percent": -1.33,
+      "r_multiple": -1.0,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
       "open_time": "2026-11-10T13:45:36Z",
-      "current_price": 0.8626,
-      "pnl_percent": -1.1,
-      "reasons": [
-        "Цена пробила поддержку 0.85370",
-        "Объём подтверждает пробой (8.8× от среднего)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 40.2 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "BTC согласуется с направлением (-0.66%)",
-        "London/NY overlap — пиковая ликвидность"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-11-10T15:01:21Z",
+      "rr": 1.499999999999997
+    },
     {
       "symbol": "AVAX",
       "tf": "15m",
@@ -3020,56 +3003,41 @@
       "open_time": "2026-09-10T20:00:55Z",
       "close_time": "2026-09-11T13:49:47Z",
       "rr": 1.5000000000000024
-    },
-    {
-      "symbol": "GRAM",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "SL",
-      "status": "sl",
-      "entry_kind": "limit",
-      "pnl_percent": -0.57,
-      "r_multiple": -1.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-09-11T10:46:00Z",
-      "close_time": "2026-09-11T12:37:47Z",
-      "rr": 1.4999999999999927
     }
   ],
   "stats": {
     "all": {
-      "total": 1057,
+      "total": 1058,
       "tp": 158,
-      "sl": 464,
+      "sl": 465,
       "be": 435,
       "winrate": 14.9,
-      "effective_winrate": 56.1,
-      "sum_pnl": -40.5,
-      "r_result": -9.31,
-      "deposit_result": -0.93
+      "effective_winrate": 56.0,
+      "sum_pnl": -41.82,
+      "r_result": -10.31,
+      "deposit_result": -1.03
     },
     "today": {
-      "total": 1,
+      "total": 2,
       "tp": 0,
-      "sl": 1,
+      "sl": 2,
       "be": 0,
       "winrate": 0.0,
       "effective_winrate": 0.0,
-      "sum_pnl": -2.21,
-      "r_result": -1.0,
-      "deposit_result": -0.1
+      "sum_pnl": -3.53,
+      "r_result": -2.0,
+      "deposit_result": -0.2
     },
     "week": {
-      "total": 13,
+      "total": 14,
       "tp": 1,
-      "sl": 4,
+      "sl": 5,
       "be": 8,
-      "winrate": 7.7,
-      "effective_winrate": 69.2,
-      "sum_pnl": 0.48,
-      "r_result": 1.54,
-      "deposit_result": 0.15
+      "winrate": 7.1,
+      "effective_winrate": 64.3,
+      "sum_pnl": -0.85,
+      "r_result": 0.54,
+      "deposit_result": 0.05
     }
   },
   "symbols_30d": [
@@ -3144,14 +3112,14 @@
       "n": 5
     },
     {
-      "symbol": "DOT",
-      "r": -2.38,
-      "n": 7
-    },
-    {
       "symbol": "AVAX",
       "r": -2.58,
       "n": 4
+    },
+    {
+      "symbol": "DOT",
+      "r": -3.38,
+      "n": 8
     },
     {
       "symbol": "BTC",
