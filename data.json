@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-11-10T13:44:23Z",
+  "generated_at": "2026-11-10T13:49:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "DOT",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.853241366617218,
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
+      "sl": 0.8645575183172708,
+      "effective_stop": 0.8645575183172708,
+      "tp1": 0.845320060427181,
+      "tp2": 0.8362671390671387,
+      "tp3": 0.8306090632171123,
+      "max_tp_hit": 0,
+      "rr": 1.499999999999997,
+      "probability": 77,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-11-10T13:45:36Z",
+      "current_price": 0.8516,
+      "pnl_percent": 0.19,
+      "reasons": [
+        "Цена пробила поддержку 0.85370",
+        "Объём подтверждает пробой (8.8× от среднего)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 40.2 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "BTC согласуется с направлением (-0.66%)",
+        "London/NY overlap — пиковая ликвидность"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "AVAX",
