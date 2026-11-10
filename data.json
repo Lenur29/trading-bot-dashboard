@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T23:29:25Z",
+  "generated_at": "2026-11-10T07:44:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-09T20:30:29Z",
-      "current_price": 8.668,
-      "pnl_percent": 0.52,
+      "current_price": 8.5,
+      "pnl_percent": -1.43,
       "reasons": [
         "Цена пробила сопротивление 8.6110",
         "Уровень 8.6110 тестировался 5 раз",
@@ -3119,6 +3119,11 @@
       "n": 2
     },
     {
+      "symbol": "NEAR",
+      "r": -0.8,
+      "n": 4
+    },
+    {
       "symbol": "INJ",
       "r": -0.8,
       "n": 4
@@ -3137,11 +3142,6 @@
       "symbol": "AVAX",
       "r": -1.58,
       "n": 3
-    },
-    {
-      "symbol": "NEAR",
-      "r": -1.8,
-      "n": 5
     },
     {
       "symbol": "ADA",
