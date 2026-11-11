@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T09:44:26Z",
+  "generated_at": "2026-11-11T09:49:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 90,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-10T15:45:43Z",
-      "current_price": 0.8402,
-      "pnl_percent": -0.88,
+      "current_price": 0.8425,
+      "pnl_percent": -1.15,
       "reasons": [
         "Цена пробила поддержку 0.85020",
         "Уровень 0.85020 тестировался 4 раз",
@@ -3144,14 +3144,14 @@
       "n": 5
     },
     {
+      "symbol": "DOT",
+      "r": -2.38,
+      "n": 7
+    },
+    {
       "symbol": "AVAX",
       "r": -2.58,
       "n": 4
-    },
-    {
-      "symbol": "DOT",
-      "r": -3.38,
-      "n": 8
     },
     {
       "symbol": "BTC",
