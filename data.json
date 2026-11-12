@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T19:44:26Z",
+  "generated_at": "2026-11-12T19:49:26Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 90,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-10T15:45:43Z",
-      "current_price": 0.8258,
-      "pnl_percent": 0.85,
+      "current_price": 0.8271,
+      "pnl_percent": 0.7,
       "reasons": [
         "Цена пробила поддержку 0.85020",
         "Уровень 0.85020 тестировался 4 раз",
@@ -52,8 +52,8 @@
       "probability": 88,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-12T12:30:36Z",
-      "current_price": 71532.0,
-      "pnl_percent": 0.51,
+      "current_price": 71589.0,
+      "pnl_percent": 0.43,
       "reasons": [
         "Цена пробила поддержку 73330.00",
         "Уровень 73330.00 тестировался 3 раз",
@@ -63,6 +63,37 @@
         "RSI 29.3 — здоровая зона для шорта",
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением"
+      ]
+    },
+    {
+      "symbol": "INJ",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 7.38823447006966,
+      "entry_kind": "limit",
+      "pending_fill": false,
+      "ttl_deadline": null,
+      "sl": 7.462116814770357,
+      "effective_stop": 7.462116814770357,
+      "tp1": 7.336516828779173,
+      "tp2": 7.277410953018615,
+      "tp3": 7.240469780668267,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-11-12T19:45:29Z",
+      "current_price": 7.388,
+      "pnl_percent": 0.0,
+      "reasons": [
+        "Цена пробила поддержку 7.3400",
+        "Объём выше среднего (1.4×)",
+        "Хорошее тело свечи (55%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 48.5 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление"
       ]
     }
   ],
