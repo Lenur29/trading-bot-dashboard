@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-11-13T19:29:23Z",
+  "generated_at": "2026-11-13T19:34:25Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "INJ",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 8.095236537222897,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-11-13T23:30:00Z",
+      "sl": 7.987965346343763,
+      "effective_stop": 7.987965346343763,
+      "tp1": 8.170326370838291,
+      "tp2": 8.256143323541597,
+      "tp3": 8.309778918981165,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 77,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-11-13T19:30:31Z",
+      "current_price": 8.252,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 8.2290",
+        "Уровень 8.2290 тестировался 4 раз",
+        "Объём выше среднего (1.3×)",
+        "Сильное тело свечи (74%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 63.6 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "HBAR",
