@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T22:14:26Z",
+  "generated_at": "2026-11-13T22:19:27Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-13T21:15:58Z",
-      "current_price": 78.17,
+      "current_price": 78.34,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 79.8500",
@@ -52,7 +52,7 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-13T21:15:58Z",
-      "current_price": 1.0082,
+      "current_price": 1.0092,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.0247",
@@ -83,7 +83,7 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-13T21:30:30Z",
-      "current_price": 68206.6,
+      "current_price": 68236.5,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 68890.70",
@@ -94,6 +94,37 @@
         "FVG поддерживает направление",
         "Order Block поддерживает направление",
         "Активная торговая сессия"
+      ]
+    },
+    {
+      "symbol": "AVAX",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 8.350782651936992,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-11-14T02:15:00Z",
+      "sl": 8.466065665643262,
+      "effective_stop": 8.466065665643262,
+      "tp1": 8.270084542342603,
+      "tp2": 8.177858131377587,
+      "tp3": 8.120216624524453,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-11-13T22:15:47Z",
+      "current_price": 8.213,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 8.3040",
+        "Объём подтверждает пробой (1.8× от среднего)",
+        "Сильное тело свечи (93%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 31.6 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (-0.47%)"
       ]
     }
   ],
