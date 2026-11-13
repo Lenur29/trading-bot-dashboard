@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T21:29:26Z",
+  "generated_at": "2026-11-13T21:34:27Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-13T19:30:31Z",
-      "current_price": 8.09,
-      "pnl_percent": -0.06,
+      "current_price": 8.064,
+      "pnl_percent": -0.39,
       "reasons": [
         "Цена пробила сопротивление 8.2290",
         "Уровень 8.2290 тестировался 4 раз",
@@ -52,7 +52,7 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-13T21:15:58Z",
-      "current_price": 79.27,
+      "current_price": 79.29,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 79.8500",
@@ -83,7 +83,7 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-13T21:15:58Z",
-      "current_price": 1.0099,
+      "current_price": 1.0107,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 1.0247",
@@ -94,6 +94,37 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "BTC",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 68842.23894308826,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-11-14T01:30:00Z",
+      "sl": 69530.66133251914,
+      "effective_stop": 69530.66133251914,
+      "tp1": 68360.34327048664,
+      "tp2": 67809.60535894195,
+      "tp3": 67465.3941642265,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 77,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-11-13T21:30:30Z",
+      "current_price": 68317.5,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 68890.70",
+        "Объём подтверждает пробой (1.9× от среднего)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 34.7 — здоровая зона для шорта",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление",
+        "Активная торговая сессия"
       ]
     }
   ],
