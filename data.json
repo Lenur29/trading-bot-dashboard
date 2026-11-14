@@ -1,103 +1,54 @@
 {
-  "generated_at": "2026-11-14T11:59:26Z",
+  "generated_at": "2026-11-14T18:54:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [
-    {
-      "symbol": "BTC",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 68278.0,
-      "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 69227.43474303476,
-      "effective_stop": 67993.16957708957,
-      "tp1": 67613.39567987567,
-      "tp2": 66853.84788544787,
-      "tp3": 66379.13051393049,
-      "max_tp_hit": 2,
-      "rr": 1.5,
-      "probability": 77,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-11-13T21:30:30Z",
-      "current_price": 67243.0,
-      "pnl_percent": 1.52,
-      "reasons": [
-        "Цена пробила поддержку 68890.70",
-        "Объём подтверждает пробой (1.9× от среднего)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 34.7 — здоровая зона для шорта",
-        "4h согласен с направлением",
-        "FVG поддерживает направление",
-        "Order Block поддерживает направление",
-        "Активная торговая сессия"
-      ]
-    },
+  "active": [],
+  "history": [
     {
       "symbol": "AVAX",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 8.13,
+      "result": "TP",
+      "status": "tp3",
       "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 8.466065665643262,
-      "effective_stop": 8.466065665643262,
-      "tp1": 7.894754034049718,
-      "tp2": 7.625901501535109,
-      "tp3": 7.457868668713479,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 78,
+      "pnl_percent": 6.04,
+      "r_multiple": 1.46,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 3,
       "open_time": "2026-11-13T22:15:47Z",
-      "current_price": 8.024,
-      "pnl_percent": 1.3,
-      "reasons": [
-        "Цена пробила поддержку 8.3040",
-        "Объём подтверждает пробой (1.8× от среднего)",
-        "Сильное тело свечи (93%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 31.6 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "FVG поддерживает направление",
-        "BTC согласуется с направлением (-0.47%)"
-      ]
+      "close_time": "2026-11-14T18:50:23Z",
+      "rr": 1.5
+    },
+    {
+      "symbol": "BTC",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "TP",
+      "status": "tp3",
+      "entry_kind": "fallback",
+      "pnl_percent": 2.03,
+      "r_multiple": 1.46,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 3,
+      "open_time": "2026-11-13T21:30:30Z",
+      "close_time": "2026-11-14T18:50:22Z",
+      "rr": 1.5
     },
     {
       "symbol": "HBAR",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 0.06003293249547347,
+      "result": "BE",
+      "status": "be",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 0.060668676496630485,
-      "effective_stop": 0.060668676496630485,
-      "tp1": 0.05958791169466356,
-      "tp2": 0.05907931649373795,
-      "tp3": 0.05876144449315945,
-      "max_tp_hit": 0,
-      "rr": 1.5000000000000049,
-      "probability": 75,
+      "pnl_percent": 0.44,
+      "r_multiple": 0.42,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
       "open_time": "2026-11-14T11:30:31Z",
-      "current_price": 0.06018,
-      "pnl_percent": -0.24,
-      "reasons": [
-        "Цена пробила поддержку 0.05996",
-        "Сильное тело свечи (81%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 47.2 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление",
-        "Order Block поддерживает направление"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-11-14T18:50:21Z",
+      "rr": 1.5000000000000049
+    },
     {
       "symbol": "XRP",
       "tf": "15m",
@@ -3052,92 +3003,47 @@
       "open_time": "2026-09-16T13:30:40Z",
       "close_time": "2026-09-17T09:19:22Z",
       "rr": 1.5000000000000062
-    },
-    {
-      "symbol": "NEAR",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "fallback",
-      "pnl_percent": 2.66,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-09-16T18:15:37Z",
-      "close_time": "2026-09-17T06:30:23Z",
-      "rr": 1.5000000000000024
-    },
-    {
-      "symbol": "AAVE",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "fallback",
-      "pnl_percent": 3.72,
-      "r_multiple": 0.78,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 2,
-      "open_time": "2026-09-15T18:45:55Z",
-      "close_time": "2026-09-17T06:30:22Z",
-      "rr": 1.5000000000000016
-    },
-    {
-      "symbol": "ADA",
-      "tf": "15m",
-      "side": "SHORT",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 0.29,
-      "r_multiple": 0.21,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-09-16T14:15:42Z",
-      "close_time": "2026-09-16T18:06:22Z",
-      "rr": 1.500000000000003
     }
   ],
   "stats": {
     "all": {
-      "total": 1070,
-      "tp": 159,
+      "total": 1073,
+      "tp": 161,
       "sl": 468,
-      "be": 443,
-      "winrate": 14.9,
-      "effective_winrate": 56.3,
-      "sum_pnl": -33.36,
-      "r_result": -8.49,
-      "deposit_result": -0.85
+      "be": 444,
+      "winrate": 15.0,
+      "effective_winrate": 56.4,
+      "sum_pnl": -24.85,
+      "r_result": -5.15,
+      "deposit_result": -0.51
     },
     "today": {
-      "total": 2,
-      "tp": 0,
+      "total": 5,
+      "tp": 2,
       "sl": 1,
-      "be": 1,
-      "winrate": 0.0,
-      "effective_winrate": 50.0,
-      "sum_pnl": -0.24,
-      "r_result": -0.58,
-      "deposit_result": -0.06
+      "be": 2,
+      "winrate": 40.0,
+      "effective_winrate": 80.0,
+      "sum_pnl": 8.27,
+      "r_result": 2.76,
+      "deposit_result": 0.28
     },
     "week": {
-      "total": 19,
-      "tp": 2,
+      "total": 22,
+      "tp": 4,
       "sl": 5,
-      "be": 12,
-      "winrate": 10.5,
-      "effective_winrate": 73.7,
-      "sum_pnl": 8.9,
-      "r_result": 3.32,
-      "deposit_result": 0.33
+      "be": 13,
+      "winrate": 18.2,
+      "effective_winrate": 77.3,
+      "sum_pnl": 17.41,
+      "r_result": 6.66,
+      "deposit_result": 0.67
     }
   },
   "symbols_30d": [
     {
       "symbol": "HBAR",
-      "r": 3.96,
+      "r": 5.38,
       "n": 7
     },
     {
@@ -3151,19 +3057,24 @@
       "n": 2
     },
     {
+      "symbol": "XRP",
+      "r": 1.56,
+      "n": 8
+    },
+    {
       "symbol": "AAVE",
       "r": 0.78,
       "n": 1
     },
     {
-      "symbol": "GRAM",
-      "r": 0.62,
-      "n": 4
+      "symbol": "LINK",
+      "r": 0.42,
+      "n": 1
     },
     {
-      "symbol": "XRP",
-      "r": 0.56,
-      "n": 9
+      "symbol": "GRAM",
+      "r": 0.2,
+      "n": 3
     },
     {
       "symbol": "NEAR",
@@ -3172,11 +3083,6 @@
     },
     {
       "symbol": "BNB",
-      "r": -0.16,
-      "n": 3
-    },
-    {
-      "symbol": "LINK",
       "r": -0.58,
       "n": 2
     },
@@ -3186,8 +3092,18 @@
       "n": 2
     },
     {
+      "symbol": "BTC",
+      "r": -0.66,
+      "n": 7
+    },
+    {
       "symbol": "ETH",
       "r": -0.74,
+      "n": 5
+    },
+    {
+      "symbol": "AVAX",
+      "r": -1.12,
       "n": 5
     },
     {
@@ -3201,24 +3117,14 @@
       "n": 8
     },
     {
-      "symbol": "BTC",
-      "r": -2.12,
-      "n": 6
-    },
-    {
       "symbol": "ADA",
       "r": -2.16,
       "n": 5
     },
     {
-      "symbol": "AVAX",
-      "r": -2.58,
-      "n": 4
-    },
-    {
       "symbol": "INJ",
-      "r": -3.8,
-      "n": 7
+      "r": -2.8,
+      "n": 6
     }
   ]
 }
