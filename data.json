@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T20:54:23Z",
+  "generated_at": "2026-11-16T20:59:23Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3082,11 +3082,6 @@
       "n": 6
     },
     {
-      "symbol": "BNB",
-      "r": -0.58,
-      "n": 2
-    },
-    {
       "symbol": "LTC",
       "r": -0.58,
       "n": 2
@@ -3105,6 +3100,11 @@
       "symbol": "DOT",
       "r": -0.96,
       "n": 7
+    },
+    {
+      "symbol": "BNB",
+      "r": -1.0,
+      "n": 1
     },
     {
       "symbol": "AVAX",
