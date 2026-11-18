@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-11-18T23:09:03Z",
+  "generated_at": "2026-11-18T23:15:10Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "DOT",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 0.7172,
-      "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 0.7325448672858204,
-      "effective_stop": 0.7125965398142539,
-      "tp1": 0.7064585928999256,
-      "tp2": 0.6941826990712694,
-      "tp3": 0.6865102654283591,
-      "max_tp_hit": 1,
-      "rr": 1.5,
-      "probability": 74,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-11-18T14:45:26Z",
-      "current_price": 0.7127,
-      "pnl_percent": 0.63,
-      "reasons": [
-        "Цена пробила поддержку 0.72280",
-        "Объём подтверждает пробой (4.0× от среднего)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 37.2 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "BTC согласуется с направлением (-0.98%)",
-        "London/NY overlap — пиковая ликвидность"
-      ]
-    },
     {
       "symbol": "HBAR",
       "tf": "15m",
@@ -52,7 +21,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-18T20:31:07Z",
-      "current_price": 0.05565,
+      "current_price": 0.0556,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.05581",
@@ -67,6 +36,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "DOT",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "BE",
+      "status": "be",
+      "entry_kind": "fallback",
+      "pnl_percent": 0.9,
+      "r_multiple": 0.42,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
+      "open_time": "2026-11-18T14:45:26Z",
+      "close_time": "2026-11-18T23:09:01Z",
+      "rr": 1.5
+    },
     {
       "symbol": "AVAX",
       "tf": "15m",
@@ -3051,56 +3035,41 @@
       "open_time": "2026-09-17T07:15:50Z",
       "close_time": "2026-09-17T13:39:22Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "ADA",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "fallback",
-      "pnl_percent": 0.74,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-09-17T06:45:42Z",
-      "close_time": "2026-09-17T13:38:22Z",
-      "rr": 1.5000000000000042
     }
   ],
   "stats": {
     "all": {
-      "total": 1074,
+      "total": 1075,
       "tp": 162,
       "sl": 468,
-      "be": 444,
+      "be": 445,
       "winrate": 15.1,
-      "effective_winrate": 56.4,
-      "sum_pnl": -23.03,
-      "r_result": -3.69,
-      "deposit_result": -0.37
+      "effective_winrate": 56.5,
+      "sum_pnl": -22.14,
+      "r_result": -3.27,
+      "deposit_result": -0.33
     },
     "today": {
-      "total": 1,
+      "total": 2,
       "tp": 1,
       "sl": 0,
-      "be": 0,
-      "winrate": 100.0,
+      "be": 1,
+      "winrate": 50.0,
       "effective_winrate": 100.0,
-      "sum_pnl": 1.81,
-      "r_result": 1.46,
-      "deposit_result": 0.15
+      "sum_pnl": 2.71,
+      "r_result": 1.88,
+      "deposit_result": 0.19
     },
     "week": {
-      "total": 14,
+      "total": 15,
       "tp": 4,
       "sl": 3,
-      "be": 7,
-      "winrate": 28.6,
-      "effective_winrate": 78.6,
-      "sum_pnl": 17.43,
-      "r_result": 5.78,
-      "deposit_result": 0.58
+      "be": 8,
+      "winrate": 26.7,
+      "effective_winrate": 80.0,
+      "sum_pnl": 18.33,
+      "r_result": 6.2,
+      "deposit_result": 0.62
     }
   },
   "symbols_30d": [
@@ -3150,6 +3119,11 @@
       "n": 5
     },
     {
+      "symbol": "DOT",
+      "r": -0.54,
+      "n": 8
+    },
+    {
       "symbol": "LTC",
       "r": -0.58,
       "n": 2
@@ -3163,11 +3137,6 @@
       "symbol": "ETH",
       "r": -0.74,
       "n": 5
-    },
-    {
-      "symbol": "DOT",
-      "r": -0.96,
-      "n": 7
     },
     {
       "symbol": "BNB",
