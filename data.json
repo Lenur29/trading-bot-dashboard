@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:34:23Z",
+  "generated_at": "2026-11-18T13:04:01Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3029,15 +3029,15 @@
       "deposit_result": 0.0
     },
     "week": {
-      "total": 17,
+      "total": 15,
       "tp": 3,
-      "sl": 5,
+      "sl": 3,
       "be": 9,
-      "winrate": 17.6,
-      "effective_winrate": 70.6,
-      "sum_pnl": 13.44,
-      "r_result": 3.16,
-      "deposit_result": 0.32
+      "winrate": 20.0,
+      "effective_winrate": 80.0,
+      "sum_pnl": 16.98,
+      "r_result": 5.16,
+      "deposit_result": 0.52
     }
   },
   "symbols_30d": [
@@ -3078,8 +3078,8 @@
     },
     {
       "symbol": "NEAR",
-      "r": 0.04,
-      "n": 6
+      "r": -0.38,
+      "n": 5
     },
     {
       "symbol": "LTC",
