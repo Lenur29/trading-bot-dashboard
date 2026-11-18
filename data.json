@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T16:14:03Z",
+  "generated_at": "2026-11-18T16:19:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 74,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-18T14:45:26Z",
-      "current_price": 0.7152,
+      "current_price": 0.7119,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.72280",
@@ -32,6 +32,37 @@
         "4h согласен с направлением",
         "BTC согласуется с направлением (-0.98%)",
         "London/NY overlap — пиковая ликвидность"
+      ]
+    },
+    {
+      "symbol": "AVAX",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 7.050994166597052,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-11-18T20:15:00Z",
+      "sl": 7.1385408792934895,
+      "effective_stop": 7.1385408792934895,
+      "tp1": 6.9897114677095455,
+      "tp2": 6.919674097552395,
+      "tp3": 6.875900741204177,
+      "max_tp_hit": 0,
+      "rr": 1.5,
+      "probability": 75,
+      "setup_type": "Trend continuation",
+      "open_time": "2026-11-18T16:15:18Z",
+      "current_price": 6.901,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 6.9830",
+        "Объём выше среднего (1.4×)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 25.0 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (-1.26%)"
       ]
     }
   ],
