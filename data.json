@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T15:14:00Z",
+  "generated_at": "2026-11-19T15:19:01Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3097,11 +3097,6 @@
       "n": 5
     },
     {
-      "symbol": "DOT",
-      "r": -0.54,
-      "n": 8
-    },
-    {
       "symbol": "LTC",
       "r": -0.58,
       "n": 2
@@ -3110,6 +3105,11 @@
       "symbol": "ETH",
       "r": -0.74,
       "n": 5
+    },
+    {
+      "symbol": "DOT",
+      "r": -0.96,
+      "n": 7
     },
     {
       "symbol": "BNB",
