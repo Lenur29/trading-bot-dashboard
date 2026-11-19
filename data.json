@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T13:59:01Z",
+  "generated_at": "2026-11-19T14:04:01Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3072,6 +3072,11 @@
       "n": 1
     },
     {
+      "symbol": "BTC",
+      "r": 0.34,
+      "n": 6
+    },
+    {
       "symbol": "GRAM",
       "r": 0.2,
       "n": 3
@@ -3080,6 +3085,11 @@
       "symbol": "AVAX",
       "r": -0.08,
       "n": 5
+    },
+    {
+      "symbol": "ADA",
+      "r": -0.16,
+      "n": 3
     },
     {
       "symbol": "NEAR",
@@ -3097,11 +3107,6 @@
       "n": 2
     },
     {
-      "symbol": "BTC",
-      "r": -0.66,
-      "n": 7
-    },
-    {
       "symbol": "ETH",
       "r": -0.74,
       "n": 5
@@ -3110,11 +3115,6 @@
       "symbol": "BNB",
       "r": -1.0,
       "n": 1
-    },
-    {
-      "symbol": "ADA",
-      "r": -1.16,
-      "n": 4
     },
     {
       "symbol": "SOL",
