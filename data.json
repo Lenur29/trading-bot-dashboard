@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-11-20T13:09:03Z",
+  "generated_at": "2026-11-20T13:14:03Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "AVAX",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 6.998,
-      "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 7.115500553080078,
-      "effective_stop": 6.962749834075977,
-      "tp1": 6.915749612843946,
-      "tp2": 6.821749170379884,
-      "tp3": 6.762998893839845,
-      "max_tp_hit": 2,
-      "rr": 1.499999999999997,
-      "probability": 73,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-11-19T20:15:17Z",
-      "current_price": 6.787,
-      "pnl_percent": 3.02,
-      "reasons": [
-        "Цена пробила поддержку 7.0170",
-        "Хорошее тело свечи (58%)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 41.6 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление",
-        "⚠️ Встречный Order Block рядом"
-      ]
-    },
     {
       "symbol": "BTC",
       "tf": "15m",
@@ -52,8 +21,8 @@
       "probability": 76,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-19T20:31:20Z",
-      "current_price": 61603.2,
-      "pnl_percent": 0.7,
+      "current_price": 61485.0,
+      "pnl_percent": 0.89,
       "reasons": [
         "Цена пробила поддержку 62617.00",
         "Уровень 62617.00 тестировался 6 раз",
@@ -83,7 +52,7 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-20T11:20:14Z",
-      "current_price": 41.34,
+      "current_price": 41.31,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 41.4100",
@@ -98,6 +67,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "AVAX",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "TP",
+      "status": "tp3",
+      "entry_kind": "fallback",
+      "pnl_percent": 2.45,
+      "r_multiple": 1.46,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 3,
+      "open_time": "2026-11-19T20:15:17Z",
+      "close_time": "2026-11-20T13:13:00Z",
+      "rr": 1.499999999999997
+    },
     {
       "symbol": "NEAR",
       "tf": "15m",
@@ -3082,56 +3066,41 @@
       "open_time": "2026-09-17T14:21:42Z",
       "close_time": "2026-09-17T22:17:22Z",
       "rr": 1.5000000000000027
-    },
-    {
-      "symbol": "ENA",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 1.05,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-09-17T16:30:32Z",
-      "close_time": "2026-09-17T20:54:22Z",
-      "rr": 1.5000000000000018
     }
   ],
   "stats": {
     "all": {
-      "total": 1078,
-      "tp": 164,
+      "total": 1079,
+      "tp": 165,
       "sl": 468,
       "be": 446,
-      "winrate": 15.2,
+      "winrate": 15.3,
       "effective_winrate": 56.6,
-      "sum_pnl": -16.94,
-      "r_result": 0.07,
-      "deposit_result": 0.01
+      "sum_pnl": -14.49,
+      "r_result": 1.53,
+      "deposit_result": 0.15
     },
     "today": {
-      "total": 2,
-      "tp": 2,
+      "total": 3,
+      "tp": 3,
       "sl": 0,
       "be": 0,
       "winrate": 100.0,
       "effective_winrate": 100.0,
-      "sum_pnl": 4.78,
-      "r_result": 2.92,
-      "deposit_result": 0.29
+      "sum_pnl": 7.23,
+      "r_result": 4.38,
+      "deposit_result": 0.44
     },
     "week": {
-      "total": 14,
-      "tp": 6,
+      "total": 15,
+      "tp": 7,
       "sl": 1,
       "be": 7,
-      "winrate": 42.9,
-      "effective_winrate": 92.9,
-      "sum_pnl": 22.71,
-      "r_result": 10.7,
-      "deposit_result": 1.07
+      "winrate": 46.7,
+      "effective_winrate": 93.3,
+      "sum_pnl": 25.16,
+      "r_result": 12.16,
+      "deposit_result": 1.22
     }
   },
   "symbols_30d": [
@@ -3156,6 +3125,11 @@
       "n": 8
     },
     {
+      "symbol": "AVAX",
+      "r": 1.38,
+      "n": 6
+    },
+    {
       "symbol": "AAVE",
       "r": 0.78,
       "n": 1
@@ -3174,11 +3148,6 @@
       "symbol": "GRAM",
       "r": 0.2,
       "n": 3
-    },
-    {
-      "symbol": "AVAX",
-      "r": -0.08,
-      "n": 5
     },
     {
       "symbol": "ADA",
