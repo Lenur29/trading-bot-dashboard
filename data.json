@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T19:39:03Z",
+  "generated_at": "2026-11-20T19:44:03Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-20T16:30:10Z",
-      "current_price": 0.8989,
+      "current_price": 0.901,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.93260",
@@ -33,40 +33,24 @@
         "4h согласен с направлением",
         "FVG поддерживает, но есть встречный FVG в зоне риска"
       ]
-    },
+    }
+  ],
+  "history": [
     {
       "symbol": "INJ",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 6.216909967875342,
+      "result": "BE",
+      "status": "be",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 6.356570719207224,
-      "effective_stop": 6.175011742475777,
-      "tp1": 6.119147441943024,
-      "tp2": 6.007418840877518,
-      "tp3": 5.937588465211578,
-      "max_tp_hit": 1,
-      "rr": 1.5,
-      "probability": 80,
+      "pnl_percent": 0.94,
+      "r_multiple": 0.42,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
       "open_time": "2026-11-20T17:16:06Z",
-      "current_price": 6.164,
-      "pnl_percent": 0.85,
-      "reasons": [
-        "Цена пробила поддержку 6.0680",
-        "Уровень 6.0680 тестировался 6 раз",
-        "Объём подтверждает пробой (1.9× от среднего)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 29.5 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
-      ]
-    }
-  ],
-  "history": [
+      "close_time": "2026-11-20T19:41:00Z",
+      "rr": 1.5
+    },
     {
       "symbol": "GRAM",
       "tf": "15m",
@@ -3051,56 +3035,41 @@
       "open_time": "2026-09-18T18:15:30Z",
       "close_time": "2026-09-19T09:33:21Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "AVAX",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "CANCEL",
-      "status": "cancelled",
-      "entry_kind": "cancelled",
-      "pnl_percent": 0,
-      "r_multiple": 0.0,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 0,
-      "open_time": "2026-09-18T18:00:35Z",
-      "close_time": "2026-09-18T22:00:21Z",
-      "rr": 1.4999999999999922
     }
   ],
   "stats": {
     "all": {
-      "total": 1082,
+      "total": 1083,
       "tp": 167,
       "sl": 468,
-      "be": 447,
+      "be": 448,
       "winrate": 15.4,
-      "effective_winrate": 56.7,
-      "sum_pnl": -8.17,
-      "r_result": 4.87,
-      "deposit_result": 0.49
+      "effective_winrate": 56.8,
+      "sum_pnl": -7.22,
+      "r_result": 5.29,
+      "deposit_result": 0.53
     },
     "today": {
-      "total": 6,
+      "total": 7,
       "tp": 5,
       "sl": 0,
-      "be": 1,
-      "winrate": 83.3,
+      "be": 2,
+      "winrate": 71.4,
       "effective_winrate": 100.0,
-      "sum_pnl": 13.55,
-      "r_result": 7.72,
-      "deposit_result": 0.77
+      "sum_pnl": 14.49,
+      "r_result": 8.14,
+      "deposit_result": 0.81
     },
     "week": {
-      "total": 18,
+      "total": 19,
       "tp": 9,
       "sl": 1,
-      "be": 8,
-      "winrate": 50.0,
-      "effective_winrate": 94.4,
-      "sum_pnl": 31.48,
-      "r_result": 15.5,
-      "deposit_result": 1.55
+      "be": 9,
+      "winrate": 47.4,
+      "effective_winrate": 94.7,
+      "sum_pnl": 32.43,
+      "r_result": 15.92,
+      "deposit_result": 1.59
     }
   },
   "symbols_30d": [
@@ -3186,8 +3155,8 @@
     },
     {
       "symbol": "INJ",
-      "r": -1.8,
-      "n": 5
+      "r": -1.38,
+      "n": 6
     }
   ]
 }
