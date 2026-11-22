@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T00:09:04Z",
+  "generated_at": "2026-11-22T11:09:03Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-20T16:30:10Z",
-      "current_price": 0.9314,
-      "pnl_percent": -4.2,
+      "current_price": 0.9333,
+      "pnl_percent": -4.41,
       "reasons": [
         "Цена пробила поддержку 0.93260",
         "Уровень 0.93260 тестировался 4 раз",
@@ -33,71 +33,39 @@
         "4h согласен с направлением",
         "FVG поддерживает, но есть встречный FVG в зоне риска"
       ]
+    }
+  ],
+  "history": [
+    {
+      "symbol": "GRAM",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "BE",
+      "status": "be",
+      "entry_kind": "fallback",
+      "pnl_percent": 0.99,
+      "r_multiple": 0.42,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
+      "open_time": "2026-11-21T20:16:11Z",
+      "close_time": "2026-11-22T11:08:00Z",
+      "rr": 1.4999999999999973
     },
     {
       "symbol": "INJ",
       "tf": "15m",
       "side": "SHORT",
-      "entry": 6.174489400730929,
+      "result": "BE",
+      "status": "be",
       "entry_kind": "limit",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 6.395714004202824,
-      "effective_stop": 6.395714004202824,
-      "tp1": 6.019632178300602,
-      "tp2": 5.842652495523087,
-      "tp3": 5.732040193787139,
-      "max_tp_hit": 0,
-      "rr": 1.4999999999999984,
-      "probability": 73,
+      "pnl_percent": 1.5,
+      "r_multiple": 0.42,
       "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
       "open_time": "2026-11-21T16:01:07Z",
-      "current_price": 5.942,
-      "pnl_percent": 3.77,
-      "reasons": [
-        "Цена пробила поддержку 6.1330",
-        "Уровень 6.1330 тестировался 3 раз",
-        "Объём выше среднего (1.2×)",
-        "Сильное тело свечи (92%)",
-        "RSI 45.1 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает направление"
-      ]
+      "close_time": "2026-11-22T11:07:59Z",
+      "rr": 1.4999999999999984
     },
-    {
-      "symbol": "GRAM",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 0.9577349835555871,
-      "entry_kind": "pending",
-      "pending_fill": true,
-      "ttl_deadline": "2026-11-22T00:15:00Z",
-      "sl": 0.9683899838793306,
-      "effective_stop": 0.9683899838793306,
-      "tp1": 0.9502764833289665,
-      "tp2": 0.9417524830699717,
-      "tp3": 0.9364249829081,
-      "max_tp_hit": 0,
-      "rr": 1.4999999999999973,
-      "probability": 74,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-11-21T20:16:11Z",
-      "current_price": 0.952,
-      "pnl_percent": null,
-      "reasons": [
-        "Цена пробила поддержку 0.95700",
-        "Объём подтверждает пробой (2.6× от среднего)",
-        "Сильное тело свечи (71%)",
-        "RSI 37.7 — здоровая зона для шорта",
-        "Медвежья свеча подтверждает пробой",
-        "4h согласен с направлением",
-        "FVG поддерживает, но есть встречный FVG в зоне риска",
-        "Активная торговая сессия"
-      ]
-    }
-  ],
-  "history": [
     {
       "symbol": "INJ",
       "tf": "15m",
@@ -3067,78 +3035,48 @@
       "open_time": "2026-09-18T19:45:31Z",
       "close_time": "2026-09-19T09:33:23Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "NEAR",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "fallback",
-      "pnl_percent": 3.21,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-09-18T12:45:42Z",
-      "close_time": "2026-09-19T09:33:22Z",
-      "rr": 1.4999999999999987
-    },
-    {
-      "symbol": "INJ",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "TP",
-      "status": "tp3",
-      "entry_kind": "limit",
-      "pnl_percent": 3.23,
-      "r_multiple": 1.46,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 3,
-      "open_time": "2026-09-18T18:15:30Z",
-      "close_time": "2026-09-19T09:33:21Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 1083,
+      "total": 1085,
       "tp": 167,
       "sl": 468,
-      "be": 448,
+      "be": 450,
       "winrate": 15.4,
-      "effective_winrate": 56.8,
-      "sum_pnl": -7.22,
-      "r_result": 5.29,
-      "deposit_result": 0.53
+      "effective_winrate": 56.9,
+      "sum_pnl": -4.72,
+      "r_result": 6.13,
+      "deposit_result": 0.61
     },
     "today": {
-      "total": 0,
+      "total": 2,
       "tp": 0,
       "sl": 0,
-      "be": 0,
+      "be": 2,
       "winrate": 0.0,
-      "effective_winrate": 0.0,
-      "sum_pnl": 0,
-      "r_result": 0,
-      "deposit_result": 0.0
+      "effective_winrate": 100.0,
+      "sum_pnl": 2.5,
+      "r_result": 0.84,
+      "deposit_result": 0.08
     },
     "week": {
-      "total": 10,
+      "total": 12,
       "tp": 6,
       "sl": 0,
-      "be": 4,
-      "winrate": 60.0,
+      "be": 6,
+      "winrate": 50.0,
       "effective_winrate": 100.0,
-      "sum_pnl": 17.62,
-      "r_result": 10.44,
-      "deposit_result": 1.04
+      "sum_pnl": 20.12,
+      "r_result": 11.28,
+      "deposit_result": 1.13
     }
   },
   "symbols_30d": [
     {
       "symbol": "HBAR",
-      "r": 5.8,
-      "n": 8
+      "r": 5.02,
+      "n": 7
     },
     {
       "symbol": "SUI",
@@ -3171,14 +3109,14 @@
       "n": 1
     },
     {
-      "symbol": "NEAR",
+      "symbol": "GRAM",
       "r": 0.62,
       "n": 4
     },
     {
-      "symbol": "GRAM",
-      "r": 0.2,
-      "n": 3
+      "symbol": "NEAR",
+      "r": 0.62,
+      "n": 4
     },
     {
       "symbol": "LTC",
@@ -3196,6 +3134,11 @@
       "n": 7
     },
     {
+      "symbol": "INJ",
+      "r": -0.96,
+      "n": 7
+    },
+    {
       "symbol": "BNB",
       "r": -1.0,
       "n": 1
@@ -3209,11 +3152,6 @@
       "symbol": "SOL",
       "r": -1.22,
       "n": 3
-    },
-    {
-      "symbol": "INJ",
-      "r": -1.38,
-      "n": 6
     }
   ]
 }
