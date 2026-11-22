@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T20:59:03Z",
+  "generated_at": "2026-11-22T00:09:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-20T16:30:10Z",
-      "current_price": 0.9336,
-      "pnl_percent": -4.44,
+      "current_price": 0.9314,
+      "pnl_percent": -4.2,
       "reasons": [
         "Цена пробила поддержку 0.93260",
         "Уровень 0.93260 тестировался 4 раз",
@@ -52,8 +52,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-21T16:01:07Z",
-      "current_price": 6.073,
-      "pnl_percent": 1.64,
+      "current_price": 5.942,
+      "pnl_percent": 3.77,
       "reasons": [
         "Цена пробила поддержку 6.1330",
         "Уровень 6.1330 тестировался 3 раз",
@@ -3123,15 +3123,15 @@
       "deposit_result": 0.0
     },
     "week": {
-      "total": 15,
-      "tp": 8,
-      "sl": 1,
-      "be": 6,
-      "winrate": 53.3,
-      "effective_winrate": 93.3,
-      "sum_pnl": 25.9,
-      "r_result": 13.2,
-      "deposit_result": 1.32
+      "total": 10,
+      "tp": 6,
+      "sl": 0,
+      "be": 4,
+      "winrate": 60.0,
+      "effective_winrate": 100.0,
+      "sum_pnl": 17.62,
+      "r_result": 10.44,
+      "deposit_result": 1.04
     }
   },
   "symbols_30d": [
@@ -3142,8 +3142,8 @@
     },
     {
       "symbol": "SUI",
-      "r": 3.76,
-      "n": 4
+      "r": 3.34,
+      "n": 3
     },
     {
       "symbol": "AVAX",
