@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T21:59:02Z",
+  "generated_at": "2026-11-23T22:04:01Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3018,15 +3018,15 @@
       "deposit_result": 0.51
     },
     "today": {
-      "total": 1,
+      "total": 0,
       "tp": 0,
-      "sl": 1,
+      "sl": 0,
       "be": 0,
       "winrate": 0.0,
       "effective_winrate": 0.0,
-      "sum_pnl": -7.12,
-      "r_result": -1.0,
-      "deposit_result": -0.1
+      "sum_pnl": 0,
+      "r_result": 0,
+      "deposit_result": 0.0
     },
     "week": {
       "total": 13,
