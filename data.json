@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T17:44:03Z",
+  "generated_at": "2026-11-23T02:14:03Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-20T16:30:10Z",
-      "current_price": 0.9284,
-      "pnl_percent": -3.86,
+      "current_price": 0.9192,
+      "pnl_percent": -2.83,
       "reasons": [
         "Цена пробила поддержку 0.93260",
         "Уровень 0.93260 тестировался 4 раз",
@@ -3050,15 +3050,15 @@
       "deposit_result": 0.61
     },
     "today": {
-      "total": 2,
+      "total": 0,
       "tp": 0,
       "sl": 0,
-      "be": 2,
+      "be": 0,
       "winrate": 0.0,
-      "effective_winrate": 100.0,
-      "sum_pnl": 2.5,
-      "r_result": 0.84,
-      "deposit_result": 0.08
+      "effective_winrate": 0.0,
+      "sum_pnl": 0,
+      "r_result": 0,
+      "deposit_result": 0.0
     },
     "week": {
       "total": 12,
@@ -3137,11 +3137,6 @@
       "symbol": "INJ",
       "r": -0.96,
       "n": 7
-    },
-    {
-      "symbol": "BNB",
-      "r": -1.0,
-      "n": 1
     },
     {
       "symbol": "ETH",
