@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T10:19:01Z",
+  "generated_at": "2026-11-24T10:24:01Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3047,11 +3047,6 @@
       "n": 7
     },
     {
-      "symbol": "SUI",
-      "r": 3.34,
-      "n": 3
-    },
-    {
       "symbol": "AVAX",
       "r": 2.84,
       "n": 7
@@ -3063,6 +3058,11 @@
     },
     {
       "symbol": "ENA",
+      "r": 1.88,
+      "n": 2
+    },
+    {
+      "symbol": "SUI",
       "r": 1.88,
       "n": 2
     },
