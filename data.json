@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T15:14:03Z",
+  "generated_at": "2026-11-24T15:19:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 73,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-24T10:45:13Z",
-      "current_price": 2.837,
-      "pnl_percent": 1.97,
+      "current_price": 2.816,
+      "pnl_percent": 2.7,
       "reasons": [
         "Цена пробила поддержку 2.9540",
         "Объём выше среднего (1.3×)",
@@ -43,17 +43,17 @@
       "pending_fill": false,
       "ttl_deadline": null,
       "sl": 554.6689775138324,
-      "effective_stop": 554.6689775138324,
+      "effective_stop": 547.5296738428623,
       "tp1": 545.3329650210253,
       "tp2": 540.9395473773513,
       "tp3": 538.1936613500552,
-      "max_tp_hit": 0,
+      "max_tp_hit": 1,
       "rr": 1.5000000000000095,
       "probability": 84,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-24T13:15:20Z",
-      "current_price": 547.29,
-      "pnl_percent": 0.34,
+      "current_price": 544.82,
+      "pnl_percent": 0.79,
       "reasons": [
         "Цена пробила поддержку 548.650",
         "Объём подтверждает пробой (4.1× от среднего)",
@@ -83,8 +83,8 @@
       "probability": 80,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-24T13:17:28Z",
-      "current_price": 1679.26,
-      "pnl_percent": 0.83,
+      "current_price": 1670.53,
+      "pnl_percent": 1.34,
       "reasons": [
         "Цена пробила поддержку 1693.65",
         "Объём подтверждает пробой (4.6× от среднего)",
@@ -94,6 +94,37 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "BTC согласуется с направлением (-0.49%)"
+      ]
+    },
+    {
+      "symbol": "ENA",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 0.0988353408090483,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-11-24T19:15:00Z",
+      "sl": 0.10080061115271181,
+      "effective_stop": 0.10080061115271181,
+      "tp1": 0.09745965156848382,
+      "tp2": 0.09588743529355301,
+      "tp3": 0.09490480012172126,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000022,
+      "probability": 86,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-11-24T15:15:29Z",
+      "current_price": 0.09707,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 0.09781",
+        "Уровень 0.09781 тестировался 5 раз",
+        "Объём выше среднего (1.4×)",
+        "Сильное тело свечи (76%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 40.4 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением"
       ]
     }
   ],
