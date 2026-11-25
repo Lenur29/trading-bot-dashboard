@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T15:29:04Z",
+  "generated_at": "2026-11-25T15:34:04Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-24T15:38:07Z",
-      "current_price": 66.8,
-      "pnl_percent": 3.58,
+      "current_price": 67.16,
+      "pnl_percent": 3.06,
       "reasons": [
         "Цена пробила поддержку 69.3400",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -52,8 +52,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-25T09:45:11Z",
-      "current_price": 90.12,
-      "pnl_percent": 0.85,
+      "current_price": 90.82,
+      "pnl_percent": 0.08,
       "reasons": [
         "Цена пробила поддержку 91.8700",
         "Объём подтверждает пробой (1.6× от среднего)",
@@ -83,7 +83,7 @@
       "probability": 81,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-25T15:15:18Z",
-      "current_price": 0.894,
+      "current_price": 0.8972,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила поддержку 0.89220",
@@ -94,6 +94,37 @@
         "Медвежья свеча подтверждает пробой",
         "4h согласен с направлением",
         "FVG поддерживает направление"
+      ]
+    },
+    {
+      "symbol": "NEAR",
+      "tf": "15m",
+      "side": "SHORT",
+      "entry": 2.7886970133120776,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-11-25T19:30:00Z",
+      "sl": 2.843177393940378,
+      "effective_stop": 2.843177393940378,
+      "tp1": 2.7505607468722673,
+      "tp2": 2.706976442369627,
+      "tp3": 2.679736252055477,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000018,
+      "probability": 86,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-11-25T15:30:07Z",
+      "current_price": 2.732,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила поддержку 2.7260",
+        "Уровень 2.7260 тестировался 4 раз",
+        "Объём подтверждает пробой (1.9× от среднего)",
+        "Сильное тело свечи (74%)",
+        "EMA20 < EMA50 < EMA200 — нисходящая структура",
+        "RSI 33.1 — здоровая зона для шорта",
+        "Медвежья свеча подтверждает пробой",
+        "4h согласен с направлением"
       ]
     }
   ],
