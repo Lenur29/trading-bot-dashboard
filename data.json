@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T21:34:00Z",
+  "generated_at": "2026-11-25T21:39:01Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [],
@@ -3112,14 +3112,14 @@
       "n": 8
     },
     {
-      "symbol": "ETH",
+      "symbol": "NEAR",
       "r": -0.74,
       "n": 5
     },
     {
-      "symbol": "NEAR",
-      "r": -0.74,
-      "n": 5
+      "symbol": "ETH",
+      "r": -1.16,
+      "n": 4
     },
     {
       "symbol": "LTC",
