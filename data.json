@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-11-25T17:14:03Z",
+  "generated_at": "2026-11-25T17:19:03Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "AAVE",
-      "tf": "15m",
-      "side": "SHORT",
-      "entry": 90.89,
-      "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 93.42212303158189,
-      "effective_stop": 93.42212303158189,
-      "tp1": 89.11751387789268,
-      "tp2": 87.09181545262717,
-      "tp3": 85.82575393683622,
-      "max_tp_hit": 0,
-      "rr": 1.5,
-      "probability": 75,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-11-25T09:45:11Z",
-      "current_price": 92.63,
-      "pnl_percent": -1.91,
-      "reasons": [
-        "Цена пробила поддержку 91.8700",
-        "Объём подтверждает пробой (1.6× от среднего)",
-        "EMA20 < EMA50 < EMA200 — нисходящая структура",
-        "RSI 31.7 — здоровая зона для шорта",
-        "4h согласен с направлением",
-        "FVG поддерживает направление",
-        "BTC согласуется с направлением (-0.88%)",
-        "Активная торговая сессия"
-      ]
-    },
     {
       "symbol": "NEAR",
       "tf": "15m",
@@ -52,8 +21,8 @@
       "probability": 86,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-25T15:30:07Z",
-      "current_price": 2.8,
-      "pnl_percent": -0.41,
+      "current_price": 2.822,
+      "pnl_percent": -1.19,
       "reasons": [
         "Цена пробила поддержку 2.7260",
         "Уровень 2.7260 тестировался 4 раз",
@@ -67,6 +36,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "AAVE",
+      "tf": "15m",
+      "side": "SHORT",
+      "result": "SL",
+      "status": "sl",
+      "entry_kind": "fallback",
+      "pnl_percent": -2.79,
+      "r_multiple": -1.0,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 0,
+      "open_time": "2026-11-25T09:45:11Z",
+      "close_time": "2026-11-25T17:19:00Z",
+      "rr": 1.5
+    },
     {
       "symbol": "SOL",
       "tf": "15m",
@@ -3051,56 +3035,41 @@
       "open_time": "2026-09-21T14:04:35Z",
       "close_time": "2026-09-21T22:26:23Z",
       "rr": 1.5
-    },
-    {
-      "symbol": "GRAM",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "TP",
-      "status": "tp3",
-      "entry_kind": "limit",
-      "pnl_percent": 1.46,
-      "r_multiple": 1.46,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 3,
-      "open_time": "2026-09-21T12:45:30Z",
-      "close_time": "2026-09-21T19:57:22Z",
-      "rr": 1.5
     }
   ],
   "stats": {
     "all": {
-      "total": 1099,
+      "total": 1100,
       "tp": 167,
-      "sl": 472,
+      "sl": 473,
       "be": 460,
       "winrate": 15.2,
-      "effective_winrate": 57.1,
-      "sum_pnl": -3.9,
-      "r_result": 6.69,
-      "deposit_result": 0.67
+      "effective_winrate": 57.0,
+      "sum_pnl": -6.69,
+      "r_result": 5.69,
+      "deposit_result": 0.57
     },
     "today": {
-      "total": 8,
+      "total": 9,
       "tp": 0,
-      "sl": 2,
+      "sl": 3,
       "be": 6,
       "winrate": 0.0,
-      "effective_winrate": 75.0,
-      "sum_pnl": 5.7,
-      "r_result": 0.88,
-      "deposit_result": 0.09
+      "effective_winrate": 66.7,
+      "sum_pnl": 2.92,
+      "r_result": -0.12,
+      "deposit_result": -0.01
     },
     "week": {
-      "total": 26,
+      "total": 27,
       "tp": 6,
-      "sl": 4,
+      "sl": 5,
       "be": 16,
-      "winrate": 23.1,
-      "effective_winrate": 84.6,
-      "sum_pnl": 20.94,
-      "r_result": 11.84,
-      "deposit_result": 1.18
+      "winrate": 22.2,
+      "effective_winrate": 81.5,
+      "sum_pnl": 18.16,
+      "r_result": 10.84,
+      "deposit_result": 1.08
     }
   },
   "symbols_30d": [
@@ -3128,11 +3097,6 @@
       "symbol": "ENA",
       "r": 1.3,
       "n": 4
-    },
-    {
-      "symbol": "AAVE",
-      "r": 0.78,
-      "n": 1
     },
     {
       "symbol": "GRAM",
@@ -3173,6 +3137,11 @@
       "symbol": "DOT",
       "r": 0.04,
       "n": 6
+    },
+    {
+      "symbol": "AAVE",
+      "r": -0.22,
+      "n": 2
     },
     {
       "symbol": "INJ",
