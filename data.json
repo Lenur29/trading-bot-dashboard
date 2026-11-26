@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T08:59:03Z",
+  "generated_at": "2026-11-26T09:04:03Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,7 +21,7 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-26T08:45:09Z",
-      "current_price": 0.9568,
+      "current_price": 0.9555,
       "pnl_percent": null,
       "reasons": [
         "Цена пробила сопротивление 0.95500",
@@ -32,6 +32,37 @@
         "Бычья свеча подтверждает пробой",
         "FVG поддерживает направление",
         "BTC согласуется с направлением (+0.38%)"
+      ]
+    },
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 43.47349465120068,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-11-26T13:00:00Z",
+      "sl": 43.03875970468867,
+      "effective_stop": 43.03875970468867,
+      "tp1": 43.77780911375909,
+      "tp2": 44.125597070968695,
+      "tp3": 44.3429645442247,
+      "max_tp_hit": 0,
+      "rr": 1.499999999999992,
+      "probability": 74,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-11-26T09:00:12Z",
+      "current_price": 43.58,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 43.7500",
+        "Объём подтверждает пробой (1.9× от среднего)",
+        "Хорошее тело свечи (50%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 56.6 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "Активная торговая сессия"
       ]
     }
   ],
