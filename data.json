@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-11-26T20:29:01Z",
+  "generated_at": "2026-11-26T20:34:03Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 43.4949877209633,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-11-27T00:30:00Z",
+      "sl": 43.06003784375367,
+      "effective_stop": 43.06003784375367,
+      "tp1": 43.79945263501004,
+      "tp2": 44.14741253677775,
+      "tp3": 44.36488747538257,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000062,
+      "probability": 75,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-11-26T20:30:07Z",
+      "current_price": 43.8,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 43.4700",
+        "Уровень 43.4700 тестировался 3 раз",
+        "Сильное тело свечи (93%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 63.7 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "Order Block поддерживает направление"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "XRP",
