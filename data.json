@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-11-26T08:44:01Z",
+  "generated_at": "2026-11-26T08:49:03Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
-  "active": [],
+  "active": [
+    {
+      "symbol": "XRP",
+      "tf": "15m",
+      "side": "LONG",
+      "entry": 0.9533171690077606,
+      "entry_kind": "pending",
+      "pending_fill": true,
+      "ttl_deadline": "2026-11-26T12:45:00Z",
+      "sl": 0.943783997317683,
+      "effective_stop": 0.943783997317683,
+      "tp1": 0.959990389190815,
+      "tp2": 0.9676169265428771,
+      "tp3": 0.9723835123879159,
+      "max_tp_hit": 0,
+      "rr": 1.5000000000000058,
+      "probability": 78,
+      "setup_type": "Pullback / Structure reaction",
+      "open_time": "2026-11-26T08:45:09Z",
+      "current_price": 0.9585,
+      "pnl_percent": null,
+      "reasons": [
+        "Цена пробила сопротивление 0.95500",
+        "Объём выше среднего (1.3×)",
+        "Сильное тело свечи (78%)",
+        "EMA20 > EMA50 > EMA200 — восходящая структура",
+        "RSI 56.3 — здоровая зона для лонга",
+        "Бычья свеча подтверждает пробой",
+        "FVG поддерживает направление",
+        "BTC согласуется с направлением (+0.38%)"
+      ]
+    }
+  ],
   "history": [
     {
       "symbol": "NEAR",
