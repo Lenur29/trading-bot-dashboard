@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T14:24:03Z",
+  "generated_at": "2026-11-27T14:29:03Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 75,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-26T20:30:07Z",
-      "current_price": 44.25,
-      "pnl_percent": 0.84,
+      "current_price": 44.3,
+      "pnl_percent": 0.96,
       "reasons": [
         "Цена пробила сопротивление 43.4700",
         "Уровень 43.4700 тестировался 3 раз",
@@ -52,8 +52,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-27T08:31:07Z",
-      "current_price": 0.998,
-      "pnl_percent": 0.0,
+      "current_price": 1.003,
+      "pnl_percent": 0.5,
       "reasons": [
         "Цена пробила сопротивление 0.98500",
         "Объём подтверждает пробой (2.4× от среднего)",
@@ -3135,6 +3135,11 @@
       "n": 4
     },
     {
+      "symbol": "XRP",
+      "r": 0.56,
+      "n": 9
+    },
+    {
       "symbol": "SOL",
       "r": 0.56,
       "n": 3
@@ -3163,11 +3168,6 @@
       "symbol": "DOT",
       "r": -0.38,
       "n": 5
-    },
-    {
-      "symbol": "XRP",
-      "r": -0.44,
-      "n": 10
     },
     {
       "symbol": "INJ",
