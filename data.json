@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-11-27T14:29:03Z",
+  "generated_at": "2026-11-27T14:34:03Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
-    {
-      "symbol": "LTC",
-      "tf": "15m",
-      "side": "LONG",
-      "entry": 43.88,
-      "entry_kind": "fallback",
-      "pending_fill": false,
-      "ttl_deadline": null,
-      "sl": 43.170653602614856,
-      "effective_stop": 44.09280391921555,
-      "tp1": 44.376542478169604,
-      "tp2": 44.94401959607772,
-      "tp3": 45.2986927947703,
-      "max_tp_hit": 1,
-      "rr": 1.5000000000000062,
-      "probability": 75,
-      "setup_type": "Pullback / Structure reaction",
-      "open_time": "2026-11-26T20:30:07Z",
-      "current_price": 44.3,
-      "pnl_percent": 0.96,
-      "reasons": [
-        "Цена пробила сопротивление 43.4700",
-        "Уровень 43.4700 тестировался 3 раз",
-        "Сильное тело свечи (93%)",
-        "EMA20 > EMA50 > EMA200 — восходящая структура",
-        "RSI 63.7 — здоровая зона для лонга",
-        "Бычья свеча подтверждает пробой",
-        "FVG поддерживает направление",
-        "Order Block поддерживает направление"
-      ]
-    },
     {
       "symbol": "GRAM",
       "tf": "15m",
@@ -52,8 +21,8 @@
       "probability": 77,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-27T08:31:07Z",
-      "current_price": 1.003,
-      "pnl_percent": 0.5,
+      "current_price": 0.998,
+      "pnl_percent": 0.0,
       "reasons": [
         "Цена пробила сопротивление 0.98500",
         "Объём подтверждает пробой (2.4× от среднего)",
@@ -67,6 +36,21 @@
     }
   ],
   "history": [
+    {
+      "symbol": "LTC",
+      "tf": "15m",
+      "side": "LONG",
+      "result": "BE",
+      "status": "be",
+      "entry_kind": "fallback",
+      "pnl_percent": 0.68,
+      "r_multiple": 0.42,
+      "setup_type": "Pullback / Structure reaction",
+      "max_tp_hit": 1,
+      "open_time": "2026-11-26T20:30:07Z",
+      "close_time": "2026-11-27T14:30:59Z",
+      "rr": 1.5000000000000062
+    },
     {
       "symbol": "HBAR",
       "tf": "15m",
@@ -3051,56 +3035,41 @@
       "open_time": "2026-09-22T07:45:32Z",
       "close_time": "2026-09-22T14:12:21Z",
       "rr": 1.4999999999999982
-    },
-    {
-      "symbol": "ADA",
-      "tf": "15m",
-      "side": "LONG",
-      "result": "BE",
-      "status": "be",
-      "entry_kind": "limit",
-      "pnl_percent": 0.68,
-      "r_multiple": 0.42,
-      "setup_type": "Pullback / Structure reaction",
-      "max_tp_hit": 1,
-      "open_time": "2026-09-22T09:06:36Z",
-      "close_time": "2026-09-22T09:50:22Z",
-      "rr": 1.5000000000000038
     }
   ],
   "stats": {
     "all": {
-      "total": 1104,
+      "total": 1105,
       "tp": 167,
       "sl": 475,
-      "be": 462,
+      "be": 463,
       "winrate": 15.1,
       "effective_winrate": 57.0,
-      "sum_pnl": -8.8,
-      "r_result": 4.53,
-      "deposit_result": 0.45
+      "sum_pnl": -8.12,
+      "r_result": 4.95,
+      "deposit_result": 0.5
     },
     "today": {
-      "total": 1,
+      "total": 2,
       "tp": 0,
       "sl": 0,
-      "be": 1,
+      "be": 2,
       "winrate": 0.0,
       "effective_winrate": 100.0,
-      "sum_pnl": 0.42,
-      "r_result": 0.42,
-      "deposit_result": 0.04
+      "sum_pnl": 1.1,
+      "r_result": 0.84,
+      "deposit_result": 0.08
     },
     "week": {
-      "total": 28,
+      "total": 29,
       "tp": 5,
       "sl": 7,
-      "be": 16,
-      "winrate": 17.9,
-      "effective_winrate": 75.0,
-      "sum_pnl": 12.91,
-      "r_result": 7.38,
-      "deposit_result": 0.74
+      "be": 17,
+      "winrate": 17.2,
+      "effective_winrate": 75.9,
+      "sum_pnl": 13.59,
+      "r_result": 7.8,
+      "deposit_result": 0.78
     }
   },
   "symbols_30d": [
@@ -3165,6 +3134,11 @@
       "n": 2
     },
     {
+      "symbol": "LTC",
+      "r": -0.32,
+      "n": 6
+    },
+    {
       "symbol": "DOT",
       "r": -0.38,
       "n": 5
@@ -3173,11 +3147,6 @@
       "symbol": "INJ",
       "r": -0.54,
       "n": 8
-    },
-    {
-      "symbol": "LTC",
-      "r": -0.74,
-      "n": 5
     },
     {
       "symbol": "NEAR",
