@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T12:59:02Z",
+  "generated_at": "2026-11-28T13:04:02Z",
   "timezone": "Europe/Kyiv",
   "default_risk_pct": 0.1,
   "active": [
@@ -21,8 +21,8 @@
       "probability": 78,
       "setup_type": "Pullback / Structure reaction",
       "open_time": "2026-11-27T22:16:33Z",
-      "current_price": 1646.79,
-      "pnl_percent": 1.32,
+      "current_price": 1648.88,
+      "pnl_percent": 1.19,
       "reasons": [
         "Цена пробила поддержку 1663.20",
         "Объём подтверждает пробой (2.1× от среднего)",
@@ -3104,11 +3104,6 @@
       "n": 4
     },
     {
-      "symbol": "XRP",
-      "r": 0.56,
-      "n": 9
-    },
-    {
       "symbol": "LINK",
       "r": 0.42,
       "n": 1
@@ -3122,6 +3117,11 @@
       "symbol": "ADA",
       "r": 0.26,
       "n": 4
+    },
+    {
+      "symbol": "XRP",
+      "r": 0.14,
+      "n": 8
     },
     {
       "symbol": "AAVE",
